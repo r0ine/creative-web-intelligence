@@ -1,0 +1,31 @@
+{
+  "scope": "348 historical combinations",
+  "verifiedAggregates": {
+    "paletteSizes": {
+      "2": 120,
+      "3": 120,
+      "4": 108,
+      "average": 3.0
+    },
+    "contrast": {
+      "aaOrBetter": 135,
+      "largeTextOnly3to4_5": 67,
+      "below3": 146,
+      "aaa": 60
+    },
+    "moodCrossCheck": {
+      "midTonedRefined": 296,
+      "warmContainsRedOrOrange": 263,
+      "coolNoRedOrangeContainsBlueGreen": 65,
+      "dark": 33,
+      "pale": 19
+    }
+  },
+  "importantInterpretation": [
+    "Historical harmony is not an accessibility guarantee.",
+    "Most combinations are small and often mid-toned, so equal-area UI use is usually inappropriate.",
+    "Aggregate mood labels are analysis conventions, not Sanzo Wada's own category labels.",
+    "RGB/HEX values depend on the digitisation/conversion source."
+  ],
+  "status": "VERIFIED_AGGREGATE_CROSSCHECK"
+}

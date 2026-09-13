@@ -1,0 +1,111 @@
+{
+  "$comment": "Cinematic anti-AI fingerprints. Extends v5 authenticity_fingerprints.json. Consumed by QA gates.",
+  "version": "6.0",
+  "extends": "data/v5/authenticity_fingerprints.json",
+  "fingerprints": [
+    {
+      "id": "AF-G01", "category": "3d-cliche", "title": "Random floating 3D blob",
+      "severity": "blocker",
+      "description": "Metallic/chrome/glass abstract shape in the hero with no content association.",
+      "why_ai": "3D equivalent of gradient glow. Signals 3D was added without deciding what it should show.",
+      "detection": { "scene_signal": "single abstract primitive in hero WebGL canvas with no product/brand association" },
+      "correction": "Either the 3D shows the product, or it is removed."
+    },
+    {
+      "id": "AF-G02", "category": "3d-cliche", "title": "Endless object rotation",
+      "severity": "blocker",
+      "description": "requestAnimationFrame spin at constant speed with no interaction dependency.",
+      "why_ai": "No cinematographic intention. Object moves because code can make it move.",
+      "detection": { "js_signal": "rotation.y += constant in animation loop with no scroll/interaction dependency" },
+      "correction": "Choose start and end angle. Make object respond to scroll or hover, not time."
+    },
+    {
+      "id": "AF-G03", "category": "3d-cliche", "title": "Chrome/glass object as hero",
+      "severity": "high",
+      "description": "Reflective/refractive object with dramatic HDRI when the product is not chrome/glass.",
+      "why_ai": "Chrome and glass are default demo materials in every 3D tutorial.",
+      "detection": { "scene_signal": "environment map reflection on material unrelated to actual product" },
+      "correction": "Material must match the product. Matte product = matte 3D."
+    },
+    {
+      "id": "AF-G04", "category": "3d-cliche", "title": "Meaningless particle field",
+      "severity": "blocker",
+      "description": "Thousands of points drifting without data, interaction, or narrative.",
+      "why_ai": "Particles are the background-grid-overlay of 3D. Technically trivial, visually noisy, narratively empty.",
+      "detection": { "scene_signal": "PointsMaterial or particle system with no data source or interaction" },
+      "correction": "Particles justified only for data (point cloud), physics (smoke with source), or counted entities."
+    },
+    {
+      "id": "AF-G05", "category": "3d-cliche", "title": "Meaningless WebGL background",
+      "severity": "high",
+      "description": "Full-page shader or Three.js canvas as background behind text with no interaction or content purpose.",
+      "why_ai": "Cinematic version of CSS gradient background. GPU for what CSS or nothing should do.",
+      "detection": { "layout_signal": "full-viewport WebGL canvas behind text with no scroll/interaction dependency" },
+      "correction": "CSS/SVG for simple backgrounds. Calm whitespace for atmosphere."
+    },
+    {
+      "id": "AF-G06", "category": "3d-cliche", "title": "3D on every section",
+      "severity": "blocker",
+      "description": "Multiple decorative 3D canvases across the page.",
+      "why_ai": "3D equivalent of every section animates. Flattens hierarchy.",
+      "detection": { "layout_signal": "more than two WebGL contexts on same page with purely decorative purpose" },
+      "correction": "One 3D moment per page typical. Two maximum with justification."
+    },
+    {
+      "id": "AF-H01", "category": "scroll-cliche", "title": "Every section is pinned scroll sequence",
+      "severity": "blocker",
+      "description": "Entire page is series of pinned sticky sections with scroll-scrubbed animation. No flowing content.",
+      "why_ai": "Scroll hijacking at scale. Page becomes a slide deck.",
+      "detection": { "layout_signal": "more than 50% of page height is pinned/sticky scroll-driven animation" },
+      "correction": "Maximum one-two pinned sequences per page. Rest is flowing content."
+    },
+    {
+      "id": "AF-H02", "category": "video-quality", "title": "Generated video with temporal artifacts shipped",
+      "severity": "blocker",
+      "description": "AI-generated video with visible flickering, morphing, deformed anatomy, inconsistent geometry.",
+      "why_ai": "Quality gate was skipped. Literally AI-generated with visible artifacts.",
+      "detection": { "visual_signal": "frame-by-frame inspection reveals temporal instability" },
+      "correction": "Regenerate, find better source, or drop to static image."
+    },
+    {
+      "id": "AF-H03", "category": "overengineering", "title": "Frame sequence for simple transition",
+      "severity": "high",
+      "description": "60+ frame sequence for what CSS transition could handle.",
+      "why_ai": "Choosing the heaviest medium for the lightest job.",
+      "detection": { "content_signal": "first and last frame differ only by achievable CSS transform" },
+      "correction": "Use CSS transition."
+    },
+    {
+      "id": "AF-H04", "category": "scroll-cliche", "title": "Scroll video with no narrative progression",
+      "severity": "high",
+      "description": "Video scrubbed by scroll but content has no meaningful progression.",
+      "why_ai": "Scroll control is a technology demonstration without narrative purpose.",
+      "detection": { "content_signal": "scrubbing start to end reveals no build, reveal, or transformation" },
+      "correction": "If ambient, play as <video> or use static image."
+    },
+    {
+      "id": "AF-I01", "category": "generated-asset", "title": "AI-generated filler imagery",
+      "severity": "high",
+      "description": "Generated images placed because the section needed an image, not because the image communicates something.",
+      "why_ai": "Image decision was fill the space rather than show something.",
+      "detection": { "content_signal": "generic abstract/stock-like generated image with no product or content specificity" },
+      "correction": "Show something real and specific, or remove the image."
+    },
+    {
+      "id": "AF-I02", "category": "generated-asset", "title": "Inconsistent asset world",
+      "severity": "high",
+      "description": "Different visual treatments across sections with no coherent visual language.",
+      "why_ai": "Each asset sourced independently with no Asset DNA.",
+      "detection": { "visual_signal": "lighting, color temperature, material, or illustration style inconsistent across sections" },
+      "correction": "Define Asset DNA before producing any asset."
+    },
+    {
+      "id": "AF-I03", "category": "generated-asset", "title": "Fake technical HUD overlay",
+      "severity": "blocker",
+      "description": "Sci-fi HUD elements, targeting reticles, scanning animations over content with no real data.",
+      "why_ai": "Film-UI costume. No real data underneath.",
+      "detection": { "visual_signal": "SVG/Canvas overlay with readout-style elements displaying no real data" },
+      "correction": "Remove. Design a real data interface if needed."
+    }
+  ]
+}

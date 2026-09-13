@@ -1,0 +1,1142 @@
+[
+  {
+    "id": "fullstack-v3-001",
+    "frontendPattern": "form",
+    "backendPattern": "validated-api",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-002",
+    "frontendPattern": "form",
+    "backendPattern": "validated-api",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-003",
+    "frontendPattern": "form",
+    "backendPattern": "validated-api",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-004",
+    "frontendPattern": "form",
+    "backendPattern": "validated-api",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-005",
+    "frontendPattern": "auth-ui",
+    "backendPattern": "session-api",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-006",
+    "frontendPattern": "auth-ui",
+    "backendPattern": "session-api",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-007",
+    "frontendPattern": "auth-ui",
+    "backendPattern": "session-api",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-008",
+    "frontendPattern": "auth-ui",
+    "backendPattern": "session-api",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-009",
+    "frontendPattern": "dashboard",
+    "backendPattern": "paginated-api",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-010",
+    "frontendPattern": "dashboard",
+    "backendPattern": "paginated-api",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-011",
+    "frontendPattern": "dashboard",
+    "backendPattern": "paginated-api",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-012",
+    "frontendPattern": "dashboard",
+    "backendPattern": "paginated-api",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-013",
+    "frontendPattern": "upload-ui",
+    "backendPattern": "signed-upload",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-014",
+    "frontendPattern": "upload-ui",
+    "backendPattern": "signed-upload",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-015",
+    "frontendPattern": "upload-ui",
+    "backendPattern": "signed-upload",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-016",
+    "frontendPattern": "upload-ui",
+    "backendPattern": "signed-upload",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-017",
+    "frontendPattern": "search-ui",
+    "backendPattern": "debounced-search",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-018",
+    "frontendPattern": "search-ui",
+    "backendPattern": "debounced-search",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-019",
+    "frontendPattern": "search-ui",
+    "backendPattern": "debounced-search",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-020",
+    "frontendPattern": "search-ui",
+    "backendPattern": "debounced-search",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-021",
+    "frontendPattern": "realtime-feed",
+    "backendPattern": "event-stream",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-022",
+    "frontendPattern": "realtime-feed",
+    "backendPattern": "event-stream",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-023",
+    "frontendPattern": "realtime-feed",
+    "backendPattern": "event-stream",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-024",
+    "frontendPattern": "realtime-feed",
+    "backendPattern": "event-stream",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-025",
+    "frontendPattern": "checkout-ui",
+    "backendPattern": "server-verified-state",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-026",
+    "frontendPattern": "checkout-ui",
+    "backendPattern": "server-verified-state",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-027",
+    "frontendPattern": "checkout-ui",
+    "backendPattern": "server-verified-state",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-028",
+    "frontendPattern": "checkout-ui",
+    "backendPattern": "server-verified-state",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-029",
+    "frontendPattern": "contact-form",
+    "backendPattern": "email-job",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-030",
+    "frontendPattern": "contact-form",
+    "backendPattern": "email-job",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-031",
+    "frontendPattern": "contact-form",
+    "backendPattern": "email-job",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-032",
+    "frontendPattern": "contact-form",
+    "backendPattern": "email-job",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-033",
+    "frontendPattern": "cms-content",
+    "backendPattern": "cache-policy",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-034",
+    "frontendPattern": "cms-content",
+    "backendPattern": "cache-policy",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-035",
+    "frontendPattern": "cms-content",
+    "backendPattern": "cache-policy",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-036",
+    "frontendPattern": "cms-content",
+    "backendPattern": "cache-policy",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-037",
+    "frontendPattern": "admin-ui",
+    "backendPattern": "rbac-api",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-038",
+    "frontendPattern": "admin-ui",
+    "backendPattern": "rbac-api",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-039",
+    "frontendPattern": "admin-ui",
+    "backendPattern": "rbac-api",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-040",
+    "frontendPattern": "admin-ui",
+    "backendPattern": "rbac-api",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-041",
+    "frontendPattern": "motion-loader",
+    "backendPattern": "data-readiness",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-042",
+    "frontendPattern": "motion-loader",
+    "backendPattern": "data-readiness",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-043",
+    "frontendPattern": "motion-loader",
+    "backendPattern": "data-readiness",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-044",
+    "frontendPattern": "motion-loader",
+    "backendPattern": "data-readiness",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-045",
+    "frontendPattern": "3d-product",
+    "backendPattern": "asset-cdn",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-046",
+    "frontendPattern": "3d-product",
+    "backendPattern": "asset-cdn",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-047",
+    "frontendPattern": "3d-product",
+    "backendPattern": "asset-cdn",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-048",
+    "frontendPattern": "3d-product",
+    "backendPattern": "asset-cdn",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-049",
+    "frontendPattern": "gallery",
+    "backendPattern": "responsive-media",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-050",
+    "frontendPattern": "gallery",
+    "backendPattern": "responsive-media",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-051",
+    "frontendPattern": "gallery",
+    "backendPattern": "responsive-media",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-052",
+    "frontendPattern": "gallery",
+    "backendPattern": "responsive-media",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-053",
+    "frontendPattern": "profile",
+    "backendPattern": "optimistic-update",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-054",
+    "frontendPattern": "profile",
+    "backendPattern": "optimistic-update",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-055",
+    "frontendPattern": "profile",
+    "backendPattern": "optimistic-update",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-056",
+    "frontendPattern": "profile",
+    "backendPattern": "optimistic-update",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-057",
+    "frontendPattern": "settings",
+    "backendPattern": "idempotent-mutation",
+    "mode": "baseline",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-058",
+    "frontendPattern": "settings",
+    "backendPattern": "idempotent-mutation",
+    "mode": "resilient",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-059",
+    "frontendPattern": "settings",
+    "backendPattern": "idempotent-mutation",
+    "mode": "high-performance",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  },
+  {
+    "id": "fullstack-v3-060",
+    "frontendPattern": "settings",
+    "backendPattern": "idempotent-mutation",
+    "mode": "accessible",
+    "contract": [
+      "typed request/response",
+      "loading state",
+      "error state",
+      "retry/idempotency as applicable"
+    ],
+    "quality": [
+      "authorization server-side",
+      "accessible feedback",
+      "no secret exposure",
+      "performance budget"
+    ],
+    "sourceStatus": "SYNTHESIZED_INTEGRATION_PATTERN"
+  }
+]

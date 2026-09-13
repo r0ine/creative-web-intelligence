@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CWI v3.1 Security Spec",
+  "type": "object",
+  "required": [
+    "trustBoundaries",
+    "dataClasses",
+    "secrets",
+    "auth",
+    "authorization",
+    "tests"
+  ],
+  "properties": {
+    "trustBoundaries": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dataClasses": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "classification"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "classification": {
+            "enum": [
+              "public",
+              "internal",
+              "sensitive",
+              "credential",
+              "high-impact"
+            ]
+          }
+        }
+      }
+    },
+    "secrets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "location"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "location": {
+            "enum": [
+              "server-env",
+              "managed-secret-store",
+              "ci-secret",
+              "public-client-id"
+            ]
+          },
+          "rotation": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "auth": {
+      "type": "object"
+    },
+    "authorization": {
+      "type": "object"
+    },
+    "encryption": {
+      "type": "object"
+    },
+    "tests": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

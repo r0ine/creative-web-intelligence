@@ -1,0 +1,64 @@
+{
+  "$comment": "Machine-readable version of v5/DECORATION_VS_STRUCTURE.md three-question test.",
+  "version": "5.0",
+  "three_question_test": [
+    {
+      "question": "What job does this element do?",
+      "valid_answers_examples": [
+        "marks the boundary between the editorial section and the reference index",
+        "separates the primary CTA from the secondary",
+        "contains the media so the caption reads as belonging to the image",
+        "signals the state change from draft to published"
+      ],
+      "invalid_answers_examples": [
+        "makes the section feel complete",
+        "matches the rest of the page",
+        "gives the page a technical feel",
+        "is a nice visual detail"
+      ]
+    },
+    {
+      "question": "What breaks if it is removed?",
+      "structural_if": "understanding, hierarchy, or comprehension is lost",
+      "decorative_if": "only finish or polish is lost - nothing communicative changes"
+    },
+    {
+      "question": "Is a stronger structural device already doing the same job?",
+      "if_yes": "remove the element - it is redundant"
+    }
+  ],
+  "structural_elements": [
+    "type hierarchy (display, heading, body, label)",
+    "whitespace and vertical rhythm",
+    "alignment axes",
+    "deliberate surface changes that communicate mode change",
+    "media edges that mark composition",
+    "containers that hold interactive units",
+    "state indicators that show something IS something"
+  ],
+  "commonly_decorative_elements": [
+    "dividers, hairlines, hr - decorative by default",
+    "corner brackets, register marks, viewfinder marks",
+    "background grid overlays without work to do",
+    "card borders on non-interactive content",
+    "metadata pills that do not filter or link",
+    "radial gradient auras without light/focus semantics",
+    "gradient text fills",
+    "glass panels without a scene behind them",
+    "emoji feature icons",
+    "fake terminals, fake dashboards, fake code windows",
+    "hover-lift on non-interactive cards",
+    "blur-in on entrance",
+    "all-caps eyebrows on every section"
+  ],
+  "elimination_pass": {
+    "steps": [
+      "list every decorative element on the page",
+      "delete each one by one",
+      "note which deletions caused a real loss",
+      "confirm delete on the rest",
+      "for real losses, decide whether a stronger structural device should carry that job instead"
+    ]
+  },
+  "final_test": "mark every visible element S (structural) or D (decorative). Ratio strongly toward S with small number of well-placed D items is healthy. Ratio toward D or heavy D noise between S elements means decoration is doing too much of the work."
+}

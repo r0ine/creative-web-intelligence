@@ -1,0 +1,258 @@
+[
+  {
+    "id": "src_shinobi_profile",
+    "title": "Stas Eremin / shinobi.ui",
+    "url": "https://www.instagram.com/shinobi.ui/",
+    "type": "instagram",
+    "status": "INDEXED",
+    "notes": "UX/UI account. Public search indexing exposes selected reel captions; full-feed visual capture remains incomplete."
+  },
+  {
+    "id": "src_shinobi_arial",
+    "title": "Stop using Arial font",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DRcsO-DDT42/",
+    "type": "instagram-reel",
+    "status": "INDEXED",
+    "notes": "Typeface-alternative teaching pattern."
+  },
+  {
+    "id": "src_shinobi_black",
+    "title": "Stop using black color",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DcB3Znfgsgm/",
+    "type": "instagram-reel",
+    "status": "INDEXED",
+    "notes": "Near-black / softer contrast teaching pattern."
+  },
+  {
+    "id": "src_shinobi_colors",
+    "title": "Use these color combos",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DcB6JJLxMna/",
+    "type": "instagram-reel",
+    "status": "INDEXED",
+    "notes": "Palette-combination teaching pattern."
+  },
+  {
+    "id": "src_awwwards_current",
+    "title": "Awwwards current winning websites",
+    "url": "https://www.awwwards.com/websites/",
+    "type": "gallery",
+    "status": "VERIFIED",
+    "notes": "Current award/gallery source; use for fresh composition and creative-dev references."
+  },
+  {
+    "id": "src_awwwards_soty",
+    "title": "Awwwards Sites of the Year",
+    "url": "https://www.awwwards.com/websites/sites_of_the_year/",
+    "type": "gallery",
+    "status": "VERIFIED",
+    "notes": "Historical quality benchmark including Lusion, Active Theory, Resn, Locomotive, Bruno Simon and others."
+  },
+  {
+    "id": "src_siteinspire",
+    "title": "Siteinspire",
+    "url": "https://www.siteinspire.com/",
+    "type": "gallery",
+    "status": "VERIFIED",
+    "notes": "Large curated taxonomy for typographic, grid, unusual-layout, art-direction and interactive design."
+  },
+  {
+    "id": "src_hoverstates",
+    "title": "Hoverstat.es",
+    "url": "https://www.hoverstat.es/",
+    "type": "gallery",
+    "status": "VERIFIED",
+    "notes": "Alternative/experimental web-design curation useful for non-template interaction research."
+  },
+  {
+    "id": "src_refs_webgl",
+    "title": "Refs.gallery WebGL",
+    "url": "https://www.refs.gallery/category/webgl",
+    "type": "gallery",
+    "status": "VERIFIED",
+    "notes": "Hand-picked WebGL references."
+  },
+  {
+    "id": "src_refs_3d",
+    "title": "Refs.gallery 3D",
+    "url": "https://refs.gallery/tags/3d",
+    "type": "gallery",
+    "status": "VERIFIED",
+    "notes": "Hand-picked 3D website references."
+  },
+  {
+    "id": "src_codrops_webgl",
+    "title": "Codrops WebGL",
+    "url": "https://tympanus.net/codrops/tag/webgl/",
+    "type": "technical-editorial",
+    "status": "VERIFIED",
+    "notes": "Creative development tutorials/case studies covering Three.js, R3F, WebGL/WebGPU, shaders and scroll."
+  },
+  {
+    "id": "src_codrops_three",
+    "title": "Codrops Three.js",
+    "url": "https://tympanus.net/codrops/tag/three-js/",
+    "type": "technical-editorial",
+    "status": "VERIFIED",
+    "notes": "Three.js creative development patterns."
+  },
+  {
+    "id": "src_codrops_scroll_world",
+    "title": "More Than a Portfolio: Scroll-Driven 3D World",
+    "url": "https://tympanus.net/codrops/2026/04/28/more-than-a-portfolio-building-a-scroll-driven-3d-world-with-something-to-say/",
+    "type": "case-study",
+    "status": "VERIFIED",
+    "notes": "Three.js + GSAP + shaders + Blender; narrative-first scroll-driven world."
+  },
+  {
+    "id": "src_codrops_gallery",
+    "title": "Scroll-Revealed WebGL Gallery",
+    "url": "https://tympanus.net/codrops/2026/02/02/building-a-scroll-revealed-webgl-gallery-with-gsap-three-js-astro-and-barba-js/",
+    "type": "tutorial",
+    "status": "VERIFIED",
+    "notes": "Shader reveals, smooth scroll, multi-page WebGL gallery and transitions."
+  },
+  {
+    "id": "src_codrops_persistent",
+    "title": "Seamless 3D Transitions",
+    "url": "https://tympanus.net/codrops/2026/03/18/building-seamless-3d-transitions-with-webflow-gsap-and-three-js/",
+    "type": "tutorial",
+    "status": "VERIFIED",
+    "notes": "Persistent Three.js scene and route transitions."
+  },
+  {
+    "id": "src_codrops_shaderse",
+    "title": "Shader.se Scroll-Driven WebGPU Pipeline",
+    "url": "https://tympanus.net/codrops/tag/webgl/",
+    "type": "case-study",
+    "status": "VERIFIED",
+    "notes": "2026 WebGPU/R3F case study listed on Codrops WebGL feed."
+  },
+  {
+    "id": "src_active_theory",
+    "title": "Active Theory",
+    "url": "https://activetheory.net/",
+    "type": "studio",
+    "status": "VERIFIED",
+    "notes": "Creative digital experience studio blending story, art and technology."
+  },
+  {
+    "id": "src_active_theory_hydra",
+    "title": "Active Theory v5 / Hydra",
+    "url": "https://www.webbyawards.com/crafted-with-code/active-theory/",
+    "type": "case-study",
+    "status": "VERIFIED",
+    "notes": "Documents an internal WebGL framework/pipeline philosophy: reusable infrastructure enables fast high-quality work."
+  },
+  {
+    "id": "src_immersive_garden",
+    "title": "Immersive Garden",
+    "url": "https://immersive-g.com/",
+    "type": "studio",
+    "status": "VERIFIED",
+    "notes": "High-end immersive digital experience benchmark."
+  },
+  {
+    "id": "src_three_webgpu",
+    "title": "Three.js WebGPURenderer",
+    "url": "https://threejs.org/docs/pages/WebGPURenderer.html",
+    "type": "technical-primary",
+    "status": "VERIFIED",
+    "notes": "WebGPU-first renderer with WebGL2 backend fallback."
+  },
+  {
+    "id": "src_three_webgl",
+    "title": "Three.js WebGLRenderer",
+    "url": "https://threejs.org/docs/pages/WebGLRenderer.html",
+    "type": "technical-primary",
+    "status": "VERIFIED",
+    "notes": "Current WebGL2 renderer documentation."
+  },
+  {
+    "id": "src_r3f_pitfalls",
+    "title": "R3F Performance Pitfalls",
+    "url": "https://r3f.docs.pmnd.rs/advanced/pitfalls",
+    "type": "technical-primary",
+    "status": "VERIFIED",
+    "notes": "Avoid setState in loops; animate inside frame loop; performance lifecycle guidance."
+  },
+  {
+    "id": "src_r3f_scaling",
+    "title": "R3F Scaling Performance",
+    "url": "https://r3f.docs.pmnd.rs/advanced/scaling-performance",
+    "type": "technical-primary",
+    "status": "VERIFIED",
+    "notes": "Performance scaling and resource reuse guidance."
+  },
+  {
+    "id": "src_gsap_scrolltrigger",
+    "title": "GSAP ScrollTrigger",
+    "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+    "type": "technical-primary",
+    "status": "VERIFIED",
+    "notes": "Scrub, pin, snap and trigger primitives for scroll choreography."
+  },
+  {
+    "id": "src_mdn_scroll",
+    "title": "MDN CSS Scroll-driven Animations",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations",
+    "type": "technical-primary",
+    "status": "VERIFIED",
+    "notes": "CSS scroll/view timeline capabilities; progressive enhancement required."
+  },
+  {
+    "id": "src_mdn_viewtransition",
+    "title": "MDN View Transition API",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API",
+    "type": "technical-primary",
+    "status": "VERIFIED",
+    "notes": "Native view transition option; availability varies by feature/browser."
+  },
+  {
+    "id": "src_google_variable",
+    "title": "Google Fonts Variable Fonts",
+    "url": "https://fonts.google.com/knowledge/introducing_type/introducing_variable_fonts",
+    "type": "typography-primary",
+    "status": "VERIFIED",
+    "notes": "Variable font axes and typographic flexibility."
+  },
+  {
+    "id": "src_webdev_variable",
+    "title": "web.dev Variable Fonts",
+    "url": "https://web.dev/articles/variable-fonts",
+    "type": "typography-primary",
+    "status": "VERIFIED",
+    "notes": "Performance implications of multiple static font files vs variable fonts."
+  },
+  {
+    "id": "src_wcag",
+    "title": "WCAG 2.2",
+    "url": "https://www.w3.org/TR/WCAG22/",
+    "type": "accessibility-primary",
+    "status": "VERIFIED",
+    "notes": "Contrast, focus and accessibility requirements."
+  },
+  {
+    "id": "src_webvitals",
+    "title": "Web Vitals",
+    "url": "https://web.dev/articles/vitals",
+    "type": "performance-primary",
+    "status": "VERIFIED",
+    "notes": "Core Web Vitals: LCP, INP, CLS targets."
+  },
+  {
+    "id": "src_animation2code_2026",
+    "title": "Animation2Code benchmark",
+    "url": "https://anya-ji.github.io/animation2code-website",
+    "type": "research",
+    "status": "VERIFIED_PAPER",
+    "notes": "2026 benchmark reports current VLMs can match appearance better than temporal motion consistency; supports dedicated motion QA instead of screenshot-only evaluation."
+  },
+  {
+    "id": "src_vision2web_2026",
+    "title": "Vision2Web benchmark",
+    "url": "https://arxiv.org/abs/2603.26648",
+    "type": "research",
+    "status": "VERIFIED_PAPER",
+    "notes": "2026 hierarchical benchmark for visual website development and agent verification; supports multi-level visual + interaction QA."
+  }
+]

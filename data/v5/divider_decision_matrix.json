@@ -1,0 +1,93 @@
+{
+  "$comment": "Strict hierarchy of section-separation methods. Replaces the peer-equal listing in data/v3_2/section_separation_recipes.json for v5-and-later gate decisions.",
+  "version": "5.0",
+  "hierarchy": [
+    {
+      "priority": 1,
+      "method": "whitespace",
+      "description": "Vertical rhythm alone. Increase inter-section space until the boundary reads.",
+      "use_when": "the default; almost always sufficient when the type scale has range",
+      "risk": "requires type scale with real contrast; will fail if hierarchy is flat"
+    },
+    {
+      "priority": 2,
+      "method": "compositional-shift",
+      "description": "Column count, alignment axis, content mode, or focal-point changes.",
+      "use_when": "next section runs on a different rhythm than the current one",
+      "risk": "random zig-zag if unmotivated; each shift needs a reason"
+    },
+    {
+      "priority": 3,
+      "method": "typography-change",
+      "description": "Chapter marker, scale change, weight change, or role change.",
+      "use_when": "next section changes mode (from prose to reference, from marketing to data)",
+      "risk": "eyebrow spam if used per section; AF-E03 fires"
+    },
+    {
+      "priority": 4,
+      "method": "surface-contrast",
+      "description": "Two tonally distinct surfaces meet at the boundary. A real edge.",
+      "use_when": "functional mode change or brand-signaled chapter",
+      "risk": "striped page if every section changes; commit to real difference or drop it"
+    },
+    {
+      "priority": 5,
+      "method": "media-handoff",
+      "description": "Image/video/3D creates the boundary.",
+      "use_when": "visual narrative changes; media is a natural chapter break",
+      "risk": "media used as filler rather than as a real image"
+    },
+    {
+      "priority": 6,
+      "method": "alignment-rhythm-shift",
+      "description": "Visible grid or rhythm change.",
+      "use_when": "the composition is restructuring for a new content shape",
+      "risk": "unmotivated shift reads as broken layout"
+    },
+    {
+      "priority": 7,
+      "method": "divider-line",
+      "description": "A hairline rule.",
+      "use_when": "priorities 1-6 have been considered and rejected with a documented reason, AND the divider is part of the brand's editorial language, AND it appears rarely with authored weight and length",
+      "risk": "single most-recognized AI fingerprint (AF-A01); requires justification field",
+      "justification_required": true,
+      "justification_schema": {
+        "what_it_separates": "string; the specific boundary",
+        "why_whitespace_alone_fails": "string; the tested-and-rejected reasoning",
+        "comprehension_gain": "string; what the reader now understands"
+      }
+    }
+  ],
+  "hard_blockers": [
+    {
+      "id": "DB-01",
+      "pattern": "full-width horizontal rule between every section",
+      "action": "delete every instance; rework whitespace, type scale, or surface"
+    },
+    {
+      "id": "DB-02",
+      "pattern": "global page grid overlay for atmosphere",
+      "action": "delete; do not replace with alternative atmosphere device"
+    },
+    {
+      "id": "DB-03",
+      "pattern": "hairline card borders on dark surfaces",
+      "action": "see COMPOSITION_RESTRAINT.md; either commit to real containment or remove the container"
+    },
+    {
+      "id": "DB-04",
+      "pattern": "decorative technical lines around empty areas",
+      "action": "delete unless the interface is genuinely about measurement"
+    },
+    {
+      "id": "DB-05",
+      "pattern": "repeated border-bottom on stacked list items outside of dense tabular data",
+      "action": "use spacing or alternating surface instead"
+    },
+    {
+      "id": "DB-06",
+      "pattern": "section eyebrow underline",
+      "action": "delete; underlines belong to interactive text, not labels"
+    }
+  ]
+}

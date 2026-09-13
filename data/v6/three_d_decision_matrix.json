@@ -1,0 +1,46 @@
+{
+  "$comment": "3D decision matrix. When 3D is justified, what type, and what the rejection criteria are.",
+  "version": "6.0",
+  "justified_when": [
+    "product_inspection_user_controlled_camera",
+    "spatial_explanation_architecture_anatomy_geography",
+    "assembly_exploded_view_reveal_internal_structure",
+    "configuration_material_color_component_swap",
+    "environment_world_navigable_scene",
+    "data_in_space_third_axis_carries_real_information"
+  ],
+  "not_justified_when": [
+    "hero_needs_a_3d_object",
+    "rotating_product_that_could_be_a_photo",
+    "abstract_3d_shape_for_atmosphere",
+    "3d_background_for_depth",
+    "technical_demonstration"
+  ],
+  "realtime_vs_prerendered": {
+    "choose_realtime": [
+      "user_controls_camera",
+      "user_configures_object",
+      "scene_is_procedural_or_data_driven",
+      "object_responds_to_input_that_cannot_be_prebaked"
+    ],
+    "choose_prerendered": [
+      "camera_path_is_fixed_or_scroll_driven",
+      "fidelity_exceeds_realtime_capability",
+      "target_includes_low_end_mobile",
+      "moment_is_narrative_not_interactive"
+    ]
+  },
+  "technology_selection": {
+    "three_js": "custom 3D scenes, custom camera, scroll integration, vanilla JS",
+    "r3f": "React project where 3D integrates with React state",
+    "model_viewer": "single model orbit+zoom, AR preview, fastest implementation",
+    "raw_webgl_webgpu": "custom shader effects that Three.js cannot express"
+  },
+  "optimization_targets": {
+    "glb_size_kb": { "target": 2000, "hard_limit": 5000 },
+    "texture_memory_mb": { "target": 32, "hard_limit": 64 },
+    "draw_calls": { "target": 30, "hard_limit": 50 },
+    "triangle_count": { "target": 100000, "hard_limit": 250000 }
+  },
+  "final_test": "Remove the 3D. Replace with a single well-chosen photograph. If the page works just as well, 3D was not justified."
+}

@@ -1,0 +1,334 @@
+{
+  "$comment": "Structured version of v5/ANTI_AI_VISUAL_FINGERPRINTS.md. Consumed by tools/v5/authenticity_check.py and any downstream QA agent. Severities: blocker | high | medium | low.",
+  "version": "5.0",
+  "fingerprints": [
+    {
+      "id": "AF-A01",
+      "category": "line-border-grid",
+      "title": "Universal section divider",
+      "severity": "blocker",
+      "description": "Hairline horizontal rule between most or all top-level sections.",
+      "why_ai": "Cheapest way to say 'the section ended'. Humans use whitespace/typography for the same job and reach for a rule only when it is a chosen editorial signature.",
+      "detection": {
+        "css_selectors": ["hr", "[class*='divider']"],
+        "css_properties": {
+          "border-top": "any hairline (1px) with alpha < 0.2 repeated on multiple top-level sections",
+          "border-bottom": "same"
+        },
+        "layout_signal": "presence of a repeated divider component between sibling <section> elements"
+      },
+      "correction": "Delete every divider. If boundary feels unclear, follow DIVIDER_POLICY.md escalation: whitespace -> compositional shift -> typography -> surface."
+    },
+    {
+      "id": "AF-A02",
+      "category": "line-border-grid",
+      "title": "Decorative technical grid overlay",
+      "severity": "blocker",
+      "description": "Full-page background of thin vertical and horizontal lines, often at low opacity on a dark surface.",
+      "why_ai": "Signals 'technical' or 'engineered' without any engineering content underneath. Atmosphere without evidence.",
+      "detection": {
+        "css_properties": {
+          "background-image": "repeating linear-gradient defining a grid at 10-40px units with alpha 0.03-0.08",
+          "background-size": "small tile size with grid pattern"
+        }
+      },
+      "correction": "Remove the pattern. Do not replace with another atmospheric device."
+    },
+    {
+      "id": "AF-A03",
+      "category": "line-border-grid",
+      "title": "Hairline card borders",
+      "severity": "high",
+      "description": "Every card carries a barely-visible outline like border: 1px solid rgba(255,255,255,0.06).",
+      "why_ai": "Template default, not a containment decision.",
+      "detection": {
+        "css_properties": {
+          "border": "1px stroke with alpha < 0.15 repeated across many card-like components"
+        }
+      },
+      "correction": "Ask whether the card is needed at all (COMPOSITION_RESTRAINT.md). If yes, use surface contrast. If no, remove the container."
+    },
+    {
+      "id": "AF-A04",
+      "category": "line-border-grid",
+      "title": "Corner and register marks for atmosphere",
+      "severity": "high",
+      "description": "L-shaped brackets, corner ticks, viewfinder marks placed around empty areas or headings.",
+      "why_ai": "Engineering-mimicry with no engineering intent.",
+      "detection": {
+        "svg_signal": "small L-shaped or bracket SVG paths in corners of containers without associated data"
+      },
+      "correction": "Remove."
+    },
+    {
+      "id": "AF-B01",
+      "category": "motion",
+      "title": "Universal fade-up entrance",
+      "severity": "blocker",
+      "description": "opacity 0 -> 1 with translateY(20-40px) -> 0 applied as scroll-triggered reveal on multiple sections.",
+      "why_ai": "The single strongest AI motion fingerprint. Reveals that the page was assembled by a system.",
+      "detection": {
+        "js_signal": "single IntersectionObserver reveal helper attached to many elements",
+        "gsap_signal": "gsap.from(..., { opacity: 0, y: 20-40 }) called with same params across many selectors",
+        "css_signal": "repeated identical transform: translateY(N) keyframe values across sections"
+      },
+      "correction": "Delete the helper. Pick one section that genuinely benefits from an entrance and animate only that, using a grammar that fits that section. Leave everything else static."
+    },
+    {
+      "id": "AF-B02",
+      "category": "motion",
+      "title": "Stagger ladder",
+      "severity": "high",
+      "description": "Children of a list animate with delays index * 0.1s.",
+      "why_ai": "Code pattern, not a design decision. Real staggers reflect reading order or causality, not array index.",
+      "detection": {
+        "js_signal": "delay: index * 0.1 or i * 0.1 or 100 * i patterns",
+        "gsap_signal": "stagger: 0.1 without hierarchy override"
+      },
+      "correction": "Remove the stagger, or stagger by hierarchy (primary first, then supports together after a beat)."
+    },
+    {
+      "id": "AF-B03",
+      "category": "motion",
+      "title": "Identical easing across roles",
+      "severity": "high",
+      "description": "UI microfeedback, editorial reveals, camera moves, and 3D motion share the same easing token.",
+      "why_ai": "Perceived mass and function should shape easing. When they do not, the system is defaulting.",
+      "detection": {
+        "css_variables": "fewer than 3 distinct easing values across UI/editorial/object roles",
+        "code_signal": "single --ease or --transition token applied to every animated property"
+      },
+      "correction": "Define at least three easing families: ui, editorial, object. Assign by role."
+    },
+    {
+      "id": "AF-B04",
+      "category": "motion",
+      "title": "Blur-in on entrance",
+      "severity": "medium",
+      "description": "filter: blur(8px) -> blur(0) on entrance without focal-plane logic.",
+      "why_ai": "Blur used without communicative purpose. Exists to feel premium.",
+      "detection": {
+        "css_signal": "filter: blur(Npx) in keyframes or animation from/to states"
+      },
+      "correction": "Delete. Use settle grammar if more weight is needed."
+    },
+    {
+      "id": "AF-B05",
+      "category": "motion",
+      "title": "Motion without rest zones",
+      "severity": "blocker",
+      "description": "Every viewport range on a multi-viewport page has some element in motion.",
+      "why_ai": "Continuous stimulation flattens hierarchy. Nothing feels important because everything moves.",
+      "detection": {
+        "layout_signal": "no top-level section on a page longer than 2 viewports has zero motion attached"
+      },
+      "correction": "Designate at least two rest zones per long page (REST_ZONES.md). Total rest coverage >= 30% on long pages."
+    },
+    {
+      "id": "AF-C01",
+      "category": "composition",
+      "title": "Centered hero cliche",
+      "severity": "high",
+      "description": "Small centered eyebrow + oversized centered grotesk + one-line paragraph + primary/secondary CTA + radial glow behind.",
+      "why_ai": "Safest 'looks like a hero' layout. Announces the system, not the product.",
+      "detection": {
+        "layout_signal": "hero root with text-align: center, max-width text block, 2-button flex row, radial-gradient behind"
+      },
+      "correction": "Move copy off-center; asymmetric split; full-bleed image with overlapping type; single editorial sentence with no CTA. Break the reflex."
+    },
+    {
+      "id": "AF-C02",
+      "category": "composition",
+      "title": "Cardification of everything",
+      "severity": "blocker",
+      "description": "More than 60% of leaf content blocks share identical container shape (radius + border + padding + background).",
+      "why_ai": "Cards became the default rendering unit. No containment decision was made per block.",
+      "detection": {
+        "layout_signal": "ratio of .card-shaped components to unique content shapes very high",
+        "css_signal": "same (border-radius, border, padding, background) tuple repeated on many components"
+      },
+      "correction": "See COMPOSITION_RESTRAINT.md. Delete containers whose contents do not need a boundary."
+    },
+    {
+      "id": "AF-C03",
+      "category": "composition",
+      "title": "Three-equal-cards feature grid",
+      "severity": "high",
+      "description": "Features section with exactly three cards of equal size, each icon + heading + line.",
+      "why_ai": "Content rarely has three peer concepts. Rendering three equals says the system defaulted to a shape.",
+      "detection": {
+        "css_signal": "grid-template-columns: repeat(3, 1fr) under a features section",
+        "data_signal": "three-item array in a features config"
+      },
+      "correction": "If content really has three peers, vary size or emphasis. If primary + two supports, render one large + two smaller."
+    },
+    {
+      "id": "AF-C04",
+      "category": "composition",
+      "title": "Bento as default layout",
+      "severity": "high",
+      "description": "Mixed-size tile grid chosen for visual variety, not because different content has different footprints.",
+      "why_ai": "Bento solves a specific problem. Applied without that problem, tile sizes read as arbitrary.",
+      "detection": {
+        "layout_signal": "grid with mixed span values on content units of similar density/importance"
+      },
+      "correction": "Justify each tile size by content density. Otherwise use uniform grid or drop the grid."
+    },
+    {
+      "id": "AF-C05",
+      "category": "composition",
+      "title": "Decorative metadata pills",
+      "severity": "medium",
+      "description": "Small pill labels ('NEW', 'AI-POWERED', tag chips) that do not link, filter, or indicate state.",
+      "why_ai": "Real metadata does something. Decorative metadata is costume.",
+      "detection": {
+        "layout_signal": "pill component used more than 3 times on a marketing page without filter/link/state association"
+      },
+      "correction": "Delete pills that do not act. If the label carries information, use a typographic treatment."
+    },
+    {
+      "id": "AF-D01",
+      "category": "color-surface",
+      "title": "Default dark + hairlines + accent glow",
+      "severity": "high",
+      "description": "Near-black background, hairlines at low alpha, single radial gradient in saturated brand color behind hero.",
+      "why_ai": "Standard 'premium tech' fallback. Signals composition effort was skipped.",
+      "detection": {
+        "css_signal": "body background near #0A0A0B, strokes at rgba(255,255,255, <0.15), one large radial-gradient behind hero"
+      },
+      "correction": "Either commit to darkness with real depth (imagery, materials, type) or move to a lighter surface. Kill the accent glow."
+    },
+    {
+      "id": "AF-D02",
+      "category": "color-surface",
+      "title": "Unmotivated blue-purple gradient",
+      "severity": "high",
+      "description": "Blue-to-purple or purple-to-pink gradient used as brand identity for anything 'tech' or 'AI'.",
+      "why_ai": "Decade-long AI/SaaS default. Choosing it says color decision was skipped.",
+      "detection": {
+        "css_signal": "gradient stops in 210-290 deg hue range with high chroma"
+      },
+      "correction": "Color must come from brand, material, image, or chosen source. Pick a single flat color if a signal is needed."
+    },
+    {
+      "id": "AF-D03",
+      "category": "color-surface",
+      "title": "Gradient headline as identity",
+      "severity": "high",
+      "description": "Primary headline uses background-clip: text with a gradient fill.",
+      "why_ai": "Type has no character without the gradient. Gradient is compensating.",
+      "detection": {
+        "css_signal": "background-clip: text or -webkit-background-clip: text on H1 or hero headline"
+      },
+      "correction": "Fix the type first. If a single-color headline does not carry identity, the type system is wrong."
+    },
+    {
+      "id": "AF-D04",
+      "category": "color-surface",
+      "title": "Glassmorphism spam",
+      "severity": "high",
+      "description": "Multiple frosted-glass panels stacked as generic premium signal without a scene behind them.",
+      "why_ai": "Glass is a spatial device. Without a spatial world, it is texture hiding flatness.",
+      "detection": {
+        "css_signal": "more than 2 backdrop-filter: blur(...) elements on one screen without underlying imagery"
+      },
+      "correction": "If there is a scene behind, one glass panel is fine. If not, glass is the wrong device."
+    },
+    {
+      "id": "AF-E01",
+      "category": "typography",
+      "title": "Oversized centered grotesk headline",
+      "severity": "medium",
+      "description": "Very large sans-serif headline, centered, only 'big' typographic moment on the page.",
+      "why_ai": "Safest possible display decision. Signals big made-it-big, no editorial thinking.",
+      "detection": {
+        "css_signal": "H1 with text-align: center and font-size >= 6vw, in a fashionable startup grotesk"
+      },
+      "correction": "Asymmetry, mixed weight/width, or a different typographic voice."
+    },
+    {
+      "id": "AF-E02",
+      "category": "typography",
+      "title": "Mono developer costume",
+      "severity": "high",
+      "description": "Monospace face used for body, headings, and nav to signal 'developer product'.",
+      "why_ai": "Mono is a role, not a costume.",
+      "detection": {
+        "css_signal": "monospace family applied to body copy or primary nav; decorative $ or > characters"
+      },
+      "correction": "Reserve mono for code and precise data. Use a real body face."
+    },
+    {
+      "id": "AF-E03",
+      "category": "typography",
+      "title": "All-caps eyebrow spam",
+      "severity": "medium",
+      "description": "Every section leads with a small all-caps wide-tracked label.",
+      "why_ai": "Repetition reveals it as a template slot rather than a chapter marker.",
+      "detection": {
+        "css_signal": "repeated text-transform: uppercase on small label at the top of every section"
+      },
+      "correction": "Delete most. Keep one or two where the chapter marker is genuinely useful."
+    },
+    {
+      "id": "AF-E04",
+      "category": "typography",
+      "title": "Scale-only hierarchy",
+      "severity": "high",
+      "description": "Hierarchy expressed only through font-size. Weight, width, case, tracking, family stay constant.",
+      "why_ai": "Laziest use of type. Real hierarchy uses multiple axes.",
+      "detection": {
+        "css_signal": "type scale where all headings share the same weight and family, differ only by size"
+      },
+      "correction": "Introduce a second axis of contrast (weight, width, case, tracking, family)."
+    },
+    {
+      "id": "AF-F01",
+      "category": "interaction",
+      "title": "Universal hover-lift + shadow",
+      "severity": "medium",
+      "description": "Every card responds to hover with translateY(-4px) and increased shadow.",
+      "why_ai": "Default hover polish across the entire generative-web output style.",
+      "detection": {
+        "css_signal": "multiple selectors sharing identical :hover transform + shadow rules"
+      },
+      "correction": "Reserve hover feedback for interactive elements. Non-interactive cards do not move on hover."
+    },
+    {
+      "id": "AF-F02",
+      "category": "interaction",
+      "title": "Cursor-follows-everything",
+      "severity": "high",
+      "description": "Custom cursor drives multiple simultaneous full-amplitude effects.",
+      "why_ai": "One gesture cannot mean five things.",
+      "detection": {
+        "js_signal": "multiple mousemove-based transforms on one screen at full amplitude"
+      },
+      "correction": "Pick one dominant pointer response per scene. Mute or disable others."
+    },
+    {
+      "id": "AF-F03",
+      "category": "interaction",
+      "title": "Emoji as feature icons",
+      "severity": "medium",
+      "description": "Emoji glyphs used as leading icons for feature blocks.",
+      "why_ai": "Fastest visual shorthand, betraying the fastest visual decision.",
+      "detection": {
+        "content_signal": "emoji characters as leading glyphs for feature block headings"
+      },
+      "correction": "Commit to an icon family with brand rationale or use no icons and let typography carry the block."
+    },
+    {
+      "id": "AF-F04",
+      "category": "interaction",
+      "title": "Fake dashboard / terminal decoration",
+      "severity": "high",
+      "description": "Screenshot-style block showing fake dashboard, terminal, code, or chart to signal 'product' without showing the real product.",
+      "why_ai": "Real product surfaces look inconvenient. Faked ones look clean because they were designed to look clean.",
+      "detection": {
+        "content_signal": "chart, terminal, or table with no live data and no link to the real product"
+      },
+      "correction": "Show real product surface with real data, or do not show one. Do not fabricate."
+    }
+  ]
+}

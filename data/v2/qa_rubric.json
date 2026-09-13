@@ -1,0 +1,450 @@
+[
+  {
+    "id": "qa-001",
+    "dimension": "Typography",
+    "check": "hierarchy visible without color",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-002",
+    "dimension": "Typography",
+    "check": "body measure readable",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-003",
+    "dimension": "Typography",
+    "check": "font roles justified",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-004",
+    "dimension": "Typography",
+    "check": "mobile scale recomposed",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-005",
+    "dimension": "Typography",
+    "check": "font load avoids instability",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-006",
+    "dimension": "Typography",
+    "check": "expressive type limited to suitable roles",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-007",
+    "dimension": "Typography",
+    "check": "line height suits width",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-008",
+    "dimension": "Typography",
+    "check": "tracking intentional",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-009",
+    "dimension": "Color",
+    "check": "role-based palette",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-010",
+    "dimension": "Color",
+    "check": "body contrast passes target",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-011",
+    "dimension": "Color",
+    "check": "accent has scarcity",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-012",
+    "dimension": "Color",
+    "check": "near-black/off-white intentional",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-013",
+    "dimension": "Color",
+    "check": "dark/light separately art-directed",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-014",
+    "dimension": "Color",
+    "check": "3D lighting does not destroy palette",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-015",
+    "dimension": "Color",
+    "check": "status colors distinct",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-016",
+    "dimension": "Color",
+    "check": "focus visibility preserved",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-017",
+    "dimension": "Composition",
+    "check": "clear focal point",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-018",
+    "dimension": "Composition",
+    "check": "reading path",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-019",
+    "dimension": "Composition",
+    "check": "negative space groups content",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-020",
+    "dimension": "Composition",
+    "check": "section rhythm varies",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-021",
+    "dimension": "Composition",
+    "check": "mobile recompose",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-022",
+    "dimension": "Composition",
+    "check": "cards only when conceptual container exists",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-023",
+    "dimension": "Composition",
+    "check": "alignment system intentional",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-024",
+    "dimension": "Composition",
+    "check": "one controlled break in rhythm",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-025",
+    "dimension": "Motion",
+    "check": "one dominant motion language",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-026",
+    "dimension": "Motion",
+    "check": "causality understandable",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-027",
+    "dimension": "Motion",
+    "check": "camera and UI use different mass",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-028",
+    "dimension": "Motion",
+    "check": "reduced motion works",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-029",
+    "dimension": "Motion",
+    "check": "no universal fade-up",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-030",
+    "dimension": "Motion",
+    "check": "scroll velocity not overused",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-031",
+    "dimension": "Motion",
+    "check": "rest moments exist",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-032",
+    "dimension": "Motion",
+    "check": "interaction feedback immediate",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-033",
+    "dimension": "3D",
+    "check": "3D has information/narrative role",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-034",
+    "dimension": "3D",
+    "check": "camera states intentional",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-035",
+    "dimension": "3D",
+    "check": "lighting guides attention",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-036",
+    "dimension": "3D",
+    "check": "materials coherent",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-037",
+    "dimension": "3D",
+    "check": "DOM/WebGL synchronized",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-038",
+    "dimension": "3D",
+    "check": "mobile quality tier",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-039",
+    "dimension": "3D",
+    "check": "fallback exists",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-040",
+    "dimension": "3D",
+    "check": "asset cleanup implemented",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-041",
+    "dimension": "Performance",
+    "check": "LCP target planned",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-042",
+    "dimension": "Performance",
+    "check": "INP risk evaluated",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-043",
+    "dimension": "Performance",
+    "check": "CLS risk evaluated",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-044",
+    "dimension": "Performance",
+    "check": "DPR capped/adaptive",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-045",
+    "dimension": "Performance",
+    "check": "heavy assets lazy/preloaded intentionally",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-046",
+    "dimension": "Performance",
+    "check": "offscreen work paused",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-047",
+    "dimension": "Performance",
+    "check": "textures/models optimized",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-048",
+    "dimension": "Performance",
+    "check": "frame-loop avoids reactive state abuse",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-049",
+    "dimension": "Originality",
+    "check": "not generic SaaS hero",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-050",
+    "dimension": "Originality",
+    "check": "no default purple/blue tech palette",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-051",
+    "dimension": "Originality",
+    "check": "no random bento",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-052",
+    "dimension": "Originality",
+    "check": "no random chrome geometry",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-053",
+    "dimension": "Originality",
+    "check": "copy is project-specific",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-054",
+    "dimension": "Originality",
+    "check": "signature concept exists",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-055",
+    "dimension": "Originality",
+    "check": "reference principles transformed not cloned",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-056",
+    "dimension": "Originality",
+    "check": "component-library defaults art-directed",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-057",
+    "dimension": "Accessibility",
+    "check": "semantic DOM",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-058",
+    "dimension": "Accessibility",
+    "check": "keyboard path",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-059",
+    "dimension": "Accessibility",
+    "check": "focus visible",
+    "weight": 2,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-060",
+    "dimension": "Accessibility",
+    "check": "contrast target",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-061",
+    "dimension": "Accessibility",
+    "check": "reduced motion",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-062",
+    "dimension": "Accessibility",
+    "check": "touch alternatives",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-063",
+    "dimension": "Accessibility",
+    "check": "critical content outside WebGL",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  },
+  {
+    "id": "qa-064",
+    "dimension": "Accessibility",
+    "check": "no hover-only critical info",
+    "weight": 1,
+    "failureAction": "Revise before shipping if critical; otherwise log tradeoff with rationale."
+  }
+]

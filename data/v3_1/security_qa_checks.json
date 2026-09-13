@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "secqa-001",
+    "category": "secrets",
+    "context": "code",
+    "severity": "critical",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-002",
+    "category": "secrets",
+    "context": "config",
+    "severity": "medium",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-003",
+    "category": "secrets",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-004",
+    "category": "secrets",
+    "context": "runtime",
+    "severity": "critical",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-005",
+    "category": "secrets",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-006",
+    "category": "secrets",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-007",
+    "category": "secrets",
+    "context": "staging",
+    "severity": "medium",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-008",
+    "category": "secrets",
+    "context": "production",
+    "severity": "critical",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-009",
+    "category": "secrets",
+    "context": "ci",
+    "severity": "medium",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-010",
+    "category": "secrets",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "No privileged secret in client build/repository/log output",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-011",
+    "category": "authz",
+    "context": "code",
+    "severity": "critical",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-012",
+    "category": "authz",
+    "context": "config",
+    "severity": "medium",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-013",
+    "category": "authz",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-014",
+    "category": "authz",
+    "context": "runtime",
+    "severity": "critical",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-015",
+    "category": "authz",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-016",
+    "category": "authz",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-017",
+    "category": "authz",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-018",
+    "category": "authz",
+    "context": "production",
+    "severity": "critical",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-019",
+    "category": "authz",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-020",
+    "category": "authz",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Protected actions enforce server authorization",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-021",
+    "category": "validation",
+    "context": "code",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-022",
+    "category": "validation",
+    "context": "config",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-023",
+    "category": "validation",
+    "context": "integration-test",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-024",
+    "category": "validation",
+    "context": "runtime",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-025",
+    "category": "validation",
+    "context": "release-evidence",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-026",
+    "category": "validation",
+    "context": "failure-mode",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-027",
+    "category": "validation",
+    "context": "staging",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-028",
+    "category": "validation",
+    "context": "production",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-029",
+    "category": "validation",
+    "context": "ci",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-030",
+    "category": "validation",
+    "context": "documentation",
+    "severity": "high",
+    "check": "Inputs have schemas and size/count bounds",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-031",
+    "category": "database",
+    "context": "code",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-032",
+    "category": "database",
+    "context": "config",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-033",
+    "category": "database",
+    "context": "integration-test",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-034",
+    "category": "database",
+    "context": "runtime",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-035",
+    "category": "database",
+    "context": "release-evidence",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-036",
+    "category": "database",
+    "context": "failure-mode",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-037",
+    "category": "database",
+    "context": "staging",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-038",
+    "category": "database",
+    "context": "production",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-039",
+    "category": "database",
+    "context": "ci",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-040",
+    "category": "database",
+    "context": "documentation",
+    "severity": "high",
+    "check": "Queries are parameterized and critical multi-writes have transaction policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-041",
+    "category": "sessions",
+    "context": "code",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-042",
+    "category": "sessions",
+    "context": "config",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-043",
+    "category": "sessions",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-044",
+    "category": "sessions",
+    "context": "runtime",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-045",
+    "category": "sessions",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-046",
+    "category": "sessions",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-047",
+    "category": "sessions",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-048",
+    "category": "sessions",
+    "context": "production",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-049",
+    "category": "sessions",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-050",
+    "category": "sessions",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Cookie/session lifecycle and CSRF policy are explicit",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-051",
+    "category": "uploads",
+    "context": "code",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-052",
+    "category": "uploads",
+    "context": "config",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-053",
+    "category": "uploads",
+    "context": "integration-test",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-054",
+    "category": "uploads",
+    "context": "runtime",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-055",
+    "category": "uploads",
+    "context": "release-evidence",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-056",
+    "category": "uploads",
+    "context": "failure-mode",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-057",
+    "category": "uploads",
+    "context": "staging",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-058",
+    "category": "uploads",
+    "context": "production",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-059",
+    "category": "uploads",
+    "context": "ci",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-060",
+    "category": "uploads",
+    "context": "documentation",
+    "severity": "high",
+    "check": "Uploads have type/size/count/storage/authorization policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-061",
+    "category": "ssrf",
+    "context": "code",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-062",
+    "category": "ssrf",
+    "context": "config",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-063",
+    "category": "ssrf",
+    "context": "integration-test",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-064",
+    "category": "ssrf",
+    "context": "runtime",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-065",
+    "category": "ssrf",
+    "context": "release-evidence",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-066",
+    "category": "ssrf",
+    "context": "failure-mode",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-067",
+    "category": "ssrf",
+    "context": "staging",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-068",
+    "category": "ssrf",
+    "context": "production",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-069",
+    "category": "ssrf",
+    "context": "ci",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-070",
+    "category": "ssrf",
+    "context": "documentation",
+    "severity": "high",
+    "check": "Server-side URL fetching has destination/protocol/size/time boundaries",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-071",
+    "category": "webhook",
+    "context": "code",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-072",
+    "category": "webhook",
+    "context": "config",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-073",
+    "category": "webhook",
+    "context": "integration-test",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-074",
+    "category": "webhook",
+    "context": "runtime",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-075",
+    "category": "webhook",
+    "context": "release-evidence",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-076",
+    "category": "webhook",
+    "context": "failure-mode",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-077",
+    "category": "webhook",
+    "context": "staging",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-078",
+    "category": "webhook",
+    "context": "production",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-079",
+    "category": "webhook",
+    "context": "ci",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-080",
+    "category": "webhook",
+    "context": "documentation",
+    "severity": "high",
+    "check": "Webhook verification/replay/idempotency rules exist",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-081",
+    "category": "logging",
+    "context": "code",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-082",
+    "category": "logging",
+    "context": "config",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-083",
+    "category": "logging",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-084",
+    "category": "logging",
+    "context": "runtime",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-085",
+    "category": "logging",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-086",
+    "category": "logging",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-087",
+    "category": "logging",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-088",
+    "category": "logging",
+    "context": "production",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-089",
+    "category": "logging",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-090",
+    "category": "logging",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Sensitive headers/tokens/credentials are redacted",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-091",
+    "category": "encryption",
+    "context": "code",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-092",
+    "category": "encryption",
+    "context": "config",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-093",
+    "category": "encryption",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-094",
+    "category": "encryption",
+    "context": "runtime",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-095",
+    "category": "encryption",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-096",
+    "category": "encryption",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-097",
+    "category": "encryption",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-098",
+    "category": "encryption",
+    "context": "production",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-099",
+    "category": "encryption",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-100",
+    "category": "encryption",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Data protection/key ownership/rotation decision documented",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-101",
+    "category": "password",
+    "context": "code",
+    "severity": "critical",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-102",
+    "category": "password",
+    "context": "config",
+    "severity": "medium",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-103",
+    "category": "password",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-104",
+    "category": "password",
+    "context": "runtime",
+    "severity": "critical",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-105",
+    "category": "password",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-106",
+    "category": "password",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-107",
+    "category": "password",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-108",
+    "category": "password",
+    "context": "production",
+    "severity": "critical",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-109",
+    "category": "password",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-110",
+    "category": "password",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Passwords use password hashing, not plaintext/reversible storage",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-111",
+    "category": "deployment",
+    "context": "code",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-112",
+    "category": "deployment",
+    "context": "config",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-113",
+    "category": "deployment",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-114",
+    "category": "deployment",
+    "context": "runtime",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-115",
+    "category": "deployment",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-116",
+    "category": "deployment",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-117",
+    "category": "deployment",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-118",
+    "category": "deployment",
+    "context": "production",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-119",
+    "category": "deployment",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-120",
+    "category": "deployment",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Production debug/admin and environment separation reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-121",
+    "category": "supply-chain",
+    "context": "code",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-122",
+    "category": "supply-chain",
+    "context": "config",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-123",
+    "category": "supply-chain",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-124",
+    "category": "supply-chain",
+    "context": "runtime",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-125",
+    "category": "supply-chain",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-126",
+    "category": "supply-chain",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-127",
+    "category": "supply-chain",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-128",
+    "category": "supply-chain",
+    "context": "production",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-129",
+    "category": "supply-chain",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-130",
+    "category": "supply-chain",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Dependency lock/advisory review exists",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-131",
+    "category": "backup",
+    "context": "code",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-132",
+    "category": "backup",
+    "context": "config",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-133",
+    "category": "backup",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-134",
+    "category": "backup",
+    "context": "runtime",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-135",
+    "category": "backup",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-136",
+    "category": "backup",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-137",
+    "category": "backup",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-138",
+    "category": "backup",
+    "context": "production",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-139",
+    "category": "backup",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-140",
+    "category": "backup",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Backup/migration/recovery behavior reviewed",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-141",
+    "category": "errors",
+    "context": "code",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-142",
+    "category": "errors",
+    "context": "config",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-143",
+    "category": "errors",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-144",
+    "category": "errors",
+    "context": "runtime",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-145",
+    "category": "errors",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-146",
+    "category": "errors",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-147",
+    "category": "errors",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-148",
+    "category": "errors",
+    "context": "production",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-149",
+    "category": "errors",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-150",
+    "category": "errors",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Client errors do not leak stack traces/secrets",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-151",
+    "category": "rate",
+    "context": "code",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-152",
+    "category": "rate",
+    "context": "config",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-153",
+    "category": "rate",
+    "context": "integration-test",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-154",
+    "category": "rate",
+    "context": "runtime",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-155",
+    "category": "rate",
+    "context": "release-evidence",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-156",
+    "category": "rate",
+    "context": "failure-mode",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-157",
+    "category": "rate",
+    "context": "staging",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-158",
+    "category": "rate",
+    "context": "production",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-159",
+    "category": "rate",
+    "context": "ci",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  },
+  {
+    "id": "secqa-160",
+    "category": "rate",
+    "context": "documentation",
+    "severity": "medium",
+    "check": "Abuse-prone endpoints have rate/backoff policy",
+    "evidence_required": true
+  }
+]

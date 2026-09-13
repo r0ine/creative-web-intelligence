@@ -1,0 +1,64 @@
+{
+  "rules": [
+    {
+      "a": "pixel-close-reference",
+      "b": "generic-template-layout",
+      "relation": "reject",
+      "reason": "template geometry defeats reference fidelity"
+    },
+    {
+      "a": "long-pin",
+      "b": "mobile",
+      "relation": "requires-fallback",
+      "reason": "mobile should usually recompose or shorten pin"
+    },
+    {
+      "a": "continuous-scrub",
+      "b": "reduced-motion",
+      "relation": "requires-alternative",
+      "reason": "preserve narrative with discrete states"
+    },
+    {
+      "a": "scroll-video-scrub",
+      "b": "low-bandwidth",
+      "relation": "requires-poster-or-sequence-budget",
+      "reason": "avoid heavy preload"
+    },
+    {
+      "a": "cookie-session",
+      "b": "mutating-browser-api",
+      "relation": "requires-csrf-strategy",
+      "reason": "cookie-authenticated mutations need explicit CSRF analysis"
+    },
+    {
+      "a": "public-upload",
+      "b": "unbounded-file",
+      "relation": "reject",
+      "reason": "size/type/count/storage constraints required"
+    },
+    {
+      "a": "optimistic-ui",
+      "b": "mutation",
+      "relation": "requires-rollback",
+      "reason": "error recovery must be designed"
+    },
+    {
+      "a": "realtime",
+      "b": "client-state",
+      "relation": "requires-ordering-reconnect",
+      "reason": "events may duplicate/reorder/drop"
+    },
+    {
+      "a": "3d-hero",
+      "b": "mobile",
+      "relation": "requires-tier",
+      "reason": "quality tier/poster fallback must exist"
+    },
+    {
+      "a": "reference-font",
+      "b": "unlicensed-font",
+      "relation": "substitute",
+      "reason": "match metrics with licensed/system alternative"
+    }
+  ]
+}

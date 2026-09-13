@@ -1,0 +1,770 @@
+[
+  {
+    "id": "qa-v3-001",
+    "dimension": "composition",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-002",
+    "dimension": "composition",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-003",
+    "dimension": "composition",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-004",
+    "dimension": "composition",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-005",
+    "dimension": "composition",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-006",
+    "dimension": "composition",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-007",
+    "dimension": "composition",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-008",
+    "dimension": "composition",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-009",
+    "dimension": "typography",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-010",
+    "dimension": "typography",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-011",
+    "dimension": "typography",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-012",
+    "dimension": "typography",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-013",
+    "dimension": "typography",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-014",
+    "dimension": "typography",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-015",
+    "dimension": "typography",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-016",
+    "dimension": "typography",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-017",
+    "dimension": "color",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-018",
+    "dimension": "color",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-019",
+    "dimension": "color",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-020",
+    "dimension": "color",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-021",
+    "dimension": "color",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-022",
+    "dimension": "color",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-023",
+    "dimension": "color",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-024",
+    "dimension": "color",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-025",
+    "dimension": "responsive",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-026",
+    "dimension": "responsive",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-027",
+    "dimension": "responsive",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-028",
+    "dimension": "responsive",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-029",
+    "dimension": "responsive",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-030",
+    "dimension": "responsive",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-031",
+    "dimension": "responsive",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-032",
+    "dimension": "responsive",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-033",
+    "dimension": "motion",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-034",
+    "dimension": "motion",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-035",
+    "dimension": "motion",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-036",
+    "dimension": "motion",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-037",
+    "dimension": "motion",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-038",
+    "dimension": "motion",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-039",
+    "dimension": "motion",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-040",
+    "dimension": "motion",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-041",
+    "dimension": "scroll",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-042",
+    "dimension": "scroll",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-043",
+    "dimension": "scroll",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-044",
+    "dimension": "scroll",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-045",
+    "dimension": "scroll",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-046",
+    "dimension": "scroll",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-047",
+    "dimension": "scroll",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-048",
+    "dimension": "scroll",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-049",
+    "dimension": "3d",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-050",
+    "dimension": "3d",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-051",
+    "dimension": "3d",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-052",
+    "dimension": "3d",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-053",
+    "dimension": "3d",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-054",
+    "dimension": "3d",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-055",
+    "dimension": "3d",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-056",
+    "dimension": "3d",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-057",
+    "dimension": "media",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-058",
+    "dimension": "media",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-059",
+    "dimension": "media",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-060",
+    "dimension": "media",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-061",
+    "dimension": "media",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-062",
+    "dimension": "media",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-063",
+    "dimension": "media",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-064",
+    "dimension": "media",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-065",
+    "dimension": "accessibility",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-066",
+    "dimension": "accessibility",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-067",
+    "dimension": "accessibility",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-068",
+    "dimension": "accessibility",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-069",
+    "dimension": "accessibility",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-070",
+    "dimension": "accessibility",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-071",
+    "dimension": "accessibility",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-072",
+    "dimension": "accessibility",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-073",
+    "dimension": "performance",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-074",
+    "dimension": "performance",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-075",
+    "dimension": "performance",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-076",
+    "dimension": "performance",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-077",
+    "dimension": "performance",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-078",
+    "dimension": "performance",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-079",
+    "dimension": "performance",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-080",
+    "dimension": "performance",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-081",
+    "dimension": "reference-fidelity",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-082",
+    "dimension": "reference-fidelity",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-083",
+    "dimension": "reference-fidelity",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-084",
+    "dimension": "reference-fidelity",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-085",
+    "dimension": "reference-fidelity",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-086",
+    "dimension": "reference-fidelity",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-087",
+    "dimension": "reference-fidelity",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-088",
+    "dimension": "reference-fidelity",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-089",
+    "dimension": "backend-security",
+    "severity": "critical",
+    "check": "Essential content/control remains usable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-090",
+    "dimension": "backend-security",
+    "severity": "critical",
+    "check": "No hidden dependency on unsupported interaction mode.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": true
+  },
+  {
+    "id": "qa-v3-091",
+    "dimension": "backend-security",
+    "severity": "high",
+    "check": "Mobile behavior is explicitly authored.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-092",
+    "dimension": "backend-security",
+    "severity": "high",
+    "check": "Failure/loading/empty state is defined where relevant.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-093",
+    "dimension": "backend-security",
+    "severity": "medium",
+    "check": "No unexplained magic constants dominate layout/timeline.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-094",
+    "dimension": "backend-security",
+    "severity": "medium",
+    "check": "Implementation uses reusable tokens/recipes where appropriate.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-095",
+    "dimension": "backend-security",
+    "severity": "high",
+    "check": "Reduced-motion/accessibility behavior is preserved.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  },
+  {
+    "id": "qa-v3-096",
+    "dimension": "backend-security",
+    "severity": "medium",
+    "check": "Cleanup/resizing/re-entry behavior is stable.",
+    "evidenceRequired": "capture/test/spec/code evidence appropriate to the dimension",
+    "failClosed": false
+  }
+]

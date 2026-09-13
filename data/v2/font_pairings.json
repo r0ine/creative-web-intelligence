@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "font-001",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Source Serif 4 supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-002",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Source Serif 4 supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-003",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Manrope",
+    "ui": "Manrope",
+    "why": "Source Serif 4 supplies the distinctive voice while Manrope keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-004",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Source Serif 4 supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-005",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Space Grotesk",
+    "ui": "Space Grotesk",
+    "why": "Source Serif 4 supplies the distinctive voice while Space Grotesk keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-006",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Plus Jakarta Sans",
+    "ui": "Plus Jakarta Sans",
+    "why": "Source Serif 4 supplies the distinctive voice while Plus Jakarta Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-007",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Instrument Sans",
+    "ui": "Instrument Sans",
+    "why": "Source Serif 4 supplies the distinctive voice while Instrument Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-008",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Archivo",
+    "ui": "Archivo",
+    "why": "Source Serif 4 supplies the distinctive voice while Archivo keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-009",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "IBM Plex Sans",
+    "ui": "IBM Plex Sans",
+    "why": "Source Serif 4 supplies the distinctive voice while IBM Plex Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-010",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Sora",
+    "ui": "Sora",
+    "why": "Source Serif 4 supplies the distinctive voice while Sora keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-011",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Urbanist",
+    "ui": "Urbanist",
+    "why": "Source Serif 4 supplies the distinctive voice while Urbanist keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-012",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Work Sans",
+    "ui": "Work Sans",
+    "why": "Source Serif 4 supplies the distinctive voice while Work Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-013",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Source Sans 3",
+    "ui": "Source Sans 3",
+    "why": "Source Serif 4 supplies the distinctive voice while Source Sans 3 keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-014",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Public Sans",
+    "ui": "Public Sans",
+    "why": "Source Serif 4 supplies the distinctive voice while Public Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-015",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Noto Sans",
+    "ui": "Noto Sans",
+    "why": "Source Serif 4 supplies the distinctive voice while Noto Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-016",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Rubik",
+    "ui": "Rubik",
+    "why": "Source Serif 4 supplies the distinctive voice while Rubik keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-017",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Karla",
+    "ui": "Karla",
+    "why": "Source Serif 4 supplies the distinctive voice while Karla keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-018",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Barlow",
+    "ui": "Barlow",
+    "why": "Source Serif 4 supplies the distinctive voice while Barlow keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-019",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Outfit",
+    "ui": "Outfit",
+    "why": "Source Serif 4 supplies the distinctive voice while Outfit keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-020",
+    "family": "editorial",
+    "heading": "Source Serif 4",
+    "body": "Mulish",
+    "ui": "Mulish",
+    "why": "Source Serif 4 supplies the distinctive voice while Mulish keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-021",
+    "family": "editorial",
+    "heading": "Newsreader",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Newsreader supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-022",
+    "family": "editorial",
+    "heading": "Newsreader",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Newsreader supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-023",
+    "family": "editorial",
+    "heading": "Newsreader",
+    "body": "Manrope",
+    "ui": "Manrope",
+    "why": "Newsreader supplies the distinctive voice while Manrope keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-024",
+    "family": "editorial",
+    "heading": "Newsreader",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Newsreader supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-025",
+    "family": "editorial",
+    "heading": "Newsreader",
+    "body": "Space Grotesk",
+    "ui": "Space Grotesk",
+    "why": "Newsreader supplies the distinctive voice while Space Grotesk keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-026",
+    "family": "editorial",
+    "heading": "Newsreader",
+    "body": "Plus Jakarta Sans",
+    "ui": "Plus Jakarta Sans",
+    "why": "Newsreader supplies the distinctive voice while Plus Jakarta Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-027",
+    "family": "editorial",
+    "heading": "Newsreader",
+    "body": "Instrument Sans",
+    "ui": "Instrument Sans",
+    "why": "Newsreader supplies the distinctive voice while Instrument Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-028",
+    "family": "editorial",
+    "heading": "Newsreader",
+    "body": "Archivo",
+    "ui": "Archivo",
+    "why": "Newsreader supplies the distinctive voice while Archivo keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "editorial",
+      "fashion",
+      "culture"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-029",
+    "family": "technical",
+    "heading": "Inter",
+    "body": "IBM Plex Mono",
+    "ui": "Inter",
+    "why": "Inter supplies the distinctive voice while IBM Plex Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-030",
+    "family": "technical",
+    "heading": "Inter",
+    "body": "Space Mono",
+    "ui": "Inter",
+    "why": "Inter supplies the distinctive voice while Space Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-031",
+    "family": "technical",
+    "heading": "Inter",
+    "body": "Roboto Mono",
+    "ui": "Inter",
+    "why": "Inter supplies the distinctive voice while Roboto Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-032",
+    "family": "technical",
+    "heading": "Inter",
+    "body": "Source Code Pro",
+    "ui": "Inter",
+    "why": "Inter supplies the distinctive voice while Source Code Pro keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-033",
+    "family": "technical",
+    "heading": "Figtree",
+    "body": "IBM Plex Mono",
+    "ui": "Inter",
+    "why": "Figtree supplies the distinctive voice while IBM Plex Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-034",
+    "family": "technical",
+    "heading": "Figtree",
+    "body": "Space Mono",
+    "ui": "Inter",
+    "why": "Figtree supplies the distinctive voice while Space Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-035",
+    "family": "technical",
+    "heading": "Figtree",
+    "body": "Roboto Mono",
+    "ui": "Inter",
+    "why": "Figtree supplies the distinctive voice while Roboto Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-036",
+    "family": "technical",
+    "heading": "Figtree",
+    "body": "Source Code Pro",
+    "ui": "Inter",
+    "why": "Figtree supplies the distinctive voice while Source Code Pro keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-037",
+    "family": "technical",
+    "heading": "Manrope",
+    "body": "IBM Plex Mono",
+    "ui": "Inter",
+    "why": "Manrope supplies the distinctive voice while IBM Plex Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-038",
+    "family": "technical",
+    "heading": "Manrope",
+    "body": "Space Mono",
+    "ui": "Inter",
+    "why": "Manrope supplies the distinctive voice while Space Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-039",
+    "family": "technical",
+    "heading": "Manrope",
+    "body": "Roboto Mono",
+    "ui": "Inter",
+    "why": "Manrope supplies the distinctive voice while Roboto Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-040",
+    "family": "technical",
+    "heading": "Manrope",
+    "body": "Source Code Pro",
+    "ui": "Inter",
+    "why": "Manrope supplies the distinctive voice while Source Code Pro keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-041",
+    "family": "technical",
+    "heading": "DM Sans",
+    "body": "IBM Plex Mono",
+    "ui": "Inter",
+    "why": "DM Sans supplies the distinctive voice while IBM Plex Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-042",
+    "family": "technical",
+    "heading": "DM Sans",
+    "body": "Space Mono",
+    "ui": "Inter",
+    "why": "DM Sans supplies the distinctive voice while Space Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-043",
+    "family": "technical",
+    "heading": "DM Sans",
+    "body": "Roboto Mono",
+    "ui": "Inter",
+    "why": "DM Sans supplies the distinctive voice while Roboto Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-044",
+    "family": "technical",
+    "heading": "DM Sans",
+    "body": "Source Code Pro",
+    "ui": "Inter",
+    "why": "DM Sans supplies the distinctive voice while Source Code Pro keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-045",
+    "family": "technical",
+    "heading": "Space Grotesk",
+    "body": "IBM Plex Mono",
+    "ui": "Inter",
+    "why": "Space Grotesk supplies the distinctive voice while IBM Plex Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-046",
+    "family": "technical",
+    "heading": "Space Grotesk",
+    "body": "Space Mono",
+    "ui": "Inter",
+    "why": "Space Grotesk supplies the distinctive voice while Space Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-047",
+    "family": "technical",
+    "heading": "Space Grotesk",
+    "body": "Roboto Mono",
+    "ui": "Inter",
+    "why": "Space Grotesk supplies the distinctive voice while Roboto Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-048",
+    "family": "technical",
+    "heading": "Space Grotesk",
+    "body": "Source Code Pro",
+    "ui": "Inter",
+    "why": "Space Grotesk supplies the distinctive voice while Source Code Pro keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-049",
+    "family": "technical",
+    "heading": "Plus Jakarta Sans",
+    "body": "IBM Plex Mono",
+    "ui": "Inter",
+    "why": "Plus Jakarta Sans supplies the distinctive voice while IBM Plex Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-050",
+    "family": "technical",
+    "heading": "Plus Jakarta Sans",
+    "body": "Space Mono",
+    "ui": "Inter",
+    "why": "Plus Jakarta Sans supplies the distinctive voice while Space Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-051",
+    "family": "technical",
+    "heading": "Plus Jakarta Sans",
+    "body": "Roboto Mono",
+    "ui": "Inter",
+    "why": "Plus Jakarta Sans supplies the distinctive voice while Roboto Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-052",
+    "family": "technical",
+    "heading": "Plus Jakarta Sans",
+    "body": "Source Code Pro",
+    "ui": "Inter",
+    "why": "Plus Jakarta Sans supplies the distinctive voice while Source Code Pro keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-053",
+    "family": "technical",
+    "heading": "Instrument Sans",
+    "body": "IBM Plex Mono",
+    "ui": "Inter",
+    "why": "Instrument Sans supplies the distinctive voice while IBM Plex Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-054",
+    "family": "technical",
+    "heading": "Instrument Sans",
+    "body": "Space Mono",
+    "ui": "Inter",
+    "why": "Instrument Sans supplies the distinctive voice while Space Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-055",
+    "family": "technical",
+    "heading": "Instrument Sans",
+    "body": "Roboto Mono",
+    "ui": "Inter",
+    "why": "Instrument Sans supplies the distinctive voice while Roboto Mono keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-056",
+    "family": "technical",
+    "heading": "Instrument Sans",
+    "body": "Source Code Pro",
+    "ui": "Inter",
+    "why": "Instrument Sans supplies the distinctive voice while Source Code Pro keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "developer tools",
+      "data products",
+      "technical portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-057",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Syne supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-058",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Syne supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-059",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Manrope",
+    "ui": "Manrope",
+    "why": "Syne supplies the distinctive voice while Manrope keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-060",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Syne supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-061",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Space Grotesk",
+    "ui": "Space Grotesk",
+    "why": "Syne supplies the distinctive voice while Space Grotesk keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-062",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Plus Jakarta Sans",
+    "ui": "Plus Jakarta Sans",
+    "why": "Syne supplies the distinctive voice while Plus Jakarta Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-063",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Instrument Sans",
+    "ui": "Instrument Sans",
+    "why": "Syne supplies the distinctive voice while Instrument Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-064",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Archivo",
+    "ui": "Archivo",
+    "why": "Syne supplies the distinctive voice while Archivo keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-065",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "IBM Plex Sans",
+    "ui": "IBM Plex Sans",
+    "why": "Syne supplies the distinctive voice while IBM Plex Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-066",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Sora",
+    "ui": "Sora",
+    "why": "Syne supplies the distinctive voice while Sora keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-067",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Urbanist",
+    "ui": "Urbanist",
+    "why": "Syne supplies the distinctive voice while Urbanist keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-068",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Work Sans",
+    "ui": "Work Sans",
+    "why": "Syne supplies the distinctive voice while Work Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-069",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Source Sans 3",
+    "ui": "Source Sans 3",
+    "why": "Syne supplies the distinctive voice while Source Sans 3 keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-070",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Public Sans",
+    "ui": "Public Sans",
+    "why": "Syne supplies the distinctive voice while Public Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-071",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Noto Sans",
+    "ui": "Noto Sans",
+    "why": "Syne supplies the distinctive voice while Noto Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-072",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Rubik",
+    "ui": "Rubik",
+    "why": "Syne supplies the distinctive voice while Rubik keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-073",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Karla",
+    "ui": "Karla",
+    "why": "Syne supplies the distinctive voice while Karla keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-074",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Barlow",
+    "ui": "Barlow",
+    "why": "Syne supplies the distinctive voice while Barlow keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-075",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Outfit",
+    "ui": "Outfit",
+    "why": "Syne supplies the distinctive voice while Outfit keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-076",
+    "family": "brand-modern",
+    "heading": "Syne",
+    "body": "Mulish",
+    "ui": "Mulish",
+    "why": "Syne supplies the distinctive voice while Mulish keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-077",
+    "family": "brand-modern",
+    "heading": "Bricolage Grotesque",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Bricolage Grotesque supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-078",
+    "family": "brand-modern",
+    "heading": "Bricolage Grotesque",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Bricolage Grotesque supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-079",
+    "family": "brand-modern",
+    "heading": "Bricolage Grotesque",
+    "body": "Manrope",
+    "ui": "Manrope",
+    "why": "Bricolage Grotesque supplies the distinctive voice while Manrope keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-080",
+    "family": "brand-modern",
+    "heading": "Bricolage Grotesque",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Bricolage Grotesque supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-081",
+    "family": "brand-modern",
+    "heading": "Bricolage Grotesque",
+    "body": "Space Grotesk",
+    "ui": "Space Grotesk",
+    "why": "Bricolage Grotesque supplies the distinctive voice while Space Grotesk keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-082",
+    "family": "brand-modern",
+    "heading": "Bricolage Grotesque",
+    "body": "Plus Jakarta Sans",
+    "ui": "Plus Jakarta Sans",
+    "why": "Bricolage Grotesque supplies the distinctive voice while Plus Jakarta Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-083",
+    "family": "brand-modern",
+    "heading": "Bricolage Grotesque",
+    "body": "Instrument Sans",
+    "ui": "Instrument Sans",
+    "why": "Bricolage Grotesque supplies the distinctive voice while Instrument Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-084",
+    "family": "brand-modern",
+    "heading": "Bricolage Grotesque",
+    "body": "Archivo",
+    "ui": "Archivo",
+    "why": "Bricolage Grotesque supplies the distinctive voice while Archivo keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "creative agencies",
+      "launch sites",
+      "portfolios"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-085",
+    "family": "luxury-editorial",
+    "heading": "Bodoni Moda",
+    "body": "Instrument Sans",
+    "ui": "Instrument Sans",
+    "why": "Bodoni Moda supplies the distinctive voice while Instrument Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-086",
+    "family": "luxury-editorial",
+    "heading": "Bodoni Moda",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Bodoni Moda supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-087",
+    "family": "luxury-editorial",
+    "heading": "Bodoni Moda",
+    "body": "Manrope",
+    "ui": "Manrope",
+    "why": "Bodoni Moda supplies the distinctive voice while Manrope keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-088",
+    "family": "luxury-editorial",
+    "heading": "Bodoni Moda",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Bodoni Moda supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-089",
+    "family": "luxury-editorial",
+    "heading": "Bodoni Moda",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Bodoni Moda supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-090",
+    "family": "luxury-editorial",
+    "heading": "Cormorant Garamond",
+    "body": "Instrument Sans",
+    "ui": "Instrument Sans",
+    "why": "Cormorant Garamond supplies the distinctive voice while Instrument Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-091",
+    "family": "luxury-editorial",
+    "heading": "Cormorant Garamond",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Cormorant Garamond supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-092",
+    "family": "luxury-editorial",
+    "heading": "Cormorant Garamond",
+    "body": "Manrope",
+    "ui": "Manrope",
+    "why": "Cormorant Garamond supplies the distinctive voice while Manrope keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-093",
+    "family": "luxury-editorial",
+    "heading": "Cormorant Garamond",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Cormorant Garamond supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-094",
+    "family": "luxury-editorial",
+    "heading": "Cormorant Garamond",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Cormorant Garamond supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-095",
+    "family": "luxury-editorial",
+    "heading": "Playfair Display",
+    "body": "Instrument Sans",
+    "ui": "Instrument Sans",
+    "why": "Playfair Display supplies the distinctive voice while Instrument Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-096",
+    "family": "luxury-editorial",
+    "heading": "Playfair Display",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Playfair Display supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-097",
+    "family": "luxury-editorial",
+    "heading": "Playfair Display",
+    "body": "Manrope",
+    "ui": "Manrope",
+    "why": "Playfair Display supplies the distinctive voice while Manrope keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-098",
+    "family": "luxury-editorial",
+    "heading": "Playfair Display",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Playfair Display supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-099",
+    "family": "luxury-editorial",
+    "heading": "Playfair Display",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Playfair Display supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-100",
+    "family": "luxury-editorial",
+    "heading": "Newsreader",
+    "body": "Instrument Sans",
+    "ui": "Instrument Sans",
+    "why": "Newsreader supplies the distinctive voice while Instrument Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-101",
+    "family": "luxury-editorial",
+    "heading": "Newsreader",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Newsreader supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-102",
+    "family": "luxury-editorial",
+    "heading": "Newsreader",
+    "body": "Manrope",
+    "ui": "Manrope",
+    "why": "Newsreader supplies the distinctive voice while Manrope keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-103",
+    "family": "luxury-editorial",
+    "heading": "Newsreader",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Newsreader supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-104",
+    "family": "luxury-editorial",
+    "heading": "Newsreader",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Newsreader supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-105",
+    "family": "luxury-editorial",
+    "heading": "Fraunces",
+    "body": "Instrument Sans",
+    "ui": "Instrument Sans",
+    "why": "Fraunces supplies the distinctive voice while Instrument Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-106",
+    "family": "luxury-editorial",
+    "heading": "Fraunces",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Fraunces supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-107",
+    "family": "luxury-editorial",
+    "heading": "Fraunces",
+    "body": "Manrope",
+    "ui": "Manrope",
+    "why": "Fraunces supplies the distinctive voice while Manrope keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-108",
+    "family": "luxury-editorial",
+    "heading": "Fraunces",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Fraunces supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-109",
+    "family": "luxury-editorial",
+    "heading": "Fraunces",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Fraunces supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "fashion",
+      "architecture",
+      "premium products"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-110",
+    "family": "product-clean",
+    "heading": "Space Grotesk",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Space Grotesk supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-111",
+    "family": "product-clean",
+    "heading": "Space Grotesk",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Space Grotesk supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-112",
+    "family": "product-clean",
+    "heading": "Space Grotesk",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Space Grotesk supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-113",
+    "family": "product-clean",
+    "heading": "Space Grotesk",
+    "body": "Source Sans 3",
+    "ui": "Source Sans 3",
+    "why": "Space Grotesk supplies the distinctive voice while Source Sans 3 keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-114",
+    "family": "product-clean",
+    "heading": "Space Grotesk",
+    "body": "Public Sans",
+    "ui": "Public Sans",
+    "why": "Space Grotesk supplies the distinctive voice while Public Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-115",
+    "family": "product-clean",
+    "heading": "Instrument Sans",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Instrument Sans supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-116",
+    "family": "product-clean",
+    "heading": "Instrument Sans",
+    "body": "Figtree",
+    "ui": "Figtree",
+    "why": "Instrument Sans supplies the distinctive voice while Figtree keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-117",
+    "family": "product-clean",
+    "heading": "Instrument Sans",
+    "body": "DM Sans",
+    "ui": "DM Sans",
+    "why": "Instrument Sans supplies the distinctive voice while DM Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-118",
+    "family": "product-clean",
+    "heading": "Instrument Sans",
+    "body": "Source Sans 3",
+    "ui": "Source Sans 3",
+    "why": "Instrument Sans supplies the distinctive voice while Source Sans 3 keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-119",
+    "family": "product-clean",
+    "heading": "Instrument Sans",
+    "body": "Public Sans",
+    "ui": "Public Sans",
+    "why": "Instrument Sans supplies the distinctive voice while Public Sans keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  },
+  {
+    "id": "font-120",
+    "family": "product-clean",
+    "heading": "Manrope",
+    "body": "Inter",
+    "ui": "Inter",
+    "why": "Manrope supplies the distinctive voice while Inter keeps long-form/UI reading stable. The pairing separates brand expression from information delivery.",
+    "bestFor": [
+      "product",
+      "SaaS",
+      "tools"
+    ],
+    "rules": [
+      "Limit expressive face to display roles",
+      "Validate x-height/measure at target viewport",
+      "Use 2-4 actual font styles before adding more",
+      "Verify production licensing and language coverage"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_TYPOGRAPHY_PRINCIPLES"
+  }
+]

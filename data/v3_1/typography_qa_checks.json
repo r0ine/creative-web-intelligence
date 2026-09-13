@@ -1,0 +1,842 @@
+[
+  {
+    "id": "typeqa-001",
+    "category": "glyph-coverage",
+    "context": "desktop",
+    "check": "Validate glyph-coverage under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-002",
+    "category": "glyph-coverage",
+    "context": "mobile",
+    "check": "Validate glyph-coverage under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-003",
+    "category": "glyph-coverage",
+    "context": "slow-network",
+    "check": "Validate glyph-coverage under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-004",
+    "category": "glyph-coverage",
+    "context": "font-blocked",
+    "check": "Validate glyph-coverage under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-005",
+    "category": "glyph-coverage",
+    "context": "real-copy",
+    "check": "Validate glyph-coverage under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-006",
+    "category": "glyph-coverage",
+    "context": "multilingual",
+    "check": "Validate glyph-coverage under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-007",
+    "category": "glyph-coverage",
+    "context": "dark",
+    "check": "Validate glyph-coverage under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-008",
+    "category": "glyph-coverage",
+    "context": "light",
+    "check": "Validate glyph-coverage under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-009",
+    "category": "hierarchy",
+    "context": "desktop",
+    "check": "Validate hierarchy under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-010",
+    "category": "hierarchy",
+    "context": "mobile",
+    "check": "Validate hierarchy under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-011",
+    "category": "hierarchy",
+    "context": "slow-network",
+    "check": "Validate hierarchy under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-012",
+    "category": "hierarchy",
+    "context": "font-blocked",
+    "check": "Validate hierarchy under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-013",
+    "category": "hierarchy",
+    "context": "real-copy",
+    "check": "Validate hierarchy under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-014",
+    "category": "hierarchy",
+    "context": "multilingual",
+    "check": "Validate hierarchy under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-015",
+    "category": "hierarchy",
+    "context": "dark",
+    "check": "Validate hierarchy under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-016",
+    "category": "hierarchy",
+    "context": "light",
+    "check": "Validate hierarchy under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-017",
+    "category": "line-length",
+    "context": "desktop",
+    "check": "Validate line-length under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-018",
+    "category": "line-length",
+    "context": "mobile",
+    "check": "Validate line-length under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-019",
+    "category": "line-length",
+    "context": "slow-network",
+    "check": "Validate line-length under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-020",
+    "category": "line-length",
+    "context": "font-blocked",
+    "check": "Validate line-length under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-021",
+    "category": "line-length",
+    "context": "real-copy",
+    "check": "Validate line-length under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-022",
+    "category": "line-length",
+    "context": "multilingual",
+    "check": "Validate line-length under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-023",
+    "category": "line-length",
+    "context": "dark",
+    "check": "Validate line-length under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-024",
+    "category": "line-length",
+    "context": "light",
+    "check": "Validate line-length under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-025",
+    "category": "line-height",
+    "context": "desktop",
+    "check": "Validate line-height under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-026",
+    "category": "line-height",
+    "context": "mobile",
+    "check": "Validate line-height under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-027",
+    "category": "line-height",
+    "context": "slow-network",
+    "check": "Validate line-height under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-028",
+    "category": "line-height",
+    "context": "font-blocked",
+    "check": "Validate line-height under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-029",
+    "category": "line-height",
+    "context": "real-copy",
+    "check": "Validate line-height under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-030",
+    "category": "line-height",
+    "context": "multilingual",
+    "check": "Validate line-height under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-031",
+    "category": "line-height",
+    "context": "dark",
+    "check": "Validate line-height under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-032",
+    "category": "line-height",
+    "context": "light",
+    "check": "Validate line-height under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-033",
+    "category": "wrapping",
+    "context": "desktop",
+    "check": "Validate wrapping under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-034",
+    "category": "wrapping",
+    "context": "mobile",
+    "check": "Validate wrapping under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-035",
+    "category": "wrapping",
+    "context": "slow-network",
+    "check": "Validate wrapping under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-036",
+    "category": "wrapping",
+    "context": "font-blocked",
+    "check": "Validate wrapping under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-037",
+    "category": "wrapping",
+    "context": "real-copy",
+    "check": "Validate wrapping under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-038",
+    "category": "wrapping",
+    "context": "multilingual",
+    "check": "Validate wrapping under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-039",
+    "category": "wrapping",
+    "context": "dark",
+    "check": "Validate wrapping under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-040",
+    "category": "wrapping",
+    "context": "light",
+    "check": "Validate wrapping under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-041",
+    "category": "fallback",
+    "context": "desktop",
+    "check": "Validate fallback under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-042",
+    "category": "fallback",
+    "context": "mobile",
+    "check": "Validate fallback under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-043",
+    "category": "fallback",
+    "context": "slow-network",
+    "check": "Validate fallback under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-044",
+    "category": "fallback",
+    "context": "font-blocked",
+    "check": "Validate fallback under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-045",
+    "category": "fallback",
+    "context": "real-copy",
+    "check": "Validate fallback under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-046",
+    "category": "fallback",
+    "context": "multilingual",
+    "check": "Validate fallback under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-047",
+    "category": "fallback",
+    "context": "dark",
+    "check": "Validate fallback under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-048",
+    "category": "fallback",
+    "context": "light",
+    "check": "Validate fallback under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-049",
+    "category": "loading",
+    "context": "desktop",
+    "check": "Validate loading under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-050",
+    "category": "loading",
+    "context": "mobile",
+    "check": "Validate loading under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-051",
+    "category": "loading",
+    "context": "slow-network",
+    "check": "Validate loading under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-052",
+    "category": "loading",
+    "context": "font-blocked",
+    "check": "Validate loading under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-053",
+    "category": "loading",
+    "context": "real-copy",
+    "check": "Validate loading under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-054",
+    "category": "loading",
+    "context": "multilingual",
+    "check": "Validate loading under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-055",
+    "category": "loading",
+    "context": "dark",
+    "check": "Validate loading under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-056",
+    "category": "loading",
+    "context": "light",
+    "check": "Validate loading under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-057",
+    "category": "cls",
+    "context": "desktop",
+    "check": "Validate cls under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-058",
+    "category": "cls",
+    "context": "mobile",
+    "check": "Validate cls under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-059",
+    "category": "cls",
+    "context": "slow-network",
+    "check": "Validate cls under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-060",
+    "category": "cls",
+    "context": "font-blocked",
+    "check": "Validate cls under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-061",
+    "category": "cls",
+    "context": "real-copy",
+    "check": "Validate cls under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-062",
+    "category": "cls",
+    "context": "multilingual",
+    "check": "Validate cls under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-063",
+    "category": "cls",
+    "context": "dark",
+    "check": "Validate cls under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-064",
+    "category": "cls",
+    "context": "light",
+    "check": "Validate cls under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-065",
+    "category": "mobile",
+    "context": "desktop",
+    "check": "Validate mobile under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-066",
+    "category": "mobile",
+    "context": "mobile",
+    "check": "Validate mobile under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-067",
+    "category": "mobile",
+    "context": "slow-network",
+    "check": "Validate mobile under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-068",
+    "category": "mobile",
+    "context": "font-blocked",
+    "check": "Validate mobile under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-069",
+    "category": "mobile",
+    "context": "real-copy",
+    "check": "Validate mobile under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-070",
+    "category": "mobile",
+    "context": "multilingual",
+    "check": "Validate mobile under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-071",
+    "category": "mobile",
+    "context": "dark",
+    "check": "Validate mobile under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-072",
+    "category": "mobile",
+    "context": "light",
+    "check": "Validate mobile under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-073",
+    "category": "variable-axis",
+    "context": "desktop",
+    "check": "Validate variable-axis under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-074",
+    "category": "variable-axis",
+    "context": "mobile",
+    "check": "Validate variable-axis under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-075",
+    "category": "variable-axis",
+    "context": "slow-network",
+    "check": "Validate variable-axis under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-076",
+    "category": "variable-axis",
+    "context": "font-blocked",
+    "check": "Validate variable-axis under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-077",
+    "category": "variable-axis",
+    "context": "real-copy",
+    "check": "Validate variable-axis under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-078",
+    "category": "variable-axis",
+    "context": "multilingual",
+    "check": "Validate variable-axis under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-079",
+    "category": "variable-axis",
+    "context": "dark",
+    "check": "Validate variable-axis under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-080",
+    "category": "variable-axis",
+    "context": "light",
+    "check": "Validate variable-axis under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-081",
+    "category": "numeric",
+    "context": "desktop",
+    "check": "Validate numeric under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-082",
+    "category": "numeric",
+    "context": "mobile",
+    "check": "Validate numeric under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-083",
+    "category": "numeric",
+    "context": "slow-network",
+    "check": "Validate numeric under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-084",
+    "category": "numeric",
+    "context": "font-blocked",
+    "check": "Validate numeric under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-085",
+    "category": "numeric",
+    "context": "real-copy",
+    "check": "Validate numeric under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-086",
+    "category": "numeric",
+    "context": "multilingual",
+    "check": "Validate numeric under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-087",
+    "category": "numeric",
+    "context": "dark",
+    "check": "Validate numeric under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-088",
+    "category": "numeric",
+    "context": "light",
+    "check": "Validate numeric under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-089",
+    "category": "buttons",
+    "context": "desktop",
+    "check": "Validate buttons under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-090",
+    "category": "buttons",
+    "context": "mobile",
+    "check": "Validate buttons under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-091",
+    "category": "buttons",
+    "context": "slow-network",
+    "check": "Validate buttons under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-092",
+    "category": "buttons",
+    "context": "font-blocked",
+    "check": "Validate buttons under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-093",
+    "category": "buttons",
+    "context": "real-copy",
+    "check": "Validate buttons under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-094",
+    "category": "buttons",
+    "context": "multilingual",
+    "check": "Validate buttons under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-095",
+    "category": "buttons",
+    "context": "dark",
+    "check": "Validate buttons under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-096",
+    "category": "buttons",
+    "context": "light",
+    "check": "Validate buttons under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-097",
+    "category": "navigation",
+    "context": "desktop",
+    "check": "Validate navigation under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-098",
+    "category": "navigation",
+    "context": "mobile",
+    "check": "Validate navigation under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-099",
+    "category": "navigation",
+    "context": "slow-network",
+    "check": "Validate navigation under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-100",
+    "category": "navigation",
+    "context": "font-blocked",
+    "check": "Validate navigation under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-101",
+    "category": "navigation",
+    "context": "real-copy",
+    "check": "Validate navigation under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-102",
+    "category": "navigation",
+    "context": "multilingual",
+    "check": "Validate navigation under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-103",
+    "category": "navigation",
+    "context": "dark",
+    "check": "Validate navigation under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-104",
+    "category": "navigation",
+    "context": "light",
+    "check": "Validate navigation under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-105",
+    "category": "contrast",
+    "context": "desktop",
+    "check": "Validate contrast under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-106",
+    "category": "contrast",
+    "context": "mobile",
+    "check": "Validate contrast under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-107",
+    "category": "contrast",
+    "context": "slow-network",
+    "check": "Validate contrast under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-108",
+    "category": "contrast",
+    "context": "font-blocked",
+    "check": "Validate contrast under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-109",
+    "category": "contrast",
+    "context": "real-copy",
+    "check": "Validate contrast under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-110",
+    "category": "contrast",
+    "context": "multilingual",
+    "check": "Validate contrast under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-111",
+    "category": "contrast",
+    "context": "dark",
+    "check": "Validate contrast under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-112",
+    "category": "contrast",
+    "context": "light",
+    "check": "Validate contrast under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-113",
+    "category": "motion",
+    "context": "desktop",
+    "check": "Validate motion under desktop conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-114",
+    "category": "motion",
+    "context": "mobile",
+    "check": "Validate motion under mobile conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-115",
+    "category": "motion",
+    "context": "slow-network",
+    "check": "Validate motion under slow-network conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-116",
+    "category": "motion",
+    "context": "font-blocked",
+    "check": "Validate motion under font-blocked conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-117",
+    "category": "motion",
+    "context": "real-copy",
+    "check": "Validate motion under real-copy conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-118",
+    "category": "motion",
+    "context": "multilingual",
+    "check": "Validate motion under multilingual conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-119",
+    "category": "motion",
+    "context": "dark",
+    "check": "Validate motion under dark conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  },
+  {
+    "id": "typeqa-120",
+    "category": "motion",
+    "context": "light",
+    "check": "Validate motion under light conditions",
+    "fail_if": "legibility, layout integrity, required glyphs, or hierarchy breaks"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "dataset": "Sanzo Wada — A Dictionary of Colour Combinations",
+  "historicalCombinationCount": 348,
+  "uniqueSourceColorCount": 159,
+  "sources": [
+    {
+      "id": "dain-interactive",
+      "url": "https://sanzo-wada.dmbk.io/",
+      "role": "interactive digitisation / source lineage",
+      "status": "VERIFIED_SOURCE_LINEAGE"
+    },
+    {
+      "id": "mattdesl-dataset",
+      "url": "https://github.com/mattdesl/dictionary-of-colour-combinations",
+      "role": "structured dataset; corrected data and color-managed conversion in fork",
+      "status": "VERIFIED_DATASET_REFERENCE"
+    },
+    {
+      "id": "aggregate-analysis",
+      "url": "https://colorcombinations.org/learn/color-data-analysis/",
+      "role": "independent aggregate/accessibility cross-check",
+      "status": "SECONDARY_ANALYSIS"
+    }
+  ],
+  "provenanceRule": "Never overwrite source values with web adaptations. Store conversion and adaptation separately.",
+  "licenseNote": "Verify the license/attribution of the exact dataset source used at integration time; do not infer rights from this registry alone."
+}

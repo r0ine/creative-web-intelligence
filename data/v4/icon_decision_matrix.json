@@ -1,0 +1,58 @@
+{
+  "dimensions": [
+    "brandVoiceFit",
+    "strokeDensityFit",
+    "geometryFit",
+    "coverage",
+    "stateVariants",
+    "motionNeed",
+    "accessibility",
+    "bundleCost",
+    "licenseClarity",
+    "genericityRisk"
+  ],
+  "rules": [
+    {
+      "when": "state transition is core and animation adds meaning",
+      "prefer": [
+        "line-md"
+      ],
+      "caution": "do not loop unless state is live/continuous"
+    },
+    {
+      "when": "dense product UI with quiet neutral voice",
+      "prefer": [
+        "tabler",
+        "lucide",
+        "heroicons"
+      ],
+      "decision": "choose one family, not all three"
+    },
+    {
+      "when": "brand needs more weight/personality while retaining consistency",
+      "prefer": [
+        "phosphor"
+      ]
+    },
+    {
+      "when": "Material visual language or massive semantic coverage is already present",
+      "prefer": [
+        "material-symbols"
+      ]
+    },
+    {
+      "when": "icon is decorative and text already communicates the action",
+      "prefer": [
+        "no-icon"
+      ],
+      "reason": "absence is a valid art-direction choice"
+    }
+  ],
+  "hardRules": [
+    "do not mix more than two icon families on one surface without a written reason",
+    "do not use icons as bullet decoration by default",
+    "do not animate every icon",
+    "do not place a generic icon before every navigation label",
+    "do not use an icon when a word is clearer"
+  ]
+}

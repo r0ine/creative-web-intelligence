@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CWI v4 Design Asset Candidate",
+  "type": "object",
+  "required": [
+    "kind",
+    "sourceId",
+    "identifier",
+    "purpose",
+    "licenseStatus",
+    "fitScores"
+  ],
+  "properties": {
+    "kind": {
+      "enum": [
+        "icon",
+        "font",
+        "illustration",
+        "lottie",
+        "rive",
+        "3d",
+        "photo",
+        "custom"
+      ]
+    },
+    "sourceId": {
+      "type": "string"
+    },
+    "identifier": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "licenseStatus": {
+      "enum": [
+        "verified",
+        "needs-review",
+        "blocked"
+      ]
+    },
+    "fitScores": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

@@ -1,0 +1,354 @@
+[
+  {
+    "id": "shinobi_profile",
+    "type": "instagram_profile",
+    "title": "Stas Eremin | UX/UI Designer (@shinobi.ui)",
+    "url": "https://www.instagram.com/shinobi.ui/",
+    "status": "INDEXED",
+    "notes": "Search index identifies Stas Eremin, UX/UI designer/content creator; profile/reels are not fully crawlable from this environment."
+  },
+  {
+    "id": "shinobi_color_combos",
+    "type": "instagram_reel",
+    "title": "Use these color combos",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DcB6JJLxMna/",
+    "status": "INDEXED",
+    "notes": "Indexed snippet includes Deep Sea & Sea Foam and additional contrasting palette examples."
+  },
+  {
+    "id": "shinobi_near_black",
+    "type": "instagram_reel",
+    "title": "Stop using black color",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DcB3Znfgsgm/",
+    "status": "INDEXED",
+    "notes": "Indexed as a near-black palette tip rather than pure black."
+  },
+  {
+    "id": "shinobi_near_black_2",
+    "type": "instagram_reel",
+    "title": "Near-black alternatives",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DWrazXpDeAK/",
+    "status": "INDEXED",
+    "notes": "Indexed examples include Asphalt #0C0404, Smoky Black #100C08, Neutral Black #0B0B0B, Jade #000302, Metropolis #1A1A1A."
+  },
+  {
+    "id": "shinobi_near_black_3",
+    "type": "instagram_reel",
+    "title": "Stop using black color - Crow",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DXUlqDiDbPj/",
+    "status": "INDEXED",
+    "notes": "Indexed snippet discusses pure black creating maximum contrast and offers tinted near-black alternatives."
+  },
+  {
+    "id": "shinobi_font_pairs",
+    "type": "instagram_reel",
+    "title": "Use these font pairs",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DWMogU6AG8P/",
+    "status": "INDEXED",
+    "notes": "Indexed example includes Permanent Marker + Figtree and a contrast-based pairing heuristic."
+  },
+  {
+    "id": "shinobi_fonts_1",
+    "type": "instagram_reel",
+    "title": "Stop using Arial font",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DRcsO-DDT42/",
+    "status": "INDEXED",
+    "notes": "Indexed snippet mentions alternative display faces including Okina and Rugola."
+  },
+  {
+    "id": "shinobi_fonts_2",
+    "type": "instagram_reel",
+    "title": "Stop using Arial font - alternate set",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DSF4IrEgHV3/",
+    "status": "INDEXED",
+    "notes": "Indexed snippet mentions Astro Venture and Querolas as distinctive typography options."
+  },
+  {
+    "id": "shinobi_typography",
+    "type": "instagram_reel",
+    "title": "Typography combinations",
+    "url": "https://www.instagram.com/shinobi.ui/reel/DcJkVVYAcN9/",
+    "status": "INDEXED",
+    "notes": "Indexed as a typography-combination reel for clean, modern, eye-catching designs."
+  },
+  {
+    "id": "user_ref_1",
+    "type": "instagram_reel",
+    "title": "User-supplied reference DcEJDHBTyPY",
+    "url": "https://www.instagram.com/reel/DcEJDHBTyPY/",
+    "status": "NEEDS_CAPTURE",
+    "notes": "User reference. Do not invent frame-level details without uploaded capture."
+  },
+  {
+    "id": "user_ref_2",
+    "type": "instagram_reel",
+    "title": "User-supplied reference DcJSh4aRWxB",
+    "url": "https://www.instagram.com/reel/DcJSh4aRWxB/",
+    "status": "NEEDS_CAPTURE",
+    "notes": "User reference. Intended as 3D/creative-web quality reference."
+  },
+  {
+    "id": "user_ref_3",
+    "type": "instagram_reel",
+    "title": "User-supplied reference Db15Zn0hSmH",
+    "url": "https://www.instagram.com/reel/Db15Zn0hSmH/",
+    "status": "NEEDS_CAPTURE",
+    "notes": "User reference."
+  },
+  {
+    "id": "user_ref_4",
+    "type": "instagram_reel",
+    "title": "User-supplied reference DbP0tEXxYNF",
+    "url": "https://www.instagram.com/reel/DbP0tEXxYNF/",
+    "status": "NEEDS_CAPTURE",
+    "notes": "User reference."
+  },
+  {
+    "id": "user_ref_5",
+    "type": "instagram_reel",
+    "title": "User-supplied reference Dbpctz6Cp5a",
+    "url": "https://www.instagram.com/reel/Dbpctz6Cp5a/",
+    "status": "NEEDS_CAPTURE",
+    "notes": "User reference."
+  },
+  {
+    "id": "awwwards_webgl",
+    "type": "gallery",
+    "title": "Awwwards WebGL Websites",
+    "url": "https://www.awwwards.com/websites/webgl/",
+    "status": "VERIFIED",
+    "notes": "Current WebGL inspiration listing; 2026 page exposes recent SOTD/DEV work."
+  },
+  {
+    "id": "awwwards_three",
+    "type": "gallery",
+    "title": "Awwwards Three.js Websites",
+    "url": "https://www.awwwards.com/websites/three-js/",
+    "status": "VERIFIED",
+    "notes": "Three.js-focused inspiration collection."
+  },
+  {
+    "id": "awwwards_3d",
+    "type": "gallery",
+    "title": "Awwwards 3D Websites",
+    "url": "https://www.awwwards.com/websites/3d/",
+    "status": "VERIFIED",
+    "notes": "3D web design inspiration category."
+  },
+  {
+    "id": "awwwards_webgl_collection",
+    "type": "gallery",
+    "title": "Awwwards WebGL Elements Collection",
+    "url": "https://www.awwwards.com/awwwards/collections/webgl/",
+    "status": "VERIFIED",
+    "notes": "293-item collection with scroll, mouse interaction, transition, gallery and other WebGL elements in current index."
+  },
+  {
+    "id": "cssda_webgl",
+    "type": "gallery",
+    "title": "CSS Design Awards WebGL Gallery",
+    "url": "https://www.cssdesignawards.com/website-gallery?feature=webgl",
+    "status": "VERIFIED",
+    "notes": "Current WebGL gallery spans many pages of nominated and awarded sites."
+  },
+  {
+    "id": "godly",
+    "type": "gallery",
+    "title": "Godly Design Inspiration",
+    "url": "https://godly.website/",
+    "status": "VERIFIED",
+    "notes": "Daily curation across web interface, typography, motion and 3D categories."
+  },
+  {
+    "id": "codrops",
+    "type": "publication",
+    "title": "Codrops",
+    "url": "https://www.codrops.com/",
+    "status": "VERIFIED",
+    "notes": "Creative web tutorials, case studies, studio/developer spotlights and a large web exhibition."
+  },
+  {
+    "id": "codrops_playground",
+    "type": "publication",
+    "title": "Codrops Playground",
+    "url": "https://codrops.com/codrops/category/playground/",
+    "status": "VERIFIED",
+    "notes": "Experimental UI/animation demos including 3D carousels, GSAP and Three.js/WebGPU topics."
+  },
+  {
+    "id": "lusion",
+    "type": "studio",
+    "title": "Lusion",
+    "url": "https://lusion.co/",
+    "status": "VERIFIED",
+    "notes": "Studio explicitly focuses on 3D visual storytelling and interactive web experiences."
+  },
+  {
+    "id": "immersive_garden",
+    "type": "studio",
+    "title": "Immersive Garden",
+    "url": "https://immersive-g.com/",
+    "status": "VERIFIED",
+    "notes": "Digital design/strategy studio known for immersive case studies and interactive production."
+  },
+  {
+    "id": "active_theory",
+    "type": "studio",
+    "title": "Active Theory",
+    "url": "https://activetheory.net/",
+    "status": "VERIFIED",
+    "notes": "Creative technology studio blending story, art and technology; industry-leading web toolset."
+  },
+  {
+    "id": "resn",
+    "type": "studio",
+    "title": "Resn",
+    "url": "https://resn.co.nz/",
+    "status": "VERIFIED",
+    "notes": "Creative studio producing brand/content/digital experiences; public posts include WebGL experiments."
+  },
+  {
+    "id": "locomotive",
+    "type": "studio",
+    "title": "Locomotive",
+    "url": "https://locomotive.ca/",
+    "status": "VERIFIED",
+    "notes": "Agency capabilities include art direction, UX, web design and web development."
+  },
+  {
+    "id": "three_docs",
+    "type": "official_docs",
+    "title": "Three.js Documentation",
+    "url": "https://threejs.org/docs/",
+    "status": "VERIFIED",
+    "notes": "Primary technical reference for renderer, loaders, materials, scenes and WebGL tooling."
+  },
+  {
+    "id": "r3f_perf",
+    "type": "official_docs",
+    "title": "React Three Fiber - Scaling Performance",
+    "url": "https://r3f.docs.pmnd.rs/advanced/scaling-performance",
+    "status": "VERIFIED",
+    "notes": "Primary R3F performance guidance."
+  },
+  {
+    "id": "r3f_pitfalls",
+    "type": "official_docs",
+    "title": "React Three Fiber - Performance Pitfalls",
+    "url": "https://r3f.docs.pmnd.rs/advanced/pitfalls",
+    "status": "VERIFIED",
+    "notes": "Warns against setState in loops and indiscriminate mounting; use frame-loop patterns for animation."
+  },
+  {
+    "id": "gsap_docs",
+    "type": "official_docs",
+    "title": "GSAP Documentation",
+    "url": "https://gsap.com/docs/v3/",
+    "status": "VERIFIED",
+    "notes": "Primary docs for timelines, tweening and optional plugins."
+  },
+  {
+    "id": "gsap_scrolltrigger",
+    "type": "official_docs",
+    "title": "GSAP ScrollTrigger",
+    "url": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+    "status": "VERIFIED",
+    "notes": "Scrub, pin, snap and trigger scroll-linked animation."
+  },
+  {
+    "id": "mdn_raf",
+    "type": "official_docs",
+    "title": "MDN requestAnimationFrame",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+    "status": "VERIFIED",
+    "notes": "Browser-synchronized animation loop; paused in background tabs in most browsers."
+  },
+  {
+    "id": "mdn_perf",
+    "type": "official_docs",
+    "title": "MDN Performance Fundamentals",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Fundamentals",
+    "status": "VERIFIED",
+    "notes": "Performance guidance for animation, transforms, visibility and resource work."
+  },
+  {
+    "id": "wcag_contrast",
+    "type": "official_standard",
+    "title": "WCAG Contrast Minimum",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "status": "VERIFIED",
+    "notes": "Accessibility source for text contrast requirements."
+  },
+  {
+    "id": "webdev_fonts",
+    "type": "official_guidance",
+    "title": "web.dev Font Best Practices",
+    "url": "https://web.dev/articles/font-best-practices",
+    "status": "VERIFIED",
+    "notes": "Performance-focused web font guidance."
+  },
+  {
+    "id": "webdev_variable_fonts",
+    "type": "official_guidance",
+    "title": "web.dev Variable Fonts",
+    "url": "https://web.dev/articles/variable-fonts",
+    "status": "VERIFIED",
+    "notes": "Explains bandwidth tradeoffs and benefits of variable fonts when multiple styles are needed."
+  },
+  {
+    "id": "figma_state_2026",
+    "type": "industry_research",
+    "title": "Figma State of the Designer 2026",
+    "url": "https://www.figma.com/blog/state-of-the-designer-2026/",
+    "status": "VERIFIED",
+    "notes": "2026 research emphasizes craft/quality while AI increases output speed."
+  },
+  {
+    "id": "design_theater_2026",
+    "type": "research_paper",
+    "title": "Design Theater: A Benchmark for Generative UI",
+    "url": "https://arxiv.org/abs/2607.22928",
+    "status": "VERIFIED",
+    "notes": "2026 benchmark reports a gap between generated UI rationales and actual implementation, plus visual/layout convergence across tools."
+  },
+  {
+    "id": "material3_color_roles",
+    "type": "official_design_system",
+    "title": "Material Design 3 \u2014 Color roles",
+    "url": "https://m3.material.io/styles/color/roles",
+    "status": "VERIFIED",
+    "notes": "Role-based color assignment across UI elements and surfaces."
+  },
+  {
+    "id": "material3_color_system",
+    "type": "official_design_system",
+    "title": "Material Design 3 \u2014 Color system overview",
+    "url": "https://m3.material.io/styles/color/system/overview",
+    "status": "VERIFIED",
+    "notes": "Color schemes and role relationships for product UI."
+  },
+  {
+    "id": "adobe_color_harmony",
+    "type": "official_design_tool",
+    "title": "Adobe Color \u2014 Color wheel and harmony rules",
+    "url": "https://color.adobe.com/create/color-wheel",
+    "status": "VERIFIED",
+    "notes": "Common harmony families including monochromatic, complementary, analogous and triadic."
+  },
+  {
+    "id": "mdn_oklch",
+    "type": "official_web_docs",
+    "title": "MDN \u2014 oklch() CSS function",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/color_value/oklch",
+    "status": "VERIFIED",
+    "notes": "Modern CSS OKLCH syntax and component meanings."
+  },
+  {
+    "id": "mdn_relative_colors",
+    "type": "official_web_docs",
+    "title": "MDN \u2014 Using relative colors",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Colors/Using_relative_colors",
+    "status": "VERIFIED",
+    "notes": "Relative color syntax for lighter/darker/saturated variants."
+  }
+]

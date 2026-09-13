@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "enc-001",
+    "data_class": "public",
+    "storage": "managed-db",
+    "risk": "normal",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-002",
+    "data_class": "public",
+    "storage": "managed-db",
+    "risk": "elevated",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-003",
+    "data_class": "public",
+    "storage": "object-storage",
+    "risk": "normal",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-004",
+    "data_class": "public",
+    "storage": "object-storage",
+    "risk": "elevated",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-005",
+    "data_class": "public",
+    "storage": "cache",
+    "risk": "normal",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-006",
+    "data_class": "public",
+    "storage": "cache",
+    "risk": "elevated",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-007",
+    "data_class": "public",
+    "storage": "queue",
+    "risk": "normal",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-008",
+    "data_class": "public",
+    "storage": "queue",
+    "risk": "elevated",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-009",
+    "data_class": "public",
+    "storage": "backup",
+    "risk": "normal",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-010",
+    "data_class": "public",
+    "storage": "backup",
+    "risk": "elevated",
+    "decision": "TLS; at-rest controls according to platform and integrity needs",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-011",
+    "data_class": "internal",
+    "storage": "managed-db",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-012",
+    "data_class": "internal",
+    "storage": "managed-db",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-013",
+    "data_class": "internal",
+    "storage": "object-storage",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-014",
+    "data_class": "internal",
+    "storage": "object-storage",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-015",
+    "data_class": "internal",
+    "storage": "cache",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-016",
+    "data_class": "internal",
+    "storage": "cache",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-017",
+    "data_class": "internal",
+    "storage": "queue",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-018",
+    "data_class": "internal",
+    "storage": "queue",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-019",
+    "data_class": "internal",
+    "storage": "backup",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-020",
+    "data_class": "internal",
+    "storage": "backup",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-021",
+    "data_class": "sensitive-profile",
+    "storage": "managed-db",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-022",
+    "data_class": "sensitive-profile",
+    "storage": "managed-db",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-023",
+    "data_class": "sensitive-profile",
+    "storage": "object-storage",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-024",
+    "data_class": "sensitive-profile",
+    "storage": "object-storage",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-025",
+    "data_class": "sensitive-profile",
+    "storage": "cache",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-026",
+    "data_class": "sensitive-profile",
+    "storage": "cache",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-027",
+    "data_class": "sensitive-profile",
+    "storage": "queue",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-028",
+    "data_class": "sensitive-profile",
+    "storage": "queue",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-029",
+    "data_class": "sensitive-profile",
+    "storage": "backup",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-030",
+    "data_class": "sensitive-profile",
+    "storage": "backup",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-031",
+    "data_class": "credential",
+    "storage": "managed-db",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-032",
+    "data_class": "credential",
+    "storage": "managed-db",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-033",
+    "data_class": "credential",
+    "storage": "object-storage",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-034",
+    "data_class": "credential",
+    "storage": "object-storage",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-035",
+    "data_class": "credential",
+    "storage": "cache",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-036",
+    "data_class": "credential",
+    "storage": "cache",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-037",
+    "data_class": "credential",
+    "storage": "queue",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-038",
+    "data_class": "credential",
+    "storage": "queue",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-039",
+    "data_class": "credential",
+    "storage": "backup",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-040",
+    "data_class": "credential",
+    "storage": "backup",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-041",
+    "data_class": "verification-token",
+    "storage": "managed-db",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-042",
+    "data_class": "verification-token",
+    "storage": "managed-db",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-043",
+    "data_class": "verification-token",
+    "storage": "object-storage",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-044",
+    "data_class": "verification-token",
+    "storage": "object-storage",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-045",
+    "data_class": "verification-token",
+    "storage": "cache",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-046",
+    "data_class": "verification-token",
+    "storage": "cache",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-047",
+    "data_class": "verification-token",
+    "storage": "queue",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-048",
+    "data_class": "verification-token",
+    "storage": "queue",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-049",
+    "data_class": "verification-token",
+    "storage": "backup",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-050",
+    "data_class": "verification-token",
+    "storage": "backup",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-051",
+    "data_class": "high-impact-field",
+    "storage": "managed-db",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-052",
+    "data_class": "high-impact-field",
+    "storage": "managed-db",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-053",
+    "data_class": "high-impact-field",
+    "storage": "object-storage",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-054",
+    "data_class": "high-impact-field",
+    "storage": "object-storage",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-055",
+    "data_class": "high-impact-field",
+    "storage": "cache",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-056",
+    "data_class": "high-impact-field",
+    "storage": "cache",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-057",
+    "data_class": "high-impact-field",
+    "storage": "queue",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-058",
+    "data_class": "high-impact-field",
+    "storage": "queue",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-059",
+    "data_class": "high-impact-field",
+    "storage": "backup",
+    "risk": "normal",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  },
+  {
+    "id": "enc-060",
+    "data_class": "high-impact-field",
+    "storage": "backup",
+    "risk": "elevated",
+    "decision": "managed at-rest encryption + TLS; add field-level encryption only if threat model requires",
+    "key_policy": [
+      "do not hardcode",
+      "separate key from ciphertext for app-level encryption",
+      "version keys",
+      "define rotation/recovery"
+    ],
+    "avoid": [
+      "custom cryptography",
+      "reversible password storage",
+      "logging plaintext sensitive fields"
+    ]
+  }
+]

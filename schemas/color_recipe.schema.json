@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Creative Web Color Combination Recipe",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "mode",
+    "harmony",
+    "roles",
+    "contrast",
+    "teaching"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "archetype": {
+      "type": "string"
+    },
+    "mode": {
+      "enum": [
+        "light",
+        "dark",
+        "adaptive"
+      ]
+    },
+    "harmony": {
+      "type": "string"
+    },
+    "intentTags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "roles": {
+      "type": "object",
+      "required": [
+        "background",
+        "surface1",
+        "textPrimary",
+        "accent"
+      ],
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "contrast": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "areaGuidance": {
+      "type": "object"
+    },
+    "teaching": {
+      "type": "object"
+    },
+    "threeDNotes": {
+      "type": "string"
+    },
+    "sourceConfidence": {
+      "type": "string"
+    }
+  }
+}

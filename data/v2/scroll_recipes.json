@@ -1,0 +1,3540 @@
+[
+  {
+    "id": "scroll-001",
+    "category": "depth-parallax",
+    "name": "Layered Depth Drift",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Separate foreground, midground and background with different scroll amplitudes so depth reads before decoration.",
+    "drivenProperties": [
+      "transform"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-002",
+    "category": "depth-parallax",
+    "name": "Foreground Pass-By",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move near-edge foreground geometry faster than the camera plane to create a convincing pass-by moment.",
+    "drivenProperties": [
+      "translate",
+      "scale"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-003",
+    "category": "depth-parallax",
+    "name": "Perspective Scale Compression",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Scale nearer layers non-linearly while distant layers remain restrained, suggesting forward travel.",
+    "drivenProperties": [
+      "scale",
+      "translate"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-004",
+    "category": "depth-parallax",
+    "name": "Depth Fog Progression",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Change fog/contrast by scroll depth instead of moving every layer.",
+    "drivenProperties": [
+      "opacity",
+      "shader-uniform"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "css-scroll-timeline"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-005",
+    "category": "depth-parallax",
+    "name": "Occlusion Reveal",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Let a foreground plane naturally hide/reveal content as the user moves through the composition.",
+    "drivenProperties": [
+      "mask",
+      "translate"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-006",
+    "category": "depth-parallax",
+    "name": "Parallax Breathing Room",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Use intentionally low-amplitude parallax only around focal transitions, leaving reading zones almost still.",
+    "drivenProperties": [
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-007",
+    "category": "depth-parallax",
+    "name": "Reverse Depth Countermotion",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move one distant layer slightly against the dominant direction to increase spatial separation without large travel.",
+    "drivenProperties": [
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-008",
+    "category": "depth-parallax",
+    "name": "Near-Plane Expansion",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Allow near geometry to enlarge and exit the viewport while the background remains stable.",
+    "drivenProperties": [
+      "scale",
+      "translate"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-009",
+    "category": "depth-parallax",
+    "name": "Atmospheric Depth Fade",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Progressively lower saturation/contrast in distant layers as scroll advances through a deep scene.",
+    "drivenProperties": [
+      "filter",
+      "opacity"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "r3f"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-010",
+    "category": "depth-parallax",
+    "name": "Depth Window Transition",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Treat a section as a window into a deeper layer, then enlarge that window until it becomes the next scene.",
+    "drivenProperties": [
+      "clip-path",
+      "scale"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the composition has clear spatial layers and depth should support hierarchy.",
+    "avoidWhen": "Avoid when there are no meaningful depth layers, on text-dense reading screens, or when motion sickness risk is high.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "depth-parallax",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-011",
+    "category": "pinned-narrative",
+    "name": "Pinned Scene Chapters",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Keep one visual stage pinned while content chapters advance and update a centralized scene state.",
+    "drivenProperties": [
+      "pin",
+      "state"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-012",
+    "category": "pinned-narrative",
+    "name": "Sticky Visual Handoff",
+    "trigger": "scroll",
+    "mapping": "threshold",
+    "intent": "Hold a visual while adjacent text changes, then hand the sticky role to the next visual at a deliberate beat.",
+    "drivenProperties": [
+      "sticky",
+      "opacity"
+    ],
+    "recommendedTech": [
+      "css-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-013",
+    "category": "pinned-narrative",
+    "name": "Persistent Object Story",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Keep one hero object present across multiple sections and transform it rather than replacing it.",
+    "drivenProperties": [
+      "state",
+      "transform"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-014",
+    "category": "pinned-narrative",
+    "name": "Pinned Split Narrative",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Pin either text or media while the other side advances, then swap dominance once for emphasis.",
+    "drivenProperties": [
+      "pin",
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-015",
+    "category": "pinned-narrative",
+    "name": "Chapter State Corridor",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Map scroll ranges to named states such as intro/detail/explode/reassemble/outro instead of scattered triggers.",
+    "drivenProperties": [
+      "state"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-016",
+    "category": "pinned-narrative",
+    "name": "Short Pin Emphasis",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Use a brief pinned beat to make one transformation legible, not a long forced scroll jail.",
+    "drivenProperties": [
+      "pin",
+      "transform"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-017",
+    "category": "pinned-narrative",
+    "name": "Pinned Canvas Longform",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Maintain one Canvas across a long section while DOM content controls scene states and camera targets.",
+    "drivenProperties": [
+      "pin",
+      "camera",
+      "state"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-018",
+    "category": "pinned-narrative",
+    "name": "Progressive Sticky Stack",
+    "trigger": "scroll",
+    "mapping": "threshold",
+    "intent": "Use sticky layers that overlap in a controlled hierarchy, each retiring before visual clutter accumulates.",
+    "drivenProperties": [
+      "sticky",
+      "scale",
+      "opacity"
+    ],
+    "recommendedTech": [
+      "css-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-019",
+    "category": "pinned-narrative",
+    "name": "Narrative Rest Stop",
+    "trigger": "scroll",
+    "mapping": "threshold",
+    "intent": "Insert a nearly static pinned/rest state between high-motion chapters to restore reading focus.",
+    "drivenProperties": [
+      "state"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "css-sticky"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-020",
+    "category": "pinned-narrative",
+    "name": "Pin-to-Flow Release",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Transition from pinned choreography back to normal document flow without a visible jump or spacer artifact.",
+    "drivenProperties": [
+      "pin",
+      "layout"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when one persistent visual needs time to explain several related chapters.",
+    "avoidWhen": "Avoid long pins for short content, mobile scroll traps, and any pin that adds distance without information.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "pinned-narrative",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-021",
+    "category": "typography-scroll",
+    "name": "Tracking Expansion Exit",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Gradually increase headline tracking as it recedes or yields to the next scene.",
+    "drivenProperties": [
+      "letter-spacing",
+      "opacity"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-022",
+    "category": "typography-scroll",
+    "name": "Line Mask Reveal",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Reveal text lines through a clipping window synchronized to section progress.",
+    "drivenProperties": [
+      "clip-path",
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-023",
+    "category": "typography-scroll",
+    "name": "Foreground Text Occlusion",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Allow spatial foreground layers to cover portions of oversized text without destroying semantic DOM text.",
+    "drivenProperties": [
+      "mask",
+      "z-order"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-024",
+    "category": "typography-scroll",
+    "name": "Variable Font Axis Shift",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Animate a variable font width/weight axis subtly as the narrative changes emphasis.",
+    "drivenProperties": [
+      "font-variation-settings"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-025",
+    "category": "typography-scroll",
+    "name": "Word Sequence Focus",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Bring one phrase at a time into emphasis while nonactive words remain readable but visually quiet.",
+    "drivenProperties": [
+      "opacity",
+      "weight"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-026",
+    "category": "typography-scroll",
+    "name": "Vertical Type Conveyor",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move a restrained column of labels through a fixed reading zone for chapter navigation or credits.",
+    "drivenProperties": [
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-027",
+    "category": "typography-scroll",
+    "name": "Headline Scale Transfer",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Reduce a hero title while a section title grows, visually transferring hierarchy rather than fading both independently.",
+    "drivenProperties": [
+      "scale",
+      "translate"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-028",
+    "category": "typography-scroll",
+    "name": "Text Window Media Reveal",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Use large text as a temporary clipping window for media, then release the media into its own frame.",
+    "drivenProperties": [
+      "clip-path",
+      "scale"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-029",
+    "category": "typography-scroll",
+    "name": "Pinned Headline Retire",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Hold one headline long enough to establish a chapter, then mask it away as the next chapter takes focus.",
+    "drivenProperties": [
+      "pin",
+      "mask"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "css-sticky"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-030",
+    "category": "typography-scroll",
+    "name": "Reading Progress Accent",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Use a minimal rule, glyph or index that advances with reading progress without becoming a HUD.",
+    "drivenProperties": [
+      "scale",
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when typography is a primary art-direction element and motion can reinforce reading order.",
+    "avoidWhen": "Avoid when text readability, localization, or reduced-motion would be compromised.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "typography-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-031",
+    "category": "media-scroll",
+    "name": "Cinematic Crop Reveal",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Animate image crop rather than whole-image movement, preserving a deliberate focal point.",
+    "drivenProperties": [
+      "clip-path"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-032",
+    "category": "media-scroll",
+    "name": "Cover-to-Frame Transition",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Start media as full-bleed and progressively resolve it into a framed editorial composition.",
+    "drivenProperties": [
+      "scale",
+      "clip-path",
+      "border-radius"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-033",
+    "category": "media-scroll",
+    "name": "Focal Point Drift",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Shift object-position or transform subtly to follow the subject while the viewport crop changes.",
+    "drivenProperties": [
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-034",
+    "category": "media-scroll",
+    "name": "Gallery Rail Progression",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Translate a curated media rail horizontally from vertical scroll with clear beginning and end states.",
+    "drivenProperties": [
+      "translateX"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-035",
+    "category": "media-scroll",
+    "name": "Filmstrip Scrub",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Advance through a short sequence of stills/frames tied to scroll, with preloading and reduced-motion fallback.",
+    "drivenProperties": [
+      "frame-index"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 2,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-036",
+    "category": "media-scroll",
+    "name": "Video Timeline Scrub",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Bind a short optimized video segment to scroll progress only when seeking performance is acceptable.",
+    "drivenProperties": [
+      "currentTime"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 2,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-037",
+    "category": "media-scroll",
+    "name": "Media Layer Peel",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Peel one media layer away to reveal the next, using masks instead of arbitrary card motion.",
+    "drivenProperties": [
+      "clip-path",
+      "translate"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-038",
+    "category": "media-scroll",
+    "name": "Image Depth Stack",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Use two or three media planes with distinct depth speeds and strict overlap control.",
+    "drivenProperties": [
+      "translate",
+      "scale"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-039",
+    "category": "media-scroll",
+    "name": "Panorama Window",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move a wide image behind a narrower viewport as scroll progresses, keeping typography outside the moving crop.",
+    "drivenProperties": [
+      "translateX"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-040",
+    "category": "media-scroll",
+    "name": "Media-to-Background Handoff",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Expand selected media until it becomes the environmental background for the following section.",
+    "drivenProperties": [
+      "scale",
+      "position"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when media itself carries the story and needs controlled transformation or reveal.",
+    "avoidWhen": "Avoid when asset loading or seeking cost would damage LCP/INP or mobile performance.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "media-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-041",
+    "category": "camera-3d",
+    "name": "Cinematic Dolly In",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move camera forward toward a focal object while target and FOV remain controlled.",
+    "drivenProperties": [
+      "camera-position"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-042",
+    "category": "camera-3d",
+    "name": "Arc Around Product",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Travel along a shallow arc to reveal geometry without a full orbit-demo look.",
+    "drivenProperties": [
+      "camera-path",
+      "lookAt"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-043",
+    "category": "camera-3d",
+    "name": "Detail Target Handoff",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Transition camera target from whole object to one detail while position movement stays restrained.",
+    "drivenProperties": [
+      "lookAt",
+      "camera-position"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-044",
+    "category": "camera-3d",
+    "name": "Spline Journey",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move along an authored spline only when spatial storytelling genuinely benefits from a continuous route.",
+    "drivenProperties": [
+      "camera-path"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-045",
+    "category": "camera-3d",
+    "name": "FOV Compression Reveal",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Use a small FOV change to flatten or deepen perspective during a product/detail transition.",
+    "drivenProperties": [
+      "camera-fov"
+    ],
+    "recommendedTech": [
+      "r3f"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-046",
+    "category": "camera-3d",
+    "name": "Foreground Flyby",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Pass one authored foreground element near the lens while the main camera path remains readable.",
+    "drivenProperties": [
+      "camera-position",
+      "object-transform"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-047",
+    "category": "camera-3d",
+    "name": "Camera Rest Plateau",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Hold camera nearly static over a progress range so content can be read without constant spatial motion.",
+    "drivenProperties": [
+      "camera-position"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-048",
+    "category": "camera-3d",
+    "name": "Responsive Camera Reframe",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Use separate authored camera states for mobile instead of scaling desktop coordinates.",
+    "drivenProperties": [
+      "camera-state"
+    ],
+    "recommendedTech": [
+      "r3f"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-049",
+    "category": "camera-3d",
+    "name": "Depth Reveal Pullback",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Begin in a close detail and pull back to reveal the larger object/environment as context arrives.",
+    "drivenProperties": [
+      "camera-position",
+      "fov"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-050",
+    "category": "camera-3d",
+    "name": "Low-Angle Rise",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Combine a small vertical camera rise with target interpolation to reveal monumentality without dramatic rotation.",
+    "drivenProperties": [
+      "camera-position",
+      "lookAt"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when camera movement communicates spatial relationship, product detail or environmental travel.",
+    "avoidWhen": "Avoid decorative camera travel, continuous orbiting, or movement during dense reading.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "camera-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-051",
+    "category": "object-3d",
+    "name": "Exploded View Scrub",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move registered parts from assembled to authored exploded transforms with normalized progress.",
+    "drivenProperties": [
+      "object-transform"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-052",
+    "category": "object-3d",
+    "name": "Assembly Sequence",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Bring object parts together in a controlled dependency order rather than random stagger.",
+    "drivenProperties": [
+      "object-transform"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-053",
+    "category": "object-3d",
+    "name": "Component Highlight Relay",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Shift material/light emphasis between parts as explanatory content changes.",
+    "drivenProperties": [
+      "material",
+      "light"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-054",
+    "category": "object-3d",
+    "name": "Material State Shift",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Interpolate roughness/emissive/transmission carefully to indicate mode/state change.",
+    "drivenProperties": [
+      "material"
+    ],
+    "recommendedTech": [
+      "r3f"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-055",
+    "category": "object-3d",
+    "name": "Object Turntable Restraint",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Rotate an object only through the angle needed to expose information, never continuous 360-degree spinning.",
+    "drivenProperties": [
+      "rotation"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-056",
+    "category": "object-3d",
+    "name": "Morph Target Story",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Drive authored morph targets from scroll when geometry transformation is semantically meaningful.",
+    "drivenProperties": [
+      "morphTarget"
+    ],
+    "recommendedTech": [
+      "r3f"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-057",
+    "category": "object-3d",
+    "name": "Dissolve State Transition",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Use a restrained shader dissolve to transition between object states, with static fallback.",
+    "drivenProperties": [
+      "shader-uniform"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-058",
+    "category": "object-3d",
+    "name": "Object-to-UI Alignment",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move a 3D object into alignment with a DOM information region before presenting details.",
+    "drivenProperties": [
+      "object-transform",
+      "dom-anchor"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-059",
+    "category": "object-3d",
+    "name": "Scale-to-Detail",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Scale/reposition an object toward one detail while maintaining camera stability for legibility.",
+    "drivenProperties": [
+      "scale",
+      "position"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-060",
+    "category": "object-3d",
+    "name": "Reassembly Resolution",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Return transformed/exploded parts to a clean final state before the CTA/outro instead of ending in visual chaos.",
+    "drivenProperties": [
+      "object-transform"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the 3D object changes state to explain construction, function or narrative progression.",
+    "avoidWhen": "Avoid when the object has no semantic states or when transformation is merely visual spectacle.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 3,
+    "compatibilityTags": [
+      "object-3d",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-061",
+    "category": "section-transition",
+    "name": "Geological Mask Wipe",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Use an irregular but controlled mask edge inspired by material/brand geometry to reveal the next section.",
+    "drivenProperties": [
+      "clip-path"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-062",
+    "category": "section-transition",
+    "name": "Shared Object Handoff",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Carry one object/image from one composition into the next rather than fading it out and recreating it.",
+    "drivenProperties": [
+      "position",
+      "scale"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-063",
+    "category": "section-transition",
+    "name": "Depth Fade Handoff",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Let the outgoing section recede in contrast/depth while the incoming section gains clarity.",
+    "drivenProperties": [
+      "opacity",
+      "filter",
+      "scale"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-064",
+    "category": "section-transition",
+    "name": "Color Temperature Drift",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Transition environmental temperature slowly across a section boundary instead of abrupt background-color swaps.",
+    "drivenProperties": [
+      "color"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-065",
+    "category": "section-transition",
+    "name": "Curtain Plane Reveal",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Use one large plane/media edge as a physical wipe between sections.",
+    "drivenProperties": [
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-066",
+    "category": "section-transition",
+    "name": "Sticky Overlap Transition",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Allow the incoming section to overlap a sticky outgoing visual with a controlled z-order and retirement point.",
+    "drivenProperties": [
+      "sticky",
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-067",
+    "category": "section-transition",
+    "name": "Background Role Swap",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Promote an existing media/object from content role to background role across a transition.",
+    "drivenProperties": [
+      "scale",
+      "position",
+      "z-order"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-068",
+    "category": "section-transition",
+    "name": "Light-to-Dark Passage",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Use luminance progression as the transition itself, with typography contrast adapting continuously.",
+    "drivenProperties": [
+      "color",
+      "opacity"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-069",
+    "category": "section-transition",
+    "name": "Frame Dissolve",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Reduce a visual frame/container until content visually joins the page field, avoiding another card-like box.",
+    "drivenProperties": [
+      "border",
+      "clip-path",
+      "scale"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-070",
+    "category": "section-transition",
+    "name": "Scene Opening Release",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move from a dense/narrow composition to a visually open composition as a narrative payoff.",
+    "drivenProperties": [
+      "scale",
+      "camera",
+      "spacing"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use when continuity between sections matters more than isolated entrance animations.",
+    "avoidWhen": "Avoid adding a transition to every boundary; use only where it preserves continuity or hierarchy.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 2,
+    "compatibilityTags": [
+      "section-transition",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-071",
+    "category": "horizontal-spatial",
+    "name": "Horizontal Editorial Rail",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Map vertical scroll to a horizontal sequence with readable section widths and an obvious exit.",
+    "drivenProperties": [
+      "translateX"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-072",
+    "category": "horizontal-spatial",
+    "name": "Diagonal Story Track",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move content along a shallow diagonal path when the composition itself establishes that direction.",
+    "drivenProperties": [
+      "translateX",
+      "translateY"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-073",
+    "category": "horizontal-spatial",
+    "name": "Spatial Map Traverse",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move a viewport/camera across a larger 2D/3D map where each stop represents a chapter.",
+    "drivenProperties": [
+      "camera",
+      "translate"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-074",
+    "category": "horizontal-spatial",
+    "name": "Stepped Panorama",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Advance through panorama zones with short smooth ranges and rest plateaus, not a constant endless pan.",
+    "drivenProperties": [
+      "translateX"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-075",
+    "category": "horizontal-spatial",
+    "name": "Orbital Chapter Navigation",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move labels/objects along a partial orbital path while preserving normal DOM reading order.",
+    "drivenProperties": [
+      "path-progress"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-076",
+    "category": "horizontal-spatial",
+    "name": "Depth Tunnel Sections",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Translate successive planes through depth to create a tunnel-like journey with strict motion limits.",
+    "drivenProperties": [
+      "translateZ",
+      "scale"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-077",
+    "category": "horizontal-spatial",
+    "name": "Sticky Track with Milestones",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Pin a track while milestone markers and content update at authored progress thresholds.",
+    "drivenProperties": [
+      "pin",
+      "translateX",
+      "state"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-078",
+    "category": "horizontal-spatial",
+    "name": "Alternating Side Passage",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Shift the focal composition left/right across chapters using spatial continuity rather than repeated slide-ins.",
+    "drivenProperties": [
+      "translateX",
+      "camera-target"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-079",
+    "category": "horizontal-spatial",
+    "name": "Large Canvas Pan",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move through a deliberately composed oversized canvas, with boundaries and mobile re-authoring.",
+    "drivenProperties": [
+      "translateX",
+      "translateY"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-080",
+    "category": "horizontal-spatial",
+    "name": "Path-Following Media Sequence",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Advance media anchors along a brand-specific SVG/curve path as the story progresses.",
+    "drivenProperties": [
+      "motion-path"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when the content structure genuinely benefits from lateral or map-like traversal.",
+    "avoidWhen": "Avoid forcing vertical-scroll users through lateral movement when normal flow is clearer.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "horizontal-spatial",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-081",
+    "category": "data-diagram",
+    "name": "Path Draw Explanation",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Reveal an SVG path progressively while associated labels enter at semantic milestones.",
+    "drivenProperties": [
+      "stroke-dashoffset"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-082",
+    "category": "data-diagram",
+    "name": "Node Network Sequence",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Activate diagram nodes in dependency order while keeping inactive structure visible.",
+    "drivenProperties": [
+      "opacity",
+      "scale"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-083",
+    "category": "data-diagram",
+    "name": "Comparison Scrub",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Use scroll to interpolate between two visual states with a stable reference frame.",
+    "drivenProperties": [
+      "clip",
+      "value"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-084",
+    "category": "data-diagram",
+    "name": "Timeline Milestone Progress",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Advance a timeline indicator and chapter content together, avoiding separate counters with no context.",
+    "drivenProperties": [
+      "scale",
+      "state"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-085",
+    "category": "data-diagram",
+    "name": "Radial Progress Narrative",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Advance a radial indicator only when circular structure is semantically appropriate.",
+    "drivenProperties": [
+      "stroke-dashoffset"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-086",
+    "category": "data-diagram",
+    "name": "Map Route Progress",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Draw a route/path while the map view or annotations update at key locations.",
+    "drivenProperties": [
+      "path-progress",
+      "state"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-087",
+    "category": "data-diagram",
+    "name": "Layered System Diagram",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Reveal architecture layers from foundational to dependent layers without hiding the overall topology.",
+    "drivenProperties": [
+      "opacity",
+      "translate"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-088",
+    "category": "data-diagram",
+    "name": "Metric Context Reveal",
+    "trigger": "scroll",
+    "mapping": "threshold",
+    "intent": "Bring numeric changes into focus alongside the visual evidence that explains them; avoid free-floating counters.",
+    "drivenProperties": [
+      "opacity",
+      "text"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-089",
+    "category": "data-diagram",
+    "name": "Before-After Split",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Move a single comparison boundary through an image/diagram while labels remain fixed and readable.",
+    "drivenProperties": [
+      "clip-path"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-090",
+    "category": "data-diagram",
+    "name": "Diagram Focus Lens",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Emphasize one region of a complex diagram while dimming rather than removing context.",
+    "drivenProperties": [
+      "opacity",
+      "scale"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use when scroll helps explain causality, sequence or comparison in information graphics.",
+    "avoidWhen": "Avoid hiding baseline context or using animation instead of clear labeling.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "data-diagram",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-091",
+    "category": "ambient-scroll",
+    "name": "Light Direction Drift",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Shift key/rim light subtly across long scroll ranges to support chapter mood.",
+    "drivenProperties": [
+      "light-position",
+      "intensity"
+    ],
+    "recommendedTech": [
+      "r3f",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-092",
+    "category": "ambient-scroll",
+    "name": "Fog Density Breathing",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Change atmospheric density slowly as the user moves deeper or exits a spatial scene.",
+    "drivenProperties": [
+      "shader-uniform",
+      "fog"
+    ],
+    "recommendedTech": [
+      "r3f"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-093",
+    "category": "ambient-scroll",
+    "name": "Grain Intensity Modulation",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Adjust grain/noise intensity slightly between chapters; never animate noisy grain at high salience.",
+    "drivenProperties": [
+      "opacity"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-094",
+    "category": "ambient-scroll",
+    "name": "Background Tone Drift",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Interpolate background tones across large ranges to support narrative temperature shifts.",
+    "drivenProperties": [
+      "background-color"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-095",
+    "category": "ambient-scroll",
+    "name": "Shadow Length Shift",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Change shadow direction/length subtly as a physical cue for environmental progression.",
+    "drivenProperties": [
+      "shadow",
+      "light"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "r3f"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-096",
+    "category": "ambient-scroll",
+    "name": "Atmospheric Particle Calm",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Vary particle density/velocity within a narrow range based on section state, not raw wheel speed.",
+    "drivenProperties": [
+      "particle-uniform"
+    ],
+    "recommendedTech": [
+      "r3f"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 4,
+    "salience": 2,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-097",
+    "category": "ambient-scroll",
+    "name": "Texture Contrast Progression",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Adjust texture contrast or overlay strength to move between calm and dramatic chapters.",
+    "drivenProperties": [
+      "opacity",
+      "mix-blend"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-098",
+    "category": "ambient-scroll",
+    "name": "Edge Highlight Progress",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Use a thin line/edge highlight as subtle progress feedback on glass or structural UI.",
+    "drivenProperties": [
+      "scale",
+      "opacity"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-099",
+    "category": "ambient-scroll",
+    "name": "Environmental Desaturation",
+    "trigger": "scroll",
+    "mapping": "scrubbed",
+    "intent": "Reduce or restore saturation slowly to guide focus toward typography/media at specific chapters.",
+    "drivenProperties": [
+      "filter"
+    ],
+    "recommendedTech": [
+      "css-scroll-timeline",
+      "gsap-scrolltrigger"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 1,
+    "salience": 1,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "dom"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  },
+  {
+    "id": "scroll-100",
+    "category": "ambient-scroll",
+    "name": "Idle-to-Scroll Energy",
+    "trigger": "scroll",
+    "mapping": "hybrid",
+    "intent": "Slightly increase environmental motion while scrolling and settle back to idle after input stops, with strict limits.",
+    "drivenProperties": [
+      "velocity",
+      "shader-uniform"
+    ],
+    "recommendedTech": [
+      "gsap-scrolltrigger",
+      "r3f"
+    ],
+    "useWhen": "Use as secondary motion to support mood; never let it become the dominant interaction.",
+    "avoidWhen": "Avoid stacking multiple atmospheric effects or tying high-frequency effects directly to raw wheel velocity.",
+    "progressModel": "Normalize relevant section progress to 0..1; author subranges instead of scattering magic pixel offsets.",
+    "mobileStrategy": "Shorten travel, reduce simultaneous layers/effects, preserve content order, and re-author pin/camera states for touch screens.",
+    "reducedMotion": "Replace large spatial travel/scrub with immediate or short opacity/state changes while keeping all content available.",
+    "performanceCost": 2,
+    "salience": 2,
+    "compatibilityTags": [
+      "ambient-scroll",
+      "scroll-choreography",
+      "normalized-progress",
+      "3d"
+    ],
+    "antiPatterns": [
+      "universal fade-up",
+      "raw wheel-to-transform mapping",
+      "identical easing everywhere",
+      "motion without narrative purpose"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_CREATIVE_WEB_PATTERNS_AND_EXISTING_LIBRARY_RULES"
+  }
+]

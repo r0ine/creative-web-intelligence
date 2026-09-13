@@ -1,0 +1,74 @@
+[
+  {
+    "id": "fashionable-tech-default",
+    "signals": [
+      "generic tech brief",
+      "fashionable grotesk",
+      "centered hero",
+      "no metric rationale"
+    ],
+    "severity": 2,
+    "remedy": "justify morphology/role or shortlist alternatives"
+  },
+  {
+    "id": "mono-developer-costume",
+    "signals": [
+      "mono used for body/headings/nav",
+      "fake terminal labels",
+      "green status dots"
+    ],
+    "severity": 3,
+    "remedy": "reserve mono for code/data/metadata where meaningful"
+  },
+  {
+    "id": "luxury-shortcut",
+    "signals": [
+      "high-contrast serif",
+      "black/gold",
+      "huge whitespace",
+      "no product/material reason"
+    ],
+    "severity": 3,
+    "remedy": "derive type from brand tension and actual imagery/materials"
+  },
+  {
+    "id": "scale-only-hierarchy",
+    "signals": [
+      "same family/weight/spacing everywhere",
+      "hierarchy only changes font-size"
+    ],
+    "severity": 2,
+    "remedy": "use width/weight/case/tracking/measure/space intentionally"
+  },
+  {
+    "id": "all-caps-metadata-spam",
+    "signals": [
+      "many eyebrow labels",
+      "wide tracking",
+      "all caps in every section"
+    ],
+    "severity": 2,
+    "remedy": "remove labels without information value"
+  },
+  {
+    "id": "display-as-body",
+    "signals": [
+      "expressive face",
+      "long copy",
+      "tight line-height",
+      "small sizes"
+    ],
+    "severity": 3,
+    "remedy": "separate display and reading roles"
+  },
+  {
+    "id": "unnecessary-pairing",
+    "signals": [
+      "two or more families",
+      "roles visually redundant",
+      "extra requests"
+    ],
+    "severity": 2,
+    "remedy": "test one-family variable/static system first"
+  }
+]

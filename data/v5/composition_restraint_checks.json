@@ -1,0 +1,49 @@
+{
+  "$comment": "Machine-readable checks derived from v5/COMPOSITION_RESTRAINT.md.",
+  "version": "5.0",
+  "containment_test": {
+    "questions_before_wrapping_content": [
+      "Does this section need containment at all?",
+      "Does this content need a box?",
+      "Does this layout become stronger if the box is removed?",
+      "Is this line replacing a missing composition decision?"
+    ],
+    "any_negative_result": "remove the containment"
+  },
+  "legitimate_containment_reasons": [
+    "content is an interactive target (clickable, draggable, selectable, expandable)",
+    "content is a functional unit that can be removed/reordered/swapped",
+    "content is media whose bounds would otherwise leak into adjacent content",
+    "content is genuinely a peer of siblings (product tile, article card)",
+    "content changes state visibly (panel expands, card flips, tile highlights)"
+  ],
+  "not_legitimate_reasons": [
+    "the box makes the section feel finished",
+    "the box matches the other sections",
+    "the section needed a background",
+    "the border makes it feel designed"
+  ],
+  "default_rendering_unit": {
+    "name": "region",
+    "definition": "vertical space with deliberate top/bottom spacing, content on a chosen alignment axis, typography carrying hierarchy, no frame unless the four questions justified one",
+    "not": "card"
+  },
+  "asymmetry_prompts": [
+    "primary + smaller supports rather than three equal cards",
+    "editorial paragraphs offset to one column",
+    "hero 60/40 or 40/60 rather than centered stacked",
+    "heading against a large calm area rather than framed by decoration"
+  ],
+  "rhythm_alternation": {
+    "zones": ["dense", "quiet", "transition"],
+    "rule": "long pages must alternate between dense and quiet zones; repetition of one zone type reads as monotone"
+  },
+  "elimination_pass_steps": [
+    "list every decorative element on the page",
+    "delete each one mentally",
+    "note whether real communication is lost",
+    "if not lost, confirm delete",
+    "if lost, understand what was lost, then decide whether a stronger structural device should carry that job"
+  ],
+  "final_test": "Grayscale the design. Remove borders, dividers, glows, gradients, shadows. Does hierarchy still read? Does the reading path still lead the eye? Does the composition still have identity? If no, composition was hiding behind decoration."
+}

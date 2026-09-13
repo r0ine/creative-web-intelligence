@@ -1,0 +1,4461 @@
+[
+  {
+    "id": "TYP-001",
+    "category": "typography",
+    "title": "Separate display and reading roles",
+    "rule": "Treat display type and body/UI type as separate jobs unless one family demonstrably handles both.",
+    "rationale": "Expressive headings and long-form readability have different constraints.",
+    "tags": [
+      "pairing",
+      "hierarchy"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-002",
+    "category": "typography",
+    "title": "Contrast pairings by role",
+    "rule": "When pairing fonts, create meaningful contrast in voice, proportions or texture instead of selecting two nearly identical sans serifs.",
+    "rationale": "A strong role contrast makes the hierarchy legible and avoids accidental-looking pairings.",
+    "tags": [
+      "pairing"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-003",
+    "category": "typography",
+    "title": "Limit active families",
+    "rule": "Default to one or two families; add a third only when it represents a distinct content role.",
+    "rationale": "Too many families weaken visual coherence and increase loading cost.",
+    "tags": [
+      "system",
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-004",
+    "category": "typography",
+    "title": "Use variable fonts deliberately",
+    "rule": "Prefer variable fonts when a project genuinely uses multiple weights/widths/axes.",
+    "rationale": "They can reduce the cost of loading many separate font files and allow finer art direction.",
+    "tags": [
+      "variable-font",
+      "performance"
+    ],
+    "confidence": "VERIFIED+SYNTHESIZED"
+  },
+  {
+    "id": "TYP-005",
+    "category": "typography",
+    "title": "Do not use display fonts for dense copy",
+    "rule": "Keep highly stylized faces away from long paragraphs, dense tables and controls.",
+    "rationale": "Distinctive letterforms can reduce reading speed and UI clarity.",
+    "tags": [
+      "readability"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-006",
+    "category": "typography",
+    "title": "Define a type scale",
+    "rule": "Create named tokens for display, h1-h6, body, small, label and caption instead of ad-hoc sizes.",
+    "rationale": "A type scale gives hierarchy consistency across pages and responsive states.",
+    "tags": [
+      "tokens",
+      "hierarchy"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-007",
+    "category": "typography",
+    "title": "Fluid type needs accessible bounds",
+    "rule": "Use clamp/min/max strategies that preserve zoom/user font preferences rather than pure viewport units.",
+    "rationale": "Fluid type should respond to viewport without overriding user control.",
+    "tags": [
+      "responsive",
+      "accessibility"
+    ],
+    "confidence": "VERIFIED+SYNTHESIZED"
+  },
+  {
+    "id": "TYP-008",
+    "category": "typography",
+    "title": "Control measure",
+    "rule": "Set comfortable line lengths for body copy rather than letting paragraphs span arbitrary wide containers.",
+    "rationale": "Line length is a composition variable, not an afterthought.",
+    "tags": [
+      "readability",
+      "layout"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-009",
+    "category": "typography",
+    "title": "Tune line-height by role",
+    "rule": "Display headings can be tight; paragraph text and UI labels need different line-height systems.",
+    "rationale": "One global line-height produces weak rhythm.",
+    "tags": [
+      "rhythm"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-010",
+    "category": "typography",
+    "title": "Tune tracking by size",
+    "rule": "Large display type often tolerates tighter tracking; all-caps labels usually need more tracking.",
+    "rationale": "Optical spacing changes with size and casing.",
+    "tags": [
+      "tracking"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-011",
+    "category": "typography",
+    "title": "Avoid fake font weights",
+    "rule": "Do not rely on browser-synthesized bold/italic when real faces/axes exist.",
+    "rationale": "Synthetic styles can distort intended design.",
+    "tags": [
+      "quality"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-012",
+    "category": "typography",
+    "title": "Use optical size where available",
+    "rule": "If a variable font has opsz, test it for text and display roles rather than freezing one setting.",
+    "rationale": "Optical-size axes can improve shapes for different point sizes.",
+    "tags": [
+      "variable-font"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-013",
+    "category": "typography",
+    "title": "Respect script/language coverage",
+    "rule": "Verify required glyphs, Turkish characters and punctuation before choosing a display font.",
+    "rationale": "Missing glyphs or fallback mixing destroys visual consistency.",
+    "tags": [
+      "localization"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-014",
+    "category": "typography",
+    "title": "Fallback metrics matter",
+    "rule": "Define compatible fallbacks and consider size-adjust/metric overrides for large web fonts.",
+    "rationale": "Reducing metric mismatch can reduce layout shift.",
+    "tags": [
+      "performance",
+      "CLS"
+    ],
+    "confidence": "VERIFIED+SYNTHESIZED"
+  },
+  {
+    "id": "TYP-015",
+    "category": "typography",
+    "title": "Preload only critical fonts",
+    "rule": "Preload only font files needed above the fold; avoid preloading every weight.",
+    "rationale": "Over-preloading competes with more important resources.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "VERIFIED+SYNTHESIZED"
+  },
+  {
+    "id": "TYP-016",
+    "category": "typography",
+    "title": "Create font-loading states",
+    "rule": "Ensure layout remains usable before custom fonts load.",
+    "rationale": "The experience should not depend on a blank-font phase.",
+    "tags": [
+      "performance",
+      "resilience"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-017",
+    "category": "typography",
+    "title": "Numbers are a distinct typographic role",
+    "rule": "Check tabular/proportional numerals for dashboards, prices and counters.",
+    "rationale": "Numeric content can require alignment behavior different from prose.",
+    "tags": [
+      "data-ui"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-018",
+    "category": "typography",
+    "title": "Use hierarchy before decoration",
+    "rule": "Use size, weight, spacing and contrast before adding gradients, outlines or glow to text.",
+    "rationale": "Decoration cannot repair weak hierarchy.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-019",
+    "category": "typography",
+    "title": "Avoid center-aligning long copy",
+    "rule": "Reserve centered alignment for short statements or intentional compositions.",
+    "rationale": "Long centered text is harder to scan and often signals generic landing-page layout.",
+    "tags": [
+      "readability",
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-020",
+    "category": "typography",
+    "title": "Create editorial contrast",
+    "rule": "Combine scale changes, width changes, italics, serif/sans contrast or density shifts intentionally.",
+    "rationale": "Editorial rhythm can make pages distinctive without extra cards/effects.",
+    "tags": [
+      "art-direction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-021",
+    "category": "typography",
+    "title": "Use text width as composition",
+    "rule": "A heading can be narrow, wide, stacked or offset; do not force every headline into the same max-width.",
+    "rationale": "Text block shape is part of visual composition.",
+    "tags": [
+      "composition"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-022",
+    "category": "typography",
+    "title": "Define casing rules",
+    "rule": "Specify where uppercase, title case and sentence case belong.",
+    "rationale": "Random casing makes interfaces feel assembled rather than art-directed.",
+    "tags": [
+      "system"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-023",
+    "category": "typography",
+    "title": "Define punctuation style",
+    "rule": "Decide how dashes, quotes, slashes and numbered labels appear in art-directed layouts.",
+    "rationale": "Micro-typography adds consistency.",
+    "tags": [
+      "microtype"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-024",
+    "category": "typography",
+    "title": "Use display fonts sparingly",
+    "rule": "A distinctive typeface is more memorable when concentrated in high-value moments.",
+    "rationale": "Overuse turns character into noise.",
+    "tags": [
+      "art-direction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-025",
+    "category": "typography",
+    "title": "Body contrast must pass accessibility",
+    "rule": "Keep paragraph and control text at sufficient contrast against its background.",
+    "rationale": "Readability is a non-negotiable quality gate.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "VERIFIED"
+  },
+  {
+    "id": "TYP-026",
+    "category": "typography",
+    "title": "Build responsive line breaks",
+    "rule": "Do not hardcode desktop <br> line breaks that become awkward on mobile; use responsive variants or natural wrapping.",
+    "rationale": "Editorial line breaks are viewport-specific.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-027",
+    "category": "typography",
+    "title": "Keep labels compact",
+    "rule": "Navigation, chips and controls should use concise language and stable metrics.",
+    "rationale": "UI typography should optimize recognition, not display drama.",
+    "tags": [
+      "ui"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-028",
+    "category": "typography",
+    "title": "Animate text by semantic unit",
+    "rule": "Choose character, word, line or block animation based on reading intent.",
+    "rationale": "Animating every character independently can reduce comprehension.",
+    "tags": [
+      "motion"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-029",
+    "category": "typography",
+    "title": "Split-text must be reversible",
+    "rule": "Any split-text implementation should restore on resize/unmount and preserve accessibility.",
+    "rationale": "Responsive text reflow can invalidate line wrappers.",
+    "tags": [
+      "motion",
+      "engineering"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-030",
+    "category": "typography",
+    "title": "Do not scramble critical copy",
+    "rule": "Scramble/glitch effects belong to short decorative moments, not essential instructions.",
+    "rationale": "Legibility must win over spectacle.",
+    "tags": [
+      "motion",
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-031",
+    "category": "typography",
+    "title": "Use hierarchy tokens in 3D scenes",
+    "rule": "DOM annotations, 3D labels and normal page text should share a coherent type system.",
+    "rationale": "3D overlays should not look like a separate product.",
+    "tags": [
+      "3d",
+      "system"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-032",
+    "category": "typography",
+    "title": "Support reduced motion in kinetic type",
+    "rule": "Provide static or simpler reveals when reduced motion is requested.",
+    "rationale": "Text remains content even when animation is removed.",
+    "tags": [
+      "accessibility",
+      "motion"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-033",
+    "category": "typography",
+    "title": "Avoid default Inter-everywhere behavior",
+    "rule": "System/Inter-like sans can be valid, but require a reason and supporting art direction.",
+    "rationale": "The problem is defaulting, not the font itself.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-034",
+    "category": "typography",
+    "title": "Use content to choose font mood",
+    "rule": "Map font characteristics to brand voice: technical, editorial, playful, institutional, luxurious, raw, etc.",
+    "rationale": "Type choice should be project-specific.",
+    "tags": [
+      "branding"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-035",
+    "category": "typography",
+    "title": "Pair width with layout density",
+    "rule": "Condensed display faces can support narrow columns; wide faces need room.",
+    "rationale": "Typeface proportions influence grid decisions.",
+    "tags": [
+      "layout"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-036",
+    "category": "typography",
+    "title": "Test real content extremes",
+    "rule": "Test long names, Turkish diacritics, 4-digit numbers, error messages and multiline buttons.",
+    "rationale": "Type systems should survive production content.",
+    "tags": [
+      "testing"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-037",
+    "category": "typography",
+    "title": "Do not rely on font alone for hierarchy",
+    "rule": "Combine spacing, grouping and color with typography.",
+    "rationale": "Hierarchy is multimodal.",
+    "tags": [
+      "hierarchy"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-038",
+    "category": "typography",
+    "title": "Use italic as a role, not decoration",
+    "rule": "Define whether italic means emphasis, voice, quote or editorial contrast.",
+    "rationale": "Consistent semantics strengthen design.",
+    "tags": [
+      "system"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-039",
+    "category": "typography",
+    "title": "Create font licenses/availability metadata",
+    "rule": "Every font recipe should record license/source/hosting constraints.",
+    "rationale": "A library cannot recommend fonts that cannot legally or practically ship.",
+    "tags": [
+      "library",
+      "metadata"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-040",
+    "category": "typography",
+    "title": "Track performance cost",
+    "rule": "Font catalog entries should include file count, variable/static mode and estimated loading impact.",
+    "rationale": "Premium typography should not quietly destroy performance.",
+    "tags": [
+      "library",
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-041",
+    "category": "typography",
+    "title": "Catalog pairing archetypes",
+    "rule": "Store pairings as archetypes (neutral+expressive, grotesk+serif, mono+humanist, etc.), not only font names.",
+    "rationale": "Archetypes transfer to new projects even when fonts change.",
+    "tags": [
+      "library",
+      "pairing"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-042",
+    "category": "typography",
+    "title": "Near-black text can create softer dark themes",
+    "rule": "Tinted near-black can reduce the harshness of pure black when the art direction calls for it.",
+    "rationale": "Shinobi indexed posts repeatedly showcase near-black alternatives; treat this as an option, not a universal rule.",
+    "tags": [
+      "color",
+      "shinobi"
+    ],
+    "confidence": "INDEXED+SYNTHESIZED"
+  },
+  {
+    "id": "TYP-043",
+    "category": "typography",
+    "title": "Do not encode Shinobi examples as laws",
+    "rule": "Font lists from a creator should become references, not mandatory defaults.",
+    "rationale": "A library should preserve principles while preventing stylistic cloning.",
+    "tags": [
+      "research-method"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-044",
+    "category": "typography",
+    "title": "Typography needs visual QA",
+    "rule": "Screenshot the same type system at mobile, tablet and wide desktop.",
+    "rationale": "Metrics that look good in code may fail visually.",
+    "tags": [
+      "testing"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "TYP-045",
+    "category": "typography",
+    "title": "Store text-motion compatibility",
+    "rule": "Each text effect should declare which type sizes and content lengths it supports.",
+    "rationale": "Effects that work on a one-line hero may break a paragraph.",
+    "tags": [
+      "library",
+      "motion"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-001",
+    "category": "color",
+    "title": "Use semantic color roles",
+    "rule": "Define background, surface, text, muted, accent, success, warning, danger and focus roles rather than scattering hex values.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "tokens"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-002",
+    "category": "color",
+    "title": "Pure black is optional, not mandatory",
+    "rule": "Test tinted near-black values for dark interfaces when softer contrast or brand tone is desired.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "dark-theme"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-003",
+    "category": "color",
+    "title": "Do not ban pure black globally",
+    "rule": "Pure black can be correct for a specific identity, OLED-focused art direction or sharp editorial contrast.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "anti-dogma"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-004",
+    "category": "color",
+    "title": "Build palettes from relationships",
+    "rule": "Store hue, lightness and contrast relationships instead of only fixed swatches.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "palette"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-005",
+    "category": "color",
+    "title": "One accent can be enough",
+    "rule": "Use a single strong accent when the composition already has rich imagery or 3D.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "restraint"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-006",
+    "category": "color",
+    "title": "Separate brand accent from status colors",
+    "rule": "Do not reuse the brand color for destructive/success states if meaning becomes ambiguous.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "semantics"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-007",
+    "category": "color",
+    "title": "Text contrast is a gate",
+    "rule": "Normal text should meet WCAG minimum contrast against its actual background.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-008",
+    "category": "color",
+    "title": "Large text still needs contrast",
+    "rule": "Large display text has a lower minimum ratio than body text but should still be validated.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-009",
+    "category": "color",
+    "title": "Do not communicate state by color alone",
+    "rule": "Pair color with icon, label, shape or text where state matters.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-010",
+    "category": "color",
+    "title": "Dark mode needs luminance layers",
+    "rule": "Create multiple dark surface levels rather than black background + glowing cards.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "dark-theme"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-011",
+    "category": "color",
+    "title": "Light mode needs surface hierarchy",
+    "rule": "Use subtle tonal differences and borders where needed; not every section needs a grey card.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "light-theme"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-012",
+    "category": "color",
+    "title": "Avoid default AI purple-blue",
+    "rule": "Purple/blue gradients require a brand or content reason, not an AI/tech stereotype.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-013",
+    "category": "color",
+    "title": "Gradient has a job",
+    "rule": "Use gradients for depth, material, state, atmosphere or brand\u2014not filler.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "gradient"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-014",
+    "category": "color",
+    "title": "Keep gradient count low",
+    "rule": "Multiple unrelated gradients quickly destroy palette coherence.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "restraint"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-015",
+    "category": "color",
+    "title": "Use color temperature intentionally",
+    "rule": "Warm/cool shifts can separate foreground/background or emotional states.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "art-direction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-016",
+    "category": "color",
+    "title": "Use saturation as hierarchy",
+    "rule": "Not every object should be fully saturated; reserve saturation for focus.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "hierarchy"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-017",
+    "category": "color",
+    "title": "Image palette should influence UI",
+    "rule": "When a hero image/3D model dominates, derive surrounding neutrals/accents from it where appropriate.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "integration"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-018",
+    "category": "color",
+    "title": "3D lighting and DOM palette must agree",
+    "rule": "WebGL scene and HTML should appear in the same color world.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-019",
+    "category": "color",
+    "title": "Emissive colors need headroom",
+    "rule": "Do not set every bright material to maximum intensity; selective emission makes bloom meaningful.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-020",
+    "category": "color",
+    "title": "Color recipes need contrast metadata",
+    "rule": "Palette catalog records should store text-on-bg pass/fail pairs.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-021",
+    "category": "color",
+    "title": "Catalog dark alternatives",
+    "rule": "Store several near-black families: neutral, warm, cool, green-tinted, red-tinted.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-022",
+    "category": "color",
+    "title": "Catalog off-whites",
+    "rule": "Store warm/cool/neutral off-white families for softer editorial themes.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-023",
+    "category": "color",
+    "title": "Use black/white extremes intentionally",
+    "rule": "Extremes can create brutalist/editorial impact when hierarchy is clear.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "art-direction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-024",
+    "category": "color",
+    "title": "Avoid low-contrast grey-on-grey UI",
+    "rule": "Muted does not mean unreadable.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-025",
+    "category": "color",
+    "title": "Focus indicators are part of palette",
+    "rule": "Define focus colors and contrast as first-class tokens.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-026",
+    "category": "color",
+    "title": "Hover color should preserve meaning",
+    "rule": "Hover should not make text or controls fail contrast.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-027",
+    "category": "color",
+    "title": "Selected state needs more than tiny hue shift",
+    "rule": "Use border, fill, scale, icon or type changes if hue difference is too subtle.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-028",
+    "category": "color",
+    "title": "Color transitions should be synchronized",
+    "rule": "When scene background changes, text/surface colors should transition as a coordinated state.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "motion"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-029",
+    "category": "color",
+    "title": "Use color chaptering selectively",
+    "rule": "Long narratives can assign distinct controlled palettes to chapters.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "storytelling"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-030",
+    "category": "color",
+    "title": "Do not auto-generate rainbow palettes",
+    "rule": "Large color sets should have semantic or narrative logic.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-031",
+    "category": "color",
+    "title": "Record palette mood as metadata",
+    "rule": "Catalog palettes with descriptors such as industrial, editorial, playful, luxury, organic.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-032",
+    "category": "color",
+    "title": "Record display context",
+    "rule": "A palette proven on dark hero art may fail in dense dashboard tables.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-033",
+    "category": "color",
+    "title": "Shinobi palette examples are references",
+    "rule": "Indexed combinations like Deep Sea/Sea Foam and high-contrast pairings should inspire palette archetypes, not be mandatory.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "shinobi"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-034",
+    "category": "color",
+    "title": "Tinted black library should include source examples",
+    "rule": "Preserve indexed near-black examples as reference swatches with source labels.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "shinobi"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-035",
+    "category": "color",
+    "title": "Test with screenshots and browser rendering",
+    "rule": "Color changes in 3D post-processing and display profiles can alter perceived results.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "testing"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-036",
+    "category": "color",
+    "title": "Never invent exact colors from inaccessible reels",
+    "rule": "Mark unviewed reel palettes NEEDS_CAPTURE until visual evidence is supplied.",
+    "rationale": "Color should support hierarchy, meaning, accessibility and art direction.",
+    "tags": [
+      "research-method"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-001",
+    "category": "layout",
+    "title": "Content determines section count",
+    "rule": "Do not generate sections just to fill a landing-page template.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "information-architecture"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-002",
+    "category": "layout",
+    "title": "Avoid three-card default",
+    "rule": "Feature count and structure should follow content, not a repeated three-column pattern.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-003",
+    "category": "layout",
+    "title": "Use cards only for true containers",
+    "rule": "Whitespace, rules and alignment can group content without card chrome.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-004",
+    "category": "layout",
+    "title": "Build a spacing scale",
+    "rule": "Use named spacing tokens rather than arbitrary per-section values.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "tokens"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-005",
+    "category": "layout",
+    "title": "Rhythm can vary",
+    "rule": "Dense and open sections can alternate intentionally; identical py values everywhere look templated.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "rhythm"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-006",
+    "category": "layout",
+    "title": "Asymmetry is a tool",
+    "rule": "Offset columns, uneven widths and controlled imbalance can create identity without harming usability.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "composition"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-007",
+    "category": "layout",
+    "title": "Grid should support content",
+    "rule": "Choose column count/gutters from content density and media, not from framework defaults.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "grid"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-008",
+    "category": "layout",
+    "title": "Editorial pages need text-image relationships",
+    "rule": "Use overlap, offsets, captions and scale relationships instead of card grids when appropriate.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "editorial"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-009",
+    "category": "layout",
+    "title": "Hero does not have to be centered",
+    "rule": "Explore split, object-led, editorial, edge-aligned, immersive or navigational heroes.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "hero"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-010",
+    "category": "layout",
+    "title": "Navigation geometry belongs to brand",
+    "rule": "Floating pill nav is one option, not the default.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "navigation"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-011",
+    "category": "layout",
+    "title": "Use container width deliberately",
+    "rule": "Different content roles may use different max widths within one system.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "containers"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-012",
+    "category": "layout",
+    "title": "Full-bleed media needs anchors",
+    "rule": "When media spans viewport, maintain alignment anchors to connect it to text.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "media"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-013",
+    "category": "layout",
+    "title": "Whitespace is an active element",
+    "rule": "Space should create hierarchy and pacing, not merely fill leftovers.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "composition"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-014",
+    "category": "layout",
+    "title": "Avoid bento without hierarchy",
+    "rule": "Mixed card sizes should reflect information importance or interaction differences.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-015",
+    "category": "layout",
+    "title": "Preserve scan paths",
+    "rule": "Experimental composition still needs a clear first, second and action target.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "ux"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-016",
+    "category": "layout",
+    "title": "Sticky sections need evolution",
+    "rule": "Pinned sections should change enough to justify the scroll cost.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "scroll"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-017",
+    "category": "layout",
+    "title": "Horizontal scroll needs a reason",
+    "rule": "Use it for sequences, galleries or spatial journeys\u2014not novelty.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "scroll"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-018",
+    "category": "layout",
+    "title": "Mobile can reorder narrative",
+    "rule": "Do not force desktop layer order onto narrow screens.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-019",
+    "category": "layout",
+    "title": "Touch targets need room",
+    "rule": "Visual density cannot reduce interactive target usability.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-020",
+    "category": "layout",
+    "title": "3D canvas and DOM share grid",
+    "rule": "Define anchors that allow 3D objects to align with text columns and UI.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-021",
+    "category": "layout",
+    "title": "Use negative space around focal 3D object",
+    "rule": "Do not cover a model with UI simply because the canvas is large.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-022",
+    "category": "layout",
+    "title": "World labels need collision strategy",
+    "rule": "Projected DOM labels should hide, offset or cluster when they overlap.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-023",
+    "category": "layout",
+    "title": "Z-depth should correspond to motion",
+    "rule": "Foreground/midground/background layers need different parallax amplitudes.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-024",
+    "category": "layout",
+    "title": "Long stories need chapters",
+    "rule": "Use section states and progress markers when a narrative spans many viewport heights.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "storytelling"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-025",
+    "category": "layout",
+    "title": "Do not make every section full-screen",
+    "rule": "Full-screen moments are strongest when contrasted with normal-flow content.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "rhythm"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-026",
+    "category": "layout",
+    "title": "Design loading layout too",
+    "rule": "Reserve space and states for 3D/video/font loading to prevent layout chaos.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "resilience"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-027",
+    "category": "layout",
+    "title": "Define safe areas for UI over 3D",
+    "rule": "Camera/model motion should respect persistent nav, CTA and text zones.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-028",
+    "category": "layout",
+    "title": "Build responsive breakpoint profiles",
+    "rule": "Desktop/tablet/mobile can have different camera and composition states.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-029",
+    "category": "layout",
+    "title": "Grid tokens should include gutter and margin",
+    "rule": "Column count alone is not a grid system.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "grid"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-030",
+    "category": "layout",
+    "title": "Use alignment repetition selectively",
+    "rule": "Repeated anchors create coherence; breaking them creates emphasis.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "composition"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-031",
+    "category": "layout",
+    "title": "Design for long localization",
+    "rule": "Buttons/navigation/labels must survive text expansion.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "localization"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-032",
+    "category": "layout",
+    "title": "Overlaps need escape rules",
+    "rule": "Set responsive conditions that remove risky overlaps on small screens.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-033",
+    "category": "layout",
+    "title": "Hero object can define the grid",
+    "rule": "A dominant model/product can create natural text zones around its silhouette.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-034",
+    "category": "layout",
+    "title": "Background decoration cannot compete",
+    "rule": "Decorative layers should support focal hierarchy.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-035",
+    "category": "layout",
+    "title": "Create section archetypes, not templates",
+    "rule": "Store composition recipes such as editorial split, object focus, annotated model, timeline, immersive chapter.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-036",
+    "category": "layout",
+    "title": "Recipe metadata needs density",
+    "rule": "Mark layouts compact/normal/spacious so agents combine compatible modules.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-037",
+    "category": "layout",
+    "title": "Recipe metadata needs media role",
+    "rule": "Mark whether photo/video/3D/text is primary so selection is intentional.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-038",
+    "category": "layout",
+    "title": "Avoid copy-paste component geometry",
+    "rule": "A library can share mechanics while allowing each project to vary layout.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-039",
+    "category": "layout",
+    "title": "Screenshot QA across widths",
+    "rule": "Visual QA is mandatory for composition-heavy work.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "testing"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "LAY-040",
+    "category": "layout",
+    "title": "Reference analysis should record proportions",
+    "rule": "Capture relative column widths, alignment, media scale and whitespace\u2014not just colors.",
+    "rationale": "Layout quality comes from hierarchy, rhythm, content structure and responsive art direction.",
+    "tags": [
+      "research-method"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-001",
+    "category": "motion",
+    "title": "Create one motion language",
+    "rule": "Define shared easing/duration/weight principles for UI, text, camera and objects.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "system"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-002",
+    "category": "motion",
+    "title": "Motion needs purpose",
+    "rule": "Animation should communicate state, hierarchy, causality, spatial change or narrative progression.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "principle"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-003",
+    "category": "motion",
+    "title": "Avoid universal fade-up",
+    "rule": "Do not attach opacity+translateY to every element.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-004",
+    "category": "motion",
+    "title": "Use stillness",
+    "rule": "Not everything should move continuously; rest makes motion meaningful.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "restraint"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-005",
+    "category": "motion",
+    "title": "Different masses move differently",
+    "rule": "Large 3D objects, UI labels and camera should not share identical timing.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "weight"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-006",
+    "category": "motion",
+    "title": "Use frame-rate-independent damping",
+    "rule": "Interactive follow motion should use delta-aware damping/springs.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "engineering"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-007",
+    "category": "motion",
+    "title": "Centralize frame loops",
+    "rule": "Avoid unmanaged requestAnimationFrame loops per module.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-008",
+    "category": "motion",
+    "title": "Pause inactive work",
+    "rule": "Use visibility/offscreen signals to reduce animation work.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-009",
+    "category": "motion",
+    "title": "Prefer transforms for DOM motion",
+    "rule": "Use transform/opacity for common motion where possible.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-010",
+    "category": "motion",
+    "title": "Scroll is a normalized signal",
+    "rule": "Expose 0..1 progress that can drive DOM, WebGL and shaders.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "scroll"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-011",
+    "category": "motion",
+    "title": "Velocity is secondary",
+    "rule": "Scroll velocity can add inertia but should not overpower content.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "scroll"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-012",
+    "category": "motion",
+    "title": "Pinned scenes need chapters",
+    "rule": "Map ranges of scroll to explicit states rather than dozens of unrelated tweens.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "scroll"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-013",
+    "category": "motion",
+    "title": "Timelines should be inspectable",
+    "rule": "Use named timelines and labels for complex sequences.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "engineering"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-014",
+    "category": "motion",
+    "title": "Transitions should preserve context",
+    "rule": "Persistent objects/camera continuity can make section changes feel spatial.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "storytelling"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-015",
+    "category": "motion",
+    "title": "Route transitions should be brief",
+    "rule": "Do not hide navigation speed behind long cinematic transitions.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "ux"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-016",
+    "category": "motion",
+    "title": "Hover must not be required",
+    "rule": "Touch and keyboard users need equivalent interaction paths.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-017",
+    "category": "motion",
+    "title": "Magnetic motion must be small",
+    "rule": "Never make the user chase a button.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-018",
+    "category": "motion",
+    "title": "Cursor effects are optional",
+    "rule": "Disable or simplify custom cursor logic on touch/coarse pointers.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-019",
+    "category": "motion",
+    "title": "Text reveal unit must match content",
+    "rule": "Animate by line/word/character based on reading goal.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "typography"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-020",
+    "category": "motion",
+    "title": "Scramble effects are decorative",
+    "rule": "Do not scramble essential information or forms.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-021",
+    "category": "motion",
+    "title": "Clip/mask reveals need fallback",
+    "rule": "Content must remain visible without animation.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "resilience"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-022",
+    "category": "motion",
+    "title": "Reduced motion is centralized",
+    "rule": "All modules should subscribe to one motion-preference signal.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-023",
+    "category": "motion",
+    "title": "Camera follows slower than pointer",
+    "rule": "Subtle lag makes camera response weighted; direct 1:1 mapping often feels cheap.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-024",
+    "category": "motion",
+    "title": "Avoid motion on every pointer move",
+    "rule": "Only selected scene elements should react.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-025",
+    "category": "motion",
+    "title": "Scroll-scrub video should have poster fallback",
+    "rule": "Heavy video timelines need resilience.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "video"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-026",
+    "category": "motion",
+    "title": "Do not smooth-scroll by default",
+    "rule": "Native scroll can be best; opt into smooth scrolling when it benefits the experience.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "scroll"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-027",
+    "category": "motion",
+    "title": "One gesture should have one dominant response",
+    "rule": "Avoid cursor simultaneously rotating model, moving camera, warping shader and moving typography at full strength.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "restraint"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-028",
+    "category": "motion",
+    "title": "Use easing families",
+    "rule": "Create UI, object and camera easing tokens instead of random cubic-bezier values.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "tokens"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-029",
+    "category": "motion",
+    "title": "Keep durations contextual",
+    "rule": "Micro feedback fast; scene changes slower; loading intro short.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "tokens"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-030",
+    "category": "motion",
+    "title": "Stagger by hierarchy",
+    "rule": "Stagger order should reflect reading/visual order.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "hierarchy"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-031",
+    "category": "motion",
+    "title": "Do not stagger huge lists",
+    "rule": "Large repeated items need batching/virtualization, not theatrical delay.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-032",
+    "category": "motion",
+    "title": "Animate state, not CSS soup",
+    "rule": "Prefer named states/timelines over scattered property mutations.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "engineering"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-033",
+    "category": "motion",
+    "title": "Measure animation performance",
+    "rule": "Track frame time and dropped frames on representative devices.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-034",
+    "category": "motion",
+    "title": "Post-processing can animate too",
+    "rule": "Bloom/DOF/color grade may transition between scene states, but subtly.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-035",
+    "category": "motion",
+    "title": "Lighting transitions can replace UI effects",
+    "rule": "A light shift can reveal a feature more elegantly than adding overlays.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-036",
+    "category": "motion",
+    "title": "Use motion to explain 3D construction",
+    "rule": "Assembly/exploded views should reveal relationships, not random movement.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-037",
+    "category": "motion",
+    "title": "3D motion should preserve orientation cues",
+    "rule": "Do not spin products so aggressively that users lose spatial understanding.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-038",
+    "category": "motion",
+    "title": "Camera cuts are rare on web",
+    "rule": "Prefer interpolated moves unless a deliberate hard cut serves the concept.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-039",
+    "category": "motion",
+    "title": "Pointer inertia should decay",
+    "rule": "Velocity-driven effects need a clear return to rest.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-040",
+    "category": "motion",
+    "title": "Animation cleanup is mandatory",
+    "rule": "Kill timelines/listeners/observers on unmount or route change.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "engineering"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-041",
+    "category": "motion",
+    "title": "Resize should refresh timelines",
+    "rule": "Scroll ranges and text splits may change after resize/fonts load.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "engineering"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-042",
+    "category": "motion",
+    "title": "Loading exit belongs to timeline",
+    "rule": "Preloader, first scene and first headline should transition as one sequence.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "loading"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-043",
+    "category": "motion",
+    "title": "Do not fake loading progress",
+    "rule": "Bind loaders to actual asset progress where possible.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "loading"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-044",
+    "category": "motion",
+    "title": "Motion recipes need performance cost",
+    "rule": "Catalog low/medium/high motion/effect cost.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-045",
+    "category": "motion",
+    "title": "Motion recipes need compatibility",
+    "rule": "Declare whether an effect works with smooth-scroll, R3F, mobile, reduced-motion.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-046",
+    "category": "motion",
+    "title": "Motion recipes need parameters",
+    "rule": "Expose amplitude, damping, duration, easing, trigger and range.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-047",
+    "category": "motion",
+    "title": "Reference analysis should capture timing relationships",
+    "rule": "Note which event triggers what and relative pace, not imagined exact milliseconds.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "research-method"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-048",
+    "category": "motion",
+    "title": "Do not infer frame-perfect easing from inaccessible video",
+    "rule": "Mark it NEEDS_CAPTURE.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "research-method"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-049",
+    "category": "motion",
+    "title": "Avoid perpetual decorative loops",
+    "rule": "Continuous idle loops need strong brand/ambient purpose.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-050",
+    "category": "motion",
+    "title": "Use animation as transition between layouts",
+    "rule": "FLIP-like transformations can maintain object continuity when geometry changes.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "layout"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-051",
+    "category": "motion",
+    "title": "3D hover highlight should coordinate with DOM",
+    "rule": "Hovered model part and its label/card should share state.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "MOT-052",
+    "category": "motion",
+    "title": "Interaction feedback should begin quickly",
+    "rule": "Even cinematic sites need prompt acknowledgment of input.",
+    "rationale": "Motion should be coherent, performant, accessible and tied to interaction or story.",
+    "tags": [
+      "ux"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-001",
+    "category": "3d",
+    "title": "3D must have a role",
+    "rule": "Classify 3D as product, navigation, narrative, atmosphere, explanation or interaction before building.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "purpose"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-002",
+    "category": "3d",
+    "title": "Do not bolt model onto template",
+    "rule": "If removing the model leaves the same experience, integration is weak.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-003",
+    "category": "3d",
+    "title": "Use one dominant 3D concept",
+    "rule": "Assembly, world exploration, camera journey or configurator should lead; secondary tricks support it.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "concept"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-004",
+    "category": "3d",
+    "title": "Scene graph must be organized",
+    "rule": "Separate environment, hero object, interactive objects, effects, lights and controllers.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "architecture"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-005",
+    "category": "3d",
+    "title": "Keep logic outside giant components",
+    "rule": "Use dedicated camera, asset, scene-state, interaction and effect modules.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "architecture"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-006",
+    "category": "3d",
+    "title": "Prefer glTF/GLB for web models",
+    "rule": "Use GLTFLoader and standard compression paths for production assets.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-007",
+    "category": "3d",
+    "title": "Support Draco when assets use it",
+    "rule": "Loader pipeline should accept DRACO compressed geometry.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-008",
+    "category": "3d",
+    "title": "Support KTX2 compressed textures",
+    "rule": "Use KTX2 paths where projects ship compressed GPU textures.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-009",
+    "category": "3d",
+    "title": "Support Meshopt",
+    "rule": "Asset pipeline should accept meshopt-decoded glTF when used.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-010",
+    "category": "3d",
+    "title": "Cache loaded assets",
+    "rule": "Avoid duplicate model/texture loads across scenes/routes.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-011",
+    "category": "3d",
+    "title": "Dispose GPU resources",
+    "rule": "Clean geometry, materials, textures and render targets when ownership ends.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-012",
+    "category": "3d",
+    "title": "Centralize renderer configuration",
+    "rule": "DPR, tone mapping, shadows and color management should be deliberate.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "renderer"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-013",
+    "category": "3d",
+    "title": "Cap DPR",
+    "rule": "High-DPI screens can multiply pixel cost; expose min/max/adaptive DPR.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-014",
+    "category": "3d",
+    "title": "Quality tiers are first-class",
+    "rule": "Low/medium/high profiles should alter DPR, particles, shadows, post FX and LOD.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-015",
+    "category": "3d",
+    "title": "Measure sustained frame time",
+    "rule": "Adaptive quality should respond to sustained performance, not one slow frame.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-016",
+    "category": "3d",
+    "title": "Avoid quality oscillation",
+    "rule": "Use cooldown/hysteresis before raising/lowering quality repeatedly.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-017",
+    "category": "3d",
+    "title": "Use instancing for repetition",
+    "rule": "Many identical meshes should use instancing where appropriate.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-018",
+    "category": "3d",
+    "title": "LOD for heavy scenes",
+    "rule": "Provide distance/screen-size/quality-based level-of-detail options.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-019",
+    "category": "3d",
+    "title": "Frustum/offscreen awareness",
+    "rule": "Do not update expensive systems when not visible unless continuity requires it.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-020",
+    "category": "3d",
+    "title": "Pause hidden tabs",
+    "rule": "Browser visibility should reduce render/update workload.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-021",
+    "category": "3d",
+    "title": "Avoid React state in frame loops",
+    "rule": "R3F animation should mutate refs/external state rather than setState each frame.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "r3f"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-022",
+    "category": "3d",
+    "title": "Do not mount heavy scenes indiscriminately",
+    "rule": "Scene lifecycle affects compilation and resource cost.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "r3f"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-023",
+    "category": "3d",
+    "title": "Camera is part of composition",
+    "rule": "Treat focal length, distance, target and framing as design variables.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "camera"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-024",
+    "category": "3d",
+    "title": "Use camera states",
+    "rule": "Define named hero/detail/feature/outro camera states.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "camera"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-025",
+    "category": "3d",
+    "title": "Interpolate camera target",
+    "rule": "Position and look-at target should transition together.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "camera"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-026",
+    "category": "3d",
+    "title": "Separate pointer influence from authored path",
+    "rule": "Cursor response should be a small offset layered on top of the main camera state.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "camera"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-027",
+    "category": "3d",
+    "title": "Camera paths need orientation strategy",
+    "rule": "Path travel can follow tangent, look at target or interpolate authored rotation.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "camera"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-028",
+    "category": "3d",
+    "title": "Responsive camera states",
+    "rule": "Mobile may need different FOV/distance/target, not a scaled desktop camera.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "camera"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-029",
+    "category": "3d",
+    "title": "Avoid random orbiting",
+    "rule": "Camera movement should reveal content or maintain composition.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "camera"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-030",
+    "category": "3d",
+    "title": "Use damping for camera follow",
+    "rule": "Smooth follow generally feels more physical than direct mapping.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "camera"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-031",
+    "category": "3d",
+    "title": "Preserve safe UI zones",
+    "rule": "Camera framing should keep key model details clear of persistent DOM overlays.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "camera"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-032",
+    "category": "3d",
+    "title": "Lighting is hierarchy",
+    "rule": "Key/fill/rim/environment roles should direct attention.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "lighting"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-033",
+    "category": "3d",
+    "title": "Limit random point lights",
+    "rule": "More lights do not equal better lighting.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "lighting"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-034",
+    "category": "3d",
+    "title": "Transition lights with scene state",
+    "rule": "Feature focus can be communicated by light changes.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "lighting"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-035",
+    "category": "3d",
+    "title": "Environment maps need budget",
+    "rule": "HDR environment resolution should match reflection importance.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "lighting"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-036",
+    "category": "3d",
+    "title": "Shadows need selective quality",
+    "rule": "Use only where they improve form/depth; shadow maps are expensive.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "lighting"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-037",
+    "category": "3d",
+    "title": "Material language should be coherent",
+    "rule": "Metal, plastic, glass, ceramic etc. need a shared art direction.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "materials"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-038",
+    "category": "3d",
+    "title": "Do not max all PBR properties",
+    "rule": "Roughness, metalness, clearcoat, transmission should follow plausible/material intent.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "materials"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-039",
+    "category": "3d",
+    "title": "Shared materials need ownership rules",
+    "rule": "Animating one instance can affect multiple meshes if materials are shared.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "materials"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-040",
+    "category": "3d",
+    "title": "Emissive is not bloom",
+    "rule": "Emissive values and post-processing should be tuned separately.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "materials"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-041",
+    "category": "3d",
+    "title": "Use shaders only when standard materials are insufficient",
+    "rule": "GLSL complexity requires a visual reason.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "shaders"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-042",
+    "category": "3d",
+    "title": "Standardize common uniforms",
+    "rule": "Time/progress/pointer/resolution/velocity can be optional shared interfaces.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "shaders"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-043",
+    "category": "3d",
+    "title": "Shader effects should be composable",
+    "rule": "Noise, fresnel, dissolve, distortion and masks should be primitives.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "shaders"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-044",
+    "category": "3d",
+    "title": "Avoid shader soup",
+    "rule": "Do not combine chromatic distortion, noise, fresnel, scanlines and dissolve by default.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "shaders"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-045",
+    "category": "3d",
+    "title": "GPGPU particles need quality fallback",
+    "rule": "Particle count/compute complexity should scale down.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "shaders"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-046",
+    "category": "3d",
+    "title": "Use particles with meaning",
+    "rule": "Atmosphere, data, formation or trails are stronger than random stars.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "particles"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-047",
+    "category": "3d",
+    "title": "Particle systems need interaction budgets",
+    "rule": "Pointer and scroll forces should not require CPU updates for every particle.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "particles"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-048",
+    "category": "3d",
+    "title": "Post-processing is opt-in",
+    "rule": "Bloom, DOF, SSAO, vignette, noise and chromatic aberration should not all be enabled.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "postfx"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-049",
+    "category": "3d",
+    "title": "Selective bloom beats whole-scene glow",
+    "rule": "Apply bloom to intended emissive elements where feasible.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "postfx"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-050",
+    "category": "3d",
+    "title": "DOF must preserve information",
+    "rule": "Do not blur essential product details or text.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "postfx"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-051",
+    "category": "3d",
+    "title": "Chromatic aberration should be subtle",
+    "rule": "Heavy aberration quickly reads as effect-first design.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "postfx"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-052",
+    "category": "3d",
+    "title": "Color grading connects DOM and WebGL",
+    "rule": "Scene tone should match surrounding interface palette.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "postfx"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-053",
+    "category": "3d",
+    "title": "DOM anchor projection is a core primitive",
+    "rule": "Project 3D points to viewport coordinates for labels/hotspots.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "dom-bridge"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-054",
+    "category": "3d",
+    "title": "World labels need visibility rules",
+    "rule": "Hide labels behind camera/offscreen and handle overlap.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "dom-bridge"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-055",
+    "category": "3d",
+    "title": "Hotspots need focus states",
+    "rule": "Hover/click/focus/touch should lead to clear scene/UI feedback.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-056",
+    "category": "3d",
+    "title": "Exploded view needs authored transforms",
+    "rule": "Parts should separate along meaningful axes or explicit target transforms.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-057",
+    "category": "3d",
+    "title": "Exploded view should reassemble",
+    "rule": "Store origin transforms so the model can return precisely.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-058",
+    "category": "3d",
+    "title": "Part metadata matters",
+    "rule": "Name model parts and attach semantic IDs for features/hotspots.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-059",
+    "category": "3d",
+    "title": "Model transitions need normalized progress",
+    "rule": "Assembly/disassembly should expose 0..1 for scroll/timeline binding.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-060",
+    "category": "3d",
+    "title": "Morph targets need safe ranges",
+    "rule": "Validate model-specific morph target indexes and limits.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-061",
+    "category": "3d",
+    "title": "Animation clips need state control",
+    "rule": "Do not autoplay all clips; map clips to scene/story states.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-062",
+    "category": "3d",
+    "title": "Model bounds utilities are essential",
+    "rule": "Center/fit/framing helpers reduce repeated setup work.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-063",
+    "category": "3d",
+    "title": "Asset manager needs errors",
+    "rule": "Missing model/texture should produce clear fallback, not blank canvas.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "models"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-064",
+    "category": "3d",
+    "title": "Preload hero assets only",
+    "rule": "Lazy-load secondary experiences where possible.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-065",
+    "category": "3d",
+    "title": "Canvas can persist across routes",
+    "rule": "Persistent renderer can reduce reinitialization for immersive multi-page experiences.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "architecture"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-066",
+    "category": "3d",
+    "title": "Persistent scenes need explicit teardown/state swap",
+    "rule": "Retained GPU resources need lifecycle ownership.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "architecture"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-067",
+    "category": "3d",
+    "title": "Scene states should be serializable where practical",
+    "rule": "Config-driven camera/object/light states help agent authoring and devtools.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "architecture"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-068",
+    "category": "3d",
+    "title": "Allow escape hatches",
+    "rule": "Advanced projects need direct Three.js object/material/uniform access.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "architecture"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-069",
+    "category": "3d",
+    "title": "Mobile is separately art-directed",
+    "rule": "Reduce effects and reposition model/camera intentionally.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-070",
+    "category": "3d",
+    "title": "No hover-only mechanics",
+    "rule": "Touch input needs equivalent controls.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-071",
+    "category": "3d",
+    "title": "Fallback can be image/video/DOM",
+    "rule": "Unsupported or weak WebGL should still communicate core content.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-072",
+    "category": "3d",
+    "title": "Reduced motion can simplify camera",
+    "rule": "Use shorter/less parallax/static scene states without hiding content.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-073",
+    "category": "3d",
+    "title": "Critical text stays DOM",
+    "rule": "Do not put SEO/accessibility-critical copy only in Canvas.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-074",
+    "category": "3d",
+    "title": "3D audio is optional",
+    "rule": "Sound should never be required for navigation; user control is necessary.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-075",
+    "category": "3d",
+    "title": "Loading progress comes from manager",
+    "rule": "Use real asset progress and explicit ready state.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "loading"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-076",
+    "category": "3d",
+    "title": "Compile/warm-up can be staged",
+    "rule": "Avoid a giant first-frame shader compilation spike where possible.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-077",
+    "category": "3d",
+    "title": "Renderer stats belong in devtools",
+    "rule": "Expose draw calls, triangles, textures and frame time during development.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "devtools"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-078",
+    "category": "3d",
+    "title": "Camera recorder speeds authoring",
+    "rule": "Allow capturing position/target/FOV into named states.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "devtools"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-079",
+    "category": "3d",
+    "title": "Timeline scrubber helps polish",
+    "rule": "Manual scroll/progress scrub reveals transition problems.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "devtools"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-080",
+    "category": "3d",
+    "title": "Shader inspector helps debugging",
+    "rule": "Expose uniform values and quality mode.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "devtools"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-081",
+    "category": "3d",
+    "title": "WebGPU should remain optional",
+    "rule": "Do not make emerging renderer paths mandatory if WebGL is the broad fallback.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "future"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-082",
+    "category": "3d",
+    "title": "Procedural worlds need deterministic seeds when reproducibility matters",
+    "rule": "Agent demos/tests should be repeatable.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "procedural"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-083",
+    "category": "3d",
+    "title": "3D configurator needs state schema",
+    "rule": "Variant, material, camera and selected-part states should be serializable.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "configurator"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-084",
+    "category": "3d",
+    "title": "Configurator changes should not reload the world",
+    "rule": "Swap material/mesh variants efficiently.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "configurator"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-085",
+    "category": "3d",
+    "title": "Annotated product story needs section mapping",
+    "rule": "Each content chapter should map to a model/camera/light state.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "storytelling"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-086",
+    "category": "3d",
+    "title": "World exploration needs navigation aids",
+    "rule": "Free camera experiences need orientation, reset or chapter landmarks.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "navigation"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-087",
+    "category": "3d",
+    "title": "Game-like portfolio needs input onboarding",
+    "rule": "Keyboard/mouse/touch controls must be discoverable without long instructions.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "navigation"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-088",
+    "category": "3d",
+    "title": "Use 3D space as information architecture only when justified",
+    "rule": "Spatial navigation can be memorable but may slow simple tasks.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "ux"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-089",
+    "category": "3d",
+    "title": "Do not recreate random chrome-sphere trend",
+    "rule": "Generic shiny primitives are a visual anti-pattern unless conceptually justified.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-090",
+    "category": "3d",
+    "title": "Do not default to black void",
+    "rule": "Choose environment based on product/brand/story.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-091",
+    "category": "3d",
+    "title": "Do not add starfield automatically",
+    "rule": "Particles need a narrative/atmospheric reason.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "3D-092",
+    "category": "3d",
+    "title": "Do not make every product spin forever",
+    "rule": "Idle animation should be subtle or state-driven.",
+    "rationale": "3D web quality depends on purpose, composition, rendering discipline and integration with content.",
+    "tags": [
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-001",
+    "category": "interaction",
+    "title": "Every interaction needs feedback",
+    "rule": "Hover, click, drag and scroll-driven states should visibly acknowledge user input.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "ux"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-002",
+    "category": "interaction",
+    "title": "Discoverability before cleverness",
+    "rule": "Experimental controls need cues, affordances or onboarding.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "ux"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-003",
+    "category": "interaction",
+    "title": "Pointer velocity is a signal, not a theme",
+    "rule": "Use it subtly for inertia/distortion when appropriate.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "pointer"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-004",
+    "category": "interaction",
+    "title": "Drag needs bounds and release behavior",
+    "rule": "Define inertia/snap/return explicitly.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "drag"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-005",
+    "category": "interaction",
+    "title": "Keyboard path for important controls",
+    "rule": "Custom UI/hotspots need focus and activation where feasible.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-006",
+    "category": "interaction",
+    "title": "Touch and coarse pointer detection",
+    "rule": "Disable hover-only decoration and adjust gesture thresholds.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-007",
+    "category": "interaction",
+    "title": "Custom cursor cannot hide native affordance without replacement",
+    "rule": "Cursor states should remain understandable.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "cursor"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-008",
+    "category": "interaction",
+    "title": "Magnetic effects must preserve target hitbox",
+    "rule": "Visual motion cannot shrink usability.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "cursor"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-009",
+    "category": "interaction",
+    "title": "Interactive 3D labels should synchronize",
+    "rule": "Hovering label and model part should share one selected state.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-010",
+    "category": "interaction",
+    "title": "Click-to-focus needs escape/reset",
+    "rule": "After camera focus, provide a clear return path.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-011",
+    "category": "interaction",
+    "title": "Scroll hijacking is high-risk",
+    "rule": "Use only for explicit narrative experiences with accessible fallback.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "scroll"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-012",
+    "category": "interaction",
+    "title": "Full-page wheel gestures need intent thresholds",
+    "rule": "Prevent accidental rapid scene skipping.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "scroll"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-013",
+    "category": "interaction",
+    "title": "Route transitions cannot trap navigation",
+    "rule": "Back/forward and deep links must work.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "navigation"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-014",
+    "category": "interaction",
+    "title": "Menus need stable hit targets during animation",
+    "rule": "Do not move links unpredictably under pointer.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "navigation"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-015",
+    "category": "interaction",
+    "title": "Hover previews need preload strategy",
+    "rule": "Do not trigger massive assets on every fleeting hover.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-016",
+    "category": "interaction",
+    "title": "Use input modality signals",
+    "rule": "Pointer, touch, keyboard and reduced-motion can alter behavior.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-017",
+    "category": "interaction",
+    "title": "Interaction state should be serializable where useful",
+    "rule": "Selected model part/chapter/variant can live in a store/config.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "architecture"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-018",
+    "category": "interaction",
+    "title": "Avoid simultaneous competing gestures",
+    "rule": "Do not bind drag and scroll to the same region without clear arbitration.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "ux"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-019",
+    "category": "interaction",
+    "title": "Use haptics only where platform supports and value exists",
+    "rule": "Never require it.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "optional"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-020",
+    "category": "interaction",
+    "title": "Cursor-reactive shaders need amplitude caps",
+    "rule": "Large distortions can reduce readability and cause discomfort.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "shader"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-021",
+    "category": "interaction",
+    "title": "Microinteractions share tokens",
+    "rule": "Hover/press/focus timing should belong to the motion system.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "tokens"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-022",
+    "category": "interaction",
+    "title": "Disabled states are designed states",
+    "rule": "No hover/magnetic/3D response on disabled controls.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "ui"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-023",
+    "category": "interaction",
+    "title": "Loading state should block only what is unavailable",
+    "rule": "Let readable DOM appear if the 3D scene is still loading when architecture permits.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "loading"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-024",
+    "category": "interaction",
+    "title": "Hotspots need collision handling",
+    "rule": "Labels/markers should not stack unreadably.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-025",
+    "category": "interaction",
+    "title": "Tooltips should not be only hover",
+    "rule": "Touch/focus alternatives required.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-026",
+    "category": "interaction",
+    "title": "Pointer capture for drag",
+    "rule": "Use pointer capture to avoid dropping gestures outside bounds.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "engineering"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-027",
+    "category": "interaction",
+    "title": "Long press is not a primary web affordance",
+    "rule": "Avoid hiding core actions behind it.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "mobile"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-028",
+    "category": "interaction",
+    "title": "Sound feedback is opt-in",
+    "rule": "Provide mute and respect user choice.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "audio"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-029",
+    "category": "interaction",
+    "title": "Interaction recipes should declare input requirements",
+    "rule": "Catalog needs pointer/touch/keyboard compatibility metadata.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "INT-030",
+    "category": "interaction",
+    "title": "Reference analysis should map trigger\u2192response",
+    "rule": "Record which user action causes which visible result.",
+    "rationale": "Interaction design should be discoverable, responsive, accessible and consistent.",
+    "tags": [
+      "research-method"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-001",
+    "category": "anti-ai",
+    "title": "Ban template-by-default behavior",
+    "rule": "Do not start every project from centered hero + two CTA + three cards.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "layout"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-002",
+    "category": "anti-ai",
+    "title": "Ban unmotivated purple-blue gradient",
+    "rule": "Tech/AI is not a color palette.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "color"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-003",
+    "category": "anti-ai",
+    "title": "Ban gradient headline reflex",
+    "rule": "Use only when brand/material/story justifies it.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "typography"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-004",
+    "category": "anti-ai",
+    "title": "Ban random glow",
+    "rule": "Glow must correspond to light/emission/state.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "effects"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-005",
+    "category": "anti-ai",
+    "title": "Ban glassmorphism everywhere",
+    "rule": "Glass surfaces need spatial/environmental logic.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "surface"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-006",
+    "category": "anti-ai",
+    "title": "Ban rounded-2xl everywhere",
+    "rule": "Radius must be a system, not a utility default.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "geometry"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-007",
+    "category": "anti-ai",
+    "title": "Ban pill everything",
+    "rule": "Pills fit tags/compact controls, not every container.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "geometry"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-008",
+    "category": "anti-ai",
+    "title": "Ban bento-by-reflex",
+    "rule": "Mixed tiles need information hierarchy.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "layout"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-009",
+    "category": "anti-ai",
+    "title": "Ban three-card syndrome",
+    "rule": "Do not force content into three equal features.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "layout"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-010",
+    "category": "anti-ai",
+    "title": "Ban fake social proof",
+    "rule": "No invented testimonials, logos, user counts or press.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "content"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-011",
+    "category": "anti-ai",
+    "title": "Ban generic AI copy",
+    "rule": "Avoid \u201creimagine\u201d, \u201cunlock\u201d, \u201cfuture of\u201d, \u201cseamless\u201d without substance.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "copy"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-012",
+    "category": "anti-ai",
+    "title": "Ban random floating geometry",
+    "rule": "Spheres/toruses/cubes are not a concept.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-013",
+    "category": "anti-ai",
+    "title": "Ban black-void 3D default",
+    "rule": "Environment needs design intent.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-014",
+    "category": "anti-ai",
+    "title": "Ban full-scene bloom default",
+    "rule": "Selective lighting/effects are stronger.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-015",
+    "category": "anti-ai",
+    "title": "Ban cursor-chases-everything",
+    "rule": "One pointer should not drive the entire page at full amplitude.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-016",
+    "category": "anti-ai",
+    "title": "Ban universal scroll fade-up",
+    "rule": "Motion needs variety and hierarchy.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "motion"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-017",
+    "category": "anti-ai",
+    "title": "Ban identical section spacing",
+    "rule": "Rhythm needs intentional variation.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "layout"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-018",
+    "category": "anti-ai",
+    "title": "Ban untouched component-library look",
+    "rule": "Behavior primitives require project-specific visual tokens.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "ui"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-019",
+    "category": "anti-ai",
+    "title": "Ban emoji feature icons by default",
+    "rule": "Use a coherent icon/art system.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "icons"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-020",
+    "category": "anti-ai",
+    "title": "Ban decorative dashboards",
+    "rule": "Do not add fake charts/terminals/status pills just to look technical.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "content"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-021",
+    "category": "anti-ai",
+    "title": "Ban random particle stars",
+    "rule": "Particles need purpose.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-022",
+    "category": "anti-ai",
+    "title": "Ban maximal post-processing",
+    "rule": "Effects cannot replace art direction.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-023",
+    "category": "anti-ai",
+    "title": "Ban loading theater",
+    "rule": "Do not invent fake loading percentages.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "loading"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-024",
+    "category": "anti-ai",
+    "title": "Ban hardcoded desktop-only art direction",
+    "rule": "Mobile gets its own composition.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-025",
+    "category": "anti-ai",
+    "title": "Ban accessibility sacrifice",
+    "rule": "Premium does not mean motion that ignores reduced-motion or unreadable contrast.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-026",
+    "category": "anti-ai",
+    "title": "Ban \u201cdesigner-like mistakes\u201d strategy",
+    "rule": "Do not add inconsistency or errors to appear human.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "quality"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-027",
+    "category": "anti-ai",
+    "title": "Require design rationale\u2192implementation check",
+    "rule": "If the plan says asymmetry, custom type hierarchy or reduced motion, verify the code actually implements it.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "qa"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-028",
+    "category": "anti-ai",
+    "title": "Require cross-project similarity check",
+    "rule": "Detect when two generated sites share too much layout/motion structure.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "qa"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-029",
+    "category": "anti-ai",
+    "title": "Require recipe diversity",
+    "rule": "100 variants cannot be color swaps of 5 behaviors.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-030",
+    "category": "anti-ai",
+    "title": "Require project-specific signature concept",
+    "rule": "Every major site should have 1\u20133 identifiable behaviors/details tied to its content.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "branding"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-031",
+    "category": "anti-ai",
+    "title": "Require content question per section",
+    "rule": "Each section must answer a user/product question.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "information-architecture"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-032",
+    "category": "anti-ai",
+    "title": "Require effect purpose field",
+    "rule": "Catalog effect entries should store why/when to use, not just how.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-033",
+    "category": "anti-ai",
+    "title": "Require incompatible-combination metadata",
+    "rule": "E.g. heavy DOF + tiny labels or multiple smooth-scroll engines should be flagged.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-034",
+    "category": "anti-ai",
+    "title": "Require performance level",
+    "rule": "Each recipe gets low/medium/high/very-high cost metadata.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "performance"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-035",
+    "category": "anti-ai",
+    "title": "Require mobile strategy",
+    "rule": "Every heavy effect has mobile adaptation/fallback.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "responsive"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-036",
+    "category": "anti-ai",
+    "title": "Require reduced-motion strategy",
+    "rule": "Every motion-heavy recipe has a reduced variant.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-037",
+    "category": "anti-ai",
+    "title": "Require asset dependency list",
+    "rule": "Fonts/models/HDR/video dependencies are explicit.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-038",
+    "category": "anti-ai",
+    "title": "Require source confidence",
+    "rule": "Research records distinguish verified/indexed/inferred/needs-capture.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "research-method"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-039",
+    "category": "anti-ai",
+    "title": "Require screenshot acceptance test",
+    "rule": "Generated examples are visually reviewed at multiple viewports.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "qa"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-040",
+    "category": "anti-ai",
+    "title": "Require no fake claims",
+    "rule": "Do not say a reference uses a shader/font/easing unless observed or technically verified.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "research-method"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "ANT-041",
+    "category": "anti-ai",
+    "title": "Use generative-UI convergence as warning",
+    "rule": "Recent research finds generated UIs can converge in appearance/layout; library QA should explicitly look for repeated structure.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "research"
+    ],
+    "confidence": "VERIFIED+SYNTHESIZED"
+  },
+  {
+    "id": "ANT-042",
+    "category": "anti-ai",
+    "title": "Treat creators as inputs, not style authorities",
+    "rule": "Shinobi/Awwwards/studios inform principles; the library must not clone one aesthetic.",
+    "rationale": "The goal is deliberate, project-specific design\u2014not detector evasion.",
+    "tags": [
+      "research-method"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-037",
+    "category": "color",
+    "title": "Teach the relationship, not only the swatches",
+    "rule": "When proposing a palette, explain dominance, harmony, role assignment, area and contrast.",
+    "rationale": "A reusable design intelligence library should make future agents understand why a combination works.",
+    "tags": [
+      "education"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-038",
+    "category": "color",
+    "title": "Start from role architecture",
+    "rule": "Choose background/surface/text/accent/status roles before decorative colors.",
+    "rationale": "Role-first palettes transfer better across components and themes.",
+    "tags": [
+      "tokens",
+      "semantics"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-039",
+    "category": "color",
+    "title": "Classify visual driver first",
+    "rule": "Decide whether typography, imagery, 3D, data or illustration is the primary visual driver before choosing palette complexity.",
+    "rationale": "Rich visual drivers often need simpler UI color systems.",
+    "tags": [
+      "workflow"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-040",
+    "category": "color",
+    "title": "Use monochromatic systems for restraint",
+    "rule": "Prefer monochromatic families when imagery, typography or 3D already provides enough visual complexity.",
+    "rationale": "A single hue family can preserve coherence without visual boredom when lightness and material vary.",
+    "tags": [
+      "harmony"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-041",
+    "category": "color",
+    "title": "Use analogous systems for atmosphere",
+    "rule": "Use neighboring hue families when the design needs a cohesive atmospheric transition.",
+    "rationale": "Analogous hues create softer separation than complementary pairs.",
+    "tags": [
+      "harmony"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-042",
+    "category": "color",
+    "title": "Use complementary color as a focal tool",
+    "rule": "Use the opposite hue family primarily to create focal contrast, not as an equal-area second background.",
+    "rationale": "Equal strong complements can create visual conflict.",
+    "tags": [
+      "harmony"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-043",
+    "category": "color",
+    "title": "Split complements need hierarchy",
+    "rule": "Promote only one split-complement color to primary accent; keep the other supportive.",
+    "rationale": "Three strong accent families quickly destroy hierarchy.",
+    "tags": [
+      "harmony"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-044",
+    "category": "color",
+    "title": "Triads need unequal weight",
+    "rule": "In triadic systems, make one hue dominant, one secondary and one sparse.",
+    "rationale": "Equal-area triads often look childish or noisy in UI.",
+    "tags": [
+      "harmony"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-045",
+    "category": "color",
+    "title": "Area is part of palette design",
+    "rule": "Evaluate colors in approximate screen area, not only as equal swatches.",
+    "rationale": "A small strong accent can work even if the same hue overwhelms at large area.",
+    "tags": [
+      "composition"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-046",
+    "category": "color",
+    "title": "Accent scarcity increases value",
+    "rule": "Keep the strongest chroma scarce unless brand art direction explicitly requires a large color field.",
+    "rationale": "Scarcity makes action and signature details easier to notice.",
+    "tags": [
+      "hierarchy"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-047",
+    "category": "color",
+    "title": "Saturation can encode hierarchy",
+    "rule": "Reduce chroma for support colors before reaching for opacity everywhere.",
+    "rationale": "Chroma differences preserve cleaner, more predictable states.",
+    "tags": [
+      "hierarchy"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-048",
+    "category": "color",
+    "title": "Lightness creates structure",
+    "rule": "Use lightness steps to separate surfaces and content levels.",
+    "rationale": "A strong luminance structure reduces dependence on borders, shadows and glow.",
+    "tags": [
+      "hierarchy"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-049",
+    "category": "color",
+    "title": "Temperature can separate depth",
+    "rule": "Use warm/cool relationships to distinguish foreground, background or narrative states when justified.",
+    "rationale": "Temperature creates depth without requiring high saturation.",
+    "tags": [
+      "art-direction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-050",
+    "category": "color",
+    "title": "Tint neutrals subtly",
+    "rule": "Warm, cool or colored neutrals should support atmosphere without announcing themselves before content.",
+    "rationale": "Over-tinted neutrals become extra accent colors.",
+    "tags": [
+      "neutral"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-051",
+    "category": "color",
+    "title": "Do not force brand hue into every component",
+    "rule": "Use strong brand colors where they create recognition or hierarchy rather than as universal fill.",
+    "rationale": "Overuse weakens both brand signal and component semantics.",
+    "tags": [
+      "brand"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-052",
+    "category": "color",
+    "title": "Derive from dominant imagery when useful",
+    "rule": "If a hero image or model dominates, sample or conceptually derive nearby neutrals and accents from it.",
+    "rationale": "This helps DOM and media feel art-directed as one world.",
+    "tags": [
+      "imagery"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-053",
+    "category": "color",
+    "title": "Image-derived does not mean exact sampling",
+    "rule": "Adjust sampled hues for contrast, hierarchy and screen use instead of blindly copying pixel colors.",
+    "rationale": "Photography colors often need normalization for UI.",
+    "tags": [
+      "imagery"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-054",
+    "category": "color",
+    "title": "Separate decorative and functional colors",
+    "rule": "Mark colors that are decorative-only versus colors safe for text, controls or status.",
+    "rationale": "A beautiful swatch may be unusable for readable text.",
+    "tags": [
+      "semantics",
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-055",
+    "category": "color",
+    "title": "Store safe text-on-accent pair",
+    "rule": "Every primary accent should declare whether black, white or another foreground is the readable text color.",
+    "rationale": "CTA readability should not be guessed per component.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-056",
+    "category": "color",
+    "title": "Validate muted text explicitly",
+    "rule": "Muted text must be tested on every surface where it appears.",
+    "rationale": "Lower visual priority is not permission for unreadability.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-057",
+    "category": "color",
+    "title": "Validate non-text UI contrast",
+    "rule": "Borders, controls and focus indicators need sufficient contrast where accessibility rules require it.",
+    "rationale": "Interfaces communicate through more than text.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-058",
+    "category": "color",
+    "title": "Never use color alone for critical state",
+    "rule": "Add iconography, label, shape or other cues for success, warning, error and selection when meaning matters.",
+    "rationale": "Users may not perceive hue differences reliably.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-059",
+    "category": "color",
+    "title": "Focus color is a core token",
+    "rule": "Define focus-ring treatment at palette design time.",
+    "rationale": "Keyboard interaction should not be patched after styling.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-060",
+    "category": "color",
+    "title": "Do not create light mode by inversion",
+    "rule": "Recompose surfaces, borders, accent intensity and imagery for light mode rather than mathematically inverting dark colors.",
+    "rationale": "Optical balance differs between modes.",
+    "tags": [
+      "theme"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-061",
+    "category": "color",
+    "title": "Do not create dark mode by blackening everything",
+    "rule": "Use intentional luminance layers and adjust accent chroma for dark surroundings.",
+    "rationale": "Dark themes need structure, not an empty black field.",
+    "tags": [
+      "theme"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-062",
+    "category": "color",
+    "title": "Dark accent may need lower chroma",
+    "rule": "An accent that works on white may become painfully intense on near-black.",
+    "rationale": "Perceived intensity depends on context.",
+    "tags": [
+      "theme"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-063",
+    "category": "color",
+    "title": "Light accent may need greater depth",
+    "rule": "Very light accents may disappear on off-white surfaces.",
+    "rationale": "Light themes often need darker accent tones for controls and text.",
+    "tags": [
+      "theme"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-064",
+    "category": "color",
+    "title": "Pair warm near-black with warm off-white carefully",
+    "rule": "Warm dark/light themes should share temperature without making every surface beige or brown.",
+    "rationale": "Temperature coherence is useful; monotony is not.",
+    "tags": [
+      "theme"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-065",
+    "category": "color",
+    "title": "Use OKLCH for controlled ramps when practical",
+    "rule": "For generated systems, use perceptual lightness/chroma controls when browser/tooling constraints allow.",
+    "rationale": "More predictable ramps make programmatic palettes easier to reason about.",
+    "tags": [
+      "oklch"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-066",
+    "category": "color",
+    "title": "Do not equate OKLCH values with accessibility",
+    "rule": "Always run actual contrast checks after generating colors.",
+    "rationale": "Perceptual uniformity and WCAG contrast are different concerns.",
+    "tags": [
+      "oklch",
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-067",
+    "category": "color",
+    "title": "Generate hover states from role logic",
+    "rule": "Derive hover/active states through controlled lightness/chroma shifts or structural feedback.",
+    "rationale": "Random hex changes create inconsistent interaction.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-068",
+    "category": "color",
+    "title": "Hover should not disappear in dark mode",
+    "rule": "Check that interaction deltas remain visible on dark surfaces.",
+    "rationale": "Small color changes can vanish at low luminance.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-069",
+    "category": "color",
+    "title": "Selection requires persistent difference",
+    "rule": "Selected state should remain visually distinct after hover ends.",
+    "rationale": "Interaction state and hover state solve different problems.",
+    "tags": [
+      "interaction"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-070",
+    "category": "color",
+    "title": "3D environment affects perceived material color",
+    "rule": "Judge reflective materials with their environment and lights enabled.",
+    "rationale": "Metal/glass appearance is inseparable from lighting context.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-071",
+    "category": "color",
+    "title": "Coordinate DOM accent with scene accent",
+    "rule": "Use related accent families across UI and WebGL unless deliberate contrast is part of the concept.",
+    "rationale": "Independent palettes make the model look pasted behind the page.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-072",
+    "category": "color",
+    "title": "Keep emissive color scarce",
+    "rule": "Reserve emissive materials and bloom-driving colors for high-value details.",
+    "rationale": "Too much emission destroys depth and hierarchy.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-073",
+    "category": "color",
+    "title": "Use light temperature as narrative state",
+    "rule": "Lighting temperature can shift across chapters if DOM tokens transition with it.",
+    "rationale": "Synchronized changes create coherent scene storytelling.",
+    "tags": [
+      "3d",
+      "motion"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-074",
+    "category": "color",
+    "title": "Do not use cyan-magenta by default in 3D",
+    "rule": "Choose 3D light colors from the project palette rather than the generic cyberpunk preset.",
+    "rationale": "Creative-web clich\u00e9s can be as repetitive as SaaS clich\u00e9s.",
+    "tags": [
+      "3d",
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-075",
+    "category": "color",
+    "title": "Material albedo is not final perceived color",
+    "rule": "Account for roughness, metalness, environment, tone mapping and post-processing.",
+    "rationale": "Rendered color is contextual.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-076",
+    "category": "color",
+    "title": "Tone mapping belongs in palette QA",
+    "rule": "Evaluate the final render after tone mapping and post effects before locking DOM accents.",
+    "rationale": "Rendering transforms can shift perceived values.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-077",
+    "category": "color",
+    "title": "Bloom changes area perception",
+    "rule": "A glowing accent visually occupies more area than its geometry.",
+    "rationale": "Area guidance should include halo/bloom footprint.",
+    "tags": [
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-078",
+    "category": "color",
+    "title": "Gradient endpoints need a relationship",
+    "rule": "Choose gradient endpoints through material, harmony or narrative logic.",
+    "rationale": "Two fashionable colors are not automatically a coherent gradient.",
+    "tags": [
+      "gradient"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-079",
+    "category": "color",
+    "title": "Gradient direction should support composition",
+    "rule": "Align gradient direction with depth, lighting, movement or layout.",
+    "rationale": "Arbitrary diagonal gradients often feel decorative and generic.",
+    "tags": [
+      "gradient"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-080",
+    "category": "color",
+    "title": "Use fewer gradient stops by default",
+    "rule": "Begin with two meaningful endpoints and add stops only when needed.",
+    "rationale": "Excess stops often introduce muddy intermediate colors.",
+    "tags": [
+      "gradient"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-081",
+    "category": "color",
+    "title": "Gradient text is a special effect",
+    "rule": "Use gradient typography only when the text itself is a signature visual object.",
+    "rationale": "Using it on every marketing headline destroys typographic clarity.",
+    "tags": [
+      "gradient",
+      "anti-slop"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-082",
+    "category": "color",
+    "title": "Status colors should remain semantically stable",
+    "rule": "Success/warning/danger families should not change meaning across pages.",
+    "rationale": "Semantic consistency matters more than section-level aesthetics.",
+    "tags": [
+      "semantics"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-083",
+    "category": "color",
+    "title": "Data colors need separability",
+    "rule": "Categorical colors should be distinguishable in context and not merely aesthetically harmonious.",
+    "rationale": "Data communication has different requirements from decorative branding.",
+    "tags": [
+      "data"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-084",
+    "category": "color",
+    "title": "Sequential data needs ordered lightness",
+    "rule": "Use an ordered perceptual progression for low\u2192high values.",
+    "rationale": "Users should see magnitude order without memorizing labels.",
+    "tags": [
+      "data"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-085",
+    "category": "color",
+    "title": "Diverging data needs a meaningful midpoint",
+    "rule": "Use two directional families only when the middle value is semantically meaningful.",
+    "rationale": "Diverging color without a real midpoint can mislead.",
+    "tags": [
+      "data"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-086",
+    "category": "color",
+    "title": "Do not use brand accent for every chart series",
+    "rule": "Create data-specific scales when multiple categories must be compared.",
+    "rationale": "Brand color alone is not a data visualization system.",
+    "tags": [
+      "data"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-087",
+    "category": "color",
+    "title": "Palette names should describe intent",
+    "rule": "Catalog recipes by mood/use/harmony/mode instead of vague names like cool-1.",
+    "rationale": "Descriptive metadata improves agent retrieval.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-088",
+    "category": "color",
+    "title": "Store harmony metadata",
+    "rule": "Every catalog palette should declare monochromatic/analogous/complementary/etc.",
+    "rationale": "Agents can then learn and retrieve by relationship rather than hex similarity.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-089",
+    "category": "color",
+    "title": "Store role metadata",
+    "rule": "Machine-readable recipes should label every swatch by UI role.",
+    "rationale": "Roles make palettes composable.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-090",
+    "category": "color",
+    "title": "Store contrast measurements",
+    "rule": "Record verified contrast ratios for primary text pairs in recipe data.",
+    "rationale": "This prevents agents from assuming readability.",
+    "tags": [
+      "library",
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-091",
+    "category": "color",
+    "title": "Store area guidance",
+    "rule": "Recipe metadata should suggest dominant/support/accent usage.",
+    "rationale": "Area relationships are central to whether a palette works.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-092",
+    "category": "color",
+    "title": "Store 3D notes",
+    "rule": "Palettes intended for immersive sites should declare lighting/material guidance.",
+    "rationale": "The same hex values behave differently in DOM and rendered scenes.",
+    "tags": [
+      "library",
+      "3d"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-093",
+    "category": "color",
+    "title": "Store avoid-with metadata",
+    "rule": "Document combinations that usually conflict, such as high-chroma dual accents plus heavy bloom.",
+    "rationale": "Compatibility guidance reduces effect stacking.",
+    "tags": [
+      "library"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-094",
+    "category": "color",
+    "title": "Explain palette confidence",
+    "rule": "Mark whether a recipe is source-observed, verified standard-based or synthesized.",
+    "rationale": "Research integrity prevents false attribution.",
+    "tags": [
+      "research"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-095",
+    "category": "color",
+    "title": "Do not attribute generated recipes to creators",
+    "rule": "Creator examples may inspire rules, but synthesized palettes must remain clearly labeled.",
+    "rationale": "Avoid fabricated claims about what a designer recommends.",
+    "tags": [
+      "research"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-096",
+    "category": "color",
+    "title": "Use references as evidence, not authority",
+    "rule": "A palette from an award-winning site still has to fit the new project.",
+    "rationale": "Context-specific choices should not become universal laws.",
+    "tags": [
+      "research"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-097",
+    "category": "color",
+    "title": "Critique equal swatch previews",
+    "rule": "Always preview a palette on a realistic UI composition in addition to equal color chips.",
+    "rationale": "Screen-area relationships can reverse the impression of a swatch set.",
+    "tags": [
+      "evaluation"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-098",
+    "category": "color",
+    "title": "Test grayscale hierarchy",
+    "rule": "Temporarily remove chroma to see whether hierarchy survives on lightness/structure.",
+    "rationale": "If the layout collapses without hue, colors may be doing too much structural work.",
+    "tags": [
+      "evaluation"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-099",
+    "category": "color",
+    "title": "Test accent removal",
+    "rule": "Remove the accent temporarily; content hierarchy should still mostly work.",
+    "rationale": "Accent should enhance hierarchy rather than rescue a weak layout.",
+    "tags": [
+      "evaluation"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-100",
+    "category": "color",
+    "title": "Test reduced color modes",
+    "rule": "Consider forced-colors/high-contrast environments for functional content.",
+    "rationale": "Robust interfaces should not depend on exact authored colors.",
+    "tags": [
+      "accessibility"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-101",
+    "category": "color",
+    "title": "Teach with counterexamples",
+    "rule": "When explaining a combination, mention one plausible misuse and why it fails.",
+    "rationale": "Contrastive examples build reusable design judgment.",
+    "tags": [
+      "education"
+    ],
+    "confidence": "SYNTHESIZED"
+  },
+  {
+    "id": "COL-102",
+    "category": "color",
+    "title": "Offer alternatives by mood, not random colors",
+    "rule": "If presenting multiple palettes, vary strategic direction such as restrained/energetic/editorial instead of random hue swaps.",
+    "rationale": "Options should represent real art-direction choices.",
+    "tags": [
+      "education"
+    ],
+    "confidence": "SYNTHESIZED"
+  }
+]

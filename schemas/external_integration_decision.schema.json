@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExternalIntegrationDecision",
+  "type": "object",
+  "required": [
+    "problem",
+    "selected",
+    "rejected",
+    "risks"
+  ],
+  "properties": {
+    "problem": {
+      "type": "string"
+    },
+    "selected": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "rejected": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fallback": {
+      "type": "string"
+    },
+    "licenseReview": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "performanceBudget": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

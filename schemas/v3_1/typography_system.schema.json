@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Typography System Spec",
+  "type": "object",
+  "required": [
+    "roles",
+    "scale",
+    "fallbacks",
+    "loading",
+    "responsive"
+  ],
+  "properties": {
+    "roles": {
+      "type": "array"
+    },
+    "scale": {
+      "type": "object"
+    },
+    "fallbacks": {
+      "type": "object"
+    },
+    "loading": {
+      "type": "object"
+    },
+    "responsive": {
+      "type": "object"
+    },
+    "languageCoverage": {
+      "type": "array"
+    },
+    "motionPolicy": {
+      "type": "object"
+    }
+  }
+}

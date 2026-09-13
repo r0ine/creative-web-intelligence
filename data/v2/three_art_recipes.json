@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "three-001",
+    "world": "studio-neutral",
+    "concept": "persistent hero object",
+    "environment": "soft studio",
+    "materials": "matte + metal",
+    "lighting": "large soft key + rim",
+    "camera": "slow dolly",
+    "bestFor": "product / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-002",
+    "world": "studio-neutral",
+    "concept": "assembly narrative",
+    "environment": "soft studio",
+    "materials": "matte + metal",
+    "lighting": "large soft key + rim",
+    "camera": "slow dolly",
+    "bestFor": "product / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-003",
+    "world": "studio-neutral",
+    "concept": "detail journey",
+    "environment": "soft studio",
+    "materials": "matte + metal",
+    "lighting": "large soft key + rim",
+    "camera": "slow dolly",
+    "bestFor": "product / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-004",
+    "world": "studio-neutral",
+    "concept": "spatial navigation",
+    "environment": "soft studio",
+    "materials": "matte + metal",
+    "lighting": "large soft key + rim",
+    "camera": "slow dolly",
+    "bestFor": "product / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-005",
+    "world": "studio-neutral",
+    "concept": "material transformation",
+    "environment": "soft studio",
+    "materials": "matte + metal",
+    "lighting": "large soft key + rim",
+    "camera": "slow dolly",
+    "bestFor": "product / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-006",
+    "world": "architectural-void",
+    "concept": "persistent hero object",
+    "environment": "abstract architecture",
+    "materials": "concrete + polymer",
+    "lighting": "directional shafts",
+    "camera": "guided path",
+    "bestFor": "brand / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-007",
+    "world": "architectural-void",
+    "concept": "assembly narrative",
+    "environment": "abstract architecture",
+    "materials": "concrete + polymer",
+    "lighting": "directional shafts",
+    "camera": "guided path",
+    "bestFor": "brand / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-008",
+    "world": "architectural-void",
+    "concept": "detail journey",
+    "environment": "abstract architecture",
+    "materials": "concrete + polymer",
+    "lighting": "directional shafts",
+    "camera": "guided path",
+    "bestFor": "brand / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-009",
+    "world": "architectural-void",
+    "concept": "spatial navigation",
+    "environment": "abstract architecture",
+    "materials": "concrete + polymer",
+    "lighting": "directional shafts",
+    "camera": "guided path",
+    "bestFor": "brand / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-010",
+    "world": "architectural-void",
+    "concept": "material transformation",
+    "environment": "abstract architecture",
+    "materials": "concrete + polymer",
+    "lighting": "directional shafts",
+    "camera": "guided path",
+    "bestFor": "brand / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-011",
+    "world": "luminous-dark",
+    "concept": "persistent hero object",
+    "environment": "near-black spatial",
+    "materials": "dark polymer + emissive",
+    "lighting": "low ambient + selective emissive",
+    "camera": "arc + push-in",
+    "bestFor": "technology / launch",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-012",
+    "world": "luminous-dark",
+    "concept": "assembly narrative",
+    "environment": "near-black spatial",
+    "materials": "dark polymer + emissive",
+    "lighting": "low ambient + selective emissive",
+    "camera": "arc + push-in",
+    "bestFor": "technology / launch",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-013",
+    "world": "luminous-dark",
+    "concept": "detail journey",
+    "environment": "near-black spatial",
+    "materials": "dark polymer + emissive",
+    "lighting": "low ambient + selective emissive",
+    "camera": "arc + push-in",
+    "bestFor": "technology / launch",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-014",
+    "world": "luminous-dark",
+    "concept": "spatial navigation",
+    "environment": "near-black spatial",
+    "materials": "dark polymer + emissive",
+    "lighting": "low ambient + selective emissive",
+    "camera": "arc + push-in",
+    "bestFor": "technology / launch",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-015",
+    "world": "luminous-dark",
+    "concept": "material transformation",
+    "environment": "near-black spatial",
+    "materials": "dark polymer + emissive",
+    "lighting": "low ambient + selective emissive",
+    "camera": "arc + push-in",
+    "bestFor": "technology / launch",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-016",
+    "world": "paper-world",
+    "concept": "persistent hero object",
+    "environment": "warm paper",
+    "materials": "paper + ink + matte",
+    "lighting": "large diffuse",
+    "camera": "orthographic-like drift",
+    "bestFor": "culture / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-017",
+    "world": "paper-world",
+    "concept": "assembly narrative",
+    "environment": "warm paper",
+    "materials": "paper + ink + matte",
+    "lighting": "large diffuse",
+    "camera": "orthographic-like drift",
+    "bestFor": "culture / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-018",
+    "world": "paper-world",
+    "concept": "detail journey",
+    "environment": "warm paper",
+    "materials": "paper + ink + matte",
+    "lighting": "large diffuse",
+    "camera": "orthographic-like drift",
+    "bestFor": "culture / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-019",
+    "world": "paper-world",
+    "concept": "spatial navigation",
+    "environment": "warm paper",
+    "materials": "paper + ink + matte",
+    "lighting": "large diffuse",
+    "camera": "orthographic-like drift",
+    "bestFor": "culture / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-020",
+    "world": "paper-world",
+    "concept": "material transformation",
+    "environment": "warm paper",
+    "materials": "paper + ink + matte",
+    "lighting": "large diffuse",
+    "camera": "orthographic-like drift",
+    "bestFor": "culture / editorial",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-021",
+    "world": "glass-lab",
+    "concept": "persistent hero object",
+    "environment": "clean lab",
+    "materials": "glass + metal + translucent",
+    "lighting": "HDRI + area accents",
+    "camera": "detail orbit",
+    "bestFor": "product / innovation",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-022",
+    "world": "glass-lab",
+    "concept": "assembly narrative",
+    "environment": "clean lab",
+    "materials": "glass + metal + translucent",
+    "lighting": "HDRI + area accents",
+    "camera": "detail orbit",
+    "bestFor": "product / innovation",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-023",
+    "world": "glass-lab",
+    "concept": "detail journey",
+    "environment": "clean lab",
+    "materials": "glass + metal + translucent",
+    "lighting": "HDRI + area accents",
+    "camera": "detail orbit",
+    "bestFor": "product / innovation",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-024",
+    "world": "glass-lab",
+    "concept": "spatial navigation",
+    "environment": "clean lab",
+    "materials": "glass + metal + translucent",
+    "lighting": "HDRI + area accents",
+    "camera": "detail orbit",
+    "bestFor": "product / innovation",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-025",
+    "world": "glass-lab",
+    "concept": "material transformation",
+    "environment": "clean lab",
+    "materials": "glass + metal + translucent",
+    "lighting": "HDRI + area accents",
+    "camera": "detail orbit",
+    "bestFor": "product / innovation",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-026",
+    "world": "organic-field",
+    "concept": "persistent hero object",
+    "environment": "soft organic",
+    "materials": "translucent + soft matte",
+    "lighting": "ambient gradient",
+    "camera": "floating follow",
+    "bestFor": "wellness / culture",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-027",
+    "world": "organic-field",
+    "concept": "assembly narrative",
+    "environment": "soft organic",
+    "materials": "translucent + soft matte",
+    "lighting": "ambient gradient",
+    "camera": "floating follow",
+    "bestFor": "wellness / culture",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-028",
+    "world": "organic-field",
+    "concept": "detail journey",
+    "environment": "soft organic",
+    "materials": "translucent + soft matte",
+    "lighting": "ambient gradient",
+    "camera": "floating follow",
+    "bestFor": "wellness / culture",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-029",
+    "world": "organic-field",
+    "concept": "spatial navigation",
+    "environment": "soft organic",
+    "materials": "translucent + soft matte",
+    "lighting": "ambient gradient",
+    "camera": "floating follow",
+    "bestFor": "wellness / culture",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-030",
+    "world": "organic-field",
+    "concept": "material transformation",
+    "environment": "soft organic",
+    "materials": "translucent + soft matte",
+    "lighting": "ambient gradient",
+    "camera": "floating follow",
+    "bestFor": "wellness / culture",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-031",
+    "world": "data-space",
+    "concept": "persistent hero object",
+    "environment": "technical spatial",
+    "materials": "dark matte + signal accents",
+    "lighting": "controlled rim",
+    "camera": "state-to-state",
+    "bestFor": "data / technical",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-032",
+    "world": "data-space",
+    "concept": "assembly narrative",
+    "environment": "technical spatial",
+    "materials": "dark matte + signal accents",
+    "lighting": "controlled rim",
+    "camera": "state-to-state",
+    "bestFor": "data / technical",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-033",
+    "world": "data-space",
+    "concept": "detail journey",
+    "environment": "technical spatial",
+    "materials": "dark matte + signal accents",
+    "lighting": "controlled rim",
+    "camera": "state-to-state",
+    "bestFor": "data / technical",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-034",
+    "world": "data-space",
+    "concept": "spatial navigation",
+    "environment": "technical spatial",
+    "materials": "dark matte + signal accents",
+    "lighting": "controlled rim",
+    "camera": "state-to-state",
+    "bestFor": "data / technical",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-035",
+    "world": "data-space",
+    "concept": "material transformation",
+    "environment": "technical spatial",
+    "materials": "dark matte + signal accents",
+    "lighting": "controlled rim",
+    "camera": "state-to-state",
+    "bestFor": "data / technical",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-036",
+    "world": "playful-toy",
+    "concept": "persistent hero object",
+    "environment": "colorful stage",
+    "materials": "plastic + rubber",
+    "lighting": "bright softbox",
+    "camera": "responsive orbit",
+    "bestFor": "playful / consumer",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-037",
+    "world": "playful-toy",
+    "concept": "assembly narrative",
+    "environment": "colorful stage",
+    "materials": "plastic + rubber",
+    "lighting": "bright softbox",
+    "camera": "responsive orbit",
+    "bestFor": "playful / consumer",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-038",
+    "world": "playful-toy",
+    "concept": "detail journey",
+    "environment": "colorful stage",
+    "materials": "plastic + rubber",
+    "lighting": "bright softbox",
+    "camera": "responsive orbit",
+    "bestFor": "playful / consumer",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-039",
+    "world": "playful-toy",
+    "concept": "spatial navigation",
+    "environment": "colorful stage",
+    "materials": "plastic + rubber",
+    "lighting": "bright softbox",
+    "camera": "responsive orbit",
+    "bestFor": "playful / consumer",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-040",
+    "world": "playful-toy",
+    "concept": "material transformation",
+    "environment": "colorful stage",
+    "materials": "plastic + rubber",
+    "lighting": "bright softbox",
+    "camera": "responsive orbit",
+    "bestFor": "playful / consumer",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-041",
+    "world": "fashion-stage",
+    "concept": "persistent hero object",
+    "environment": "minimal runway",
+    "materials": "fabric + chrome restraint",
+    "lighting": "dramatic key",
+    "camera": "slow lateral tracking",
+    "bestFor": "fashion / luxury",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-042",
+    "world": "fashion-stage",
+    "concept": "assembly narrative",
+    "environment": "minimal runway",
+    "materials": "fabric + chrome restraint",
+    "lighting": "dramatic key",
+    "camera": "slow lateral tracking",
+    "bestFor": "fashion / luxury",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-043",
+    "world": "fashion-stage",
+    "concept": "detail journey",
+    "environment": "minimal runway",
+    "materials": "fabric + chrome restraint",
+    "lighting": "dramatic key",
+    "camera": "slow lateral tracking",
+    "bestFor": "fashion / luxury",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-044",
+    "world": "fashion-stage",
+    "concept": "spatial navigation",
+    "environment": "minimal runway",
+    "materials": "fabric + chrome restraint",
+    "lighting": "dramatic key",
+    "camera": "slow lateral tracking",
+    "bestFor": "fashion / luxury",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-045",
+    "world": "fashion-stage",
+    "concept": "material transformation",
+    "environment": "minimal runway",
+    "materials": "fabric + chrome restraint",
+    "lighting": "dramatic key",
+    "camera": "slow lateral tracking",
+    "bestFor": "fashion / luxury",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-046",
+    "world": "monochrome-sculpture",
+    "concept": "persistent hero object",
+    "environment": "gallery white/black",
+    "materials": "single-material sculpture",
+    "lighting": "museum lighting",
+    "camera": "measured arc",
+    "bestFor": "art / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-047",
+    "world": "monochrome-sculpture",
+    "concept": "assembly narrative",
+    "environment": "gallery white/black",
+    "materials": "single-material sculpture",
+    "lighting": "museum lighting",
+    "camera": "measured arc",
+    "bestFor": "art / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-048",
+    "world": "monochrome-sculpture",
+    "concept": "detail journey",
+    "environment": "gallery white/black",
+    "materials": "single-material sculpture",
+    "lighting": "museum lighting",
+    "camera": "measured arc",
+    "bestFor": "art / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-049",
+    "world": "monochrome-sculpture",
+    "concept": "spatial navigation",
+    "environment": "gallery white/black",
+    "materials": "single-material sculpture",
+    "lighting": "museum lighting",
+    "camera": "measured arc",
+    "bestFor": "art / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  },
+  {
+    "id": "three-050",
+    "world": "monochrome-sculpture",
+    "concept": "material transformation",
+    "environment": "gallery white/black",
+    "materials": "single-material sculpture",
+    "lighting": "museum lighting",
+    "camera": "measured arc",
+    "bestFor": "art / portfolio",
+    "requiredSystems": [
+      "camera states",
+      "scene state",
+      "asset lifecycle",
+      "responsive scene",
+      "quality manager"
+    ],
+    "optionalSystems": [
+      "DOM anchors",
+      "shader transition",
+      "particles",
+      "postprocessing"
+    ],
+    "artDirectionRule": "3D must carry narrative or information. Remove any object/effect that has no role.",
+    "mobile": "Create a separate camera/composition and reduce expensive effects before reducing legibility.",
+    "sourceStatus": "SYNTHESIZED_FROM_WEBGL_CASE_STUDIES"
+  }
+]

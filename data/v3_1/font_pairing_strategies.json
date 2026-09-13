@@ -1,0 +1,2162 @@
+[
+  {
+    "id": "pair-001",
+    "display_class": "expressive-serif",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-002",
+    "display_class": "expressive-serif",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-003",
+    "display_class": "expressive-serif",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-004",
+    "display_class": "expressive-serif",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-005",
+    "display_class": "expressive-serif",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-006",
+    "display_class": "expressive-serif",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-007",
+    "display_class": "expressive-serif",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-008",
+    "display_class": "expressive-serif",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-009",
+    "display_class": "expressive-serif",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-010",
+    "display_class": "expressive-serif",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-011",
+    "display_class": "neutral-sans",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-012",
+    "display_class": "neutral-sans",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-013",
+    "display_class": "neutral-sans",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-014",
+    "display_class": "neutral-sans",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-015",
+    "display_class": "neutral-sans",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-016",
+    "display_class": "neutral-sans",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-017",
+    "display_class": "neutral-sans",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-018",
+    "display_class": "neutral-sans",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-019",
+    "display_class": "neutral-sans",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-020",
+    "display_class": "neutral-sans",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-021",
+    "display_class": "grotesk",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-022",
+    "display_class": "grotesk",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-023",
+    "display_class": "grotesk",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-024",
+    "display_class": "grotesk",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-025",
+    "display_class": "grotesk",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-026",
+    "display_class": "grotesk",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-027",
+    "display_class": "grotesk",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-028",
+    "display_class": "grotesk",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-029",
+    "display_class": "grotesk",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-030",
+    "display_class": "grotesk",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-031",
+    "display_class": "humanist-sans",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-032",
+    "display_class": "humanist-sans",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-033",
+    "display_class": "humanist-sans",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-034",
+    "display_class": "humanist-sans",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-035",
+    "display_class": "humanist-sans",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-036",
+    "display_class": "humanist-sans",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-037",
+    "display_class": "humanist-sans",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-038",
+    "display_class": "humanist-sans",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-039",
+    "display_class": "humanist-sans",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-040",
+    "display_class": "humanist-sans",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-041",
+    "display_class": "condensed-display",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-042",
+    "display_class": "condensed-display",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-043",
+    "display_class": "condensed-display",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-044",
+    "display_class": "condensed-display",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-045",
+    "display_class": "condensed-display",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-046",
+    "display_class": "condensed-display",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-047",
+    "display_class": "condensed-display",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-048",
+    "display_class": "condensed-display",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-049",
+    "display_class": "condensed-display",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-050",
+    "display_class": "condensed-display",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-051",
+    "display_class": "monospace-accent",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-052",
+    "display_class": "monospace-accent",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-053",
+    "display_class": "monospace-accent",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-054",
+    "display_class": "monospace-accent",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-055",
+    "display_class": "monospace-accent",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-056",
+    "display_class": "monospace-accent",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-057",
+    "display_class": "monospace-accent",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-058",
+    "display_class": "monospace-accent",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-059",
+    "display_class": "monospace-accent",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-060",
+    "display_class": "monospace-accent",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-061",
+    "display_class": "high-contrast-serif",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-062",
+    "display_class": "high-contrast-serif",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-063",
+    "display_class": "high-contrast-serif",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-064",
+    "display_class": "high-contrast-serif",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-065",
+    "display_class": "high-contrast-serif",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-066",
+    "display_class": "high-contrast-serif",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-067",
+    "display_class": "high-contrast-serif",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-068",
+    "display_class": "high-contrast-serif",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-069",
+    "display_class": "high-contrast-serif",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-070",
+    "display_class": "high-contrast-serif",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-071",
+    "display_class": "soft-geometric",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-072",
+    "display_class": "soft-geometric",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-073",
+    "display_class": "soft-geometric",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-074",
+    "display_class": "soft-geometric",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-075",
+    "display_class": "soft-geometric",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-076",
+    "display_class": "soft-geometric",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-077",
+    "display_class": "soft-geometric",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-078",
+    "display_class": "soft-geometric",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-079",
+    "display_class": "soft-geometric",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-080",
+    "display_class": "soft-geometric",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-081",
+    "display_class": "industrial-sans",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-082",
+    "display_class": "industrial-sans",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-083",
+    "display_class": "industrial-sans",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-084",
+    "display_class": "industrial-sans",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-085",
+    "display_class": "industrial-sans",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-086",
+    "display_class": "industrial-sans",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-087",
+    "display_class": "industrial-sans",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-088",
+    "display_class": "industrial-sans",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-089",
+    "display_class": "industrial-sans",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-090",
+    "display_class": "industrial-sans",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-091",
+    "display_class": "editorial-serif",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-092",
+    "display_class": "editorial-serif",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-093",
+    "display_class": "editorial-serif",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-094",
+    "display_class": "editorial-serif",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-095",
+    "display_class": "editorial-serif",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-096",
+    "display_class": "editorial-serif",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-097",
+    "display_class": "editorial-serif",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-098",
+    "display_class": "editorial-serif",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-099",
+    "display_class": "editorial-serif",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-100",
+    "display_class": "editorial-serif",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-101",
+    "display_class": "wide-display",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-102",
+    "display_class": "wide-display",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-103",
+    "display_class": "wide-display",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-104",
+    "display_class": "wide-display",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-105",
+    "display_class": "wide-display",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-106",
+    "display_class": "wide-display",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-107",
+    "display_class": "wide-display",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-108",
+    "display_class": "wide-display",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-109",
+    "display_class": "wide-display",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-110",
+    "display_class": "wide-display",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-111",
+    "display_class": "neo-grotesk",
+    "support_class": "neutral-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-112",
+    "display_class": "neo-grotesk",
+    "support_class": "humanist-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-113",
+    "display_class": "neo-grotesk",
+    "support_class": "text-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-114",
+    "display_class": "neo-grotesk",
+    "support_class": "grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-115",
+    "display_class": "neo-grotesk",
+    "support_class": "system-ui",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-116",
+    "display_class": "neo-grotesk",
+    "support_class": "monospace",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-117",
+    "display_class": "neo-grotesk",
+    "support_class": "soft-geometric",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-118",
+    "display_class": "neo-grotesk",
+    "support_class": "compact-sans",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-119",
+    "display_class": "neo-grotesk",
+    "support_class": "book-serif",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  },
+  {
+    "id": "pair-120",
+    "display_class": "neo-grotesk",
+    "support_class": "neo-grotesk",
+    "contrast_dimension": "form/width/voice contrast",
+    "must_match": [
+      "x-height perception",
+      "language coverage",
+      "numerals/punctuation",
+      "license/loading practicality"
+    ],
+    "test": [
+      "H1/H2/body/nav/button/numbers",
+      "Turkish diacritics if required",
+      "mobile wrapping",
+      "fallback rendering"
+    ]
+  }
+]

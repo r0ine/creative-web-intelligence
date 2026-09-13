@@ -1,0 +1,132 @@
+[
+  {
+    "id": "fp-01",
+    "category": "color-cliche",
+    "description": "Color decisions rely on category stereotypes rather than source/role logic",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-02",
+    "category": "typography-cliche",
+    "description": "Typography is selected from category fashion without morphology/role rationale",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-03",
+    "category": "hero-cliche",
+    "description": "Hero matches common eyebrow + huge centered heading + paragraph + two CTA + glow composition",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-04",
+    "category": "cardification",
+    "description": "Most information is enclosed in rounded bordered cards without containment/action reason",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-05",
+    "category": "divider-repetition",
+    "description": "Most sections are separated by identical thin borders",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-06",
+    "category": "motion-repetition",
+    "description": "Same entrance recipe repeats across most sections",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-07",
+    "category": "easing-sameness",
+    "description": "UI, media, type and 3D share identical timing/easing",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-08",
+    "category": "gradient-glow-dependency",
+    "description": "Identity disappears when glow/gradient blobs are removed",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-09",
+    "category": "bento-without-need",
+    "description": "Bento grid exists without information hierarchy that benefits from it",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-10",
+    "category": "metadata-pill-spam",
+    "description": "Decorative pills/eyebrows repeat without semantic information",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-11",
+    "category": "glass-spam",
+    "description": "Translucent blurred panels used as generic premium signal",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-12",
+    "category": "section-geometry-repeat",
+    "description": "Every section uses identical max-width/header/grid rhythm despite content differences",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  },
+  {
+    "id": "fp-13",
+    "category": "no-rest-zones",
+    "description": "Motion-heavy page never gives reading/static ranges",
+    "scoreRange": [
+      0,
+      3
+    ],
+    "evidenceRequired": true
+  }
+]

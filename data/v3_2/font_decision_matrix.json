@@ -1,0 +1,111 @@
+{
+  "editorial": {
+    "displayTargets": [
+      "old-style-serif",
+      "transitional-serif",
+      "didone-serif",
+      "display-serif",
+      "condensed"
+    ],
+    "bodyTargets": [
+      "old-style-serif",
+      "humanist-serif",
+      "humanist-sans"
+    ],
+    "priorities": [
+      "reading texture",
+      "authored line breaks",
+      "measure",
+      "italics"
+    ]
+  },
+  "dense-ui": {
+    "displayTargets": [
+      "grotesk-sans",
+      "neo-grotesk-sans",
+      "industrial-sans"
+    ],
+    "bodyTargets": [
+      "humanist-sans",
+      "neo-grotesk-sans"
+    ],
+    "priorities": [
+      "x-height",
+      "compactness",
+      "numerals",
+      "fallback metrics"
+    ]
+  },
+  "technical-data": {
+    "displayTargets": [
+      "industrial-sans",
+      "semi-mono",
+      "condensed"
+    ],
+    "bodyTargets": [
+      "humanist-sans",
+      "neo-grotesk-sans"
+    ],
+    "priorities": [
+      "numeric distinction",
+      "tabular numerals",
+      "punctuation",
+      "density"
+    ]
+  },
+  "cultural-arts": {
+    "displayTargets": [
+      "display-serif",
+      "humanist-serif",
+      "experimental-display",
+      "extended"
+    ],
+    "bodyTargets": [
+      "old-style-serif",
+      "humanist-sans"
+    ],
+    "priorities": [
+      "character",
+      "language coverage",
+      "specimen quality",
+      "restraint"
+    ]
+  },
+  "premium-product": {
+    "displayTargets": [
+      "transitional-serif",
+      "didone-serif",
+      "extended",
+      "grotesk-sans"
+    ],
+    "bodyTargets": [
+      "humanist-sans",
+      "neo-grotesk-sans",
+      "humanist-serif"
+    ],
+    "priorities": [
+      "material fit",
+      "spacing",
+      "contrast discipline",
+      "anti-stereotype"
+    ]
+  },
+  "immersive": {
+    "displayTargets": [
+      "experimental-display",
+      "extended",
+      "condensed",
+      "display-serif"
+    ],
+    "bodyTargets": [
+      "humanist-sans",
+      "neo-grotesk-sans"
+    ],
+    "priorities": [
+      "DOM legibility",
+      "motion-safe type",
+      "fallback",
+      "mobile recomposition"
+    ]
+  }
+}

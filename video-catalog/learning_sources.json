@@ -1,0 +1,206 @@
+[
+  {
+    "creator": "Bruno Simon / Prismic",
+    "title": "What Is Three.js? How Can You Learn It?",
+    "url": "https://www.youtube.com/watch?v=fXPKiaI2IBw",
+    "topics": [
+      "Three.js",
+      "WebGL",
+      "Blender",
+      "when-to-use-3D"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "Bruno Simon",
+    "title": "Building 3D websites and creative web experiences (interview)",
+    "url": "https://www.youtube.com/watch?v=xumMbH29NO8",
+    "topics": [
+      "creative-development",
+      "career",
+      "3D-web",
+      "inspiration"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "Bruno Simon / Three.js Journey",
+    "title": "Shaders Update",
+    "url": "https://www.youtube.com/watch?v=mRE0oDUgeY0",
+    "topics": [
+      "GLSL",
+      "shaders",
+      "Three.js"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "Awwwards / Active Theory",
+    "title": "Active Theory Wins Developer Site of the Year interview",
+    "url": "https://www.youtube.com/watch?v=7GRDV82YGMg",
+    "topics": [
+      "creative-studio",
+      "developer-awards",
+      "interactive-web"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "Hyperplexed",
+    "title": "Hyperplexed channel",
+    "url": "https://www.youtube.com/c/Hyperplexed",
+    "topics": [
+      "frontend-effects",
+      "CSS",
+      "interaction",
+      "animation"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "DesignCourse",
+    "title": "DesignCourse channel",
+    "url": "https://www.youtube.com/@DesignCourse",
+    "topics": [
+      "UI/UX",
+      "typography",
+      "layout",
+      "web-design"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "Flux Academy",
+    "title": "Flux Academy channel",
+    "url": "https://www.youtube.com/@FluxAcademy",
+    "topics": [
+      "web-design",
+      "typography",
+      "hierarchy",
+      "freelance-design"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "Yuri Artiukh (akella)",
+    "title": "Creative coding / shaders / WebGL learning",
+    "url": "https://www.youtube.com/user/flintyara",
+    "topics": [
+      "Three.js",
+      "shaders",
+      "GPGPU",
+      "creative-math"
+    ],
+    "status": "VERIFIED_VIA_BRUNO_LEARNING_LIST"
+  },
+  {
+    "creator": "Olivier Larose",
+    "title": "Creative web animation tutorials",
+    "url": "https://www.youtube.com/@olivierlarose1",
+    "topics": [
+      "GSAP",
+      "React",
+      "parallax",
+      "web-animation"
+    ],
+    "status": "INDEXED_SECONDARY"
+  },
+  {
+    "creator": "Alex Trost / Frontend Horse",
+    "title": "Creative coding education",
+    "url": "https://www.youtube.com/",
+    "topics": [
+      "creative-coding",
+      "animated-websites",
+      "frontend"
+    ],
+    "status": "VERIFIED_CREATOR_SITE; CHANNEL_URL_NEEDS_MANUAL_RESOLUTION"
+  },
+  {
+    "creator": "Wael Yasmina",
+    "title": "Three.js Tutorials playlist",
+    "url": "https://www.youtube.com/playlist?list=PLjcjAqAnHd1EIxV4FSZIiJZvsdrBc1Xho",
+    "topics": [
+      "Three.js",
+      "GLSL",
+      "shaders"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "Oxeni",
+    "title": "Build an Awwwards Winning 3D Website | Next.js, three.js, GSAP",
+    "url": "https://www.youtube.com/watch?v=RdyZnB6ElLs",
+    "topics": [
+      "Next.js",
+      "Three.js",
+      "GSAP",
+      "3D-website"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "Unknown tutorial channel",
+    "title": "Build a Mindblowing 3D Portfolio Website | Three.js",
+    "url": "https://www.youtube.com/watch?v=m9PvYYSHr8Q",
+    "topics": [
+      "Three.js",
+      "3D-model",
+      "scroll-animation"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "Unknown tutorial channel",
+    "title": "Create Stand Out 3D Websites with Three.js",
+    "url": "https://www.youtube.com/watch?v=d9DFgg7E-MI",
+    "topics": [
+      "Three.js",
+      "site-showcase",
+      "learning-resources"
+    ],
+    "status": "INDEXED"
+  },
+  {
+    "creator": "The Coding Train",
+    "title": "Creative coding learning resource",
+    "url": "https://www.youtube.com/@TheCodingTrain",
+    "topics": [
+      "creative-coding",
+      "generative-art",
+      "math"
+    ],
+    "status": "CURATED_BY_AWESOME_CREATIVE_CODING"
+  },
+  {
+    "creator": "PzThree",
+    "title": "3D / Blender learning channel",
+    "url": "https://www.youtube.com/@pzthree/videos",
+    "topics": [
+      "3D",
+      "Blender"
+    ],
+    "status": "VERIFIED_VIA_BRUNO_LEARNING_LIST"
+  },
+  {
+    "creator": "Jayanam",
+    "title": "3D / Blender learning channel",
+    "url": "https://www.youtube.com/@JayAnAm",
+    "topics": [
+      "3D",
+      "Blender"
+    ],
+    "status": "VERIFIED_VIA_BRUNO_LEARNING_LIST"
+  },
+  {
+    "creator": "Peter France",
+    "title": "3D / Blender creative learning",
+    "url": "https://www.youtube.com/@PeterFrance",
+    "topics": [
+      "3D",
+      "Blender",
+      "creative"
+    ],
+    "status": "VERIFIED_VIA_BRUNO_LEARNING_LIST"
+  }
+]

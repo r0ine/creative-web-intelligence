@@ -1,0 +1,842 @@
+[
+  {
+    "id": "scrollqa-001",
+    "category": "trigger-geometry",
+    "context": "desktop",
+    "check": "Validate trigger-geometry during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-002",
+    "category": "trigger-geometry",
+    "context": "mobile",
+    "check": "Validate trigger-geometry during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-003",
+    "category": "trigger-geometry",
+    "context": "touch",
+    "check": "Validate trigger-geometry during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-004",
+    "category": "trigger-geometry",
+    "context": "slow-device",
+    "check": "Validate trigger-geometry during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-005",
+    "category": "trigger-geometry",
+    "context": "back-navigation",
+    "check": "Validate trigger-geometry during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-006",
+    "category": "trigger-geometry",
+    "context": "dynamic-content",
+    "check": "Validate trigger-geometry during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-007",
+    "category": "trigger-geometry",
+    "context": "orientation",
+    "check": "Validate trigger-geometry during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-008",
+    "category": "trigger-geometry",
+    "context": "reduced-motion",
+    "check": "Validate trigger-geometry during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-009",
+    "category": "pin-release",
+    "context": "desktop",
+    "check": "Validate pin-release during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-010",
+    "category": "pin-release",
+    "context": "mobile",
+    "check": "Validate pin-release during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-011",
+    "category": "pin-release",
+    "context": "touch",
+    "check": "Validate pin-release during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-012",
+    "category": "pin-release",
+    "context": "slow-device",
+    "check": "Validate pin-release during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-013",
+    "category": "pin-release",
+    "context": "back-navigation",
+    "check": "Validate pin-release during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-014",
+    "category": "pin-release",
+    "context": "dynamic-content",
+    "check": "Validate pin-release during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-015",
+    "category": "pin-release",
+    "context": "orientation",
+    "check": "Validate pin-release during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-016",
+    "category": "pin-release",
+    "context": "reduced-motion",
+    "check": "Validate pin-release during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-017",
+    "category": "reverse",
+    "context": "desktop",
+    "check": "Validate reverse during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-018",
+    "category": "reverse",
+    "context": "mobile",
+    "check": "Validate reverse during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-019",
+    "category": "reverse",
+    "context": "touch",
+    "check": "Validate reverse during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-020",
+    "category": "reverse",
+    "context": "slow-device",
+    "check": "Validate reverse during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-021",
+    "category": "reverse",
+    "context": "back-navigation",
+    "check": "Validate reverse during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-022",
+    "category": "reverse",
+    "context": "dynamic-content",
+    "check": "Validate reverse during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-023",
+    "category": "reverse",
+    "context": "orientation",
+    "check": "Validate reverse during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-024",
+    "category": "reverse",
+    "context": "reduced-motion",
+    "check": "Validate reverse during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-025",
+    "category": "fast-scroll",
+    "context": "desktop",
+    "check": "Validate fast-scroll during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-026",
+    "category": "fast-scroll",
+    "context": "mobile",
+    "check": "Validate fast-scroll during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-027",
+    "category": "fast-scroll",
+    "context": "touch",
+    "check": "Validate fast-scroll during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-028",
+    "category": "fast-scroll",
+    "context": "slow-device",
+    "check": "Validate fast-scroll during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-029",
+    "category": "fast-scroll",
+    "context": "back-navigation",
+    "check": "Validate fast-scroll during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-030",
+    "category": "fast-scroll",
+    "context": "dynamic-content",
+    "check": "Validate fast-scroll during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-031",
+    "category": "fast-scroll",
+    "context": "orientation",
+    "check": "Validate fast-scroll during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-032",
+    "category": "fast-scroll",
+    "context": "reduced-motion",
+    "check": "Validate fast-scroll during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-033",
+    "category": "resize",
+    "context": "desktop",
+    "check": "Validate resize during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-034",
+    "category": "resize",
+    "context": "mobile",
+    "check": "Validate resize during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-035",
+    "category": "resize",
+    "context": "touch",
+    "check": "Validate resize during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-036",
+    "category": "resize",
+    "context": "slow-device",
+    "check": "Validate resize during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-037",
+    "category": "resize",
+    "context": "back-navigation",
+    "check": "Validate resize during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-038",
+    "category": "resize",
+    "context": "dynamic-content",
+    "check": "Validate resize during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-039",
+    "category": "resize",
+    "context": "orientation",
+    "check": "Validate resize during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-040",
+    "category": "resize",
+    "context": "reduced-motion",
+    "check": "Validate resize during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-041",
+    "category": "late-font",
+    "context": "desktop",
+    "check": "Validate late-font during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-042",
+    "category": "late-font",
+    "context": "mobile",
+    "check": "Validate late-font during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-043",
+    "category": "late-font",
+    "context": "touch",
+    "check": "Validate late-font during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-044",
+    "category": "late-font",
+    "context": "slow-device",
+    "check": "Validate late-font during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-045",
+    "category": "late-font",
+    "context": "back-navigation",
+    "check": "Validate late-font during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-046",
+    "category": "late-font",
+    "context": "dynamic-content",
+    "check": "Validate late-font during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-047",
+    "category": "late-font",
+    "context": "orientation",
+    "check": "Validate late-font during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-048",
+    "category": "late-font",
+    "context": "reduced-motion",
+    "check": "Validate late-font during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-049",
+    "category": "late-media",
+    "context": "desktop",
+    "check": "Validate late-media during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-050",
+    "category": "late-media",
+    "context": "mobile",
+    "check": "Validate late-media during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-051",
+    "category": "late-media",
+    "context": "touch",
+    "check": "Validate late-media during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-052",
+    "category": "late-media",
+    "context": "slow-device",
+    "check": "Validate late-media during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-053",
+    "category": "late-media",
+    "context": "back-navigation",
+    "check": "Validate late-media during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-054",
+    "category": "late-media",
+    "context": "dynamic-content",
+    "check": "Validate late-media during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-055",
+    "category": "late-media",
+    "context": "orientation",
+    "check": "Validate late-media during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-056",
+    "category": "late-media",
+    "context": "reduced-motion",
+    "check": "Validate late-media during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-057",
+    "category": "mobile",
+    "context": "desktop",
+    "check": "Validate mobile during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-058",
+    "category": "mobile",
+    "context": "mobile",
+    "check": "Validate mobile during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-059",
+    "category": "mobile",
+    "context": "touch",
+    "check": "Validate mobile during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-060",
+    "category": "mobile",
+    "context": "slow-device",
+    "check": "Validate mobile during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-061",
+    "category": "mobile",
+    "context": "back-navigation",
+    "check": "Validate mobile during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-062",
+    "category": "mobile",
+    "context": "dynamic-content",
+    "check": "Validate mobile during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-063",
+    "category": "mobile",
+    "context": "orientation",
+    "check": "Validate mobile during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-064",
+    "category": "mobile",
+    "context": "reduced-motion",
+    "check": "Validate mobile during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-065",
+    "category": "reduced-motion",
+    "context": "desktop",
+    "check": "Validate reduced-motion during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-066",
+    "category": "reduced-motion",
+    "context": "mobile",
+    "check": "Validate reduced-motion during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-067",
+    "category": "reduced-motion",
+    "context": "touch",
+    "check": "Validate reduced-motion during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-068",
+    "category": "reduced-motion",
+    "context": "slow-device",
+    "check": "Validate reduced-motion during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-069",
+    "category": "reduced-motion",
+    "context": "back-navigation",
+    "check": "Validate reduced-motion during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-070",
+    "category": "reduced-motion",
+    "context": "dynamic-content",
+    "check": "Validate reduced-motion during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-071",
+    "category": "reduced-motion",
+    "context": "orientation",
+    "check": "Validate reduced-motion during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-072",
+    "category": "reduced-motion",
+    "context": "reduced-motion",
+    "check": "Validate reduced-motion during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-073",
+    "category": "keyboard",
+    "context": "desktop",
+    "check": "Validate keyboard during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-074",
+    "category": "keyboard",
+    "context": "mobile",
+    "check": "Validate keyboard during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-075",
+    "category": "keyboard",
+    "context": "touch",
+    "check": "Validate keyboard during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-076",
+    "category": "keyboard",
+    "context": "slow-device",
+    "check": "Validate keyboard during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-077",
+    "category": "keyboard",
+    "context": "back-navigation",
+    "check": "Validate keyboard during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-078",
+    "category": "keyboard",
+    "context": "dynamic-content",
+    "check": "Validate keyboard during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-079",
+    "category": "keyboard",
+    "context": "orientation",
+    "check": "Validate keyboard during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-080",
+    "category": "keyboard",
+    "context": "reduced-motion",
+    "check": "Validate keyboard during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-081",
+    "category": "focus",
+    "context": "desktop",
+    "check": "Validate focus during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-082",
+    "category": "focus",
+    "context": "mobile",
+    "check": "Validate focus during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-083",
+    "category": "focus",
+    "context": "touch",
+    "check": "Validate focus during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-084",
+    "category": "focus",
+    "context": "slow-device",
+    "check": "Validate focus during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-085",
+    "category": "focus",
+    "context": "back-navigation",
+    "check": "Validate focus during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-086",
+    "category": "focus",
+    "context": "dynamic-content",
+    "check": "Validate focus during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-087",
+    "category": "focus",
+    "context": "orientation",
+    "check": "Validate focus during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-088",
+    "category": "focus",
+    "context": "reduced-motion",
+    "check": "Validate focus during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-089",
+    "category": "route-cleanup",
+    "context": "desktop",
+    "check": "Validate route-cleanup during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-090",
+    "category": "route-cleanup",
+    "context": "mobile",
+    "check": "Validate route-cleanup during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-091",
+    "category": "route-cleanup",
+    "context": "touch",
+    "check": "Validate route-cleanup during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-092",
+    "category": "route-cleanup",
+    "context": "slow-device",
+    "check": "Validate route-cleanup during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-093",
+    "category": "route-cleanup",
+    "context": "back-navigation",
+    "check": "Validate route-cleanup during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-094",
+    "category": "route-cleanup",
+    "context": "dynamic-content",
+    "check": "Validate route-cleanup during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-095",
+    "category": "route-cleanup",
+    "context": "orientation",
+    "check": "Validate route-cleanup during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-096",
+    "category": "route-cleanup",
+    "context": "reduced-motion",
+    "check": "Validate route-cleanup during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-097",
+    "category": "offscreen-pause",
+    "context": "desktop",
+    "check": "Validate offscreen-pause during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-098",
+    "category": "offscreen-pause",
+    "context": "mobile",
+    "check": "Validate offscreen-pause during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-099",
+    "category": "offscreen-pause",
+    "context": "touch",
+    "check": "Validate offscreen-pause during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-100",
+    "category": "offscreen-pause",
+    "context": "slow-device",
+    "check": "Validate offscreen-pause during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-101",
+    "category": "offscreen-pause",
+    "context": "back-navigation",
+    "check": "Validate offscreen-pause during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-102",
+    "category": "offscreen-pause",
+    "context": "dynamic-content",
+    "check": "Validate offscreen-pause during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-103",
+    "category": "offscreen-pause",
+    "context": "orientation",
+    "check": "Validate offscreen-pause during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-104",
+    "category": "offscreen-pause",
+    "context": "reduced-motion",
+    "check": "Validate offscreen-pause during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-105",
+    "category": "layout-thrash",
+    "context": "desktop",
+    "check": "Validate layout-thrash during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-106",
+    "category": "layout-thrash",
+    "context": "mobile",
+    "check": "Validate layout-thrash during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-107",
+    "category": "layout-thrash",
+    "context": "touch",
+    "check": "Validate layout-thrash during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-108",
+    "category": "layout-thrash",
+    "context": "slow-device",
+    "check": "Validate layout-thrash during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-109",
+    "category": "layout-thrash",
+    "context": "back-navigation",
+    "check": "Validate layout-thrash during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-110",
+    "category": "layout-thrash",
+    "context": "dynamic-content",
+    "check": "Validate layout-thrash during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-111",
+    "category": "layout-thrash",
+    "context": "orientation",
+    "check": "Validate layout-thrash during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-112",
+    "category": "layout-thrash",
+    "context": "reduced-motion",
+    "check": "Validate layout-thrash during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-113",
+    "category": "handoff",
+    "context": "desktop",
+    "check": "Validate handoff during desktop",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-114",
+    "category": "handoff",
+    "context": "mobile",
+    "check": "Validate handoff during mobile",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-115",
+    "category": "handoff",
+    "context": "touch",
+    "check": "Validate handoff during touch",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-116",
+    "category": "handoff",
+    "context": "slow-device",
+    "check": "Validate handoff during slow-device",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-117",
+    "category": "handoff",
+    "context": "back-navigation",
+    "check": "Validate handoff during back-navigation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-118",
+    "category": "handoff",
+    "context": "dynamic-content",
+    "check": "Validate handoff during dynamic-content",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-119",
+    "category": "handoff",
+    "context": "orientation",
+    "check": "Validate handoff during orientation",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  },
+  {
+    "id": "scrollqa-120",
+    "category": "handoff",
+    "context": "reduced-motion",
+    "check": "Validate handoff during reduced-motion",
+    "fail_if": "content becomes unreachable, jumps, traps, overlaps, or causes severe jank"
+  }
+]

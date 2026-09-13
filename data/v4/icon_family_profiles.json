@@ -1,0 +1,103 @@
+[
+  {
+    "id": "line-md",
+    "voice": [
+      "animated-line",
+      "material-adjacent",
+      "technical"
+    ],
+    "defaultUse": [
+      "state transition",
+      "short feedback",
+      "navigation state",
+      "status change"
+    ],
+    "avoid": [
+      "ambient looping decoration",
+      "dozens of simultaneous animated icons"
+    ],
+    "motion": "one-shot or state-transition first",
+    "optical": "24-grid; align to text cap-height visually rather than mathematically"
+  },
+  {
+    "id": "tabler",
+    "voice": [
+      "clean",
+      "neutral",
+      "systematic",
+      "outline"
+    ],
+    "defaultUse": [
+      "product UI",
+      "dashboard",
+      "settings",
+      "developer tools"
+    ],
+    "avoid": [
+      "using it to make a brand feel unique by itself"
+    ],
+    "stroke": "2 on 24 grid by default"
+  },
+  {
+    "id": "lucide",
+    "voice": [
+      "quiet",
+      "friendly-neutral",
+      "outline"
+    ],
+    "defaultUse": [
+      "compact interface",
+      "navigation",
+      "forms"
+    ],
+    "avoid": [
+      "automatic AI/SaaS default",
+      "mixing multiple near-identical outline families"
+    ]
+  },
+  {
+    "id": "phosphor",
+    "voice": [
+      "expressive-systematic",
+      "multi-weight"
+    ],
+    "defaultUse": [
+      "brands needing more icon personality",
+      "editorial-product hybrids",
+      "interfaces needing weight variants"
+    ],
+    "avoid": [
+      "random weight changes by component"
+    ]
+  },
+  {
+    "id": "heroicons",
+    "voice": [
+      "plain-product",
+      "clear",
+      "conventional"
+    ],
+    "defaultUse": [
+      "application UI",
+      "utility actions"
+    ],
+    "avoid": [
+      "making all brand moments utility-icon driven"
+    ]
+  },
+  {
+    "id": "material-symbols",
+    "voice": [
+      "material",
+      "rounded-or-sharp",
+      "high-coverage"
+    ],
+    "defaultUse": [
+      "material-adjacent products",
+      "dense semantic coverage"
+    ],
+    "avoid": [
+      "using broad coverage as the only selection reason"
+    ]
+  }
+]

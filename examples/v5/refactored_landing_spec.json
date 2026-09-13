@@ -1,0 +1,133 @@
+{
+  "$comment": "Machine-readable spec produced by the v5 pipeline for the worked example in before_after_notes.md. Demonstrates the shape a v5-compliant output takes.",
+  "version": "5.0",
+  "brief": {
+    "product": "SaaS analytics for engineering leads",
+    "voice": ["precise", "calm", "no-hype"],
+    "audience": "engineering leaders at product-focused teams"
+  },
+  "design_dna": {
+    "signature_concept": "the page reads like a well-designed technical memo; the product is engineering evidence, not spectacle",
+    "typography_direction": "one variable grotesk with real weight range (300 body, 380 large calm display, 400 editorial captions, 620 headlines); tabular figures for data",
+    "color_direction": "warm off-white surface + one deep anchor + one small chroma point used only in data numerals and one link state",
+    "geometry_direction": "editorial 8-column grid desktop; single column with wide margin mobile; content-driven symmetry per section",
+    "motion_direction": "dominant static; one media-crop reveal as the only motion device"
+  },
+  "typography": {
+    "roles": {
+      "display": { "family": "Söhne", "weight": 380, "size_clamp": "clamp(3rem, 8vw, 7rem)", "line_height": 1.05, "tracking": "-0.03em", "measure": "14ch" },
+      "editorial_heading": { "family": "Söhne", "weight": 620, "size": "2.25rem", "line_height": 1.15 },
+      "body": { "family": "Söhne", "weight": 300, "size": "1.125rem", "line_height": 1.7, "measure": "62ch" },
+      "caption": { "family": "Söhne", "weight": 400, "size": "0.9375rem", "line_height": 1.5 },
+      "data_numeric": { "family": "Söhne", "weight": 400, "size": "inherit", "features": "tnum" }
+    },
+    "hierarchy_axes_used": ["weight", "size", "family_role", "tracking", "measure"],
+    "scale_only_hierarchy": false
+  },
+  "color": {
+    "surface_strategy": "warm off-white with editorial anchor",
+    "surface": "#F5F1EA",
+    "anchor": "#1A1A1A",
+    "scarcity_point": { "color": "#B85431", "usage": ["status numerals", "single link state"] },
+    "accent_glow": false,
+    "gradient_identity": false,
+    "gradient_text": false
+  },
+  "composition": {
+    "regions": [
+      {
+        "id": "hero",
+        "shape": "editorial single sentence offset to left columns of 8-col grid; live product number in right columns; one CTA; no eyebrow",
+        "containment": "none",
+        "containment_reason": "hero is a region, not a card; grid alignment carries structure",
+        "density": "quiet",
+        "rest": true
+      },
+      {
+        "id": "what_we_do",
+        "shape": "two-column: 60ch paragraph left, annotated data-flow diagram right",
+        "containment": "diagram is contained (media edge); paragraph is not",
+        "containment_reason": "diagram bounds must be respected; paragraph is text and needs no box",
+        "density": "dense",
+        "rest": true
+      },
+      {
+        "id": "product_surface",
+        "shape": "single real product screenshot with editorial caption above",
+        "containment": "media is contained by its own bounds; no extra frame",
+        "density": "transition",
+        "rest": false,
+        "motion": "media-crop reveal on scroll entry"
+      },
+      {
+        "id": "editorial_rest",
+        "shape": "long paragraph in comfortable measure, wide margins, no other elements",
+        "containment": "none",
+        "density": "quiet",
+        "rest": true
+      },
+      {
+        "id": "pricing",
+        "shape": "three-tier table; primary tier emphasized by weight + subtle surface tint",
+        "containment": "tier rows are functional units, but styled by surface not by border",
+        "density": "dense",
+        "rest": true
+      },
+      {
+        "id": "contact",
+        "shape": "two-column: address+support+email left, matched CTA from hero right",
+        "containment": "none",
+        "density": "quiet",
+        "rest": true
+      }
+    ],
+    "grid_family": "editorial 8-column with wide gutter",
+    "mobile_recomposition": "single column with wide side margin; hero becomes stacked media-first then copy; two-column sections stack in content-priority order",
+    "rhythm_plan": ["quiet", "dense", "transition", "quiet", "dense", "quiet"],
+    "rest_zone_pct": 75,
+    "divider_justifications": [],
+    "containment_decisions": [
+      { "component": "diagram", "job": "bound annotated media so labels associate with parts", "boundary_type": "media edge only, no border" },
+      { "component": "pricing_tier_primary", "job": "emphasize primary tier as selectable primary option", "boundary_type": "weight + surface tint, no border" }
+    ]
+  },
+  "motion": {
+    "dominant_grammar": "static-rest",
+    "supporting_grammars": ["media-crop"],
+    "rest_zones": [
+      { "region": "hero", "reason": "reading landing" },
+      { "region": "what_we_do", "reason": "study the diagram" },
+      { "region": "editorial_rest", "reason": "primary reading section" },
+      { "region": "pricing", "reason": "decision-making section" },
+      { "region": "contact", "reason": "action decision" }
+    ],
+    "rest_coverage_pct": 75,
+    "motion_tokens": {
+      "ease_ui": "cubic-bezier(0.2, 0, 0, 1)",
+      "ease_editorial": "cubic-bezier(0.65, 0, 0.35, 1)",
+      "ease_object": "cubic-bezier(0.34, 1.56, 0.64, 1)",
+      "duration_ui": "180ms",
+      "duration_editorial": "600ms",
+      "duration_object": "1200ms"
+    },
+    "scroll_mapping": {
+      "product_surface": "media-crop reveal from tight framing to full width when section enters at 30% viewport"
+    },
+    "mobile_variant": "media-crop reveal reduced to opacity fade only; no crop travel",
+    "reduced_motion_variant": "media-crop reveal replaced with static crop; no travel",
+    "technology": "native scroll-driven animation via CSS; no GSAP required"
+  },
+  "authenticity_gate": {
+    "gate_result": "PASS",
+    "blockers": [],
+    "high_severity": [],
+    "medium_severity": [],
+    "low_severity": [],
+    "summary_tests": {
+      "decoration_off": "PASS",
+      "motion_off": "PASS",
+      "identity": "PASS"
+    },
+    "notes": "the page is less decorated than the v4-style default and reads as more considered; every visible element does a job"
+  }
+}

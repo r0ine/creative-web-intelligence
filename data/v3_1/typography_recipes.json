@@ -1,0 +1,5602 @@
+[
+  {
+    "id": "type-001",
+    "role": "display",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-002",
+    "role": "display",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-003",
+    "role": "display",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-004",
+    "role": "display",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-005",
+    "role": "display",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-006",
+    "role": "display",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-007",
+    "role": "display",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-008",
+    "role": "display",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-009",
+    "role": "display",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-010",
+    "role": "display",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-011",
+    "role": "display",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-012",
+    "role": "display",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-013",
+    "role": "display",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-014",
+    "role": "display",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-015",
+    "role": "display",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-016",
+    "role": "display",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-017",
+    "role": "display",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-018",
+    "role": "display",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-019",
+    "role": "display",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic display role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-020",
+    "role": "display",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic display role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-021",
+    "role": "editorial-heading",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-022",
+    "role": "editorial-heading",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-023",
+    "role": "editorial-heading",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-024",
+    "role": "editorial-heading",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-025",
+    "role": "editorial-heading",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-026",
+    "role": "editorial-heading",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-027",
+    "role": "editorial-heading",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-028",
+    "role": "editorial-heading",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-029",
+    "role": "editorial-heading",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-030",
+    "role": "editorial-heading",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-031",
+    "role": "editorial-heading",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-032",
+    "role": "editorial-heading",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-033",
+    "role": "editorial-heading",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-034",
+    "role": "editorial-heading",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-035",
+    "role": "editorial-heading",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-036",
+    "role": "editorial-heading",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-037",
+    "role": "editorial-heading",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-038",
+    "role": "editorial-heading",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-039",
+    "role": "editorial-heading",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic editorial-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-040",
+    "role": "editorial-heading",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic editorial-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-041",
+    "role": "product-heading",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-042",
+    "role": "product-heading",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-043",
+    "role": "product-heading",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-044",
+    "role": "product-heading",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-045",
+    "role": "product-heading",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-046",
+    "role": "product-heading",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-047",
+    "role": "product-heading",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-048",
+    "role": "product-heading",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-049",
+    "role": "product-heading",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-050",
+    "role": "product-heading",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-051",
+    "role": "product-heading",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-052",
+    "role": "product-heading",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-053",
+    "role": "product-heading",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-054",
+    "role": "product-heading",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-055",
+    "role": "product-heading",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-056",
+    "role": "product-heading",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-057",
+    "role": "product-heading",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-058",
+    "role": "product-heading",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-059",
+    "role": "product-heading",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic product-heading role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-060",
+    "role": "product-heading",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic product-heading role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-061",
+    "role": "body",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-062",
+    "role": "body",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-063",
+    "role": "body",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-064",
+    "role": "body",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-065",
+    "role": "body",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-066",
+    "role": "body",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-067",
+    "role": "body",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-068",
+    "role": "body",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-069",
+    "role": "body",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-070",
+    "role": "body",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-071",
+    "role": "body",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-072",
+    "role": "body",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-073",
+    "role": "body",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-074",
+    "role": "body",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-075",
+    "role": "body",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-076",
+    "role": "body",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-077",
+    "role": "body",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-078",
+    "role": "body",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-079",
+    "role": "body",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic body role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-080",
+    "role": "body",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic body role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-081",
+    "role": "ui-label",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-082",
+    "role": "ui-label",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-083",
+    "role": "ui-label",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-084",
+    "role": "ui-label",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-085",
+    "role": "ui-label",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-086",
+    "role": "ui-label",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-087",
+    "role": "ui-label",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-088",
+    "role": "ui-label",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-089",
+    "role": "ui-label",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-090",
+    "role": "ui-label",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-091",
+    "role": "ui-label",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-092",
+    "role": "ui-label",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-093",
+    "role": "ui-label",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-094",
+    "role": "ui-label",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-095",
+    "role": "ui-label",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-096",
+    "role": "ui-label",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-097",
+    "role": "ui-label",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-098",
+    "role": "ui-label",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-099",
+    "role": "ui-label",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic ui-label role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-100",
+    "role": "ui-label",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic ui-label role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-101",
+    "role": "data-numeric",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-102",
+    "role": "data-numeric",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-103",
+    "role": "data-numeric",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-104",
+    "role": "data-numeric",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-105",
+    "role": "data-numeric",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-106",
+    "role": "data-numeric",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-107",
+    "role": "data-numeric",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-108",
+    "role": "data-numeric",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-109",
+    "role": "data-numeric",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-110",
+    "role": "data-numeric",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-111",
+    "role": "data-numeric",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-112",
+    "role": "data-numeric",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-113",
+    "role": "data-numeric",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-114",
+    "role": "data-numeric",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-115",
+    "role": "data-numeric",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-116",
+    "role": "data-numeric",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-117",
+    "role": "data-numeric",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-118",
+    "role": "data-numeric",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-119",
+    "role": "data-numeric",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic data-numeric role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-120",
+    "role": "data-numeric",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic data-numeric role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-121",
+    "role": "caption",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-122",
+    "role": "caption",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-123",
+    "role": "caption",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-124",
+    "role": "caption",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-125",
+    "role": "caption",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-126",
+    "role": "caption",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-127",
+    "role": "caption",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-128",
+    "role": "caption",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-129",
+    "role": "caption",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-130",
+    "role": "caption",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-131",
+    "role": "caption",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-132",
+    "role": "caption",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-133",
+    "role": "caption",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-134",
+    "role": "caption",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-135",
+    "role": "caption",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-136",
+    "role": "caption",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-137",
+    "role": "caption",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-138",
+    "role": "caption",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-139",
+    "role": "caption",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic caption role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-140",
+    "role": "caption",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic caption role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-141",
+    "role": "navigation",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-142",
+    "role": "navigation",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-143",
+    "role": "navigation",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-144",
+    "role": "navigation",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-145",
+    "role": "navigation",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-146",
+    "role": "navigation",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-147",
+    "role": "navigation",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-148",
+    "role": "navigation",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-149",
+    "role": "navigation",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-150",
+    "role": "navigation",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-151",
+    "role": "navigation",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-152",
+    "role": "navigation",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-153",
+    "role": "navigation",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-154",
+    "role": "navigation",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-155",
+    "role": "navigation",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-156",
+    "role": "navigation",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-157",
+    "role": "navigation",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-158",
+    "role": "navigation",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-159",
+    "role": "navigation",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic navigation role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-160",
+    "role": "navigation",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic navigation role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-161",
+    "role": "quote",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-162",
+    "role": "quote",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-163",
+    "role": "quote",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-164",
+    "role": "quote",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-165",
+    "role": "quote",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-166",
+    "role": "quote",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-167",
+    "role": "quote",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-168",
+    "role": "quote",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-169",
+    "role": "quote",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-170",
+    "role": "quote",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-171",
+    "role": "quote",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-172",
+    "role": "quote",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-173",
+    "role": "quote",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-174",
+    "role": "quote",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-175",
+    "role": "quote",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-176",
+    "role": "quote",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-177",
+    "role": "quote",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-178",
+    "role": "quote",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-179",
+    "role": "quote",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic quote role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-180",
+    "role": "quote",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic quote role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-181",
+    "role": "code",
+    "voice": "neutral",
+    "context": "dense-ui",
+    "intent": "Build a neutral code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-182",
+    "role": "code",
+    "voice": "neutral",
+    "context": "long-form",
+    "intent": "Build a neutral code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-183",
+    "role": "code",
+    "voice": "technical",
+    "context": "dense-ui",
+    "intent": "Build a technical code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-184",
+    "role": "code",
+    "voice": "technical",
+    "context": "long-form",
+    "intent": "Build a technical code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-185",
+    "role": "code",
+    "voice": "editorial",
+    "context": "dense-ui",
+    "intent": "Build a editorial code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-186",
+    "role": "code",
+    "voice": "editorial",
+    "context": "long-form",
+    "intent": "Build a editorial code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-187",
+    "role": "code",
+    "voice": "luxury",
+    "context": "dense-ui",
+    "intent": "Build a luxury code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-188",
+    "role": "code",
+    "voice": "luxury",
+    "context": "long-form",
+    "intent": "Build a luxury code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-189",
+    "role": "code",
+    "voice": "playful",
+    "context": "dense-ui",
+    "intent": "Build a playful code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-190",
+    "role": "code",
+    "voice": "playful",
+    "context": "long-form",
+    "intent": "Build a playful code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-191",
+    "role": "code",
+    "voice": "industrial",
+    "context": "dense-ui",
+    "intent": "Build a industrial code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-192",
+    "role": "code",
+    "voice": "industrial",
+    "context": "long-form",
+    "intent": "Build a industrial code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-193",
+    "role": "code",
+    "voice": "humanist",
+    "context": "dense-ui",
+    "intent": "Build a humanist code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-194",
+    "role": "code",
+    "voice": "humanist",
+    "context": "long-form",
+    "intent": "Build a humanist code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-195",
+    "role": "code",
+    "voice": "geometric",
+    "context": "dense-ui",
+    "intent": "Build a geometric code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-196",
+    "role": "code",
+    "voice": "geometric",
+    "context": "long-form",
+    "intent": "Build a geometric code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-197",
+    "role": "code",
+    "voice": "brutalist",
+    "context": "dense-ui",
+    "intent": "Build a brutalist code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-198",
+    "role": "code",
+    "voice": "brutalist",
+    "context": "long-form",
+    "intent": "Build a brutalist code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-199",
+    "role": "code",
+    "voice": "cinematic",
+    "context": "dense-ui",
+    "intent": "Build a cinematic code role for a dense-ui experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  },
+  {
+    "id": "type-200",
+    "role": "code",
+    "voice": "cinematic",
+    "context": "long-form",
+    "intent": "Build a cinematic code role for a long-form experience without sacrificing readability.",
+    "decisions": [
+      "language/script coverage",
+      "family metrics",
+      "weight/width/optical axis",
+      "size/line-height/tracking",
+      "fallback metrics",
+      "loading strategy"
+    ],
+    "checks": [
+      "real content wrap points",
+      "fallback state",
+      "mobile hierarchy",
+      "required glyphs",
+      "cold-load CLS",
+      "contrast with background"
+    ],
+    "avoid": [
+      "fashion-only pairing",
+      "too many font files",
+      "manual letterspacing used to rescue incompatible metrics"
+    ]
+  }
+]

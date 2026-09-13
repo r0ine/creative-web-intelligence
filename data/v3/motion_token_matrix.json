@@ -1,0 +1,650 @@
+[
+  {
+    "id": "motion-token-001",
+    "tone": "functional",
+    "durationToken": "micro",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-002",
+    "tone": "functional",
+    "durationToken": "micro",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-003",
+    "tone": "functional",
+    "durationToken": "micro",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-004",
+    "tone": "functional",
+    "durationToken": "micro",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-005",
+    "tone": "functional",
+    "durationToken": "micro",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-006",
+    "tone": "functional",
+    "durationToken": "micro",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-007",
+    "tone": "functional",
+    "durationToken": "ui",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-008",
+    "tone": "functional",
+    "durationToken": "ui",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-009",
+    "tone": "functional",
+    "durationToken": "ui",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-010",
+    "tone": "functional",
+    "durationToken": "ui",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-011",
+    "tone": "functional",
+    "durationToken": "ui",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-012",
+    "tone": "functional",
+    "durationToken": "ui",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-013",
+    "tone": "functional",
+    "durationToken": "section",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-014",
+    "tone": "functional",
+    "durationToken": "section",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-015",
+    "tone": "functional",
+    "durationToken": "section",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-016",
+    "tone": "functional",
+    "durationToken": "section",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-017",
+    "tone": "functional",
+    "durationToken": "section",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-018",
+    "tone": "functional",
+    "durationToken": "section",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-019",
+    "tone": "editorial",
+    "durationToken": "micro",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-020",
+    "tone": "editorial",
+    "durationToken": "micro",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-021",
+    "tone": "editorial",
+    "durationToken": "micro",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-022",
+    "tone": "editorial",
+    "durationToken": "micro",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-023",
+    "tone": "editorial",
+    "durationToken": "micro",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-024",
+    "tone": "editorial",
+    "durationToken": "micro",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-025",
+    "tone": "editorial",
+    "durationToken": "ui",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-026",
+    "tone": "editorial",
+    "durationToken": "ui",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-027",
+    "tone": "editorial",
+    "durationToken": "ui",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-028",
+    "tone": "editorial",
+    "durationToken": "ui",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-029",
+    "tone": "editorial",
+    "durationToken": "ui",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-030",
+    "tone": "editorial",
+    "durationToken": "ui",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-031",
+    "tone": "editorial",
+    "durationToken": "section",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-032",
+    "tone": "editorial",
+    "durationToken": "section",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-033",
+    "tone": "editorial",
+    "durationToken": "section",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-034",
+    "tone": "editorial",
+    "durationToken": "section",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-035",
+    "tone": "editorial",
+    "durationToken": "section",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-036",
+    "tone": "editorial",
+    "durationToken": "section",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-037",
+    "tone": "spatial",
+    "durationToken": "micro",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-038",
+    "tone": "spatial",
+    "durationToken": "micro",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-039",
+    "tone": "spatial",
+    "durationToken": "micro",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-040",
+    "tone": "spatial",
+    "durationToken": "micro",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-041",
+    "tone": "spatial",
+    "durationToken": "micro",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-042",
+    "tone": "spatial",
+    "durationToken": "micro",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-043",
+    "tone": "spatial",
+    "durationToken": "ui",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-044",
+    "tone": "spatial",
+    "durationToken": "ui",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-045",
+    "tone": "spatial",
+    "durationToken": "ui",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-046",
+    "tone": "spatial",
+    "durationToken": "ui",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-047",
+    "tone": "spatial",
+    "durationToken": "ui",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-048",
+    "tone": "spatial",
+    "durationToken": "ui",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-049",
+    "tone": "spatial",
+    "durationToken": "section",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-050",
+    "tone": "spatial",
+    "durationToken": "section",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-051",
+    "tone": "spatial",
+    "durationToken": "section",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-052",
+    "tone": "spatial",
+    "durationToken": "section",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-053",
+    "tone": "spatial",
+    "durationToken": "section",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-054",
+    "tone": "spatial",
+    "durationToken": "section",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-055",
+    "tone": "mechanical",
+    "durationToken": "micro",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-056",
+    "tone": "mechanical",
+    "durationToken": "micro",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-057",
+    "tone": "mechanical",
+    "durationToken": "micro",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-058",
+    "tone": "mechanical",
+    "durationToken": "micro",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-059",
+    "tone": "mechanical",
+    "durationToken": "micro",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-060",
+    "tone": "mechanical",
+    "durationToken": "micro",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-061",
+    "tone": "mechanical",
+    "durationToken": "ui",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-062",
+    "tone": "mechanical",
+    "durationToken": "ui",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-063",
+    "tone": "mechanical",
+    "durationToken": "ui",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-064",
+    "tone": "mechanical",
+    "durationToken": "ui",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-065",
+    "tone": "mechanical",
+    "durationToken": "ui",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-066",
+    "tone": "mechanical",
+    "durationToken": "ui",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-067",
+    "tone": "mechanical",
+    "durationToken": "section",
+    "easingFamily": "direct",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-068",
+    "tone": "mechanical",
+    "durationToken": "section",
+    "easingFamily": "direct",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-069",
+    "tone": "mechanical",
+    "durationToken": "section",
+    "easingFamily": "soft-settle",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-070",
+    "tone": "mechanical",
+    "durationToken": "section",
+    "easingFamily": "soft-settle",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-071",
+    "tone": "mechanical",
+    "durationToken": "section",
+    "easingFamily": "inertial",
+    "stagger": "none",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  },
+  {
+    "id": "motion-token-072",
+    "tone": "mechanical",
+    "durationToken": "section",
+    "easingFamily": "inertial",
+    "stagger": "tight",
+    "rule": "Use as a coherent family; override only with a documented narrative reason.",
+    "reducedMotion": "collapse travel and duration while preserving state clarity"
+  }
+]

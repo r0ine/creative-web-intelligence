@@ -1,0 +1,3362 @@
+[
+  {
+    "id": "color-recipe-001",
+    "name": "Editorial Warm \u2014 Monochromatic \u2014 Light",
+    "archetype": "editorial-warm",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "editorial",
+      "cultural",
+      "print-inspired",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F9F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFEDEC",
+      "textPrimary": "#1D1B18",
+      "textMuted": "#675E56",
+      "border": "#D5D1CD",
+      "accent": "#AB5F1C",
+      "accentSecondary": "#CC905C",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.31,
+      "textOnSurface1": 17.04,
+      "mutedOnBackground": 6.02,
+      "accentTextOnAccent": 4.79
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Warm uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-002",
+    "name": "Editorial Warm \u2014 Analogous \u2014 Light",
+    "archetype": "editorial-warm",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "editorial",
+      "cultural",
+      "print-inspired",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F9F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFEDEC",
+      "textPrimary": "#1D1B18",
+      "textMuted": "#675E56",
+      "border": "#D5D1CD",
+      "accent": "#AB5F1C",
+      "accentSecondary": "#BDC22E",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.31,
+      "textOnSurface1": 17.04,
+      "mutedOnBackground": 6.02,
+      "accentTextOnAccent": 4.79
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Warm uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-003",
+    "name": "Editorial Warm \u2014 Complementary \u2014 Light",
+    "archetype": "editorial-warm",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "editorial",
+      "cultural",
+      "print-inspired",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F9F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFEDEC",
+      "textPrimary": "#1D1B18",
+      "textMuted": "#675E56",
+      "border": "#D5D1CD",
+      "accent": "#AB5F1C",
+      "accentSecondary": "#2E7DC2",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.31,
+      "textOnSurface1": 17.04,
+      "mutedOnBackground": 6.02,
+      "accentTextOnAccent": 4.79
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Warm uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-004",
+    "name": "Editorial Warm \u2014 Monochromatic \u2014 Dark",
+    "archetype": "editorial-warm",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "editorial",
+      "cultural",
+      "print-inspired",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#12100F",
+      "surface1": "#1E1B18",
+      "surface2": "#2A2622",
+      "textPrimary": "#F4F3F3",
+      "textMuted": "#BBB5AF",
+      "border": "#413A35",
+      "accent": "#E09A5C",
+      "accentSecondary": "#D9AD87",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.13,
+      "textOnSurface1": 15.48,
+      "mutedOnBackground": 9.34,
+      "accentTextOnAccent": 8.39
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Warm uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-005",
+    "name": "Editorial Warm \u2014 Analogous \u2014 Dark",
+    "archetype": "editorial-warm",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "editorial",
+      "cultural",
+      "print-inspired",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#12100F",
+      "surface1": "#1E1B18",
+      "surface2": "#2A2622",
+      "textPrimary": "#F4F3F3",
+      "textMuted": "#BBB5AF",
+      "border": "#413A35",
+      "accent": "#E09A5C",
+      "accentSecondary": "#DBDE82",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.13,
+      "textOnSurface1": 15.48,
+      "mutedOnBackground": 9.34,
+      "accentTextOnAccent": 8.39
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Warm uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-006",
+    "name": "Editorial Warm \u2014 Complementary \u2014 Dark",
+    "archetype": "editorial-warm",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "editorial",
+      "cultural",
+      "print-inspired",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#12100F",
+      "surface1": "#1E1B18",
+      "surface2": "#2A2622",
+      "textPrimary": "#F4F3F3",
+      "textMuted": "#BBB5AF",
+      "border": "#413A35",
+      "accent": "#E09A5C",
+      "accentSecondary": "#6EA7D8",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.13,
+      "textOnSurface1": 15.48,
+      "mutedOnBackground": 9.34,
+      "accentTextOnAccent": 8.39
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Warm uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-007",
+    "name": "Editorial Cool \u2014 Monochromatic \u2014 Light",
+    "archetype": "editorial-cool",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "editorial",
+      "architecture",
+      "calm",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEDEF",
+      "textPrimary": "#181A1D",
+      "textMuted": "#565D67",
+      "border": "#CDD0D5",
+      "accent": "#1C58AB",
+      "accentSecondary": "#5C8BCC",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.53,
+      "textOnSurface1": 17.29,
+      "mutedOnBackground": 6.31,
+      "accentTextOnAccent": 6.92
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Cool uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-008",
+    "name": "Editorial Cool \u2014 Analogous \u2014 Light",
+    "archetype": "editorial-cool",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "editorial",
+      "architecture",
+      "calm",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEDEF",
+      "textPrimary": "#181A1D",
+      "textMuted": "#565D67",
+      "border": "#CDD0D5",
+      "accent": "#1C58AB",
+      "accentSecondary": "#442EC2",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.53,
+      "textOnSurface1": 17.29,
+      "mutedOnBackground": 6.31,
+      "accentTextOnAccent": 6.92
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Cool uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-009",
+    "name": "Editorial Cool \u2014 Complementary \u2014 Light",
+    "archetype": "editorial-cool",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "editorial",
+      "architecture",
+      "calm",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEDEF",
+      "textPrimary": "#181A1D",
+      "textMuted": "#565D67",
+      "border": "#CDD0D5",
+      "accent": "#1C58AB",
+      "accentSecondary": "#C2842E",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.53,
+      "textOnSurface1": 17.29,
+      "mutedOnBackground": 6.31,
+      "accentTextOnAccent": 6.92
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Cool uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-010",
+    "name": "Editorial Cool \u2014 Monochromatic \u2014 Dark",
+    "archetype": "editorial-cool",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "editorial",
+      "architecture",
+      "calm",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1012",
+      "surface1": "#181A1E",
+      "surface2": "#22262A",
+      "textPrimary": "#F3F3F4",
+      "textMuted": "#AFB4BB",
+      "border": "#353A41",
+      "accent": "#5C93E0",
+      "accentSecondary": "#87A9D9",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.17,
+      "textOnSurface1": 15.71,
+      "mutedOnBackground": 9.13,
+      "accentTextOnAccent": 6.28
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Cool uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-011",
+    "name": "Editorial Cool \u2014 Analogous \u2014 Dark",
+    "archetype": "editorial-cool",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "editorial",
+      "architecture",
+      "calm",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1012",
+      "surface1": "#181A1E",
+      "surface2": "#22262A",
+      "textPrimary": "#F3F3F4",
+      "textMuted": "#AFB4BB",
+      "border": "#353A41",
+      "accent": "#5C93E0",
+      "accentSecondary": "#9082DE",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.17,
+      "textOnSurface1": 15.71,
+      "mutedOnBackground": 9.13,
+      "accentTextOnAccent": 6.28
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Cool uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-012",
+    "name": "Editorial Cool \u2014 Complementary \u2014 Dark",
+    "archetype": "editorial-cool",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "editorial",
+      "architecture",
+      "calm",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1012",
+      "surface1": "#181A1E",
+      "surface2": "#22262A",
+      "textPrimary": "#F3F3F4",
+      "textMuted": "#AFB4BB",
+      "border": "#353A41",
+      "accent": "#5C93E0",
+      "accentSecondary": "#D8AC6E",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.17,
+      "textOnSurface1": 15.71,
+      "mutedOnBackground": 9.13,
+      "accentTextOnAccent": 6.28
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Editorial Cool uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-013",
+    "name": "Technical Precision \u2014 Monochromatic \u2014 Light",
+    "archetype": "technical",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "technical",
+      "product",
+      "developer",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEEEF",
+      "textPrimary": "#181C1D",
+      "textMuted": "#566367",
+      "border": "#CDD3D5",
+      "accent": "#1C87AB",
+      "accentSecondary": "#5CB0CC",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.28,
+      "textOnSurface1": 17.03,
+      "mutedOnBackground": 5.9,
+      "accentTextOnAccent": 4.78
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Technical Precision uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-014",
+    "name": "Technical Precision \u2014 Analogous \u2014 Light",
+    "archetype": "technical",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "technical",
+      "product",
+      "developer",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEEEF",
+      "textPrimary": "#181C1D",
+      "textMuted": "#566367",
+      "border": "#CDD3D5",
+      "accent": "#1C87AB",
+      "accentSecondary": "#2E49C2",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.28,
+      "textOnSurface1": 17.03,
+      "mutedOnBackground": 5.9,
+      "accentTextOnAccent": 4.78
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Technical Precision uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-015",
+    "name": "Technical Precision \u2014 Complementary \u2014 Light",
+    "archetype": "technical",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "technical",
+      "product",
+      "developer",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEEEF",
+      "textPrimary": "#181C1D",
+      "textMuted": "#566367",
+      "border": "#CDD3D5",
+      "accent": "#1C87AB",
+      "accentSecondary": "#C2532E",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.28,
+      "textOnSurface1": 17.03,
+      "mutedOnBackground": 5.9,
+      "accentTextOnAccent": 4.78
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Technical Precision uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-016",
+    "name": "Technical Precision \u2014 Monochromatic \u2014 Dark",
+    "archetype": "technical",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "technical",
+      "product",
+      "developer",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1112",
+      "surface1": "#181C1E",
+      "surface2": "#22282A",
+      "textPrimary": "#F3F4F4",
+      "textMuted": "#AFB8BB",
+      "border": "#353E41",
+      "accent": "#5CBFE0",
+      "accentSecondary": "#87C5D9",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.18,
+      "textOnSurface1": 15.57,
+      "mutedOnBackground": 9.37,
+      "accentTextOnAccent": 9.36
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Technical Precision uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-017",
+    "name": "Technical Precision \u2014 Analogous \u2014 Dark",
+    "archetype": "technical",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "technical",
+      "product",
+      "developer",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1112",
+      "surface1": "#181C1E",
+      "surface2": "#22282A",
+      "textPrimary": "#F3F4F4",
+      "textMuted": "#AFB8BB",
+      "border": "#353E41",
+      "accent": "#5CBFE0",
+      "accentSecondary": "#8293DE",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.18,
+      "textOnSurface1": 15.57,
+      "mutedOnBackground": 9.37,
+      "accentTextOnAccent": 9.36
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Technical Precision uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-018",
+    "name": "Technical Precision \u2014 Complementary \u2014 Dark",
+    "archetype": "technical",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "technical",
+      "product",
+      "developer",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1112",
+      "surface1": "#181C1E",
+      "surface2": "#22282A",
+      "textPrimary": "#F3F4F4",
+      "textMuted": "#AFB8BB",
+      "border": "#353E41",
+      "accent": "#5CBFE0",
+      "accentSecondary": "#D8896E",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.18,
+      "textOnSurface1": 15.57,
+      "mutedOnBackground": 9.37,
+      "accentTextOnAccent": 9.36
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Technical Precision uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-019",
+    "name": "Industrial Signal \u2014 Monochromatic \u2014 Light",
+    "archetype": "industrial",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "industrial",
+      "hardware",
+      "utility",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F9F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFEEEC",
+      "textPrimary": "#1D1C18",
+      "textMuted": "#676256",
+      "border": "#D5D3CD",
+      "accent": "#AB801C",
+      "accentSecondary": "#CCAA5C",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.19,
+      "textOnSurface1": 16.91,
+      "mutedOnBackground": 5.76,
+      "accentTextOnAccent": 5.47
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Industrial Signal uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-020",
+    "name": "Industrial Signal \u2014 Analogous \u2014 Light",
+    "archetype": "industrial",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "industrial",
+      "hardware",
+      "utility",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F9F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFEEEC",
+      "textPrimary": "#1D1C18",
+      "textMuted": "#676256",
+      "border": "#D5D3CD",
+      "accent": "#AB801C",
+      "accentSecondary": "#9BC22E",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.19,
+      "textOnSurface1": 16.91,
+      "mutedOnBackground": 5.76,
+      "accentTextOnAccent": 5.47
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Industrial Signal uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-021",
+    "name": "Industrial Signal \u2014 Complementary \u2014 Light",
+    "archetype": "industrial",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "industrial",
+      "hardware",
+      "utility",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F9F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFEEEC",
+      "textPrimary": "#1D1C18",
+      "textMuted": "#676256",
+      "border": "#D5D3CD",
+      "accent": "#AB801C",
+      "accentSecondary": "#2E5AC2",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.19,
+      "textOnSurface1": 16.91,
+      "mutedOnBackground": 5.76,
+      "accentTextOnAccent": 5.47
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Industrial Signal uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-022",
+    "name": "Industrial Signal \u2014 Monochromatic \u2014 Dark",
+    "archetype": "industrial",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "industrial",
+      "hardware",
+      "utility",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#12110F",
+      "surface1": "#1E1C18",
+      "surface2": "#2A2822",
+      "textPrimary": "#F4F4F3",
+      "textMuted": "#BBB7AF",
+      "border": "#413D35",
+      "accent": "#E0B85C",
+      "accentSecondary": "#D9C087",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.15,
+      "textOnSurface1": 15.46,
+      "mutedOnBackground": 9.44,
+      "accentTextOnAccent": 10.48
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Industrial Signal uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-023",
+    "name": "Industrial Signal \u2014 Analogous \u2014 Dark",
+    "archetype": "industrial",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "industrial",
+      "hardware",
+      "utility",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#12110F",
+      "surface1": "#1E1C18",
+      "surface2": "#2A2822",
+      "textPrimary": "#F4F4F3",
+      "textMuted": "#BBB7AF",
+      "border": "#413D35",
+      "accent": "#E0B85C",
+      "accentSecondary": "#C5DE82",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.15,
+      "textOnSurface1": 15.46,
+      "mutedOnBackground": 9.44,
+      "accentTextOnAccent": 10.48
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Industrial Signal uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-024",
+    "name": "Industrial Signal \u2014 Complementary \u2014 Dark",
+    "archetype": "industrial",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "industrial",
+      "hardware",
+      "utility",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#12110F",
+      "surface1": "#1E1C18",
+      "surface2": "#2A2822",
+      "textPrimary": "#F4F4F3",
+      "textMuted": "#BBB7AF",
+      "border": "#413D35",
+      "accent": "#E0B85C",
+      "accentSecondary": "#6E8ED8",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.15,
+      "textOnSurface1": 15.46,
+      "mutedOnBackground": 9.44,
+      "accentTextOnAccent": 10.48
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Industrial Signal uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-025",
+    "name": "Material Luxury \u2014 Monochromatic \u2014 Light",
+    "archetype": "material-luxury",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "premium",
+      "material",
+      "cinematic",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F8F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFEDEC",
+      "textPrimary": "#1D1A18",
+      "textMuted": "#675B56",
+      "border": "#D5CFCD",
+      "accent": "#AB471C",
+      "accentSecondary": "#CC7E5C",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.33,
+      "textOnSurface1": 17.16,
+      "mutedOnBackground": 6.18,
+      "accentTextOnAccent": 5.75
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Material Luxury uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-026",
+    "name": "Material Luxury \u2014 Analogous \u2014 Light",
+    "archetype": "material-luxury",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "premium",
+      "material",
+      "cinematic",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F8F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFEDEC",
+      "textPrimary": "#1D1A18",
+      "textMuted": "#675B56",
+      "border": "#D5CFCD",
+      "accent": "#AB471C",
+      "accentSecondary": "#C2AE2E",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.33,
+      "textOnSurface1": 17.16,
+      "mutedOnBackground": 6.18,
+      "accentTextOnAccent": 5.75
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Material Luxury uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-027",
+    "name": "Material Luxury \u2014 Complementary \u2014 Light",
+    "archetype": "material-luxury",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "premium",
+      "material",
+      "cinematic",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F8F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFEDEC",
+      "textPrimary": "#1D1A18",
+      "textMuted": "#675B56",
+      "border": "#D5CFCD",
+      "accent": "#AB471C",
+      "accentSecondary": "#2E96C2",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.33,
+      "textOnSurface1": 17.16,
+      "mutedOnBackground": 6.18,
+      "accentTextOnAccent": 5.75
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Material Luxury uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-028",
+    "name": "Material Luxury \u2014 Monochromatic \u2014 Dark",
+    "archetype": "material-luxury",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "premium",
+      "material",
+      "cinematic",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#12100F",
+      "surface1": "#1E1A18",
+      "surface2": "#2A2522",
+      "textPrimary": "#F4F3F3",
+      "textMuted": "#BBB3AF",
+      "border": "#413835",
+      "accent": "#E0845C",
+      "accentSecondary": "#D9A087",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.13,
+      "textOnSurface1": 15.59,
+      "mutedOnBackground": 9.2,
+      "accentTextOnAccent": 7.15
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Material Luxury uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-029",
+    "name": "Material Luxury \u2014 Analogous \u2014 Dark",
+    "archetype": "material-luxury",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "premium",
+      "material",
+      "cinematic",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#12100F",
+      "surface1": "#1E1A18",
+      "surface2": "#2A2522",
+      "textPrimary": "#F4F3F3",
+      "textMuted": "#BBB3AF",
+      "border": "#413835",
+      "accent": "#E0845C",
+      "accentSecondary": "#DED282",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.13,
+      "textOnSurface1": 15.59,
+      "mutedOnBackground": 9.2,
+      "accentTextOnAccent": 7.15
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Material Luxury uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-030",
+    "name": "Material Luxury \u2014 Complementary \u2014 Dark",
+    "archetype": "material-luxury",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "premium",
+      "material",
+      "cinematic",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#12100F",
+      "surface1": "#1E1A18",
+      "surface2": "#2A2522",
+      "textPrimary": "#F4F3F3",
+      "textMuted": "#BBB3AF",
+      "border": "#413835",
+      "accent": "#E0845C",
+      "accentSecondary": "#6EB8D8",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.13,
+      "textOnSurface1": 15.59,
+      "mutedOnBackground": 9.2,
+      "accentTextOnAccent": 7.15
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Material Luxury uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-031",
+    "name": "Organic Calm \u2014 Monochromatic \u2014 Light",
+    "archetype": "organic",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "organic",
+      "wellness",
+      "environmental",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEFED",
+      "textPrimary": "#181D1A",
+      "textMuted": "#56675B",
+      "border": "#CDD5CF",
+      "accent": "#1CAB47",
+      "accentSecondary": "#5CCC7E",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.18,
+      "textOnSurface1": 16.94,
+      "mutedOnBackground": 5.71,
+      "accentTextOnAccent": 6.53
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Organic Calm uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-032",
+    "name": "Organic Calm \u2014 Analogous \u2014 Light",
+    "archetype": "organic",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "organic",
+      "wellness",
+      "environmental",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEFED",
+      "textPrimary": "#181D1A",
+      "textMuted": "#56675B",
+      "border": "#CDD5CF",
+      "accent": "#1CAB47",
+      "accentSecondary": "#2EC2AE",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.18,
+      "textOnSurface1": 16.94,
+      "mutedOnBackground": 5.71,
+      "accentTextOnAccent": 6.53
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Organic Calm uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-033",
+    "name": "Organic Calm \u2014 Complementary \u2014 Light",
+    "archetype": "organic",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "organic",
+      "wellness",
+      "environmental",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F8",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEFED",
+      "textPrimary": "#181D1A",
+      "textMuted": "#56675B",
+      "border": "#CDD5CF",
+      "accent": "#1CAB47",
+      "accentSecondary": "#C22E96",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.18,
+      "textOnSurface1": 16.94,
+      "mutedOnBackground": 5.71,
+      "accentTextOnAccent": 6.53
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Organic Calm uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-034",
+    "name": "Organic Calm \u2014 Monochromatic \u2014 Dark",
+    "archetype": "organic",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "organic",
+      "wellness",
+      "environmental",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1210",
+      "surface1": "#181E1A",
+      "surface2": "#222A25",
+      "textPrimary": "#F3F4F3",
+      "textMuted": "#AFBBB3",
+      "border": "#354138",
+      "accent": "#5CE084",
+      "accentSecondary": "#87D9A0",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.09,
+      "textOnSurface1": 15.37,
+      "mutedOnBackground": 9.5,
+      "accentTextOnAccent": 11.67
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Organic Calm uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-035",
+    "name": "Organic Calm \u2014 Analogous \u2014 Dark",
+    "archetype": "organic",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "organic",
+      "wellness",
+      "environmental",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1210",
+      "surface1": "#181E1A",
+      "surface2": "#222A25",
+      "textPrimary": "#F3F4F3",
+      "textMuted": "#AFBBB3",
+      "border": "#354138",
+      "accent": "#5CE084",
+      "accentSecondary": "#82DED2",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.09,
+      "textOnSurface1": 15.37,
+      "mutedOnBackground": 9.5,
+      "accentTextOnAccent": 11.67
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Organic Calm uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-036",
+    "name": "Organic Calm \u2014 Complementary \u2014 Dark",
+    "archetype": "organic",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "organic",
+      "wellness",
+      "environmental",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1210",
+      "surface1": "#181E1A",
+      "surface2": "#222A25",
+      "textPrimary": "#F3F4F3",
+      "textMuted": "#AFBBB3",
+      "border": "#354138",
+      "accent": "#5CE084",
+      "accentSecondary": "#D86EB8",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.09,
+      "textOnSurface1": 15.37,
+      "mutedOnBackground": 9.5,
+      "accentTextOnAccent": 11.67
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Organic Calm uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-037",
+    "name": "Fashion Contrast \u2014 Monochromatic \u2014 Light",
+    "archetype": "fashion",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "fashion",
+      "portfolio",
+      "expressive",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F8F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFECED",
+      "textPrimary": "#1D181B",
+      "textMuted": "#67565E",
+      "border": "#D5CDD1",
+      "accent": "#AB1C63",
+      "accentSecondary": "#CC5C94",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.54,
+      "textOnSurface1": 17.37,
+      "mutedOnBackground": 6.46,
+      "accentTextOnAccent": 6.82
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Fashion Contrast uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-038",
+    "name": "Fashion Contrast \u2014 Analogous \u2014 Light",
+    "archetype": "fashion",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "fashion",
+      "portfolio",
+      "expressive",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F8F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFECED",
+      "textPrimary": "#1D181B",
+      "textMuted": "#67565E",
+      "border": "#D5CDD1",
+      "accent": "#AB1C63",
+      "accentSecondary": "#C2372E",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.54,
+      "textOnSurface1": 17.37,
+      "mutedOnBackground": 6.46,
+      "accentTextOnAccent": 6.82
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Fashion Contrast uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-039",
+    "name": "Fashion Contrast \u2014 Complementary \u2014 Light",
+    "archetype": "fashion",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "fashion",
+      "portfolio",
+      "expressive",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F8F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#EFECED",
+      "textPrimary": "#1D181B",
+      "textMuted": "#67565E",
+      "border": "#D5CDD1",
+      "accent": "#AB1C63",
+      "accentSecondary": "#2EC278",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.54,
+      "textOnSurface1": 17.37,
+      "mutedOnBackground": 6.46,
+      "accentTextOnAccent": 6.82
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Fashion Contrast uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-040",
+    "name": "Fashion Contrast \u2014 Monochromatic \u2014 Dark",
+    "archetype": "fashion",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "fashion",
+      "portfolio",
+      "expressive",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#120F11",
+      "surface1": "#1E181B",
+      "surface2": "#2A2226",
+      "textPrimary": "#F4F3F4",
+      "textMuted": "#BBAFB5",
+      "border": "#41353B",
+      "accent": "#E05C9E",
+      "accentSecondary": "#D987B0",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.21,
+      "textOnSurface1": 15.79,
+      "mutedOnBackground": 8.99,
+      "accentTextOnAccent": 5.81
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Fashion Contrast uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-041",
+    "name": "Fashion Contrast \u2014 Analogous \u2014 Dark",
+    "archetype": "fashion",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "fashion",
+      "portfolio",
+      "expressive",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#120F11",
+      "surface1": "#1E181B",
+      "surface2": "#2A2226",
+      "textPrimary": "#F4F3F4",
+      "textMuted": "#BBAFB5",
+      "border": "#41353B",
+      "accent": "#E05C9E",
+      "accentSecondary": "#DE8882",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.21,
+      "textOnSurface1": 15.79,
+      "mutedOnBackground": 8.99,
+      "accentTextOnAccent": 5.81
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Fashion Contrast uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-042",
+    "name": "Fashion Contrast \u2014 Complementary \u2014 Dark",
+    "archetype": "fashion",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "fashion",
+      "portfolio",
+      "expressive",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#120F11",
+      "surface1": "#1E181B",
+      "surface2": "#2A2226",
+      "textPrimary": "#F4F3F4",
+      "textMuted": "#BBAFB5",
+      "border": "#41353B",
+      "accent": "#E05C9E",
+      "accentSecondary": "#6ED8A3",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.21,
+      "textOnSurface1": 15.79,
+      "mutedOnBackground": 8.99,
+      "accentTextOnAccent": 5.81
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Fashion Contrast uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-043",
+    "name": "Playful System \u2014 Monochromatic \u2014 Light",
+    "archetype": "playful",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "playful",
+      "education",
+      "creative",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F8F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#EDECEF",
+      "textPrimary": "#1B181D",
+      "textMuted": "#5E5667",
+      "border": "#D1CDD5",
+      "accent": "#5F1CAB",
+      "accentSecondary": "#905CCC",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.59,
+      "textOnSurface1": 17.42,
+      "mutedOnBackground": 6.6,
+      "accentTextOnAccent": 9.37
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Playful System uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-044",
+    "name": "Playful System \u2014 Analogous \u2014 Light",
+    "archetype": "playful",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "playful",
+      "education",
+      "creative",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F8F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#EDECEF",
+      "textPrimary": "#1B181D",
+      "textMuted": "#5E5667",
+      "border": "#D1CDD5",
+      "accent": "#5F1CAB",
+      "accentSecondary": "#C22EBD",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.59,
+      "textOnSurface1": 17.42,
+      "mutedOnBackground": 6.6,
+      "accentTextOnAccent": 9.37
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Playful System uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-045",
+    "name": "Playful System \u2014 Complementary \u2014 Light",
+    "archetype": "playful",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "playful",
+      "education",
+      "creative",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F9F8F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#EDECEF",
+      "textPrimary": "#1B181D",
+      "textMuted": "#5E5667",
+      "border": "#D1CDD5",
+      "accent": "#5F1CAB",
+      "accentSecondary": "#7DC22E",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.59,
+      "textOnSurface1": 17.42,
+      "mutedOnBackground": 6.6,
+      "accentTextOnAccent": 9.37
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Playful System uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-046",
+    "name": "Playful System \u2014 Monochromatic \u2014 Dark",
+    "archetype": "playful",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "playful",
+      "education",
+      "creative",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#100F12",
+      "surface1": "#1B181E",
+      "surface2": "#26222A",
+      "textPrimary": "#F3F3F4",
+      "textMuted": "#B5AFBB",
+      "border": "#3A3541",
+      "accent": "#9A5CE0",
+      "accentSecondary": "#AD87D9",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.23,
+      "textOnSurface1": 15.83,
+      "mutedOnBackground": 8.93,
+      "accentTextOnAccent": 4.67
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Playful System uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-047",
+    "name": "Playful System \u2014 Analogous \u2014 Dark",
+    "archetype": "playful",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "playful",
+      "education",
+      "creative",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#100F12",
+      "surface1": "#1B181E",
+      "surface2": "#26222A",
+      "textPrimary": "#F3F3F4",
+      "textMuted": "#B5AFBB",
+      "border": "#3A3541",
+      "accent": "#9A5CE0",
+      "accentSecondary": "#DE82DB",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.23,
+      "textOnSurface1": 15.83,
+      "mutedOnBackground": 8.93,
+      "accentTextOnAccent": 4.67
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Playful System uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-048",
+    "name": "Playful System \u2014 Complementary \u2014 Dark",
+    "archetype": "playful",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "playful",
+      "education",
+      "creative",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#100F12",
+      "surface1": "#1B181E",
+      "surface2": "#26222A",
+      "textPrimary": "#F3F3F4",
+      "textMuted": "#B5AFBB",
+      "border": "#3A3541",
+      "accent": "#9A5CE0",
+      "accentSecondary": "#A7D86E",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.23,
+      "textOnSurface1": 15.83,
+      "mutedOnBackground": 8.93,
+      "accentTextOnAccent": 4.67
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Playful System uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-049",
+    "name": "Spatial 3D \u2014 Monochromatic \u2014 Light",
+    "archetype": "spatial-3d",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "3d",
+      "webgl",
+      "immersive",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEFEF",
+      "textPrimary": "#181D1D",
+      "textMuted": "#566766",
+      "border": "#CDD5D5",
+      "accent": "#1CABA6",
+      "accentSecondary": "#5CCCC8",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.16,
+      "textOnSurface1": 16.9,
+      "mutedOnBackground": 5.64,
+      "accentTextOnAccent": 6.96
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Spatial 3D uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-050",
+    "name": "Spatial 3D \u2014 Analogous \u2014 Light",
+    "archetype": "spatial-3d",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "3d",
+      "webgl",
+      "immersive",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEFEF",
+      "textPrimary": "#181D1D",
+      "textMuted": "#566766",
+      "border": "#CDD5D5",
+      "accent": "#1CABA6",
+      "accentSecondary": "#2E73C2",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.16,
+      "textOnSurface1": 16.9,
+      "mutedOnBackground": 5.64,
+      "accentTextOnAccent": 6.96
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Spatial 3D uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-051",
+    "name": "Spatial 3D \u2014 Complementary \u2014 Light",
+    "archetype": "spatial-3d",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "3d",
+      "webgl",
+      "immersive",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F9F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECEFEF",
+      "textPrimary": "#181D1D",
+      "textMuted": "#566766",
+      "border": "#CDD5D5",
+      "accent": "#1CABA6",
+      "accentSecondary": "#C22E32",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 16.16,
+      "textOnSurface1": 16.9,
+      "mutedOnBackground": 5.64,
+      "accentTextOnAccent": 6.96
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Spatial 3D uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-052",
+    "name": "Spatial 3D \u2014 Monochromatic \u2014 Dark",
+    "archetype": "spatial-3d",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "3d",
+      "webgl",
+      "immersive",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1212",
+      "surface1": "#181E1E",
+      "surface2": "#222A2A",
+      "textPrimary": "#F3F4F4",
+      "textMuted": "#AFBBBB",
+      "border": "#354140",
+      "accent": "#5CE0DC",
+      "accentSecondary": "#87D9D6",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.08,
+      "textOnSurface1": 15.33,
+      "mutedOnBackground": 9.55,
+      "accentTextOnAccent": 12.33
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Spatial 3D uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-053",
+    "name": "Spatial 3D \u2014 Analogous \u2014 Dark",
+    "archetype": "spatial-3d",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "3d",
+      "webgl",
+      "immersive",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1212",
+      "surface1": "#181E1E",
+      "surface2": "#222A2A",
+      "textPrimary": "#F3F4F4",
+      "textMuted": "#AFBBBB",
+      "border": "#354140",
+      "accent": "#5CE0DC",
+      "accentSecondary": "#82ADDE",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.08,
+      "textOnSurface1": 15.33,
+      "mutedOnBackground": 9.55,
+      "accentTextOnAccent": 12.33
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Spatial 3D uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-054",
+    "name": "Spatial 3D \u2014 Complementary \u2014 Dark",
+    "archetype": "spatial-3d",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "3d",
+      "webgl",
+      "immersive",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1212",
+      "surface1": "#181E1E",
+      "surface2": "#222A2A",
+      "textPrimary": "#F3F4F4",
+      "textMuted": "#AFBBBB",
+      "border": "#354140",
+      "accent": "#5CE0DC",
+      "accentSecondary": "#D86E72",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.08,
+      "textOnSurface1": 15.33,
+      "mutedOnBackground": 9.55,
+      "accentTextOnAccent": 12.33
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Spatial 3D uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-055",
+    "name": "Data Product \u2014 Monochromatic \u2014 Light",
+    "archetype": "data-product",
+    "mode": "light",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "dashboard",
+      "data",
+      "product",
+      "monochromatic",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F8F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECECEF",
+      "textPrimary": "#181A1D",
+      "textMuted": "#565A67",
+      "border": "#CDCFD5",
+      "accent": "#1C40AB",
+      "accentSecondary": "#5C78CC",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.43,
+      "textOnSurface1": 17.29,
+      "mutedOnBackground": 6.48,
+      "accentTextOnAccent": 8.86
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Data Product uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-056",
+    "name": "Data Product \u2014 Analogous \u2014 Light",
+    "archetype": "data-product",
+    "mode": "light",
+    "harmony": "analogous",
+    "intentTags": [
+      "dashboard",
+      "data",
+      "product",
+      "analogous",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F8F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECECEF",
+      "textPrimary": "#181A1D",
+      "textMuted": "#565A67",
+      "border": "#CDCFD5",
+      "accent": "#1C40AB",
+      "accentSecondary": "#5D2EC2",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.43,
+      "textOnSurface1": 17.29,
+      "mutedOnBackground": 6.48,
+      "accentTextOnAccent": 8.86
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Data Product uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-057",
+    "name": "Data Product \u2014 Complementary \u2014 Light",
+    "archetype": "data-product",
+    "mode": "light",
+    "harmony": "complementary",
+    "intentTags": [
+      "dashboard",
+      "data",
+      "product",
+      "complementary",
+      "light"
+    ],
+    "roles": {
+      "background": "#F8F8F9",
+      "surface1": "#FEFEFE",
+      "surface2": "#ECECEF",
+      "textPrimary": "#181A1D",
+      "textMuted": "#565A67",
+      "border": "#CDCFD5",
+      "accent": "#1C40AB",
+      "accentSecondary": "#C29D2E",
+      "accentText": "#FFFFFF"
+    },
+    "contrast": {
+      "textOnBackground": 16.43,
+      "textOnSurface1": 17.29,
+      "mutedOnBackground": 6.48,
+      "accentTextOnAccent": 8.86
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Data Product uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-058",
+    "name": "Data Product \u2014 Monochromatic \u2014 Dark",
+    "archetype": "data-product",
+    "mode": "dark",
+    "harmony": "monochromatic",
+    "intentTags": [
+      "dashboard",
+      "data",
+      "product",
+      "monochromatic",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1012",
+      "surface1": "#18191E",
+      "surface2": "#22242A",
+      "textPrimary": "#F3F3F4",
+      "textMuted": "#AFB2BB",
+      "border": "#353841",
+      "accent": "#5C7DE0",
+      "accentSecondary": "#879BD9",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.17,
+      "textOnSurface1": 15.83,
+      "mutedOnBackground": 8.98,
+      "accentTextOnAccent": 5.12
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Data Product uses a monochromatic relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-059",
+    "name": "Data Product \u2014 Analogous \u2014 Dark",
+    "archetype": "data-product",
+    "mode": "dark",
+    "harmony": "analogous",
+    "intentTags": [
+      "dashboard",
+      "data",
+      "product",
+      "analogous",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1012",
+      "surface1": "#18191E",
+      "surface2": "#22242A",
+      "textPrimary": "#F3F3F4",
+      "textMuted": "#AFB2BB",
+      "border": "#353841",
+      "accent": "#5C7DE0",
+      "accentSecondary": "#9F82DE",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.17,
+      "textOnSurface1": 15.83,
+      "mutedOnBackground": 8.98,
+      "accentTextOnAccent": 5.12
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Data Product uses a analogous relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  },
+  {
+    "id": "color-recipe-060",
+    "name": "Data Product \u2014 Complementary \u2014 Dark",
+    "archetype": "data-product",
+    "mode": "dark",
+    "harmony": "complementary",
+    "intentTags": [
+      "dashboard",
+      "data",
+      "product",
+      "complementary",
+      "dark"
+    ],
+    "roles": {
+      "background": "#0F1012",
+      "surface1": "#18191E",
+      "surface2": "#22242A",
+      "textPrimary": "#F3F3F4",
+      "textMuted": "#AFB2BB",
+      "border": "#353841",
+      "accent": "#5C7DE0",
+      "accentSecondary": "#D8BE6E",
+      "accentText": "#0B0B0B"
+    },
+    "contrast": {
+      "textOnBackground": 17.17,
+      "textOnSurface1": 15.83,
+      "mutedOnBackground": 8.98,
+      "accentTextOnAccent": 5.12
+    },
+    "areaGuidance": {
+      "backgroundAndNeutral": "70-90%",
+      "surfaceAndSupport": "8-25%",
+      "strongAccent": "2-10%"
+    },
+    "teaching": {
+      "why": "Data Product uses a complementary relationship while preserving a dominant neutral field. The accent is intentionally much stronger in chroma than the surrounding UI.",
+      "useAccentFor": [
+        "primary CTA",
+        "active navigation",
+        "one signature detail"
+      ],
+      "useSecondaryFor": [
+        "illustration support",
+        "data highlight",
+        "subtle 3D rim/fill accent"
+      ],
+      "avoid": [
+        "using both accent colors at equal area",
+        "using accent as body text without contrast test",
+        "adding a third unrelated decorative hue"
+      ]
+    },
+    "threeDNotes": "Coordinate environment and material lighting with the same temperature family; keep emissive use scarcer than DOM accent.",
+    "sourceConfidence": "SYNTHESIZED"
+  }
+]

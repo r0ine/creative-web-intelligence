@@ -1,0 +1,1586 @@
+[
+  {
+    "id": "ref-v3-001",
+    "family": "geometry",
+    "mode": "observe",
+    "name": "Geometry — Observe",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "geometry evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-002",
+    "family": "geometry",
+    "mode": "specify",
+    "name": "Geometry — Specify",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "geometry evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-003",
+    "family": "geometry",
+    "mode": "compare",
+    "name": "Geometry — Compare",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "geometry evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-004",
+    "family": "geometry",
+    "mode": "correct",
+    "name": "Geometry — Correct",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "geometry evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-005",
+    "family": "geometry",
+    "mode": "fallback",
+    "name": "Geometry — Fallback",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "geometry evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-006",
+    "family": "geometry",
+    "mode": "uncertainty",
+    "name": "Geometry — Uncertainty",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "geometry evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-007",
+    "family": "geometry",
+    "mode": "mobile",
+    "name": "Geometry — Mobile",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "geometry evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-008",
+    "family": "geometry",
+    "mode": "qa",
+    "name": "Geometry — Qa",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "geometry evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-009",
+    "family": "typography",
+    "mode": "observe",
+    "name": "Typography — Observe",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "typography evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-010",
+    "family": "typography",
+    "mode": "specify",
+    "name": "Typography — Specify",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "typography evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-011",
+    "family": "typography",
+    "mode": "compare",
+    "name": "Typography — Compare",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "typography evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-012",
+    "family": "typography",
+    "mode": "correct",
+    "name": "Typography — Correct",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "typography evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-013",
+    "family": "typography",
+    "mode": "fallback",
+    "name": "Typography — Fallback",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "typography evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-014",
+    "family": "typography",
+    "mode": "uncertainty",
+    "name": "Typography — Uncertainty",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "typography evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-015",
+    "family": "typography",
+    "mode": "mobile",
+    "name": "Typography — Mobile",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "typography evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-016",
+    "family": "typography",
+    "mode": "qa",
+    "name": "Typography — Qa",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "typography evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-017",
+    "family": "color-material",
+    "mode": "observe",
+    "name": "Color Material — Observe",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "color-material evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-018",
+    "family": "color-material",
+    "mode": "specify",
+    "name": "Color Material — Specify",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "color-material evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-019",
+    "family": "color-material",
+    "mode": "compare",
+    "name": "Color Material — Compare",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "color-material evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-020",
+    "family": "color-material",
+    "mode": "correct",
+    "name": "Color Material — Correct",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "color-material evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-021",
+    "family": "color-material",
+    "mode": "fallback",
+    "name": "Color Material — Fallback",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "color-material evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-022",
+    "family": "color-material",
+    "mode": "uncertainty",
+    "name": "Color Material — Uncertainty",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "color-material evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-023",
+    "family": "color-material",
+    "mode": "mobile",
+    "name": "Color Material — Mobile",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "color-material evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-024",
+    "family": "color-material",
+    "mode": "qa",
+    "name": "Color Material — Qa",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "color-material evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-025",
+    "family": "media-framing",
+    "mode": "observe",
+    "name": "Media Framing — Observe",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "media-framing evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-026",
+    "family": "media-framing",
+    "mode": "specify",
+    "name": "Media Framing — Specify",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "media-framing evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-027",
+    "family": "media-framing",
+    "mode": "compare",
+    "name": "Media Framing — Compare",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "media-framing evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-028",
+    "family": "media-framing",
+    "mode": "correct",
+    "name": "Media Framing — Correct",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "media-framing evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-029",
+    "family": "media-framing",
+    "mode": "fallback",
+    "name": "Media Framing — Fallback",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "media-framing evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-030",
+    "family": "media-framing",
+    "mode": "uncertainty",
+    "name": "Media Framing — Uncertainty",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "media-framing evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-031",
+    "family": "media-framing",
+    "mode": "mobile",
+    "name": "Media Framing — Mobile",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "media-framing evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-032",
+    "family": "media-framing",
+    "mode": "qa",
+    "name": "Media Framing — Qa",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "media-framing evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-033",
+    "family": "scroll-motion",
+    "mode": "observe",
+    "name": "Scroll Motion — Observe",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "scroll-motion evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-034",
+    "family": "scroll-motion",
+    "mode": "specify",
+    "name": "Scroll Motion — Specify",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "scroll-motion evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-035",
+    "family": "scroll-motion",
+    "mode": "compare",
+    "name": "Scroll Motion — Compare",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "scroll-motion evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-036",
+    "family": "scroll-motion",
+    "mode": "correct",
+    "name": "Scroll Motion — Correct",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "scroll-motion evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-037",
+    "family": "scroll-motion",
+    "mode": "fallback",
+    "name": "Scroll Motion — Fallback",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "scroll-motion evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-038",
+    "family": "scroll-motion",
+    "mode": "uncertainty",
+    "name": "Scroll Motion — Uncertainty",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "scroll-motion evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-039",
+    "family": "scroll-motion",
+    "mode": "mobile",
+    "name": "Scroll Motion — Mobile",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "scroll-motion evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-040",
+    "family": "scroll-motion",
+    "mode": "qa",
+    "name": "Scroll Motion — Qa",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "scroll-motion evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-041",
+    "family": "interaction",
+    "mode": "observe",
+    "name": "Interaction — Observe",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "interaction evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-042",
+    "family": "interaction",
+    "mode": "specify",
+    "name": "Interaction — Specify",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "interaction evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-043",
+    "family": "interaction",
+    "mode": "compare",
+    "name": "Interaction — Compare",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "interaction evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-044",
+    "family": "interaction",
+    "mode": "correct",
+    "name": "Interaction — Correct",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "interaction evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-045",
+    "family": "interaction",
+    "mode": "fallback",
+    "name": "Interaction — Fallback",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "interaction evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-046",
+    "family": "interaction",
+    "mode": "uncertainty",
+    "name": "Interaction — Uncertainty",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "interaction evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-047",
+    "family": "interaction",
+    "mode": "mobile",
+    "name": "Interaction — Mobile",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "interaction evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-048",
+    "family": "interaction",
+    "mode": "qa",
+    "name": "Interaction — Qa",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "interaction evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-049",
+    "family": "responsive",
+    "mode": "observe",
+    "name": "Responsive — Observe",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "responsive evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-050",
+    "family": "responsive",
+    "mode": "specify",
+    "name": "Responsive — Specify",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "responsive evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-051",
+    "family": "responsive",
+    "mode": "compare",
+    "name": "Responsive — Compare",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "responsive evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-052",
+    "family": "responsive",
+    "mode": "correct",
+    "name": "Responsive — Correct",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "responsive evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-053",
+    "family": "responsive",
+    "mode": "fallback",
+    "name": "Responsive — Fallback",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "responsive evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-054",
+    "family": "responsive",
+    "mode": "uncertainty",
+    "name": "Responsive — Uncertainty",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "responsive evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-055",
+    "family": "responsive",
+    "mode": "mobile",
+    "name": "Responsive — Mobile",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "responsive evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-056",
+    "family": "responsive",
+    "mode": "qa",
+    "name": "Responsive — Qa",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "responsive evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-057",
+    "family": "3d",
+    "mode": "observe",
+    "name": "3D — Observe",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "3d evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-058",
+    "family": "3d",
+    "mode": "specify",
+    "name": "3D — Specify",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "3d evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-059",
+    "family": "3d",
+    "mode": "compare",
+    "name": "3D — Compare",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "3d evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-060",
+    "family": "3d",
+    "mode": "correct",
+    "name": "3D — Correct",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "3d evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-061",
+    "family": "3d",
+    "mode": "fallback",
+    "name": "3D — Fallback",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "3d evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-062",
+    "family": "3d",
+    "mode": "uncertainty",
+    "name": "3D — Uncertainty",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "3d evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-063",
+    "family": "3d",
+    "mode": "mobile",
+    "name": "3D — Mobile",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "3d evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-064",
+    "family": "3d",
+    "mode": "qa",
+    "name": "3D — Qa",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "3d evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-065",
+    "family": "loading-transition",
+    "mode": "observe",
+    "name": "Loading Transition — Observe",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "loading-transition evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-066",
+    "family": "loading-transition",
+    "mode": "specify",
+    "name": "Loading Transition — Specify",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "loading-transition evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-067",
+    "family": "loading-transition",
+    "mode": "compare",
+    "name": "Loading Transition — Compare",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "loading-transition evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-068",
+    "family": "loading-transition",
+    "mode": "correct",
+    "name": "Loading Transition — Correct",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "loading-transition evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-069",
+    "family": "loading-transition",
+    "mode": "fallback",
+    "name": "Loading Transition — Fallback",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "loading-transition evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-070",
+    "family": "loading-transition",
+    "mode": "uncertainty",
+    "name": "Loading Transition — Uncertainty",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "loading-transition evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-071",
+    "family": "loading-transition",
+    "mode": "mobile",
+    "name": "Loading Transition — Mobile",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "loading-transition evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  },
+  {
+    "id": "ref-v3-072",
+    "family": "loading-transition",
+    "mode": "qa",
+    "name": "Loading Transition — Qa",
+    "input": "user-supplied image/video/capture + target viewport metadata",
+    "output": "loading-transition evidence + measurable constraints + confidence",
+    "rules": [
+      "separate observation from inference",
+      "record confidence",
+      "prefer relationships over guessed absolute pixels",
+      "preserve unknowns",
+      "do not claim unseen states"
+    ],
+    "fidelityModes": [
+      "inspired",
+      "structure-close",
+      "pixel-close",
+      "behavior-close"
+    ],
+    "sourceStatus": "REFERENCE_DERIVED_ONLY_WHEN_INPUT_PRESENT"
+  }
+]

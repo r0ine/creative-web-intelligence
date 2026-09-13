@@ -1,0 +1,4322 @@
+[
+  {
+    "id": "backend-v3-001",
+    "family": "architecture",
+    "name": "Frontend Only — Baseline",
+    "tier": "baseline",
+    "purpose": "architecture capability for frontend only",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-002",
+    "family": "architecture",
+    "name": "Frontend Only — Production",
+    "tier": "production",
+    "purpose": "architecture capability for frontend only",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-003",
+    "family": "architecture",
+    "name": "Serverless Api — Baseline",
+    "tier": "baseline",
+    "purpose": "architecture capability for serverless api",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-004",
+    "family": "architecture",
+    "name": "Serverless Api — Production",
+    "tier": "production",
+    "purpose": "architecture capability for serverless api",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-005",
+    "family": "architecture",
+    "name": "Edge Worker — Baseline",
+    "tier": "baseline",
+    "purpose": "architecture capability for edge worker",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-006",
+    "family": "architecture",
+    "name": "Edge Worker — Production",
+    "tier": "production",
+    "purpose": "architecture capability for edge worker",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-007",
+    "family": "architecture",
+    "name": "Node Service — Baseline",
+    "tier": "baseline",
+    "purpose": "architecture capability for node service",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-008",
+    "family": "architecture",
+    "name": "Node Service — Production",
+    "tier": "production",
+    "purpose": "architecture capability for node service",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-009",
+    "family": "architecture",
+    "name": "Framework Routes — Baseline",
+    "tier": "baseline",
+    "purpose": "architecture capability for framework routes",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-010",
+    "family": "architecture",
+    "name": "Framework Routes — Production",
+    "tier": "production",
+    "purpose": "architecture capability for framework routes",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-011",
+    "family": "architecture",
+    "name": "Bff — Baseline",
+    "tier": "baseline",
+    "purpose": "architecture capability for bff",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-012",
+    "family": "architecture",
+    "name": "Bff — Production",
+    "tier": "production",
+    "purpose": "architecture capability for bff",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-013",
+    "family": "auth",
+    "name": "Email Session — Baseline",
+    "tier": "baseline",
+    "purpose": "auth capability for email session",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-014",
+    "family": "auth",
+    "name": "Email Session — Production",
+    "tier": "production",
+    "purpose": "auth capability for email session",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-015",
+    "family": "auth",
+    "name": "Oauth Session — Baseline",
+    "tier": "baseline",
+    "purpose": "auth capability for oauth session",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-016",
+    "family": "auth",
+    "name": "Oauth Session — Production",
+    "tier": "production",
+    "purpose": "auth capability for oauth session",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-017",
+    "family": "auth",
+    "name": "Api Token — Baseline",
+    "tier": "baseline",
+    "purpose": "auth capability for api token",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-018",
+    "family": "auth",
+    "name": "Api Token — Production",
+    "tier": "production",
+    "purpose": "auth capability for api token",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-019",
+    "family": "auth",
+    "name": "Magic Link — Baseline",
+    "tier": "baseline",
+    "purpose": "auth capability for magic link",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-020",
+    "family": "auth",
+    "name": "Magic Link — Production",
+    "tier": "production",
+    "purpose": "auth capability for magic link",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-021",
+    "family": "auth",
+    "name": "Admin Rbac — Baseline",
+    "tier": "baseline",
+    "purpose": "auth capability for admin rbac",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-022",
+    "family": "auth",
+    "name": "Admin Rbac — Production",
+    "tier": "production",
+    "purpose": "auth capability for admin rbac",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-023",
+    "family": "auth",
+    "name": "Tenant Rbac — Baseline",
+    "tier": "baseline",
+    "purpose": "auth capability for tenant rbac",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-024",
+    "family": "auth",
+    "name": "Tenant Rbac — Production",
+    "tier": "production",
+    "purpose": "auth capability for tenant rbac",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-025",
+    "family": "database",
+    "name": "Sql Repository — Baseline",
+    "tier": "baseline",
+    "purpose": "database capability for sql repository",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-026",
+    "family": "database",
+    "name": "Sql Repository — Production",
+    "tier": "production",
+    "purpose": "database capability for sql repository",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-027",
+    "family": "database",
+    "name": "Transactional Write — Baseline",
+    "tier": "baseline",
+    "purpose": "database capability for transactional write",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-028",
+    "family": "database",
+    "name": "Transactional Write — Production",
+    "tier": "production",
+    "purpose": "database capability for transactional write",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-029",
+    "family": "database",
+    "name": "Cursor Pagination — Baseline",
+    "tier": "baseline",
+    "purpose": "database capability for cursor pagination",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-030",
+    "family": "database",
+    "name": "Cursor Pagination — Production",
+    "tier": "production",
+    "purpose": "database capability for cursor pagination",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-031",
+    "family": "database",
+    "name": "Migration — Baseline",
+    "tier": "baseline",
+    "purpose": "database capability for migration",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-032",
+    "family": "database",
+    "name": "Migration — Production",
+    "tier": "production",
+    "purpose": "database capability for migration",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-033",
+    "family": "database",
+    "name": "Soft Delete Retention — Baseline",
+    "tier": "baseline",
+    "purpose": "database capability for soft delete retention",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-034",
+    "family": "database",
+    "name": "Soft Delete Retention — Production",
+    "tier": "production",
+    "purpose": "database capability for soft delete retention",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-035",
+    "family": "database",
+    "name": "Search Index — Baseline",
+    "tier": "baseline",
+    "purpose": "database capability for search index",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-036",
+    "family": "database",
+    "name": "Search Index — Production",
+    "tier": "production",
+    "purpose": "database capability for search index",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-037",
+    "family": "api",
+    "name": "Rest Resource — Baseline",
+    "tier": "baseline",
+    "purpose": "api capability for rest resource",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-038",
+    "family": "api",
+    "name": "Rest Resource — Production",
+    "tier": "production",
+    "purpose": "api capability for rest resource",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-039",
+    "family": "api",
+    "name": "Action Endpoint — Baseline",
+    "tier": "baseline",
+    "purpose": "api capability for action endpoint",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-040",
+    "family": "api",
+    "name": "Action Endpoint — Production",
+    "tier": "production",
+    "purpose": "api capability for action endpoint",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-041",
+    "family": "api",
+    "name": "Typed Contract — Baseline",
+    "tier": "baseline",
+    "purpose": "api capability for typed contract",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-042",
+    "family": "api",
+    "name": "Typed Contract — Production",
+    "tier": "production",
+    "purpose": "api capability for typed contract",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-043",
+    "family": "api",
+    "name": "Error Envelope — Baseline",
+    "tier": "baseline",
+    "purpose": "api capability for error envelope",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-044",
+    "family": "api",
+    "name": "Error Envelope — Production",
+    "tier": "production",
+    "purpose": "api capability for error envelope",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-045",
+    "family": "api",
+    "name": "Idempotent Mutation — Baseline",
+    "tier": "baseline",
+    "purpose": "api capability for idempotent mutation",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-046",
+    "family": "api",
+    "name": "Idempotent Mutation — Production",
+    "tier": "production",
+    "purpose": "api capability for idempotent mutation",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-047",
+    "family": "api",
+    "name": "Batch Read — Baseline",
+    "tier": "baseline",
+    "purpose": "api capability for batch read",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-048",
+    "family": "api",
+    "name": "Batch Read — Production",
+    "tier": "production",
+    "purpose": "api capability for batch read",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-049",
+    "family": "validation",
+    "name": "Body Schema — Baseline",
+    "tier": "baseline",
+    "purpose": "validation capability for body schema",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-050",
+    "family": "validation",
+    "name": "Body Schema — Production",
+    "tier": "production",
+    "purpose": "validation capability for body schema",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-051",
+    "family": "validation",
+    "name": "Query Schema — Baseline",
+    "tier": "baseline",
+    "purpose": "validation capability for query schema",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-052",
+    "family": "validation",
+    "name": "Query Schema — Production",
+    "tier": "production",
+    "purpose": "validation capability for query schema",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-053",
+    "family": "validation",
+    "name": "File Metadata — Baseline",
+    "tier": "baseline",
+    "purpose": "validation capability for file metadata",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-054",
+    "family": "validation",
+    "name": "File Metadata — Production",
+    "tier": "production",
+    "purpose": "validation capability for file metadata",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-055",
+    "family": "validation",
+    "name": "Cross Field Invariant — Baseline",
+    "tier": "baseline",
+    "purpose": "validation capability for cross field invariant",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-056",
+    "family": "validation",
+    "name": "Cross Field Invariant — Production",
+    "tier": "production",
+    "purpose": "validation capability for cross field invariant",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-057",
+    "family": "validation",
+    "name": "Normalization — Baseline",
+    "tier": "baseline",
+    "purpose": "validation capability for normalization",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-058",
+    "family": "validation",
+    "name": "Normalization — Production",
+    "tier": "production",
+    "purpose": "validation capability for normalization",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-059",
+    "family": "validation",
+    "name": "Safe Coercion — Baseline",
+    "tier": "baseline",
+    "purpose": "validation capability for safe coercion",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-060",
+    "family": "validation",
+    "name": "Safe Coercion — Production",
+    "tier": "production",
+    "purpose": "validation capability for safe coercion",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-061",
+    "family": "security",
+    "name": "Rate Limit — Baseline",
+    "tier": "baseline",
+    "purpose": "security capability for rate limit",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-062",
+    "family": "security",
+    "name": "Rate Limit — Production",
+    "tier": "production",
+    "purpose": "security capability for rate limit",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-063",
+    "family": "security",
+    "name": "Csrf — Baseline",
+    "tier": "baseline",
+    "purpose": "security capability for csrf",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-064",
+    "family": "security",
+    "name": "Csrf — Production",
+    "tier": "production",
+    "purpose": "security capability for csrf",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-065",
+    "family": "security",
+    "name": "Cors — Baseline",
+    "tier": "baseline",
+    "purpose": "security capability for cors",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-066",
+    "family": "security",
+    "name": "Cors — Production",
+    "tier": "production",
+    "purpose": "security capability for cors",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-067",
+    "family": "security",
+    "name": "Ssrf — Baseline",
+    "tier": "baseline",
+    "purpose": "security capability for ssrf",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-068",
+    "family": "security",
+    "name": "Ssrf — Production",
+    "tier": "production",
+    "purpose": "security capability for ssrf",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-069",
+    "family": "security",
+    "name": "Secret Management — Baseline",
+    "tier": "baseline",
+    "purpose": "security capability for secret management",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-070",
+    "family": "security",
+    "name": "Secret Management — Production",
+    "tier": "production",
+    "purpose": "security capability for secret management",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-071",
+    "family": "security",
+    "name": "Audit Log — Baseline",
+    "tier": "baseline",
+    "purpose": "security capability for audit log",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-072",
+    "family": "security",
+    "name": "Audit Log — Production",
+    "tier": "production",
+    "purpose": "security capability for audit log",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-073",
+    "family": "integration",
+    "name": "Email — Baseline",
+    "tier": "baseline",
+    "purpose": "integration capability for email",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-074",
+    "family": "integration",
+    "name": "Email — Production",
+    "tier": "production",
+    "purpose": "integration capability for email",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-075",
+    "family": "integration",
+    "name": "Webhook Inbound — Baseline",
+    "tier": "baseline",
+    "purpose": "integration capability for webhook inbound",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-076",
+    "family": "integration",
+    "name": "Webhook Inbound — Production",
+    "tier": "production",
+    "purpose": "integration capability for webhook inbound",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-077",
+    "family": "integration",
+    "name": "Webhook Outbound — Baseline",
+    "tier": "baseline",
+    "purpose": "integration capability for webhook outbound",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-078",
+    "family": "integration",
+    "name": "Webhook Outbound — Production",
+    "tier": "production",
+    "purpose": "integration capability for webhook outbound",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-079",
+    "family": "integration",
+    "name": "File Upload — Baseline",
+    "tier": "baseline",
+    "purpose": "integration capability for file upload",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-080",
+    "family": "integration",
+    "name": "File Upload — Production",
+    "tier": "production",
+    "purpose": "integration capability for file upload",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-081",
+    "family": "integration",
+    "name": "Object Storage — Baseline",
+    "tier": "baseline",
+    "purpose": "integration capability for object storage",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-082",
+    "family": "integration",
+    "name": "Object Storage — Production",
+    "tier": "production",
+    "purpose": "integration capability for object storage",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-083",
+    "family": "integration",
+    "name": "Realtime — Baseline",
+    "tier": "baseline",
+    "purpose": "integration capability for realtime",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-084",
+    "family": "integration",
+    "name": "Realtime — Production",
+    "tier": "production",
+    "purpose": "integration capability for realtime",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-085",
+    "family": "async",
+    "name": "Queue Job — Baseline",
+    "tier": "baseline",
+    "purpose": "async capability for queue job",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-086",
+    "family": "async",
+    "name": "Queue Job — Production",
+    "tier": "production",
+    "purpose": "async capability for queue job",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-087",
+    "family": "async",
+    "name": "Retry Backoff — Baseline",
+    "tier": "baseline",
+    "purpose": "async capability for retry backoff",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-088",
+    "family": "async",
+    "name": "Retry Backoff — Production",
+    "tier": "production",
+    "purpose": "async capability for retry backoff",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-089",
+    "family": "async",
+    "name": "Dead Letter — Baseline",
+    "tier": "baseline",
+    "purpose": "async capability for dead letter",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-090",
+    "family": "async",
+    "name": "Dead Letter — Production",
+    "tier": "production",
+    "purpose": "async capability for dead letter",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-091",
+    "family": "async",
+    "name": "Scheduled Task — Baseline",
+    "tier": "baseline",
+    "purpose": "async capability for scheduled task",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-092",
+    "family": "async",
+    "name": "Scheduled Task — Production",
+    "tier": "production",
+    "purpose": "async capability for scheduled task",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-093",
+    "family": "async",
+    "name": "Outbox Event — Baseline",
+    "tier": "baseline",
+    "purpose": "async capability for outbox event",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-094",
+    "family": "async",
+    "name": "Outbox Event — Production",
+    "tier": "production",
+    "purpose": "async capability for outbox event",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-095",
+    "family": "async",
+    "name": "Long Running Job — Baseline",
+    "tier": "baseline",
+    "purpose": "async capability for long running job",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-096",
+    "family": "async",
+    "name": "Long Running Job — Production",
+    "tier": "production",
+    "purpose": "async capability for long running job",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-097",
+    "family": "cache",
+    "name": "Http Cache — Baseline",
+    "tier": "baseline",
+    "purpose": "cache capability for http cache",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-098",
+    "family": "cache",
+    "name": "Http Cache — Production",
+    "tier": "production",
+    "purpose": "cache capability for http cache",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-099",
+    "family": "cache",
+    "name": "Application Cache — Baseline",
+    "tier": "baseline",
+    "purpose": "cache capability for application cache",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-100",
+    "family": "cache",
+    "name": "Application Cache — Production",
+    "tier": "production",
+    "purpose": "cache capability for application cache",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-101",
+    "family": "cache",
+    "name": "Kv Cache — Baseline",
+    "tier": "baseline",
+    "purpose": "cache capability for kv cache",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-102",
+    "family": "cache",
+    "name": "Kv Cache — Production",
+    "tier": "production",
+    "purpose": "cache capability for kv cache",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-103",
+    "family": "cache",
+    "name": "Cache Invalidation — Baseline",
+    "tier": "baseline",
+    "purpose": "cache capability for cache invalidation",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-104",
+    "family": "cache",
+    "name": "Cache Invalidation — Production",
+    "tier": "production",
+    "purpose": "cache capability for cache invalidation",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-105",
+    "family": "cache",
+    "name": "Etag — Baseline",
+    "tier": "baseline",
+    "purpose": "cache capability for etag",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-106",
+    "family": "cache",
+    "name": "Etag — Production",
+    "tier": "production",
+    "purpose": "cache capability for etag",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-107",
+    "family": "cache",
+    "name": "Stale While Revalidate — Baseline",
+    "tier": "baseline",
+    "purpose": "cache capability for stale while revalidate",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-108",
+    "family": "cache",
+    "name": "Stale While Revalidate — Production",
+    "tier": "production",
+    "purpose": "cache capability for stale while revalidate",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-109",
+    "family": "observability",
+    "name": "Structured Log — Baseline",
+    "tier": "baseline",
+    "purpose": "observability capability for structured log",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-110",
+    "family": "observability",
+    "name": "Structured Log — Production",
+    "tier": "production",
+    "purpose": "observability capability for structured log",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-111",
+    "family": "observability",
+    "name": "Request Id — Baseline",
+    "tier": "baseline",
+    "purpose": "observability capability for request id",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-112",
+    "family": "observability",
+    "name": "Request Id — Production",
+    "tier": "production",
+    "purpose": "observability capability for request id",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-113",
+    "family": "observability",
+    "name": "Error Tracking — Baseline",
+    "tier": "baseline",
+    "purpose": "observability capability for error tracking",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-114",
+    "family": "observability",
+    "name": "Error Tracking — Production",
+    "tier": "production",
+    "purpose": "observability capability for error tracking",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-115",
+    "family": "observability",
+    "name": "Metrics — Baseline",
+    "tier": "baseline",
+    "purpose": "observability capability for metrics",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-116",
+    "family": "observability",
+    "name": "Metrics — Production",
+    "tier": "production",
+    "purpose": "observability capability for metrics",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-117",
+    "family": "observability",
+    "name": "Health Check — Baseline",
+    "tier": "baseline",
+    "purpose": "observability capability for health check",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-118",
+    "family": "observability",
+    "name": "Health Check — Production",
+    "tier": "production",
+    "purpose": "observability capability for health check",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-119",
+    "family": "observability",
+    "name": "Audit Events — Baseline",
+    "tier": "baseline",
+    "purpose": "observability capability for audit events",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  },
+  {
+    "id": "backend-v3-120",
+    "family": "observability",
+    "name": "Audit Events — Production",
+    "tier": "production",
+    "purpose": "observability capability for audit events",
+    "requires": [
+      "explicit threat/data model",
+      "input/output contract",
+      "failure behavior"
+    ],
+    "security": [
+      "server-side authorization where relevant",
+      "validated inputs",
+      "no secrets in client",
+      "safe error handling"
+    ],
+    "testing": [
+      "happy path",
+      "invalid input",
+      "unauthorized/forbidden where relevant",
+      "dependency failure/retry where relevant"
+    ],
+    "observability": [
+      "request/correlation context",
+      "structured failure event"
+    ],
+    "antiPatterns": [
+      "trusting client state",
+      "unbounded list/read",
+      "hardcoded secret",
+      "silent catch",
+      "database row as public API"
+    ],
+    "sourceStatus": "SYNTHESIZED_ENGINEERING_PATTERN"
+  }
+]

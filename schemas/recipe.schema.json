@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CreativeWebRecipe",
+  "type": "object",
+  "required": [
+    "id",
+    "category",
+    "intent",
+    "engine",
+    "parameters",
+    "performance",
+    "compatibility",
+    "sourceConfidence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "intent": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "engine": {
+      "type": "string"
+    },
+    "parameters": {
+      "type": "object"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "performance": {
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "very-high"
+      ]
+    },
+    "compatibility": {
+      "type": "object",
+      "properties": {
+        "mobile": {
+          "type": "boolean"
+        },
+        "touch": {
+          "type": "boolean"
+        },
+        "reducedMotion": {
+          "type": "boolean"
+        },
+        "r3f": {
+          "type": "boolean"
+        },
+        "vanilla": {
+          "type": "boolean"
+        }
+      }
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "avoidWith": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sourceConfidence": {
+      "enum": [
+        "VERIFIED",
+        "INDEXED",
+        "SYNTHESIZED",
+        "NEEDS_CAPTURE"
+      ]
+    },
+    "sourceIds": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mobileStrategy": {
+      "type": "string"
+    },
+    "reducedMotionStrategy": {
+      "type": "string"
+    }
+  }
+}

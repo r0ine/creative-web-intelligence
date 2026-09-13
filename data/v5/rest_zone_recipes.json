@@ -1,0 +1,52 @@
+{
+  "$comment": "Mandatory rest zone doctrine. Structured version of v5/REST_ZONES.md.",
+  "version": "5.0",
+  "definition": "a region of the page where nothing moves - no scroll effect, no parallax, no hover response, no entrance animation, no drifting object",
+  "requirements": {
+    "applies_when_page_height_viewports_greater_than": 2,
+    "minimum_rest_coverage_pct": 30,
+    "minimum_continuous_rest_viewport_span": 1,
+    "primary_reading_section_must_be_rest": true
+  },
+  "breaks_rest": [
+    "scroll-triggered entrance animation",
+    "parallax layer of any subtlety",
+    "drift, float, rotate, or breathe animation",
+    "hover transform on an element (color change alone is fine)",
+    "always-on shader or WebGL animation in viewport range",
+    "Lottie or looped animation"
+  ],
+  "does_not_break_rest": [
+    "static images",
+    "expressive typography without animation",
+    "hover feedback on genuinely interactive elements",
+    "cursor tracking that is invisible or off-screen",
+    "motion in the offscreen page area"
+  ],
+  "placement_prompts": [
+    "after a high-motion scene - give the reader ground",
+    "around dense content - long paragraphs, tables, data blocks",
+    "before a peak moment - silence before emphasis"
+  ],
+  "avoid_placement_at": [
+    "the very start of the page",
+    "the very end of the page"
+  ],
+  "rest_zone_shapes": [
+    "long editorial paragraph in calm column with generous margins",
+    "single large image with caption, no crop reveal",
+    "mostly whitespace with one headline anchored in it",
+    "dense feature list where each item is legible without scroll effect",
+    "quote at editorial scale on a clean surface"
+  ],
+  "does_not_qualify": [
+    "static section with hover-lift on cards",
+    "static section with slow background gradient shift",
+    "section static above the fold but scrolling into parallax as it exits"
+  ],
+  "gate_blockers": [
+    "zero rest zones on a page longer than 2 viewports",
+    "less than 20% rest coverage on a page longer than 3 viewports",
+    "rest zone interrupted by always-on background animation"
+  ]
+}

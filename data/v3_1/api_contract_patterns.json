@@ -1,0 +1,2282 @@
+[
+  {
+    "id": "api-001",
+    "method": "GET",
+    "kind": "collection",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-002",
+    "method": "GET",
+    "kind": "collection",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-003",
+    "method": "GET",
+    "kind": "single-resource",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-004",
+    "method": "GET",
+    "kind": "single-resource",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-005",
+    "method": "GET",
+    "kind": "search",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-006",
+    "method": "GET",
+    "kind": "search",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-007",
+    "method": "GET",
+    "kind": "upload-init",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-008",
+    "method": "GET",
+    "kind": "upload-init",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-009",
+    "method": "GET",
+    "kind": "webhook",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-010",
+    "method": "GET",
+    "kind": "webhook",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-011",
+    "method": "GET",
+    "kind": "admin-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-012",
+    "method": "GET",
+    "kind": "admin-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-013",
+    "method": "GET",
+    "kind": "bulk-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-014",
+    "method": "GET",
+    "kind": "bulk-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-015",
+    "method": "GET",
+    "kind": "session",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-016",
+    "method": "GET",
+    "kind": "session",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-017",
+    "method": "GET",
+    "kind": "profile",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-018",
+    "method": "GET",
+    "kind": "profile",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-019",
+    "method": "GET",
+    "kind": "job-status",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-020",
+    "method": "GET",
+    "kind": "job-status",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "cache/pagination decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-021",
+    "method": "POST",
+    "kind": "collection",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-022",
+    "method": "POST",
+    "kind": "collection",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-023",
+    "method": "POST",
+    "kind": "single-resource",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-024",
+    "method": "POST",
+    "kind": "single-resource",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-025",
+    "method": "POST",
+    "kind": "search",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-026",
+    "method": "POST",
+    "kind": "search",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-027",
+    "method": "POST",
+    "kind": "upload-init",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-028",
+    "method": "POST",
+    "kind": "upload-init",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-029",
+    "method": "POST",
+    "kind": "webhook",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-030",
+    "method": "POST",
+    "kind": "webhook",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-031",
+    "method": "POST",
+    "kind": "admin-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-032",
+    "method": "POST",
+    "kind": "admin-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-033",
+    "method": "POST",
+    "kind": "bulk-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-034",
+    "method": "POST",
+    "kind": "bulk-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-035",
+    "method": "POST",
+    "kind": "session",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-036",
+    "method": "POST",
+    "kind": "session",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-037",
+    "method": "POST",
+    "kind": "profile",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-038",
+    "method": "POST",
+    "kind": "profile",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-039",
+    "method": "POST",
+    "kind": "job-status",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-040",
+    "method": "POST",
+    "kind": "job-status",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-041",
+    "method": "PUT",
+    "kind": "collection",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-042",
+    "method": "PUT",
+    "kind": "collection",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-043",
+    "method": "PUT",
+    "kind": "single-resource",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-044",
+    "method": "PUT",
+    "kind": "single-resource",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-045",
+    "method": "PUT",
+    "kind": "search",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-046",
+    "method": "PUT",
+    "kind": "search",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-047",
+    "method": "PUT",
+    "kind": "upload-init",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-048",
+    "method": "PUT",
+    "kind": "upload-init",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-049",
+    "method": "PUT",
+    "kind": "webhook",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-050",
+    "method": "PUT",
+    "kind": "webhook",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-051",
+    "method": "PUT",
+    "kind": "admin-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-052",
+    "method": "PUT",
+    "kind": "admin-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-053",
+    "method": "PUT",
+    "kind": "bulk-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-054",
+    "method": "PUT",
+    "kind": "bulk-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-055",
+    "method": "PUT",
+    "kind": "session",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-056",
+    "method": "PUT",
+    "kind": "session",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-057",
+    "method": "PUT",
+    "kind": "profile",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-058",
+    "method": "PUT",
+    "kind": "profile",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-059",
+    "method": "PUT",
+    "kind": "job-status",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-060",
+    "method": "PUT",
+    "kind": "job-status",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-061",
+    "method": "PATCH",
+    "kind": "collection",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-062",
+    "method": "PATCH",
+    "kind": "collection",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-063",
+    "method": "PATCH",
+    "kind": "single-resource",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-064",
+    "method": "PATCH",
+    "kind": "single-resource",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-065",
+    "method": "PATCH",
+    "kind": "search",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-066",
+    "method": "PATCH",
+    "kind": "search",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-067",
+    "method": "PATCH",
+    "kind": "upload-init",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-068",
+    "method": "PATCH",
+    "kind": "upload-init",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-069",
+    "method": "PATCH",
+    "kind": "webhook",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-070",
+    "method": "PATCH",
+    "kind": "webhook",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-071",
+    "method": "PATCH",
+    "kind": "admin-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-072",
+    "method": "PATCH",
+    "kind": "admin-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-073",
+    "method": "PATCH",
+    "kind": "bulk-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-074",
+    "method": "PATCH",
+    "kind": "bulk-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-075",
+    "method": "PATCH",
+    "kind": "session",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-076",
+    "method": "PATCH",
+    "kind": "session",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-077",
+    "method": "PATCH",
+    "kind": "profile",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-078",
+    "method": "PATCH",
+    "kind": "profile",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-079",
+    "method": "PATCH",
+    "kind": "job-status",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-080",
+    "method": "PATCH",
+    "kind": "job-status",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-081",
+    "method": "DELETE",
+    "kind": "collection",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-082",
+    "method": "DELETE",
+    "kind": "collection",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-083",
+    "method": "DELETE",
+    "kind": "single-resource",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-084",
+    "method": "DELETE",
+    "kind": "single-resource",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-085",
+    "method": "DELETE",
+    "kind": "search",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-086",
+    "method": "DELETE",
+    "kind": "search",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-087",
+    "method": "DELETE",
+    "kind": "upload-init",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-088",
+    "method": "DELETE",
+    "kind": "upload-init",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-089",
+    "method": "DELETE",
+    "kind": "webhook",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-090",
+    "method": "DELETE",
+    "kind": "webhook",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-091",
+    "method": "DELETE",
+    "kind": "admin-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-092",
+    "method": "DELETE",
+    "kind": "admin-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-093",
+    "method": "DELETE",
+    "kind": "bulk-action",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-094",
+    "method": "DELETE",
+    "kind": "bulk-action",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-095",
+    "method": "DELETE",
+    "kind": "session",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-096",
+    "method": "DELETE",
+    "kind": "session",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-097",
+    "method": "DELETE",
+    "kind": "profile",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-098",
+    "method": "DELETE",
+    "kind": "profile",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-099",
+    "method": "DELETE",
+    "kind": "job-status",
+    "auth": "public",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  },
+  {
+    "id": "api-100",
+    "method": "DELETE",
+    "kind": "job-status",
+    "auth": "authenticated",
+    "contract": [
+      "input schema + maximums",
+      "server authorization if protected",
+      "output schema",
+      "safe errors",
+      "rate class",
+      "timeout/retry policy"
+    ],
+    "mutation_rules": [
+      "transaction/idempotency decision",
+      "audit decision"
+    ],
+    "never": [
+      "trust client role/owner flags",
+      "return raw stack traces",
+      "concatenate untrusted SQL"
+    ]
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "icons": [
+    "outline",
+    "filled",
+    "duotone",
+    "multicolor",
+    "pixel",
+    "hand-drawn",
+    "animated-line",
+    "brand",
+    "material",
+    "variable"
+  ],
+  "fonts": [
+    "grotesk",
+    "humanist-sans",
+    "geometric-sans",
+    "serif",
+    "slab",
+    "display",
+    "mono",
+    "variable",
+    "editorial",
+    "technical"
+  ],
+  "illustrations": [
+    "editorial",
+    "product-explainer",
+    "character",
+    "abstract",
+    "diagrammatic",
+    "isometric",
+    "hand-drawn",
+    "3d-rendered"
+  ],
+  "motion": [
+    "microinteraction",
+    "state-transition",
+    "loader",
+    "narrative",
+    "ambient",
+    "scroll-linked",
+    "interactive-state-machine"
+  ],
+  "3d": [
+    "product",
+    "abstract-brand",
+    "architectural",
+    "character",
+    "environment",
+    "data-spatial"
+  ],
+  "status": [
+    "live-api",
+    "open-source-mirror",
+    "manual-reference",
+    "restricted-marketplace",
+    "license-per-asset"
+  ]
+}

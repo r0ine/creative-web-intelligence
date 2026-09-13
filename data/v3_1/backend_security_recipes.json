@@ -1,0 +1,6482 @@
+[
+  {
+    "id": "backend31-001",
+    "area": "auth",
+    "profile": "baseline",
+    "objective": "Production-safe auth behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-002",
+    "area": "auth",
+    "profile": "hardened",
+    "objective": "Production-safe auth behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-003",
+    "area": "auth",
+    "profile": "high-impact",
+    "objective": "Production-safe auth behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-004",
+    "area": "auth",
+    "profile": "serverless",
+    "objective": "Production-safe auth behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-005",
+    "area": "auth",
+    "profile": "traditional-service",
+    "objective": "Production-safe auth behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-006",
+    "area": "auth",
+    "profile": "edge-runtime",
+    "objective": "Production-safe auth behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-007",
+    "area": "authorization",
+    "profile": "baseline",
+    "objective": "Production-safe authorization behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-008",
+    "area": "authorization",
+    "profile": "hardened",
+    "objective": "Production-safe authorization behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-009",
+    "area": "authorization",
+    "profile": "high-impact",
+    "objective": "Production-safe authorization behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-010",
+    "area": "authorization",
+    "profile": "serverless",
+    "objective": "Production-safe authorization behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-011",
+    "area": "authorization",
+    "profile": "traditional-service",
+    "objective": "Production-safe authorization behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-012",
+    "area": "authorization",
+    "profile": "edge-runtime",
+    "objective": "Production-safe authorization behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-013",
+    "area": "sessions",
+    "profile": "baseline",
+    "objective": "Production-safe sessions behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-014",
+    "area": "sessions",
+    "profile": "hardened",
+    "objective": "Production-safe sessions behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-015",
+    "area": "sessions",
+    "profile": "high-impact",
+    "objective": "Production-safe sessions behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-016",
+    "area": "sessions",
+    "profile": "serverless",
+    "objective": "Production-safe sessions behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-017",
+    "area": "sessions",
+    "profile": "traditional-service",
+    "objective": "Production-safe sessions behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-018",
+    "area": "sessions",
+    "profile": "edge-runtime",
+    "objective": "Production-safe sessions behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-019",
+    "area": "secrets",
+    "profile": "baseline",
+    "objective": "Production-safe secrets behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-020",
+    "area": "secrets",
+    "profile": "hardened",
+    "objective": "Production-safe secrets behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-021",
+    "area": "secrets",
+    "profile": "high-impact",
+    "objective": "Production-safe secrets behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-022",
+    "area": "secrets",
+    "profile": "serverless",
+    "objective": "Production-safe secrets behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-023",
+    "area": "secrets",
+    "profile": "traditional-service",
+    "objective": "Production-safe secrets behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-024",
+    "area": "secrets",
+    "profile": "edge-runtime",
+    "objective": "Production-safe secrets behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-025",
+    "area": "api-validation",
+    "profile": "baseline",
+    "objective": "Production-safe api-validation behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-026",
+    "area": "api-validation",
+    "profile": "hardened",
+    "objective": "Production-safe api-validation behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-027",
+    "area": "api-validation",
+    "profile": "high-impact",
+    "objective": "Production-safe api-validation behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-028",
+    "area": "api-validation",
+    "profile": "serverless",
+    "objective": "Production-safe api-validation behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-029",
+    "area": "api-validation",
+    "profile": "traditional-service",
+    "objective": "Production-safe api-validation behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-030",
+    "area": "api-validation",
+    "profile": "edge-runtime",
+    "objective": "Production-safe api-validation behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-031",
+    "area": "database",
+    "profile": "baseline",
+    "objective": "Production-safe database behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-032",
+    "area": "database",
+    "profile": "hardened",
+    "objective": "Production-safe database behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-033",
+    "area": "database",
+    "profile": "high-impact",
+    "objective": "Production-safe database behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-034",
+    "area": "database",
+    "profile": "serverless",
+    "objective": "Production-safe database behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-035",
+    "area": "database",
+    "profile": "traditional-service",
+    "objective": "Production-safe database behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-036",
+    "area": "database",
+    "profile": "edge-runtime",
+    "objective": "Production-safe database behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-037",
+    "area": "transactions",
+    "profile": "baseline",
+    "objective": "Production-safe transactions behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-038",
+    "area": "transactions",
+    "profile": "hardened",
+    "objective": "Production-safe transactions behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-039",
+    "area": "transactions",
+    "profile": "high-impact",
+    "objective": "Production-safe transactions behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-040",
+    "area": "transactions",
+    "profile": "serverless",
+    "objective": "Production-safe transactions behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-041",
+    "area": "transactions",
+    "profile": "traditional-service",
+    "objective": "Production-safe transactions behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-042",
+    "area": "transactions",
+    "profile": "edge-runtime",
+    "objective": "Production-safe transactions behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-043",
+    "area": "uploads",
+    "profile": "baseline",
+    "objective": "Production-safe uploads behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-044",
+    "area": "uploads",
+    "profile": "hardened",
+    "objective": "Production-safe uploads behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-045",
+    "area": "uploads",
+    "profile": "high-impact",
+    "objective": "Production-safe uploads behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-046",
+    "area": "uploads",
+    "profile": "serverless",
+    "objective": "Production-safe uploads behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-047",
+    "area": "uploads",
+    "profile": "traditional-service",
+    "objective": "Production-safe uploads behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-048",
+    "area": "uploads",
+    "profile": "edge-runtime",
+    "objective": "Production-safe uploads behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-049",
+    "area": "outbound-fetch",
+    "profile": "baseline",
+    "objective": "Production-safe outbound-fetch behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-050",
+    "area": "outbound-fetch",
+    "profile": "hardened",
+    "objective": "Production-safe outbound-fetch behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-051",
+    "area": "outbound-fetch",
+    "profile": "high-impact",
+    "objective": "Production-safe outbound-fetch behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-052",
+    "area": "outbound-fetch",
+    "profile": "serverless",
+    "objective": "Production-safe outbound-fetch behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-053",
+    "area": "outbound-fetch",
+    "profile": "traditional-service",
+    "objective": "Production-safe outbound-fetch behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-054",
+    "area": "outbound-fetch",
+    "profile": "edge-runtime",
+    "objective": "Production-safe outbound-fetch behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-055",
+    "area": "webhooks",
+    "profile": "baseline",
+    "objective": "Production-safe webhooks behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-056",
+    "area": "webhooks",
+    "profile": "hardened",
+    "objective": "Production-safe webhooks behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-057",
+    "area": "webhooks",
+    "profile": "high-impact",
+    "objective": "Production-safe webhooks behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-058",
+    "area": "webhooks",
+    "profile": "serverless",
+    "objective": "Production-safe webhooks behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-059",
+    "area": "webhooks",
+    "profile": "traditional-service",
+    "objective": "Production-safe webhooks behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-060",
+    "area": "webhooks",
+    "profile": "edge-runtime",
+    "objective": "Production-safe webhooks behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-061",
+    "area": "queues",
+    "profile": "baseline",
+    "objective": "Production-safe queues behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-062",
+    "area": "queues",
+    "profile": "hardened",
+    "objective": "Production-safe queues behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-063",
+    "area": "queues",
+    "profile": "high-impact",
+    "objective": "Production-safe queues behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-064",
+    "area": "queues",
+    "profile": "serverless",
+    "objective": "Production-safe queues behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-065",
+    "area": "queues",
+    "profile": "traditional-service",
+    "objective": "Production-safe queues behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-066",
+    "area": "queues",
+    "profile": "edge-runtime",
+    "objective": "Production-safe queues behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-067",
+    "area": "rate-limit",
+    "profile": "baseline",
+    "objective": "Production-safe rate-limit behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-068",
+    "area": "rate-limit",
+    "profile": "hardened",
+    "objective": "Production-safe rate-limit behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-069",
+    "area": "rate-limit",
+    "profile": "high-impact",
+    "objective": "Production-safe rate-limit behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-070",
+    "area": "rate-limit",
+    "profile": "serverless",
+    "objective": "Production-safe rate-limit behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-071",
+    "area": "rate-limit",
+    "profile": "traditional-service",
+    "objective": "Production-safe rate-limit behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-072",
+    "area": "rate-limit",
+    "profile": "edge-runtime",
+    "objective": "Production-safe rate-limit behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-073",
+    "area": "logging",
+    "profile": "baseline",
+    "objective": "Production-safe logging behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-074",
+    "area": "logging",
+    "profile": "hardened",
+    "objective": "Production-safe logging behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-075",
+    "area": "logging",
+    "profile": "high-impact",
+    "objective": "Production-safe logging behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-076",
+    "area": "logging",
+    "profile": "serverless",
+    "objective": "Production-safe logging behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-077",
+    "area": "logging",
+    "profile": "traditional-service",
+    "objective": "Production-safe logging behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-078",
+    "area": "logging",
+    "profile": "edge-runtime",
+    "objective": "Production-safe logging behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-079",
+    "area": "errors",
+    "profile": "baseline",
+    "objective": "Production-safe errors behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-080",
+    "area": "errors",
+    "profile": "hardened",
+    "objective": "Production-safe errors behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-081",
+    "area": "errors",
+    "profile": "high-impact",
+    "objective": "Production-safe errors behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-082",
+    "area": "errors",
+    "profile": "serverless",
+    "objective": "Production-safe errors behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-083",
+    "area": "errors",
+    "profile": "traditional-service",
+    "objective": "Production-safe errors behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-084",
+    "area": "errors",
+    "profile": "edge-runtime",
+    "objective": "Production-safe errors behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-085",
+    "area": "encryption",
+    "profile": "baseline",
+    "objective": "Production-safe encryption behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-086",
+    "area": "encryption",
+    "profile": "hardened",
+    "objective": "Production-safe encryption behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-087",
+    "area": "encryption",
+    "profile": "high-impact",
+    "objective": "Production-safe encryption behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-088",
+    "area": "encryption",
+    "profile": "serverless",
+    "objective": "Production-safe encryption behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-089",
+    "area": "encryption",
+    "profile": "traditional-service",
+    "objective": "Production-safe encryption behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-090",
+    "area": "encryption",
+    "profile": "edge-runtime",
+    "objective": "Production-safe encryption behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-091",
+    "area": "passwords",
+    "profile": "baseline",
+    "objective": "Production-safe passwords behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-092",
+    "area": "passwords",
+    "profile": "hardened",
+    "objective": "Production-safe passwords behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-093",
+    "area": "passwords",
+    "profile": "high-impact",
+    "objective": "Production-safe passwords behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-094",
+    "area": "passwords",
+    "profile": "serverless",
+    "objective": "Production-safe passwords behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-095",
+    "area": "passwords",
+    "profile": "traditional-service",
+    "objective": "Production-safe passwords behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-096",
+    "area": "passwords",
+    "profile": "edge-runtime",
+    "objective": "Production-safe passwords behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-097",
+    "area": "tokens",
+    "profile": "baseline",
+    "objective": "Production-safe tokens behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-098",
+    "area": "tokens",
+    "profile": "hardened",
+    "objective": "Production-safe tokens behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-099",
+    "area": "tokens",
+    "profile": "high-impact",
+    "objective": "Production-safe tokens behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-100",
+    "area": "tokens",
+    "profile": "serverless",
+    "objective": "Production-safe tokens behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-101",
+    "area": "tokens",
+    "profile": "traditional-service",
+    "objective": "Production-safe tokens behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-102",
+    "area": "tokens",
+    "profile": "edge-runtime",
+    "objective": "Production-safe tokens behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-103",
+    "area": "cors-csrf",
+    "profile": "baseline",
+    "objective": "Production-safe cors-csrf behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-104",
+    "area": "cors-csrf",
+    "profile": "hardened",
+    "objective": "Production-safe cors-csrf behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-105",
+    "area": "cors-csrf",
+    "profile": "high-impact",
+    "objective": "Production-safe cors-csrf behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-106",
+    "area": "cors-csrf",
+    "profile": "serverless",
+    "objective": "Production-safe cors-csrf behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-107",
+    "area": "cors-csrf",
+    "profile": "traditional-service",
+    "objective": "Production-safe cors-csrf behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-108",
+    "area": "cors-csrf",
+    "profile": "edge-runtime",
+    "objective": "Production-safe cors-csrf behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-109",
+    "area": "caching",
+    "profile": "baseline",
+    "objective": "Production-safe caching behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-110",
+    "area": "caching",
+    "profile": "hardened",
+    "objective": "Production-safe caching behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-111",
+    "area": "caching",
+    "profile": "high-impact",
+    "objective": "Production-safe caching behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-112",
+    "area": "caching",
+    "profile": "serverless",
+    "objective": "Production-safe caching behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-113",
+    "area": "caching",
+    "profile": "traditional-service",
+    "objective": "Production-safe caching behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-114",
+    "area": "caching",
+    "profile": "edge-runtime",
+    "objective": "Production-safe caching behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-115",
+    "area": "migrations",
+    "profile": "baseline",
+    "objective": "Production-safe migrations behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-116",
+    "area": "migrations",
+    "profile": "hardened",
+    "objective": "Production-safe migrations behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-117",
+    "area": "migrations",
+    "profile": "high-impact",
+    "objective": "Production-safe migrations behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-118",
+    "area": "migrations",
+    "profile": "serverless",
+    "objective": "Production-safe migrations behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-119",
+    "area": "migrations",
+    "profile": "traditional-service",
+    "objective": "Production-safe migrations behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-120",
+    "area": "migrations",
+    "profile": "edge-runtime",
+    "objective": "Production-safe migrations behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-121",
+    "area": "backups",
+    "profile": "baseline",
+    "objective": "Production-safe backups behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-122",
+    "area": "backups",
+    "profile": "hardened",
+    "objective": "Production-safe backups behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-123",
+    "area": "backups",
+    "profile": "high-impact",
+    "objective": "Production-safe backups behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-124",
+    "area": "backups",
+    "profile": "serverless",
+    "objective": "Production-safe backups behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-125",
+    "area": "backups",
+    "profile": "traditional-service",
+    "objective": "Production-safe backups behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-126",
+    "area": "backups",
+    "profile": "edge-runtime",
+    "objective": "Production-safe backups behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-127",
+    "area": "admin",
+    "profile": "baseline",
+    "objective": "Production-safe admin behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-128",
+    "area": "admin",
+    "profile": "hardened",
+    "objective": "Production-safe admin behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-129",
+    "area": "admin",
+    "profile": "high-impact",
+    "objective": "Production-safe admin behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-130",
+    "area": "admin",
+    "profile": "serverless",
+    "objective": "Production-safe admin behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-131",
+    "area": "admin",
+    "profile": "traditional-service",
+    "objective": "Production-safe admin behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-132",
+    "area": "admin",
+    "profile": "edge-runtime",
+    "objective": "Production-safe admin behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-133",
+    "area": "realtime",
+    "profile": "baseline",
+    "objective": "Production-safe realtime behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-134",
+    "area": "realtime",
+    "profile": "hardened",
+    "objective": "Production-safe realtime behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-135",
+    "area": "realtime",
+    "profile": "high-impact",
+    "objective": "Production-safe realtime behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-136",
+    "area": "realtime",
+    "profile": "serverless",
+    "objective": "Production-safe realtime behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-137",
+    "area": "realtime",
+    "profile": "traditional-service",
+    "objective": "Production-safe realtime behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-138",
+    "area": "realtime",
+    "profile": "edge-runtime",
+    "objective": "Production-safe realtime behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-139",
+    "area": "email",
+    "profile": "baseline",
+    "objective": "Production-safe email behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-140",
+    "area": "email",
+    "profile": "hardened",
+    "objective": "Production-safe email behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-141",
+    "area": "email",
+    "profile": "high-impact",
+    "objective": "Production-safe email behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-142",
+    "area": "email",
+    "profile": "serverless",
+    "objective": "Production-safe email behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-143",
+    "area": "email",
+    "profile": "traditional-service",
+    "objective": "Production-safe email behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-144",
+    "area": "email",
+    "profile": "edge-runtime",
+    "objective": "Production-safe email behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-145",
+    "area": "third-party-api",
+    "profile": "baseline",
+    "objective": "Production-safe third-party-api behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-146",
+    "area": "third-party-api",
+    "profile": "hardened",
+    "objective": "Production-safe third-party-api behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-147",
+    "area": "third-party-api",
+    "profile": "high-impact",
+    "objective": "Production-safe third-party-api behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-148",
+    "area": "third-party-api",
+    "profile": "serverless",
+    "objective": "Production-safe third-party-api behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-149",
+    "area": "third-party-api",
+    "profile": "traditional-service",
+    "objective": "Production-safe third-party-api behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-150",
+    "area": "third-party-api",
+    "profile": "edge-runtime",
+    "objective": "Production-safe third-party-api behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-151",
+    "area": "deployment",
+    "profile": "baseline",
+    "objective": "Production-safe deployment behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-152",
+    "area": "deployment",
+    "profile": "hardened",
+    "objective": "Production-safe deployment behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-153",
+    "area": "deployment",
+    "profile": "high-impact",
+    "objective": "Production-safe deployment behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-154",
+    "area": "deployment",
+    "profile": "serverless",
+    "objective": "Production-safe deployment behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-155",
+    "area": "deployment",
+    "profile": "traditional-service",
+    "objective": "Production-safe deployment behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-156",
+    "area": "deployment",
+    "profile": "edge-runtime",
+    "objective": "Production-safe deployment behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-157",
+    "area": "dependency",
+    "profile": "baseline",
+    "objective": "Production-safe dependency behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-158",
+    "area": "dependency",
+    "profile": "hardened",
+    "objective": "Production-safe dependency behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-159",
+    "area": "dependency",
+    "profile": "high-impact",
+    "objective": "Production-safe dependency behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-160",
+    "area": "dependency",
+    "profile": "serverless",
+    "objective": "Production-safe dependency behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-161",
+    "area": "dependency",
+    "profile": "traditional-service",
+    "objective": "Production-safe dependency behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-162",
+    "area": "dependency",
+    "profile": "edge-runtime",
+    "objective": "Production-safe dependency behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-163",
+    "area": "privacy",
+    "profile": "baseline",
+    "objective": "Production-safe privacy behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-164",
+    "area": "privacy",
+    "profile": "hardened",
+    "objective": "Production-safe privacy behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-165",
+    "area": "privacy",
+    "profile": "high-impact",
+    "objective": "Production-safe privacy behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-166",
+    "area": "privacy",
+    "profile": "serverless",
+    "objective": "Production-safe privacy behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-167",
+    "area": "privacy",
+    "profile": "traditional-service",
+    "objective": "Production-safe privacy behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-168",
+    "area": "privacy",
+    "profile": "edge-runtime",
+    "objective": "Production-safe privacy behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-169",
+    "area": "idempotency",
+    "profile": "baseline",
+    "objective": "Production-safe idempotency behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-170",
+    "area": "idempotency",
+    "profile": "hardened",
+    "objective": "Production-safe idempotency behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-171",
+    "area": "idempotency",
+    "profile": "high-impact",
+    "objective": "Production-safe idempotency behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-172",
+    "area": "idempotency",
+    "profile": "serverless",
+    "objective": "Production-safe idempotency behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-173",
+    "area": "idempotency",
+    "profile": "traditional-service",
+    "objective": "Production-safe idempotency behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-174",
+    "area": "idempotency",
+    "profile": "edge-runtime",
+    "objective": "Production-safe idempotency behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-175",
+    "area": "observability",
+    "profile": "baseline",
+    "objective": "Production-safe observability behavior for baseline architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-176",
+    "area": "observability",
+    "profile": "hardened",
+    "objective": "Production-safe observability behavior for hardened architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-177",
+    "area": "observability",
+    "profile": "high-impact",
+    "objective": "Production-safe observability behavior for high-impact architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-178",
+    "area": "observability",
+    "profile": "serverless",
+    "objective": "Production-safe observability behavior for serverless architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-179",
+    "area": "observability",
+    "profile": "traditional-service",
+    "objective": "Production-safe observability behavior for traditional-service architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  },
+  {
+    "id": "backend31-180",
+    "area": "observability",
+    "profile": "edge-runtime",
+    "objective": "Production-safe observability behavior for edge-runtime architecture.",
+    "required_decisions": [
+      "trust boundary",
+      "data/credential class",
+      "server-side enforcement",
+      "input/output bounds",
+      "failure behavior",
+      "logging/redaction",
+      "test evidence"
+    ],
+    "security_rules": [
+      "least privilege",
+      "fail closed for protected action",
+      "no client-held privileged secret",
+      "bounded untrusted input",
+      "safe errors"
+    ],
+    "tests": [
+      "happy path",
+      "unauthorized/forbidden path",
+      "malformed/boundary input",
+      "duplicate/retry behavior if relevant",
+      "dependency failure",
+      "redaction/log review"
+    ],
+    "release_evidence": [
+      "configuration reviewed",
+      "tests pass",
+      "runtime behavior observed",
+      "no known critical blocker"
+    ]
+  }
+]

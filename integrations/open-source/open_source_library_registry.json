@@ -1,0 +1,995 @@
+{
+  "version": "2.1.0",
+  "generated_at": "2026-08-18",
+  "purpose": "Curated external open-source/restricted library registry for Creative Web Intelligence. Dependencies are selected, not blindly merged.",
+  "default_policy": {
+    "vendor_source_only_if": "license explicitly permits redistribution and source adds recurring value",
+    "prefer_dependency_when": "upstream is mature/maintained or source-vendoring creates update burden",
+    "forbid": "copying code from repositories with unclear/restrictive terms into distributable library",
+    "agent_rule": "Search internal recipes first, then this registry. Use the smallest compatible external tool."
+  },
+  "libraries": [
+    {
+      "id": "threejs",
+      "name": "three.js",
+      "repo": "mrdoob/three.js",
+      "package": "three",
+      "category": [
+        "3d-rendering",
+        "webgl",
+        "webgpu"
+      ],
+      "framework": [
+        "vanilla",
+        "react-via-r3f"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "core-engine",
+      "priority": "primary",
+      "best_for": [
+        "general-purpose 3D",
+        "WebGL/WebGPU scenes",
+        "custom shaders",
+        "product visualization"
+      ],
+      "avoid_when": [
+        "2D-only page where Canvas adds no value"
+      ],
+      "notes": "Primary low-level 3D foundation. Keep direct escape hatch even when R3F is used."
+    },
+    {
+      "id": "r3f",
+      "name": "React Three Fiber",
+      "repo": "pmndrs/react-three-fiber",
+      "package": "@react-three/fiber",
+      "category": [
+        "3d-rendering",
+        "react"
+      ],
+      "framework": [
+        "react"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "adapter",
+      "priority": "primary",
+      "best_for": [
+        "React-driven Three.js scenes",
+        "declarative 3D",
+        "DOM/3D state integration"
+      ],
+      "avoid_when": [
+        "non-React project",
+        "tiny vanilla WebGL experiment"
+      ],
+      "notes": "Use as React renderer, not as excuse to put per-frame values in React state."
+    },
+    {
+      "id": "drei",
+      "name": "Drei",
+      "repo": "pmndrs/drei",
+      "package": "@react-three/drei",
+      "category": [
+        "3d-helpers",
+        "react"
+      ],
+      "framework": [
+        "react",
+        "r3f"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "helper-pack",
+      "priority": "primary",
+      "best_for": [
+        "camera controls",
+        "environment",
+        "loaders",
+        "text",
+        "staging helpers"
+      ],
+      "avoid_when": [
+        "helper hides a critical performance detail that project needs to control directly"
+      ],
+      "notes": "Prefer helpers that reduce boilerplate; inspect cost before enabling heavy helpers."
+    },
+    {
+      "id": "react-postprocessing",
+      "name": "React Postprocessing",
+      "repo": "pmndrs/react-postprocessing",
+      "package": "@react-three/postprocessing",
+      "category": [
+        "3d-effects",
+        "postprocessing"
+      ],
+      "framework": [
+        "react",
+        "r3f"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "optional-effect-layer",
+      "priority": "primary",
+      "best_for": [
+        "selective post FX",
+        "effect composition",
+        "R3F postprocessing"
+      ],
+      "avoid_when": [
+        "mobile scene already near GPU budget"
+      ],
+      "notes": "Underlying pmndrs/postprocessing uses zlib; wrapper is MIT. Keep effect budgets."
+    },
+    {
+      "id": "postprocessing",
+      "name": "postprocessing",
+      "repo": "pmndrs/postprocessing",
+      "package": "postprocessing",
+      "category": [
+        "3d-effects",
+        "postprocessing"
+      ],
+      "framework": [
+        "vanilla-three"
+      ],
+      "license": "Zlib",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "optional-effect-layer",
+      "priority": "primary",
+      "best_for": [
+        "efficient effect passes",
+        "custom effects",
+        "Three.js postprocessing"
+      ],
+      "avoid_when": [
+        "effects are decorative only"
+      ],
+      "notes": "Use selective, measured effects instead of stacking passes."
+    },
+    {
+      "id": "react-three-rapier",
+      "name": "React Three Rapier",
+      "repo": "pmndrs/react-three-rapier",
+      "package": "@react-three/rapier",
+      "category": [
+        "3d-physics",
+        "interaction"
+      ],
+      "framework": [
+        "react",
+        "r3f"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "optional-physics",
+      "priority": "secondary",
+      "best_for": [
+        "physics-driven interactions",
+        "character/object dynamics"
+      ],
+      "avoid_when": [
+        "scripted animation is enough",
+        "bundle/performance budget is tight"
+      ],
+      "notes": "Physics is opt-in; do not add to normal product reveals."
+    },
+    {
+      "id": "three-mesh-bvh",
+      "name": "three-mesh-bvh",
+      "repo": "gkjohnson/three-mesh-bvh",
+      "package": "three-mesh-bvh",
+      "category": [
+        "3d-performance",
+        "spatial-query"
+      ],
+      "framework": [
+        "three",
+        "r3f"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "performance-plugin",
+      "priority": "secondary",
+      "best_for": [
+        "fast raycasting",
+        "spatial queries",
+        "large meshes"
+      ],
+      "avoid_when": [
+        "small scenes where complexity brings no benefit"
+      ],
+      "notes": "Use when interaction/raycast cost is measurable."
+    },
+    {
+      "id": "troika",
+      "name": "Troika",
+      "repo": "protectwise/troika",
+      "package": "troika-three-text",
+      "category": [
+        "3d-text",
+        "graphics"
+      ],
+      "framework": [
+        "three",
+        "r3f"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "optional-text-layer",
+      "priority": "secondary",
+      "best_for": [
+        "high-quality SDF text in Three.js",
+        "interactive graphics"
+      ],
+      "avoid_when": [
+        "SEO/content should remain DOM text"
+      ],
+      "notes": "3D text is presentation; critical content stays in DOM."
+    },
+    {
+      "id": "lenis",
+      "name": "Lenis",
+      "repo": "darkroomengineering/lenis",
+      "package": "lenis",
+      "category": [
+        "scroll",
+        "motion"
+      ],
+      "framework": [
+        "vanilla",
+        "react"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "scroll-adapter",
+      "priority": "primary",
+      "best_for": [
+        "smooth scroll",
+        "WebGL scroll sync",
+        "parallax foundations"
+      ],
+      "avoid_when": [
+        "native scroll already meets UX",
+        "reduced-motion/minimal pages"
+      ],
+      "notes": "Must not be enabled by default. Respect accessibility and mobile behavior."
+    },
+    {
+      "id": "motion",
+      "name": "Motion",
+      "repo": "motiondivision/motion",
+      "package": "motion",
+      "category": [
+        "motion",
+        "animation",
+        "gestures"
+      ],
+      "framework": [
+        "vanilla",
+        "react"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "motion-adapter",
+      "priority": "primary",
+      "best_for": [
+        "DOM motion",
+        "layout animations",
+        "gestures",
+        "spring/tween orchestration"
+      ],
+      "avoid_when": [
+        "simple CSS transition is sufficient"
+      ],
+      "notes": "Prefer smaller native CSS path for trivial interactions."
+    },
+    {
+      "id": "react-spring",
+      "name": "React Spring",
+      "repo": "pmndrs/react-spring",
+      "package": "@react-spring/web",
+      "category": [
+        "motion",
+        "spring"
+      ],
+      "framework": [
+        "react"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "motion-adapter",
+      "priority": "secondary",
+      "best_for": [
+        "spring physics",
+        "continuous/gesture-linked motion",
+        "R3F motion"
+      ],
+      "avoid_when": [
+        "timeline choreography is dominant"
+      ],
+      "notes": "Strong for physics-feel; avoid mixing multiple spring engines without reason."
+    },
+    {
+      "id": "use-gesture",
+      "name": "use-gesture",
+      "repo": "pmndrs/use-gesture",
+      "package": "@use-gesture/react",
+      "category": [
+        "gesture",
+        "interaction"
+      ],
+      "framework": [
+        "react",
+        "vanilla-packages"
+      ],
+      "license": "verify-at-install",
+      "redistribution": "dependency-only-until-verified",
+      "integration": "interaction-adapter",
+      "priority": "secondary",
+      "best_for": [
+        "drag",
+        "pinch",
+        "wheel",
+        "pointer gesture normalization"
+      ],
+      "avoid_when": [
+        "single click/hover is sufficient"
+      ],
+      "notes": "Pair with one motion engine; prevent gesture overengineering."
+    },
+    {
+      "id": "theatre",
+      "name": "Theatre.js",
+      "repo": "theatre-js/theatre",
+      "package": "@theatre/core",
+      "category": [
+        "motion-authoring",
+        "3d-animation",
+        "devtools"
+      ],
+      "framework": [
+        "vanilla",
+        "react",
+        "three",
+        "r3f"
+      ],
+      "license": "Apache-2.0 core; AGPL-3.0 studio",
+      "redistribution": "core-allowed-studio-is-development-tool-with-separate-terms",
+      "integration": "authoring-adapter",
+      "priority": "secondary",
+      "best_for": [
+        "high-fidelity authored timelines",
+        "camera/object animation authoring"
+      ],
+      "avoid_when": [
+        "simple timeline can be expressed in project code"
+      ],
+      "notes": "Keep Studio out of production bundle; document mixed licensing explicitly."
+    },
+    {
+      "id": "tweakpane",
+      "name": "Tweakpane",
+      "repo": "cocopon/tweakpane",
+      "package": "tweakpane",
+      "category": [
+        "devtools",
+        "parameter-tuning"
+      ],
+      "framework": [
+        "vanilla",
+        "any"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "dev-only",
+      "priority": "secondary",
+      "best_for": [
+        "shader/material/camera parameter tuning",
+        "creative lab controls"
+      ],
+      "avoid_when": [
+        "production UI"
+      ],
+      "notes": "Dev-only by default."
+    },
+    {
+      "id": "leva",
+      "name": "Leva",
+      "repo": "pmndrs/leva",
+      "package": "leva",
+      "category": [
+        "devtools",
+        "parameter-tuning"
+      ],
+      "framework": [
+        "react"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "dev-only",
+      "priority": "secondary",
+      "best_for": [
+        "React/R3F tuning panels",
+        "camera/light/material control"
+      ],
+      "avoid_when": [
+        "production UI",
+        "vanilla-only project"
+      ],
+      "notes": "Use in Camera/Material/Shader Lab, tree out of production."
+    },
+    {
+      "id": "pixijs",
+      "name": "PixiJS",
+      "repo": "pixijs/pixijs",
+      "package": "pixi.js",
+      "category": [
+        "2d-rendering",
+        "webgl",
+        "webgpu"
+      ],
+      "framework": [
+        "vanilla",
+        "wrappers"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "alternate-renderer",
+      "priority": "secondary",
+      "best_for": [
+        "high-performance 2D interactive graphics",
+        "sprite/particle-heavy 2D experiences"
+      ],
+      "avoid_when": [
+        "full 3D scene is needed"
+      ],
+      "notes": "Prefer over Three.js when problem is fundamentally 2D."
+    },
+    {
+      "id": "babylonjs",
+      "name": "Babylon.js",
+      "repo": "BabylonJS/Babylon.js",
+      "package": "@babylonjs/core",
+      "category": [
+        "3d-rendering",
+        "webgl",
+        "webgpu",
+        "webxr"
+      ],
+      "framework": [
+        "vanilla",
+        "react-wrappers"
+      ],
+      "license": "Apache-2.0",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "alternate-renderer",
+      "priority": "secondary",
+      "best_for": [
+        "feature-rich 3D engine",
+        "WebGPU/WebXR",
+        "engine-heavy scenes"
+      ],
+      "avoid_when": [
+        "project is already deeply standardized on Three/R3F"
+      ],
+      "notes": "Alternative engine, not something to mix into same scene graph with Three."
+    },
+    {
+      "id": "ogl",
+      "name": "OGL",
+      "repo": "oframe/ogl",
+      "package": "ogl",
+      "category": [
+        "3d-rendering",
+        "webgl",
+        "shaders"
+      ],
+      "framework": [
+        "vanilla"
+      ],
+      "license": "verify-at-install",
+      "redistribution": "dependency-only-until-verified",
+      "integration": "alternate-renderer",
+      "priority": "secondary",
+      "best_for": [
+        "minimal WebGL layer",
+        "shader-focused creative coding",
+        "small custom renderers"
+      ],
+      "avoid_when": [
+        "large ecosystem helpers are needed"
+      ],
+      "notes": "Excellent minimal abstraction candidate; verify current license in repository before vendoring."
+    },
+    {
+      "id": "radix",
+      "name": "Radix Primitives",
+      "repo": "radix-ui/primitives",
+      "package": "@radix-ui/react-*",
+      "category": [
+        "ui-primitives",
+        "accessibility"
+      ],
+      "framework": [
+        "react"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "headless-ui-foundation",
+      "priority": "primary",
+      "best_for": [
+        "accessible dialogs/popovers/tabs/menus",
+        "headless interaction semantics"
+      ],
+      "avoid_when": [
+        "styling defaults are left untouched and create template sameness"
+      ],
+      "notes": "Use behavior/accessibility foundation; art direction must come from this library."
+    },
+    {
+      "id": "shadcn",
+      "name": "shadcn/ui",
+      "repo": "shadcn-ui/ui",
+      "package": "copy-source / registry",
+      "category": [
+        "ui-components",
+        "design-system"
+      ],
+      "framework": [
+        "react",
+        "tailwind"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "source-registry",
+      "priority": "primary",
+      "best_for": [
+        "accessible app primitives",
+        "rapid base components",
+        "AI-friendly code ownership"
+      ],
+      "avoid_when": [
+        "unmodified defaults would create generic shadcn look"
+      ],
+      "notes": "Treat as foundation, never as final identity."
+    },
+    {
+      "id": "floating-ui",
+      "name": "Floating UI",
+      "repo": "floating-ui/floating-ui",
+      "package": "@floating-ui/react",
+      "category": [
+        "ui-primitives",
+        "positioning"
+      ],
+      "framework": [
+        "vanilla",
+        "react",
+        "vue",
+        "others"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "positioning-engine",
+      "priority": "primary",
+      "best_for": [
+        "tooltips",
+        "popover positioning",
+        "floating interactions"
+      ],
+      "avoid_when": [
+        "static positioned content"
+      ],
+      "notes": "Low-level positioning, ideal behind custom visual treatment."
+    },
+    {
+      "id": "motion-primitives",
+      "name": "Motion Primitives",
+      "repo": "ibelick/motion-primitives",
+      "package": "copy-source",
+      "category": [
+        "creative-components",
+        "motion-ui"
+      ],
+      "framework": [
+        "react",
+        "tailwind",
+        "motion"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "source-registry",
+      "priority": "primary",
+      "best_for": [
+        "text effects",
+        "animated UI patterns",
+        "motion component references"
+      ],
+      "avoid_when": [
+        "many components are combined without hierarchy"
+      ],
+      "notes": "Extract behavior patterns; restyle using project Design DNA."
+    },
+    {
+      "id": "magicui",
+      "name": "Magic UI",
+      "repo": "magicuidesign/magicui",
+      "package": "registry/copy-source",
+      "category": [
+        "creative-components",
+        "motion-ui"
+      ],
+      "framework": [
+        "react",
+        "next",
+        "tailwind"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "source-registry",
+      "priority": "primary",
+      "best_for": [
+        "animated effects",
+        "landing-page primitives",
+        "creative UI building blocks"
+      ],
+      "avoid_when": [
+        "copying several default effects creates recognizable template language"
+      ],
+      "notes": "Use as capability source, not visual identity."
+    },
+    {
+      "id": "ui-layouts",
+      "name": "UI Layouts",
+      "repo": "ui-layouts/uilayouts",
+      "package": "copy-source",
+      "category": [
+        "creative-components",
+        "layouts",
+        "effects"
+      ],
+      "framework": [
+        "react",
+        "next",
+        "tailwind"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "source-registry",
+      "priority": "secondary",
+      "best_for": [
+        "creative layouts",
+        "interactive blocks",
+        "effect references"
+      ],
+      "avoid_when": [
+        "recipe already exists internally and dependency adds duplication"
+      ],
+      "notes": "Ingest patterns into recipe schema; de-duplicate against internal catalog."
+    },
+    {
+      "id": "kokonutui",
+      "name": "Kokonut UI",
+      "repo": "kokonut-labs/kokonutui",
+      "package": "copy-source",
+      "category": [
+        "creative-components",
+        "ui"
+      ],
+      "framework": [
+        "react",
+        "next",
+        "tailwind",
+        "shadcn",
+        "motion"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "source-registry",
+      "priority": "secondary",
+      "best_for": [
+        "polished component patterns",
+        "creative UI blocks"
+      ],
+      "avoid_when": [
+        "used wholesale without Design DNA rewrite"
+      ],
+      "notes": "Prefer selective ingestion."
+    },
+    {
+      "id": "originui",
+      "name": "Origin UI",
+      "repo": "shadcn/originui",
+      "package": "copy-source",
+      "category": [
+        "ui-components",
+        "forms",
+        "application-ui"
+      ],
+      "framework": [
+        "react",
+        "tailwind"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "source-registry",
+      "priority": "secondary",
+      "best_for": [
+        "pragmatic app UI components",
+        "forms",
+        "controls"
+      ],
+      "avoid_when": [
+        "marketing/3D experience where components add unnecessary density"
+      ],
+      "notes": "Useful functional layer beneath art direction."
+    },
+    {
+      "id": "auto-animate",
+      "name": "AutoAnimate",
+      "repo": "formkit/auto-animate",
+      "package": "@formkit/auto-animate",
+      "category": [
+        "motion",
+        "microinteraction"
+      ],
+      "framework": [
+        "vanilla",
+        "react",
+        "vue",
+        "others"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "micro-motion-adapter",
+      "priority": "secondary",
+      "best_for": [
+        "list/layout add-remove-reorder motion",
+        "simple zero-config transitions"
+      ],
+      "avoid_when": [
+        "precise art-directed choreography is required"
+      ],
+      "notes": "Use for utility motion, not hero choreography."
+    },
+    {
+      "id": "swup",
+      "name": "Swup",
+      "repo": "swup/swup",
+      "package": "swup",
+      "category": [
+        "page-transitions",
+        "navigation"
+      ],
+      "framework": [
+        "server-rendered",
+        "vanilla",
+        "adapters"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "route-transition-adapter",
+      "priority": "secondary",
+      "best_for": [
+        "server-rendered page transitions",
+        "prefetch/cache lifecycle"
+      ],
+      "avoid_when": [
+        "framework router already provides equivalent lifecycle cleanly"
+      ],
+      "notes": "Do not stack with Barba; choose one route-transition engine."
+    },
+    {
+      "id": "barba",
+      "name": "Barba.js",
+      "repo": "barbajs/barba",
+      "package": "@barba/core",
+      "category": [
+        "page-transitions",
+        "navigation"
+      ],
+      "framework": [
+        "vanilla",
+        "server-rendered"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "route-transition-adapter",
+      "priority": "secondary",
+      "best_for": [
+        "fluid cross-page transitions",
+        "creative navigation lifecycle"
+      ],
+      "avoid_when": [
+        "Swup or native View Transitions already owns route lifecycle"
+      ],
+      "notes": "Mutually exclusive with other route lifecycle engines unless explicitly bridged."
+    },
+    {
+      "id": "p5js",
+      "name": "p5.js",
+      "repo": "processing/p5.js",
+      "package": "p5",
+      "category": [
+        "creative-coding",
+        "2d",
+        "webgl"
+      ],
+      "framework": [
+        "vanilla"
+      ],
+      "license": "LGPL-2.1",
+      "redistribution": "dependency-only-preferred",
+      "integration": "creative-coding-adapter",
+      "priority": "optional",
+      "best_for": [
+        "generative sketches",
+        "creative coding prototypes",
+        "art experiments"
+      ],
+      "avoid_when": [
+        "production component can be lighter with Canvas/WebGL directly"
+      ],
+      "notes": "Keep as optional dependency due copyleft library license; do not vendor casually."
+    },
+    {
+      "id": "react-bits",
+      "name": "React Bits",
+      "repo": "DavidHDev/react-bits",
+      "package": "copy-source",
+      "category": [
+        "creative-components",
+        "effects"
+      ],
+      "framework": [
+        "react"
+      ],
+      "license": "MIT + Commons Clause",
+      "redistribution": "DO-NOT-REDISTRIBUTE-AS-LIBRARY",
+      "integration": "reference-or-app-level-only",
+      "priority": "restricted",
+      "best_for": [
+        "project-level use under its terms",
+        "visual reference"
+      ],
+      "avoid_when": [
+        "vendoring into this competing reusable component/effects library"
+      ],
+      "notes": "Explicitly blocked from ingestion/redistribution into this library; reference patterns only unless legal terms permit."
+    },
+    {
+      "id": "lygia",
+      "name": "LYGIA",
+      "repo": "patriciogonzalezvivo/lygia",
+      "package": "lygia",
+      "category": [
+        "shaders"
+      ],
+      "framework": [
+        "glsl",
+        "wgsl",
+        "hlsl",
+        "other"
+      ],
+      "license": "Prosperity License + commercial path",
+      "redistribution": "RESTRICTED",
+      "integration": "reference-only-by-default",
+      "priority": "restricted",
+      "best_for": [
+        "shader study when license is acceptable"
+      ],
+      "avoid_when": [
+        "redistributing in a general commercial library without appropriate rights"
+      ],
+      "notes": "Do not label as permissive open source. Internal shader recipes must be original or from compatible sources."
+    },
+    {
+      "id": "react-three-offscreen",
+      "name": "React Three Offscreen",
+      "repo": "pmndrs/react-three-offscreen",
+      "package": "@react-three/offscreen",
+      "category": [
+        "3d-performance",
+        "workers",
+        "experimental"
+      ],
+      "framework": [
+        "react",
+        "r3f"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "experimental-performance-adapter",
+      "priority": "experimental",
+      "best_for": [
+        "self-contained R3F scenes needing main-thread relief"
+      ],
+      "avoid_when": [
+        "DOM interaction tightly couples to render thread",
+        "unmeasured optimization"
+      ],
+      "notes": "Experimental; use behind feature flag and profile."
+    },
+    {
+      "id": "pmndrs-market",
+      "name": "pmndrs market",
+      "repo": "pmndrs/market",
+      "package": "asset-source",
+      "category": [
+        "3d-assets",
+        "cc0"
+      ],
+      "framework": [
+        "three",
+        "r3f"
+      ],
+      "license": "MIT app; listed assets advertised CC0",
+      "redistribution": "verify-asset-provenance",
+      "integration": "asset-source",
+      "priority": "secondary",
+      "best_for": [
+        "CC0 models/textures/HDRI discovery",
+        "prototyping scenes"
+      ],
+      "avoid_when": [
+        "asset provenance is missing"
+      ],
+      "notes": "Record per-asset creator/source/license metadata even when catalog says CC0."
+    },
+    {
+      "id": "pixijs-skills",
+      "name": "PixiJS AI Skills",
+      "repo": "pixijs/pixijs-skills",
+      "package": "agent-skills",
+      "category": [
+        "agent-knowledge",
+        "2d-rendering"
+      ],
+      "framework": [
+        "claude",
+        "codex",
+        "agents"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "agent-knowledge-reference",
+      "priority": "secondary",
+      "best_for": [
+        "teaching agents PixiJS v8 patterns",
+        "performance/migration knowledge"
+      ],
+      "avoid_when": [
+        "blindly importing external instructions that conflict with local architecture"
+      ],
+      "notes": "Use as research/reference; local AGENTS rules remain authoritative."
+    },
+    {
+      "id": "threejs-claude-skill",
+      "name": "Three.js Claude Skill Package",
+      "repo": "OpenAEC-Foundation/Three.js-Claude-Skill-Package",
+      "package": "agent-skills",
+      "category": [
+        "agent-knowledge",
+        "3d-rendering"
+      ],
+      "framework": [
+        "claude",
+        "codex",
+        "agents"
+      ],
+      "license": "MIT",
+      "redistribution": "allowed-with-license-notice",
+      "integration": "agent-knowledge-reference",
+      "priority": "secondary",
+      "best_for": [
+        "cross-checking Three/R3F implementation patterns",
+        "agent knowledge coverage"
+      ],
+      "avoid_when": [
+        "external ALWAYS/NEVER rule conflicts with verified project constraints"
+      ],
+      "notes": "Ingest only compatible facts/rules, preserving source and avoiding duplicate policy."
+    }
+  ]
+}

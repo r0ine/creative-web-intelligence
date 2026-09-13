@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ResearchSource",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "title",
+    "url",
+    "status",
+    "notes"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "VERIFIED",
+        "INDEXED",
+        "INDEXED_SECONDARY",
+        "VERIFIED_VIA_BRUNO_LEARNING_LIST",
+        "CURATED_BY_AWESOME_CREATIVE_CODING",
+        "NEEDS_CAPTURE"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "brief": "Premium electric motorcycle launch. Dark but not black-gold. Persistent 3D model, heavy calm motion, editorial typography.",
+  "designDNA": {
+    "personality": [
+      "precision",
+      "mechanical",
+      "calm confidence"
+    ],
+    "signatureConcept": "One motorcycle persists while camera moves from silhouette to exploded engineering detail."
+  },
+  "directors": [
+    "Color Director",
+    "Font Director",
+    "Composition Director",
+    "Motion Director",
+    "3D Art Director"
+  ],
+  "qualityTargets": {
+    "LCP": "<=2.5s field target",
+    "INP": "<=200ms field target",
+    "CLS": "<=0.1 field target",
+    "mobile": "separate camera + reduced post-processing"
+  },
+  "evidenceRule": "Reference-derived decisions must carry VERIFIED / INDEXED / SYNTHESIZED / NEEDS_CAPTURE."
+}

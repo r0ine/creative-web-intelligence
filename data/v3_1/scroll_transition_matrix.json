@@ -1,0 +1,962 @@
+[
+  {
+    "id": "trans-001",
+    "from": "pinned-narrative",
+    "to": "media-reveal",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-002",
+    "from": "pinned-narrative",
+    "to": "typography",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-003",
+    "from": "pinned-narrative",
+    "to": "section-handoff",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-004",
+    "from": "pinned-narrative",
+    "to": "horizontal-spatial",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-005",
+    "from": "pinned-narrative",
+    "to": "3d-camera",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-006",
+    "from": "pinned-narrative",
+    "to": "3d-object",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-007",
+    "from": "pinned-narrative",
+    "to": "image-sequence",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-008",
+    "from": "pinned-narrative",
+    "to": "video-scrub",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-009",
+    "from": "pinned-narrative",
+    "to": "data-diagram",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-010",
+    "from": "pinned-narrative",
+    "to": "ambient-depth",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-011",
+    "from": "pinned-narrative",
+    "to": "sticky-comparison",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-012",
+    "from": "pinned-narrative",
+    "to": "portfolio-case-study",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-013",
+    "from": "pinned-narrative",
+    "to": "product-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-014",
+    "from": "pinned-narrative",
+    "to": "editorial-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-015",
+    "from": "pinned-narrative",
+    "to": "navigation-transition",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-016",
+    "from": "media-reveal",
+    "to": "pinned-narrative",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-017",
+    "from": "media-reveal",
+    "to": "typography",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-018",
+    "from": "media-reveal",
+    "to": "section-handoff",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-019",
+    "from": "media-reveal",
+    "to": "horizontal-spatial",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-020",
+    "from": "media-reveal",
+    "to": "3d-camera",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-021",
+    "from": "media-reveal",
+    "to": "3d-object",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-022",
+    "from": "media-reveal",
+    "to": "image-sequence",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-023",
+    "from": "media-reveal",
+    "to": "video-scrub",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-024",
+    "from": "media-reveal",
+    "to": "data-diagram",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-025",
+    "from": "media-reveal",
+    "to": "ambient-depth",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-026",
+    "from": "media-reveal",
+    "to": "sticky-comparison",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-027",
+    "from": "media-reveal",
+    "to": "portfolio-case-study",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-028",
+    "from": "media-reveal",
+    "to": "product-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-029",
+    "from": "media-reveal",
+    "to": "editorial-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-030",
+    "from": "media-reveal",
+    "to": "navigation-transition",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-031",
+    "from": "typography",
+    "to": "pinned-narrative",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-032",
+    "from": "typography",
+    "to": "media-reveal",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-033",
+    "from": "typography",
+    "to": "section-handoff",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-034",
+    "from": "typography",
+    "to": "horizontal-spatial",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-035",
+    "from": "typography",
+    "to": "3d-camera",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-036",
+    "from": "typography",
+    "to": "3d-object",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-037",
+    "from": "typography",
+    "to": "image-sequence",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-038",
+    "from": "typography",
+    "to": "video-scrub",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-039",
+    "from": "typography",
+    "to": "data-diagram",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-040",
+    "from": "typography",
+    "to": "ambient-depth",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-041",
+    "from": "typography",
+    "to": "sticky-comparison",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-042",
+    "from": "typography",
+    "to": "portfolio-case-study",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-043",
+    "from": "typography",
+    "to": "product-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-044",
+    "from": "typography",
+    "to": "editorial-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-045",
+    "from": "typography",
+    "to": "navigation-transition",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-046",
+    "from": "section-handoff",
+    "to": "pinned-narrative",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-047",
+    "from": "section-handoff",
+    "to": "media-reveal",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-048",
+    "from": "section-handoff",
+    "to": "typography",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-049",
+    "from": "section-handoff",
+    "to": "horizontal-spatial",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-050",
+    "from": "section-handoff",
+    "to": "3d-camera",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-051",
+    "from": "section-handoff",
+    "to": "3d-object",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-052",
+    "from": "section-handoff",
+    "to": "image-sequence",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-053",
+    "from": "section-handoff",
+    "to": "video-scrub",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-054",
+    "from": "section-handoff",
+    "to": "data-diagram",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-055",
+    "from": "section-handoff",
+    "to": "ambient-depth",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-056",
+    "from": "section-handoff",
+    "to": "sticky-comparison",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-057",
+    "from": "section-handoff",
+    "to": "portfolio-case-study",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-058",
+    "from": "section-handoff",
+    "to": "product-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-059",
+    "from": "section-handoff",
+    "to": "editorial-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-060",
+    "from": "section-handoff",
+    "to": "navigation-transition",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-061",
+    "from": "horizontal-spatial",
+    "to": "pinned-narrative",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-062",
+    "from": "horizontal-spatial",
+    "to": "media-reveal",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-063",
+    "from": "horizontal-spatial",
+    "to": "typography",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-064",
+    "from": "horizontal-spatial",
+    "to": "section-handoff",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-065",
+    "from": "horizontal-spatial",
+    "to": "3d-camera",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-066",
+    "from": "horizontal-spatial",
+    "to": "3d-object",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-067",
+    "from": "horizontal-spatial",
+    "to": "image-sequence",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-068",
+    "from": "horizontal-spatial",
+    "to": "video-scrub",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-069",
+    "from": "horizontal-spatial",
+    "to": "data-diagram",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-070",
+    "from": "horizontal-spatial",
+    "to": "ambient-depth",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-071",
+    "from": "horizontal-spatial",
+    "to": "sticky-comparison",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-072",
+    "from": "horizontal-spatial",
+    "to": "portfolio-case-study",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-073",
+    "from": "horizontal-spatial",
+    "to": "product-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-074",
+    "from": "horizontal-spatial",
+    "to": "editorial-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-075",
+    "from": "horizontal-spatial",
+    "to": "navigation-transition",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-076",
+    "from": "3d-camera",
+    "to": "pinned-narrative",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-077",
+    "from": "3d-camera",
+    "to": "media-reveal",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-078",
+    "from": "3d-camera",
+    "to": "typography",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-079",
+    "from": "3d-camera",
+    "to": "section-handoff",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-080",
+    "from": "3d-camera",
+    "to": "horizontal-spatial",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-081",
+    "from": "3d-camera",
+    "to": "3d-object",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-082",
+    "from": "3d-camera",
+    "to": "image-sequence",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-083",
+    "from": "3d-camera",
+    "to": "video-scrub",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-084",
+    "from": "3d-camera",
+    "to": "data-diagram",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-085",
+    "from": "3d-camera",
+    "to": "ambient-depth",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-086",
+    "from": "3d-camera",
+    "to": "sticky-comparison",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-087",
+    "from": "3d-camera",
+    "to": "portfolio-case-study",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-088",
+    "from": "3d-camera",
+    "to": "product-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-089",
+    "from": "3d-camera",
+    "to": "editorial-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-090",
+    "from": "3d-camera",
+    "to": "navigation-transition",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-091",
+    "from": "3d-object",
+    "to": "pinned-narrative",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-092",
+    "from": "3d-object",
+    "to": "media-reveal",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-093",
+    "from": "3d-object",
+    "to": "typography",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-094",
+    "from": "3d-object",
+    "to": "section-handoff",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-095",
+    "from": "3d-object",
+    "to": "horizontal-spatial",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-096",
+    "from": "3d-object",
+    "to": "3d-camera",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-097",
+    "from": "3d-object",
+    "to": "image-sequence",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-098",
+    "from": "3d-object",
+    "to": "video-scrub",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-099",
+    "from": "3d-object",
+    "to": "data-diagram",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-100",
+    "from": "3d-object",
+    "to": "ambient-depth",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-101",
+    "from": "3d-object",
+    "to": "sticky-comparison",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-102",
+    "from": "3d-object",
+    "to": "portfolio-case-study",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-103",
+    "from": "3d-object",
+    "to": "product-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-104",
+    "from": "3d-object",
+    "to": "editorial-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-105",
+    "from": "3d-object",
+    "to": "navigation-transition",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-106",
+    "from": "image-sequence",
+    "to": "pinned-narrative",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-107",
+    "from": "image-sequence",
+    "to": "media-reveal",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-108",
+    "from": "image-sequence",
+    "to": "typography",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-109",
+    "from": "image-sequence",
+    "to": "section-handoff",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-110",
+    "from": "image-sequence",
+    "to": "horizontal-spatial",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-111",
+    "from": "image-sequence",
+    "to": "3d-camera",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-112",
+    "from": "image-sequence",
+    "to": "3d-object",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-113",
+    "from": "image-sequence",
+    "to": "video-scrub",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-114",
+    "from": "image-sequence",
+    "to": "data-diagram",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-115",
+    "from": "image-sequence",
+    "to": "ambient-depth",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-116",
+    "from": "image-sequence",
+    "to": "sticky-comparison",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-117",
+    "from": "image-sequence",
+    "to": "portfolio-case-study",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-118",
+    "from": "image-sequence",
+    "to": "product-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-119",
+    "from": "image-sequence",
+    "to": "editorial-story",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  },
+  {
+    "id": "trans-120",
+    "from": "image-sequence",
+    "to": "navigation-transition",
+    "handoff": "preserve one visual anchor; release previous ownership before next heavy scrub",
+    "risk": "avoid overlapping pins and competing progress ownership",
+    "mobile": "collapse to sequential vertical chapters when needed"
+  }
+]

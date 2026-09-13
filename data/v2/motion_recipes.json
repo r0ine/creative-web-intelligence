@@ -1,0 +1,1362 @@
+[
+  {
+    "id": "motion-001",
+    "family": "calm-product",
+    "name": "slow reveal",
+    "trigger": "hover",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-002",
+    "family": "calm-product",
+    "name": "weighted slide",
+    "trigger": "route",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-003",
+    "family": "calm-product",
+    "name": "soft scale settle",
+    "trigger": "state",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-004",
+    "family": "calm-product",
+    "name": "delayed label",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-005",
+    "family": "calm-product",
+    "name": "product orbit",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-006",
+    "family": "calm-product",
+    "name": "gentle parallax",
+    "trigger": "hover",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-007",
+    "family": "calm-product",
+    "name": "chapter fade",
+    "trigger": "route",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-008",
+    "family": "calm-product",
+    "name": "quiet mask",
+    "trigger": "state",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-009",
+    "family": "calm-product",
+    "name": "focus transition",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-010",
+    "family": "calm-product",
+    "name": "return-to-rest",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-011",
+    "family": "editorial",
+    "name": "line mask",
+    "trigger": "hover",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-012",
+    "family": "editorial",
+    "name": "word cascade",
+    "trigger": "route",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-013",
+    "family": "editorial",
+    "name": "image crop reveal",
+    "trigger": "state",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-014",
+    "family": "editorial",
+    "name": "caption delay",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-015",
+    "family": "editorial",
+    "name": "index tick",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-016",
+    "family": "editorial",
+    "name": "page wipe",
+    "trigger": "hover",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-017",
+    "family": "editorial",
+    "name": "column drift",
+    "trigger": "route",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-018",
+    "family": "editorial",
+    "name": "headline tracking settle",
+    "trigger": "state",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-019",
+    "family": "editorial",
+    "name": "photo parallax",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-020",
+    "family": "editorial",
+    "name": "section rule draw",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-021",
+    "family": "technical",
+    "name": "precise snap",
+    "trigger": "hover",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-022",
+    "family": "technical",
+    "name": "progress scrub",
+    "trigger": "route",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-023",
+    "family": "technical",
+    "name": "data count restrained",
+    "trigger": "state",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-024",
+    "family": "technical",
+    "name": "panel shift",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-025",
+    "family": "technical",
+    "name": "cursor focus",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-026",
+    "family": "technical",
+    "name": "code-line reveal",
+    "trigger": "hover",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-027",
+    "family": "technical",
+    "name": "diagram trace",
+    "trigger": "route",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-028",
+    "family": "technical",
+    "name": "status transition",
+    "trigger": "state",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-029",
+    "family": "technical",
+    "name": "tab morph",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-030",
+    "family": "technical",
+    "name": "metric focus",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-031",
+    "family": "cinematic-3d",
+    "name": "camera dolly",
+    "trigger": "hover",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-032",
+    "family": "cinematic-3d",
+    "name": "camera arc",
+    "trigger": "route",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-033",
+    "family": "cinematic-3d",
+    "name": "model reveal",
+    "trigger": "state",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-034",
+    "family": "cinematic-3d",
+    "name": "exploded assembly",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-035",
+    "family": "cinematic-3d",
+    "name": "light sweep",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-036",
+    "family": "cinematic-3d",
+    "name": "material transition",
+    "trigger": "hover",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-037",
+    "family": "cinematic-3d",
+    "name": "environment fade",
+    "trigger": "route",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-038",
+    "family": "cinematic-3d",
+    "name": "depth focus",
+    "trigger": "state",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-039",
+    "family": "cinematic-3d",
+    "name": "persistent scene route",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-040",
+    "family": "cinematic-3d",
+    "name": "final composition settle",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      650,
+      1600
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-041",
+    "family": "playful",
+    "name": "spring hover",
+    "trigger": "hover",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-042",
+    "family": "playful",
+    "name": "elastic chip",
+    "trigger": "route",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-043",
+    "family": "playful",
+    "name": "cursor attract",
+    "trigger": "state",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-044",
+    "family": "playful",
+    "name": "stagger pop",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-045",
+    "family": "playful",
+    "name": "shape chase",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-046",
+    "family": "playful",
+    "name": "tilt response",
+    "trigger": "hover",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-047",
+    "family": "playful",
+    "name": "drag inertia",
+    "trigger": "route",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-048",
+    "family": "playful",
+    "name": "loop accent",
+    "trigger": "state",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-049",
+    "family": "playful",
+    "name": "button nudge",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-050",
+    "family": "playful",
+    "name": "image wobble",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-051",
+    "family": "minimal",
+    "name": "opacity only",
+    "trigger": "hover",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-052",
+    "family": "minimal",
+    "name": "2px underline travel",
+    "trigger": "route",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-053",
+    "family": "minimal",
+    "name": "micro translate",
+    "trigger": "state",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-054",
+    "family": "minimal",
+    "name": "focus ring grow",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-055",
+    "family": "minimal",
+    "name": "rule reveal",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-056",
+    "family": "minimal",
+    "name": "subtle color transition",
+    "trigger": "hover",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-057",
+    "family": "minimal",
+    "name": "menu crossfade",
+    "trigger": "route",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-058",
+    "family": "minimal",
+    "name": "small image scale",
+    "trigger": "state",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-059",
+    "family": "minimal",
+    "name": "quiet section enter",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-060",
+    "family": "minimal",
+    "name": "no-motion state",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      180,
+      420
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-061",
+    "family": "high-energy",
+    "name": "fast cut",
+    "trigger": "hover",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-062",
+    "family": "high-energy",
+    "name": "directional wipe",
+    "trigger": "route",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-063",
+    "family": "high-energy",
+    "name": "velocity skew",
+    "trigger": "state",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-064",
+    "family": "high-energy",
+    "name": "rapid stagger",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-065",
+    "family": "high-energy",
+    "name": "overshoot title",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-066",
+    "family": "high-energy",
+    "name": "cursor trail restrained",
+    "trigger": "hover",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-067",
+    "family": "high-energy",
+    "name": "hard section snap",
+    "trigger": "route",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-068",
+    "family": "high-energy",
+    "name": "image punch",
+    "trigger": "state",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-069",
+    "family": "high-energy",
+    "name": "scale collision",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-070",
+    "family": "high-energy",
+    "name": "mask slice",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-071",
+    "family": "accessibility",
+    "name": "reduced fade",
+    "trigger": "hover",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-072",
+    "family": "accessibility",
+    "name": "instant state",
+    "trigger": "route",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-073",
+    "family": "accessibility",
+    "name": "no parallax",
+    "trigger": "state",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-074",
+    "family": "accessibility",
+    "name": "reduced camera",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-075",
+    "family": "accessibility",
+    "name": "no autoplay loop",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-076",
+    "family": "accessibility",
+    "name": "static alternative",
+    "trigger": "hover",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-077",
+    "family": "accessibility",
+    "name": "short duration",
+    "trigger": "route",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-078",
+    "family": "accessibility",
+    "name": "no blur transition",
+    "trigger": "state",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-079",
+    "family": "accessibility",
+    "name": "focus-visible feedback",
+    "trigger": "pointer",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  },
+  {
+    "id": "motion-080",
+    "family": "accessibility",
+    "name": "content-first fallback",
+    "trigger": "scroll",
+    "durationRangeMs": [
+      250,
+      800
+    ],
+    "principle": "Motion must clarify hierarchy, continuity, causality or spatial relationship. Decorative motion gets lower priority.",
+    "reducedMotion": "Provide a non-spatial or shorter alternative; never hide content behind motion.",
+    "compatibility": [
+      "Avoid stacking multiple high-salience motions on the same beat",
+      "Use one dominant motion language per scene"
+    ],
+    "sourceStatus": "SYNTHESIZED_FROM_GSAP_CODROPS_STUDIO_PATTERNS"
+  }
+]

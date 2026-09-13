@@ -1,0 +1,145 @@
+[
+  {
+    "name": "Lusion",
+    "source": "https://lusion.co/",
+    "observed": [
+      "3D visual storytelling is core positioning",
+      "Design, motion, 3D and development are presented as one production process",
+      "Project list spans campaign, product, AI, spatial and game-like experiences"
+    ],
+    "library_translation": [
+      "persistent scene architecture",
+      "project-specific visual concept",
+      "3D/story synchronization",
+      "motion/3D capability recipes"
+    ]
+  },
+  {
+    "name": "Immersive Garden",
+    "source": "https://immersive-g.com/",
+    "observed": [
+      "Immersive case-study framing",
+      "Strong integration of art direction, development and strategy",
+      "Awwwards SOTD listing includes both desktop and mobile evaluations"
+    ],
+    "library_translation": [
+      "case-study scene recipes",
+      "responsive art direction",
+      "desktop/mobile scene profiles",
+      "editorial + immersive composition"
+    ]
+  },
+  {
+    "name": "Active Theory",
+    "source": "https://activetheory.net/",
+    "observed": [
+      "Studio explicitly combines story, art and technology",
+      "Interactive/creative-technology positioning rather than generic web production"
+    ],
+    "library_translation": [
+      "story-state architecture",
+      "creative-tech capability mapping",
+      "interactive narrative engine"
+    ]
+  },
+  {
+    "name": "Resn",
+    "source": "https://resn.co.nz/",
+    "observed": [
+      "Public work and posts emphasize experimental WebGL, motion and creative code",
+      "Studio positions digital experiences as brand storytelling"
+    ],
+    "library_translation": [
+      "shader experiment sandbox",
+      "motion studies",
+      "brand-driven WebGL recipes",
+      "R&D playground package"
+    ]
+  },
+  {
+    "name": "Locomotive",
+    "source": "https://locomotive.ca/",
+    "observed": [
+      "Capabilities combine UX, art direction, web design and development",
+      "Current Awwwards WebGL watchlist includes L.I.S.A. by Locomotive"
+    ],
+    "library_translation": [
+      "art-direction tokens",
+      "scroll/motion systems",
+      "UX-to-creative-dev bridge"
+    ]
+  },
+  {
+    "name": "Jetson by Mute",
+    "source": "https://www.cssdesignawards.com/sites/jetson-by-mute/43818/",
+    "observed": [
+      "3D configurator",
+      "Product-centered interaction",
+      "Responsive WebGL",
+      "Headless architecture mentioned in indexed description"
+    ],
+    "library_translation": [
+      "product configurator engine",
+      "material/variant switching",
+      "camera focus states",
+      "responsive product scene"
+    ]
+  },
+  {
+    "name": "Where Worlds Take Shape",
+    "source": "https://www.cssdesignawards.com/sites/where-worlds-take-shape/48947/",
+    "observed": [
+      "Interactive portfolio game",
+      "Procedural worlds",
+      "Gameplay mechanics",
+      "Experimental WebGL storytelling"
+    ],
+    "library_translation": [
+      "procedural environment primitives",
+      "game-like navigation mode",
+      "stateful interaction",
+      "exploration recipe"
+    ]
+  },
+  {
+    "name": "Suisse Mania",
+    "source": "https://www.cssdesignawards.com/wotm/suisse-mania/27163/",
+    "observed": [
+      "Immersive journey",
+      "Large 3D map",
+      "Interactive exploration"
+    ],
+    "library_translation": [
+      "map/world navigation",
+      "camera pathing",
+      "landmark hotspot system",
+      "guided/free exploration modes"
+    ]
+  },
+  {
+    "name": "3D Web Lab 2.0",
+    "source": "https://www.cssdesignawards.com/sites/3d-web-lab/46828/",
+    "observed": [
+      "Portfolio for interactive online 3D services",
+      "Animated, responsive, WebGL tags"
+    ],
+    "library_translation": [
+      "service showcase recipes",
+      "3D portfolio primitives",
+      "responsive scene presets"
+    ]
+  },
+  {
+    "name": "Bruno Simon / Three.js creative development",
+    "source": "https://www.youtube.com/watch?v=fXPKiaI2IBw",
+    "observed": [
+      "Interview frames Three.js as a practical tool for 3D web development",
+      "Discussion includes deciding when 3D belongs on a website, not just how to implement it"
+    ],
+    "library_translation": [
+      "3D-purpose gate",
+      "capability-selection decision tree",
+      "technical learning path"
+    ]
+  }
+]

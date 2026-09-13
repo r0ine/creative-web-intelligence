@@ -1,0 +1,114 @@
+{
+  "version": "4.0",
+  "generated": "2026-09-12",
+  "stats": {
+    "fontPairings": 120,
+    "compositionRecipes": 90,
+    "motionRecipes": 80,
+    "threeArtRecipes": 50,
+    "compatibilityEdges": 238,
+    "qaChecks": 64,
+    "researchSources": 32,
+    "currentAwwwardsQueue": 25
+  },
+  "researchIntegrity": "Evidence statuses preserved; no claim of full-feed viewing where access was not available.",
+  "tooling": [
+    "compose_spec.py",
+    "search_capabilities.py",
+    "tools/v4/source_intelligence.py",
+    "tools/v4/validate_v4.py",
+    "validate_library.py"
+  ],
+  "external_open_source_registry": {
+    "count": 36,
+    "path": "integrations/open-source/open_source_library_registry.json",
+    "policy": "license-aware; no blind vendoring"
+  },
+  "modules": {
+    "scrollIntelligence": {
+      "recipes": 100,
+      "categories": 10,
+      "director": "directors/scroll/SCROLL_DIRECTOR.md",
+      "data": "data/v2/scroll_recipes.json"
+    }
+  },
+  "v3": {
+    "advancedScrollRecipes": 120,
+    "motionTokenCombinations": 72,
+    "backendRecipes": 120,
+    "referenceRecreationRecipes": 72,
+    "fullstackIntegrationRecipes": 60,
+    "qaChecks": 96,
+    "mediaRuntimeRecipes": 48,
+    "modules": [
+      "reference-recreation",
+      "advanced-scroll",
+      "backend-intelligence",
+      "fullstack-composer",
+      "media-pipeline",
+      "v3-quality-gate",
+      "windows-workflow"
+    ]
+  },
+  "v3_1": {
+    "typographyRecipes": 200,
+    "precisionScrollRecipes": 160,
+    "backendSecurityRecipes": 180,
+    "apiContractPatterns": 100,
+    "secretKeyPatterns": 80,
+    "encryptionDecisions": 60,
+    "securityQAChecks": 160,
+    "typographyQAChecks": 120,
+    "scrollQAChecks": 120,
+    "fontPairingStrategies": 120,
+    "scrollTransitionEdges": 120,
+    "modules": [
+      "security-director",
+      "secrets-director",
+      "encryption-director",
+      "api-contract-director",
+      "typography-3.1",
+      "scroll-3.1",
+      "production-gate",
+      "defensive-secret-build-audit"
+    ]
+  },
+  "v3_2": {
+    "wadaHistoricalCombinations": 348,
+    "wadaUniqueSourceColors": 159,
+    "fontArchetypes": 17,
+    "motionGrammarRecipes": 10,
+    "visualFingerprintChecks": 13,
+    "sectionSeparationRecipes": 7,
+    "modules": [
+      "wada-color-intelligence",
+      "typography-director-3.2",
+      "motion-grammar",
+      "section-separation-policy",
+      "visual-fingerprint-gate",
+      "wada-full-set-analyzer"
+    ]
+  },
+  "v4": {
+    "sourceProfiles": 13,
+    "iconFamilyProfiles": 6,
+    "newDirectors": 4,
+    "liveMetadataAdapters": [
+      "iconify",
+      "fontsource"
+    ],
+    "restrictedAutomationSources": [
+      "iconscout",
+      "undraw"
+    ],
+    "modules": [
+      "source-intelligence",
+      "icon-director",
+      "asset-director",
+      "font-source-director",
+      "license-provenance-gate",
+      "icon-asset-fingerprint-gate",
+      "live-metadata-cli"
+    ]
+  }
+}

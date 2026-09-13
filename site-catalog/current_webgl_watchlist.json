@@ -1,0 +1,452 @@
+[
+  {
+    "id": "site_001",
+    "name": "Michael Gatt Folio",
+    "creator": "Synchronized Studio",
+    "date": "2026-08-18",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "WebGL, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_002",
+    "name": "The Watch",
+    "creator": "60fps",
+    "date": "2026-08-17",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "WebGL, SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_003",
+    "name": "SSTR - Friction Reduction",
+    "creator": "Dmitry Golub",
+    "date": "2026-08-16",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_004",
+    "name": "PX PUSH",
+    "creator": "Lewis Webber",
+    "date": "2026-08-15",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "WebGL, SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_005",
+    "name": "HAOQI.DESIGN",
+    "creator": "curiosity-wen",
+    "date": "2026-08-14",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "WebGL, SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_006",
+    "name": "Mosby's Files",
+    "creator": "Tubik",
+    "date": "2026-08-13",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_007",
+    "name": "Revelatio Studio",
+    "creator": "Revelatio Studio",
+    "date": "2026-08-12",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "WebGL, SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_008",
+    "name": "Studio K95",
+    "creator": "Studio K95",
+    "date": "2026-08-11",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_009",
+    "name": "NOTHIN'",
+    "creator": "Thomas Carré",
+    "date": "2026-08-10",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "WebGL, SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_010",
+    "name": "Produx Design",
+    "creator": "Prødux Design",
+    "date": "2026-08-09",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_011",
+    "name": "Vero New-York",
+    "creator": "Rodéo studio",
+    "date": "2026-08-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "WebGL, SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_012",
+    "name": "20 Years Inspired by People",
+    "creator": "/nk.studio",
+    "date": "2026-08-07",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_013",
+    "name": "No Art",
+    "creator": "BORING",
+    "date": "2026-08-06",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_014",
+    "name": "Alethia",
+    "creator": "++hellohello",
+    "date": "2026-08-05",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_015",
+    "name": "Serotoninn",
+    "creator": "BL/S®",
+    "date": "2026-08-04",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD + e-commerce honors watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_016",
+    "name": "Lacoste Ace Breaker",
+    "creator": "Merci Michel",
+    "date": "2026-08-03",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD + product honors watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_017",
+    "name": "Hearst Exhibit 2026",
+    "creator": "OSMOS",
+    "date": "2026-08-02",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_018",
+    "name": "Noomo Showcase",
+    "creator": "Noomo Agency",
+    "date": "2026-08-01",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_019",
+    "name": "2xA Studio",
+    "creator": "2xA Studio",
+    "date": "2026-07-31",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_020",
+    "name": "CIAO ENERGY - LAUNCH WEBSITE",
+    "creator": "Skaald",
+    "date": "2026-07-30",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_021",
+    "name": "Made With Gsap",
+    "creator": "Florent Roux-Durraffourt",
+    "date": "2026-07-29",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_022",
+    "name": "Obys® Experiment Space",
+    "creator": "Obys",
+    "date": "2026-07-28",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, experimental reference",
+    "capability_tags": []
+  },
+  {
+    "id": "site_023",
+    "name": "TRIONN",
+    "creator": "Trionn",
+    "date": "2026-07-27",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_024",
+    "name": "Partizan",
+    "creator": "Beaucoup.",
+    "date": "2026-07-26",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_025",
+    "name": "Artem Shcherbakov",
+    "creator": "SALT AND PEPPER",
+    "date": "2026-07-25",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_026",
+    "name": "Spotify Wrapped Party",
+    "creator": "Active Theory",
+    "date": "2026-07-24",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, interactive creative-tech reference",
+    "capability_tags": []
+  },
+  {
+    "id": "site_027",
+    "name": "NORMAL IS BORING",
+    "creator": "LaNegrita",
+    "date": "2026-07-23",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_028",
+    "name": "Dragonfly Redux",
+    "creator": "Studio Freight",
+    "date": "2026-07-22",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD + business/services honors",
+    "capability_tags": []
+  },
+  {
+    "id": "site_029",
+    "name": "Lacoste — Polo Factory",
+    "creator": "Merci Michel",
+    "date": "2026-07-21",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTD, developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_030",
+    "name": "Lama Lama",
+    "creator": "Lama Lama",
+    "date": "2026-07",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "SOTM + developer-award watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_031",
+    "name": "L.I.S.A.",
+    "creator": "Locomotive",
+    "date": "2026-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "Current WebGL watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_032",
+    "name": "Generative 3D-Configurator",
+    "creator": "Vargov Design",
+    "date": "2026-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "Current WebGL watchlist; configurator category",
+    "capability_tags": []
+  },
+  {
+    "id": "site_033",
+    "name": "Motiondeep X John Jattoh",
+    "creator": "Motiondeep",
+    "date": "2026-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "Current WebGL watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_034",
+    "name": "USAvionix",
+    "creator": "basement studio",
+    "date": "2026-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "Current WebGL watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_035",
+    "name": "EDOLUS",
+    "creator": "Yann Trevelot",
+    "date": "2026-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "Current WebGL watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_036",
+    "name": "Scheme Engine",
+    "creator": "The Blackpepper Studio",
+    "date": "2026-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "Current WebGL watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_037",
+    "name": "PlayMagicReef",
+    "creator": "playmagicreef",
+    "date": "2026-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "Current WebGL watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_038",
+    "name": "The Eight",
+    "creator": "BONHOMME",
+    "date": "2026-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "Current WebGL watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_039",
+    "name": "Depth — 3D Studio for Figma",
+    "creator": "Aleksei Kipin",
+    "date": "2026-08",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "WATCHLIST",
+    "notes": "Current WebGL watchlist",
+    "capability_tags": []
+  },
+  {
+    "id": "site_040",
+    "name": "3D Web Lab 2.0",
+    "creator": "3D Web Lab",
+    "date": "2025-02-13",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "INDEXED_DEEPER",
+    "notes": "Interactive online 3D services portfolio; CSSDA WOTD",
+    "capability_tags": []
+  },
+  {
+    "id": "site_041",
+    "name": "Suisse Mania",
+    "creator": "Hinderling Volkart + Agigen/Goo Technologies",
+    "date": "historical",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "INDEXED_DEEPER",
+    "notes": "Immersive WebGL journey with large 3D map and balloons; CSSDA WOTM",
+    "capability_tags": []
+  },
+  {
+    "id": "site_042",
+    "name": "Interactive 3D Showroom",
+    "creator": "Outside Digital",
+    "date": "2022-07-31",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "INDEXED_DEEPER",
+    "notes": "Interactive car showroom/configurator; responsive WebGL",
+    "capability_tags": []
+  },
+  {
+    "id": "site_043",
+    "name": "Jetson by Mute",
+    "creator": "Owls Department + Uniforma Studio",
+    "date": "2023-08-21",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "INDEXED_DEEPER",
+    "notes": "Interactive product page with 3D configurator; headless approach",
+    "capability_tags": []
+  },
+  {
+    "id": "site_044",
+    "name": "Where Worlds Take Shape",
+    "creator": "Jerome Reynet",
+    "date": "2026-03-03",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "INDEXED_DEEPER",
+    "notes": "Interactive portfolio game; procedural worlds and experimental WebGL storytelling",
+    "capability_tags": []
+  },
+  {
+    "id": "site_045",
+    "name": "Hennessy House of Moves",
+    "creator": "Unknown from indexed element",
+    "date": "reference",
+    "source": "Awwwards/CSSDA current or indexed listing",
+    "analysis_status": "INDEXED_DEEPER",
+    "notes": "Immersive WebGL-built 3D space; digital exhibition/navigation reference",
+    "capability_tags": []
+  }
+]

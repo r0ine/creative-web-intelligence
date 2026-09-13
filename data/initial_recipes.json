@@ -1,0 +1,1482 @@
+[
+  {
+    "id": "recipe-001",
+    "category": "layout",
+    "intent": "Editorial asymmetric hero",
+    "engine": "css",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "editorial",
+      "asymmetric"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-002",
+    "category": "layout",
+    "intent": "Object-led product hero",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "product"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-003",
+    "category": "layout",
+    "intent": "Annotated product section",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "dom-anchor"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-004",
+    "category": "layout",
+    "intent": "Immersive chapter stack",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "scroll",
+      "story"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-005",
+    "category": "layout",
+    "intent": "Horizontal gallery sequence",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "scroll",
+      "gallery"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-006",
+    "category": "layout",
+    "intent": "Split editorial media",
+    "engine": "css",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "editorial",
+      "media"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-007",
+    "category": "layout",
+    "intent": "Full-bleed case study",
+    "engine": "css",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "case-study"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-008",
+    "category": "layout",
+    "intent": "Sticky narrative panel",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "scroll",
+      "sticky"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-009",
+    "category": "layout",
+    "intent": "Timeline / chapter rail",
+    "engine": "css",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "navigation",
+      "story"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-010",
+    "category": "layout",
+    "intent": "Dense utility interface",
+    "engine": "css",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "ui",
+      "compact"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-011",
+    "category": "typography",
+    "intent": "Line-mask heading reveal",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "text",
+      "mask"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-012",
+    "category": "typography",
+    "intent": "Word stagger reveal",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "text",
+      "stagger"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-013",
+    "category": "typography",
+    "intent": "Character wave display",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "text",
+      "display"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-014",
+    "category": "typography",
+    "intent": "Editorial italic contrast",
+    "engine": "css",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "type",
+      "editorial"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-015",
+    "category": "typography",
+    "intent": "Variable-width hover title",
+    "engine": "css",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "variable-font",
+      "hover"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-016",
+    "category": "typography",
+    "intent": "Scroll-linked tracking",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "text",
+      "scroll"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-017",
+    "category": "typography",
+    "intent": "Viewport-clamped type scale",
+    "engine": "css",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "responsive",
+      "type"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-018",
+    "category": "typography",
+    "intent": "3D-anchored annotation label",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "dom-anchor"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-019",
+    "category": "motion",
+    "intent": "Magnetic button subtle",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "pointer",
+      "magnetic"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-020",
+    "category": "motion",
+    "intent": "Pointer-smoothed media parallax",
+    "engine": "js",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "pointer",
+      "parallax"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-021",
+    "category": "motion",
+    "intent": "Scroll velocity skew",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "scroll",
+      "velocity"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-022",
+    "category": "motion",
+    "intent": "FLIP layout transition",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "layout",
+      "transition"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-023",
+    "category": "motion",
+    "intent": "Persistent route curtain",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "route",
+      "transition"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-024",
+    "category": "motion",
+    "intent": "Pinned chapter timeline",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "scroll",
+      "story"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-025",
+    "category": "motion",
+    "intent": "Section color-state transition",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "color",
+      "scroll"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-026",
+    "category": "motion",
+    "intent": "Image clip reveal",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "image",
+      "mask"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-027",
+    "category": "motion",
+    "intent": "Cursor state system",
+    "engine": "js",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "cursor",
+      "interaction"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-028",
+    "category": "motion",
+    "intent": "Drag with inertia",
+    "engine": "gsap",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "drag",
+      "interaction"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-029",
+    "category": "3d",
+    "intent": "Camera state interpolation",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "camera"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-030",
+    "category": "3d",
+    "intent": "Spline camera journey",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "camera",
+      "story"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-031",
+    "category": "3d",
+    "intent": "Product exploded view",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "models"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-032",
+    "category": "3d",
+    "intent": "Scroll model assembly",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "models",
+      "scroll"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-033",
+    "category": "3d",
+    "intent": "Part focus + DOM label",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "dom-anchor"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-034",
+    "category": "3d",
+    "intent": "Material variant configurator",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "configurator"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-035",
+    "category": "3d",
+    "intent": "Studio product lighting",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "lighting"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-036",
+    "category": "3d",
+    "intent": "Scene-state light transition",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "lighting",
+      "state"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-037",
+    "category": "3d",
+    "intent": "Selective bloom emissive detail",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "postfx"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-038",
+    "category": "3d",
+    "intent": "Depth-of-field detail focus",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "postfx"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-039",
+    "category": "3d",
+    "intent": "Fresnel material primitive",
+    "engine": "three",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": true
+    },
+    "tags": [
+      "3d",
+      "shader"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-040",
+    "category": "3d",
+    "intent": "Noise dissolve transition",
+    "engine": "three",
+    "parameters": {},
+    "performance": "high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": true
+    },
+    "tags": [
+      "3d",
+      "shader",
+      "transition"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-041",
+    "category": "3d",
+    "intent": "Pointer vertex deformation",
+    "engine": "three",
+    "parameters": {},
+    "performance": "high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": true
+    },
+    "tags": [
+      "3d",
+      "shader",
+      "pointer"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-042",
+    "category": "3d",
+    "intent": "GPGPU particle field",
+    "engine": "three",
+    "parameters": {},
+    "performance": "very-high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": true
+    },
+    "tags": [
+      "3d",
+      "particles"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-043",
+    "category": "3d",
+    "intent": "Particle formation transition",
+    "engine": "three",
+    "parameters": {},
+    "performance": "very-high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": true
+    },
+    "tags": [
+      "3d",
+      "particles",
+      "transition"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-044",
+    "category": "3d",
+    "intent": "Procedural world seeded",
+    "engine": "three",
+    "parameters": {},
+    "performance": "high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": true
+    },
+    "tags": [
+      "3d",
+      "procedural"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-045",
+    "category": "3d",
+    "intent": "World hotspot navigation",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "navigation"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-046",
+    "category": "3d",
+    "intent": "Map landmark camera travel",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "camera",
+      "map"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-047",
+    "category": "3d",
+    "intent": "Persistent canvas route scene",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "high",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "architecture"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-048",
+    "category": "3d",
+    "intent": "Adaptive quality manager",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "performance"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-049",
+    "category": "3d",
+    "intent": "WebGL poster fallback",
+    "engine": "js",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": true
+    },
+    "tags": [
+      "3d",
+      "fallback"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-050",
+    "category": "interaction",
+    "intent": "3D click-to-focus",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "interaction"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-051",
+    "category": "interaction",
+    "intent": "World label collision-aware",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "dom-anchor"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-052",
+    "category": "interaction",
+    "intent": "Touch rotate product",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "touch"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-053",
+    "category": "interaction",
+    "intent": "Hover preview prefetch",
+    "engine": "js",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "hover",
+      "performance"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-054",
+    "category": "interaction",
+    "intent": "Keyboard scene chapter navigation",
+    "engine": "js",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "accessibility",
+      "navigation"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-055",
+    "category": "loading",
+    "intent": "Asset progress loader state",
+    "engine": "three",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": true
+    },
+    "tags": [
+      "3d",
+      "loading"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-056",
+    "category": "loading",
+    "intent": "Wireframe-to-material intro",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "loading"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-057",
+    "category": "performance",
+    "intent": "Adaptive DPR",
+    "engine": "r3f",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": false
+    },
+    "tags": [
+      "3d",
+      "performance"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-058",
+    "category": "performance",
+    "intent": "Visibility pause",
+    "engine": "js",
+    "parameters": {},
+    "performance": "low",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": false,
+      "vanilla": true
+    },
+    "tags": [
+      "performance"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  },
+  {
+    "id": "recipe-059",
+    "category": "performance",
+    "intent": "Model LOD switch",
+    "engine": "three",
+    "parameters": {},
+    "performance": "medium",
+    "compatibility": {
+      "mobile": true,
+      "touch": true,
+      "reducedMotion": true,
+      "r3f": true,
+      "vanilla": true
+    },
+    "tags": [
+      "3d",
+      "performance"
+    ],
+    "dependencies": [],
+    "avoidWith": [],
+    "sourceConfidence": "SYNTHESIZED",
+    "sourceIds": [],
+    "mobileStrategy": "reduce amplitude/density and recompose if needed",
+    "reducedMotionStrategy": "replace with static/shorter state change"
+  }
+]

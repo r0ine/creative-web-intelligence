@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CWI v4 Source Profile",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "category",
+    "access",
+    "automation",
+    "licenseModel",
+    "guardrails"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "access": {
+      "type": "string"
+    },
+    "automation": {
+      "type": "string"
+    },
+    "bundlePolicy": {
+      "type": "string"
+    },
+    "licenseModel": {
+      "type": "string"
+    },
+    "endpoints": {
+      "type": "object"
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "guardrails": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

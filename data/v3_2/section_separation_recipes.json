@@ -1,0 +1,44 @@
+[
+  {
+    "id": "space-only",
+    "method": "vertical rhythm",
+    "useWhen": "hierarchy is already clear",
+    "risk": "too much empty space if scale not coordinated"
+  },
+  {
+    "id": "alignment-shift",
+    "method": "change column/alignment logic",
+    "useWhen": "new chapter changes content mode",
+    "risk": "random zig-zag without concept"
+  },
+  {
+    "id": "type-chapter",
+    "method": "chapter marker/type scale change",
+    "useWhen": "editorial/narrative sections",
+    "risk": "eyebrow label spam"
+  },
+  {
+    "id": "surface-shift",
+    "method": "subtle background/surface value change",
+    "useWhen": "functional mode changes",
+    "risk": "striped page if every section changes"
+  },
+  {
+    "id": "media-handoff",
+    "method": "image/video/3D creates boundary",
+    "useWhen": "visual narrative changes",
+    "risk": "media used as filler"
+  },
+  {
+    "id": "overlap-bleed",
+    "method": "controlled overlap across boundary",
+    "useWhen": "composition benefits from continuity",
+    "risk": "mobile collisions"
+  },
+  {
+    "id": "editorial-rule",
+    "method": "divider/rule",
+    "useWhen": "real information boundary or brand editorial language",
+    "risk": "AI divider spam when universal"
+  }
+]

@@ -1,0 +1,97 @@
+{
+  "$comment": "Frame sequence profiles, camera patterns, performance budget tiers, and asset fallback hierarchy.",
+  "version": "6.0",
+  "frame_sequence_profiles": {
+    "tiers": [
+      { "id": "smooth", "frames_per_vh": 12, "use_when": "desktop, high bandwidth, primary hero moment" },
+      { "id": "standard", "frames_per_vh": 8, "use_when": "desktop secondary, good mobile" },
+      { "id": "efficient", "frames_per_vh": 5, "use_when": "mobile, constrained bandwidth" },
+      { "id": "minimal", "frames_per_vh": 3, "use_when": "extreme constraint, poster-frame priority" }
+    ],
+    "format_priority": ["avif", "webp", "jpeg"],
+    "resolution": {
+      "desktop": { "width": 1920, "dpr": 1 },
+      "tablet": { "width": 1280, "dpr": 1 },
+      "mobile": { "width": 960, "dpr": 1 }
+    },
+    "transfer_limits": {
+      "desktop_per_sequence_kb": 4000,
+      "mobile_per_sequence_kb": 1500
+    },
+    "runtime_limits": {
+      "decoded_frame_cache_mb": 60,
+      "concurrent_sequences": 1,
+      "first_meaningful_frame_ms": 1500
+    },
+    "loading_strategy": {
+      "poster_first": true,
+      "preload_window_frames": 10,
+      "progressive_in_scroll_order": true,
+      "frame_skipping_on_fast_scroll": true,
+      "use_createImageBitmap": true
+    }
+  },
+  "camera_patterns": {
+    "vocabulary": [
+      { "move": "static", "communicates": "stability, contemplation, display" },
+      { "move": "approach", "communicates": "intimacy, focus, detail" },
+      { "move": "retreat", "communicates": "context, reveal of scale" },
+      { "move": "orbit_limited", "communicates": "dimension, materiality", "max_arc_deg": 120 },
+      { "move": "pan", "communicates": "survey, lateral context" },
+      { "move": "tilt", "communicates": "verticality, scale" },
+      { "move": "crane", "communicates": "gravitas, establishment" },
+      { "move": "reveal", "communicates": "surprise, discovery" },
+      { "move": "follow", "communicates": "connection, journey" },
+      { "move": "focal_shift", "communicates": "emotional register change" }
+    ],
+    "hard_rejects": [
+      { "id": "CAM-R01", "pattern": "constant_360_orbit", "correction": "choose start and end angle, 45-120 deg arc" },
+      { "id": "CAM-R02", "pattern": "aimless_camera_drift", "correction": "every camera move needs a subject" },
+      { "id": "CAM-R03", "pattern": "disorienting_rapid_motion", "correction": "max 120 deg per viewport of scroll" },
+      { "id": "CAM-R04", "pattern": "motion_to_demonstrate_3d", "correction": "if static view communicates the same, camera is static" },
+      { "id": "CAM-R05", "pattern": "every_section_has_camera_motion", "correction": "rest zones apply to camera" }
+    ],
+    "scroll_camera_rules": {
+      "max_total_rotation_deg": 180,
+      "rest_within_timeline_pct": 15,
+      "velocity_easing": "ease-in-out applied to normalized progress",
+      "reverse_must_work_naturally": true
+    }
+  },
+  "performance_budget_tiers": {
+    "lean": {
+      "initial_payload_kb": 500, "total_page_media_mb": 2,
+      "frame_sequences_kb": 0, "glb_kb": 0, "texture_memory_mb": 0,
+      "draw_calls": 0, "concurrent_animations": 1
+    },
+    "standard": {
+      "initial_payload_kb": 1500, "total_page_media_mb": 5,
+      "frame_sequences_kb": 1500, "glb_kb": 0, "texture_memory_mb": 0,
+      "draw_calls": 0, "concurrent_animations": 2
+    },
+    "rich": {
+      "initial_payload_kb": 3000, "total_page_media_mb": 10,
+      "frame_sequences_kb": 3000, "glb_kb": 2000, "texture_memory_mb": 32,
+      "draw_calls": 30, "concurrent_animations": 3
+    },
+    "cinematic": {
+      "initial_payload_kb": 5000, "total_page_media_mb": 15,
+      "frame_sequences_kb": 5000, "glb_kb": 5000, "texture_memory_mb": 64,
+      "draw_calls": 50, "concurrent_animations": 4
+    }
+  },
+  "asset_fallback_hierarchy": {
+    "3d": ["realtime-3d", "prerendered-sequence", "video", "static-image"],
+    "sequence": ["frame-sequence", "scroll-video", "video", "static-image"],
+    "shader": ["webgl-shader", "css-effect", "static"],
+    "animation": ["rive", "lottie", "svg-animation", "css-motion", "static"],
+    "video": ["video-autoplay", "video-poster", "static-image"],
+    "image": ["avif", "webp", "jpeg"]
+  },
+  "mobile_tier_mapping": {
+    "cinematic": "rich",
+    "rich": "standard",
+    "standard": "lean",
+    "lean": "lean"
+  }
+}

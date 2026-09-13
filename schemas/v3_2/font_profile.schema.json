@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Font Profile v3.2",
+  "type": "object",
+  "required": [
+    "id",
+    "roles",
+    "languageCoverage",
+    "morphology",
+    "loading"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "roles": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "languageCoverage": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "morphology": {
+      "type": "object",
+      "properties": {
+        "xHeight": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "width": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "strokeContrast": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "aperture": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "roundness": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "axes": {
+      "type": "object"
+    },
+    "loading": {
+      "type": "object"
+    },
+    "license": {
+      "type": "object"
+    },
+    "genericityNotes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

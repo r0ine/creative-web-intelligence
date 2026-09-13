@@ -1,0 +1,66 @@
+{
+  "types": [
+    "static-icon",
+    "animated-icon",
+    "illustration",
+    "lottie",
+    "rive",
+    "3d-asset",
+    "custom-svg",
+    "photo",
+    "none"
+  ],
+  "decisionFactors": [
+    "communicationJob",
+    "brandFit",
+    "interactionNeed",
+    "motionNeed",
+    "license",
+    "performance",
+    "accessibility",
+    "originality",
+    "maintenance"
+  ],
+  "rules": [
+    {
+      "need": "small semantic action",
+      "prefer": [
+        "static-icon",
+        "animated-icon if state transition exists"
+      ]
+    },
+    {
+      "need": "narrative or emotional support",
+      "prefer": [
+        "illustration",
+        "photo",
+        "custom art"
+      ],
+      "avoid": "generic SaaS illustration inserted solely to fill whitespace"
+    },
+    {
+      "need": "interactive graphic with state logic",
+      "prefer": [
+        "rive",
+        "custom SVG/Canvas/WebGL"
+      ],
+      "avoid": "video/GIF when interaction is required"
+    },
+    {
+      "need": "short authored motion without interaction",
+      "prefer": [
+        "lottie",
+        "CSS/SVG motion"
+      ],
+      "avoid": "heavy runtime when simple CSS is sufficient"
+    },
+    {
+      "need": "immersive spatial/product moment",
+      "prefer": [
+        "3d-asset",
+        "custom WebGL"
+      ],
+      "avoid": "generic floating 3D object with no product meaning"
+    }
+  ]
+}

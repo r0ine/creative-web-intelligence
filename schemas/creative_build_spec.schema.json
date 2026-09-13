@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Creative Build Specification",
+  "type": "object",
+  "required": [
+    "designDNA",
+    "typography",
+    "color",
+    "composition",
+    "motion",
+    "quality"
+  ],
+  "properties": {
+    "designDNA": {
+      "type": "object"
+    },
+    "typography": {
+      "type": "object"
+    },
+    "color": {
+      "type": "object"
+    },
+    "composition": {
+      "type": "object"
+    },
+    "motion": {
+      "type": "object"
+    },
+    "three": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "compatibility": {
+      "type": "array"
+    },
+    "quality": {
+      "type": "object"
+    },
+    "references": {
+      "type": "array"
+    },
+    "performanceBudget": {
+      "type": "object"
+    },
+    "accessibility": {
+      "type": "object"
+    }
+  }
+}

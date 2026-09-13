@@ -1,0 +1,71 @@
+{
+  "$comment": "v2 motion grammar. Elevates the strongest anti-patterns from penalized to blocker. Supersedes data/v3_2/motion_anti_ai_fingerprints.json in v5 gate decisions.",
+  "version": "5.0",
+  "core_rule": "motion has one legitimate job: to describe a relationship (orientation, hierarchy, continuity, feedback, or state). 'Feeling premium' is not a relationship.",
+  "families": [
+    { "id": "static-rest", "note": "a family, not the absence of one; long editorial pages default here" },
+    { "id": "opacity-activation", "note": "state activation, captions, secondary UI - not section entrances" },
+    { "id": "mask-clip", "note": "display type where container shape is part of composition" },
+    { "id": "media-crop", "note": "editorial media, portfolio work, product hero" },
+    { "id": "state-transition", "note": "workhorse of product UI motion; never 'entering from nowhere'" },
+    { "id": "physical-settle", "note": "objects with perceived mass; not cards or buttons" },
+    { "id": "spatial-transfer", "note": "shared element or expand-collapse where continuity matters" },
+    { "id": "typographic-transformation", "note": "when typography is the driver; change the type itself, not its container" },
+    { "id": "scrubbed-progression", "note": "only when the section is genuinely about progression" },
+    { "id": "pointer-reaction", "note": "precise, small, local; never required for critical understanding" },
+    { "id": "utility-feedback", "note": "loading, saving, error; measured in ms" }
+  ],
+  "discipline": {
+    "dominant_family_per_page": 1,
+    "supporting_families_max": 2,
+    "rest_zones_required_on_pages_longer_than_viewports": 2,
+    "rest_zone_min_coverage_pct": 30,
+    "families_do_not_mix_at_full_amplitude": true
+  },
+  "blockers": [
+    {
+      "id": "MG-B01",
+      "pattern": "universal fade-up as page reveal system",
+      "detection": "opacity 0->1 with translateY(20-40px) applied on more than one section",
+      "action": "delete helper; animate at most one section with an appropriate grammar; leave others static"
+    },
+    {
+      "id": "MG-B02",
+      "pattern": "stagger ladder by index",
+      "detection": "delay: index * 0.1 or equivalent across the page",
+      "action": "stagger by hierarchy or reading order, or delete the stagger"
+    },
+    {
+      "id": "MG-B03",
+      "pattern": "single easing token across UI, editorial, and object motion",
+      "detection": "fewer than 3 distinct easing values across roles",
+      "action": "define role-specific easing: ui, editorial, object"
+    },
+    {
+      "id": "MG-B04",
+      "pattern": "every section entering with the same grammar",
+      "detection": "identical entrance recipe across sections A, B, C",
+      "action": "the fingerprint is repetition; do not vary duration, vary whether motion is used at all"
+    },
+    {
+      "id": "MG-B05",
+      "pattern": "motion added to fix an empty-feeling composition",
+      "detection": "sections with entrance animation but weak content density or hierarchy",
+      "action": "fix the composition; motion cannot paper over composition problems"
+    }
+  ],
+  "penalties": [
+    "blur-in on entrance without focal-plane logic",
+    "continuous parallax on text-heavy pages",
+    "long pinned sections for atmosphere rather than progression",
+    "hover-lift + shadow-grow on non-interactive cards",
+    "scrollY * magic-number math scattered through components"
+  ],
+  "amplitude_ceilings": {
+    "entrance_translateY_px": 40,
+    "zoom_scale_delta_pct": 15,
+    "scroll_rotation_deg": 10,
+    "blur_px": 4
+  },
+  "final_test": "turn off all motion; if the composition still communicates, motion was doing honest supporting work; if not, motion was carrying composition and composition must be fixed"
+}

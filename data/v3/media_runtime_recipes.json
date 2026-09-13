@@ -1,0 +1,674 @@
+[
+  {
+    "id": "media-v3-001",
+    "kind": "image",
+    "role": "hero",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-002",
+    "kind": "image",
+    "role": "hero",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-003",
+    "kind": "image",
+    "role": "hero",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-004",
+    "kind": "image",
+    "role": "hero",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-005",
+    "kind": "image",
+    "role": "content",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-006",
+    "kind": "image",
+    "role": "content",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-007",
+    "kind": "image",
+    "role": "content",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-008",
+    "kind": "image",
+    "role": "content",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-009",
+    "kind": "image",
+    "role": "ambient",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-010",
+    "kind": "image",
+    "role": "ambient",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-011",
+    "kind": "image",
+    "role": "ambient",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-012",
+    "kind": "image",
+    "role": "ambient",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-013",
+    "kind": "video",
+    "role": "hero",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-014",
+    "kind": "video",
+    "role": "hero",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-015",
+    "kind": "video",
+    "role": "hero",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-016",
+    "kind": "video",
+    "role": "hero",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-017",
+    "kind": "video",
+    "role": "content",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-018",
+    "kind": "video",
+    "role": "content",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-019",
+    "kind": "video",
+    "role": "content",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-020",
+    "kind": "video",
+    "role": "content",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-021",
+    "kind": "video",
+    "role": "ambient",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-022",
+    "kind": "video",
+    "role": "ambient",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-023",
+    "kind": "video",
+    "role": "ambient",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-024",
+    "kind": "video",
+    "role": "ambient",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-025",
+    "kind": "sequence",
+    "role": "hero",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-026",
+    "kind": "sequence",
+    "role": "hero",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-027",
+    "kind": "sequence",
+    "role": "hero",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-028",
+    "kind": "sequence",
+    "role": "hero",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-029",
+    "kind": "sequence",
+    "role": "content",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-030",
+    "kind": "sequence",
+    "role": "content",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-031",
+    "kind": "sequence",
+    "role": "content",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-032",
+    "kind": "sequence",
+    "role": "content",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-033",
+    "kind": "sequence",
+    "role": "ambient",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-034",
+    "kind": "sequence",
+    "role": "ambient",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-035",
+    "kind": "sequence",
+    "role": "ambient",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-036",
+    "kind": "sequence",
+    "role": "ambient",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-037",
+    "kind": "canvas",
+    "role": "hero",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-038",
+    "kind": "canvas",
+    "role": "hero",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-039",
+    "kind": "canvas",
+    "role": "hero",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-040",
+    "kind": "canvas",
+    "role": "hero",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-041",
+    "kind": "canvas",
+    "role": "content",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-042",
+    "kind": "canvas",
+    "role": "content",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-043",
+    "kind": "canvas",
+    "role": "content",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-044",
+    "kind": "canvas",
+    "role": "content",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-045",
+    "kind": "canvas",
+    "role": "ambient",
+    "mode": "quality",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-046",
+    "kind": "canvas",
+    "role": "ambient",
+    "mode": "balanced",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-047",
+    "kind": "canvas",
+    "role": "ambient",
+    "mode": "performance",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  },
+  {
+    "id": "media-v3-048",
+    "kind": "canvas",
+    "role": "ambient",
+    "mode": "mobile",
+    "rules": [
+      "preserve aspect/focal intent",
+      "define loading priority",
+      "define mobile fallback",
+      "avoid layout shift",
+      "respect accessibility"
+    ],
+    "performance": "budget bytes/frames/decoding based on role; do not preload ambient media unnecessarily"
+  }
+]

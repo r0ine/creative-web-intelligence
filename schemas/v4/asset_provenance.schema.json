@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CWI v4 Asset Provenance",
+  "type": "object",
+  "required": [
+    "sourceId",
+    "sourceUrl",
+    "assetOrFamilyId",
+    "license",
+    "retrievedAt",
+    "evidenceStatus"
+  ],
+  "properties": {
+    "sourceId": {
+      "type": "string"
+    },
+    "sourceUrl": {
+      "type": "string"
+    },
+    "assetOrFamilyId": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "licenseUrl": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "retrievedAt": {
+      "type": "string"
+    },
+    "allowedUse": {
+      "type": "string"
+    },
+    "redistribution": {
+      "type": "string"
+    },
+    "attribution": {
+      "type": "string"
+    },
+    "evidenceStatus": {
+      "enum": [
+        "VERIFIED",
+        "INDEXED",
+        "SYNTHESIZED",
+        "NEEDS_REVIEW"
+      ]
+    }
+  }
+}

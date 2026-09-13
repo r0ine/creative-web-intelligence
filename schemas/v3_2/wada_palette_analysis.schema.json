@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Wada Palette Analysis v3.2",
+  "type": "object",
+  "required": [
+    "combinationId",
+    "colors",
+    "metrics",
+    "contrast",
+    "roleCandidates",
+    "riskFlags"
+  ],
+  "properties": {
+    "combinationId": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 348
+    },
+    "colors": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 4
+    },
+    "metrics": {
+      "type": "object"
+    },
+    "contrast": {
+      "type": "object"
+    },
+    "roleCandidates": {
+      "type": "object"
+    },
+    "riskFlags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source": {
+      "type": "object"
+    }
+  }
+}

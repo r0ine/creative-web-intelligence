@@ -1,0 +1,1802 @@
+[
+  {
+    "id": "comp-001",
+    "family": "editorial",
+    "name": "offset masthead",
+    "intent": "Use offset masthead when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-002",
+    "family": "editorial",
+    "name": "asymmetric lead",
+    "intent": "Use asymmetric lead when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-003",
+    "family": "editorial",
+    "name": "split narrative",
+    "intent": "Use split narrative when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-004",
+    "family": "editorial",
+    "name": "wide-caption rhythm",
+    "intent": "Use wide-caption rhythm when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-005",
+    "family": "editorial",
+    "name": "image-led columns",
+    "intent": "Use image-led columns when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-006",
+    "family": "editorial",
+    "name": "type-led columns",
+    "intent": "Use type-led columns when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-007",
+    "family": "editorial",
+    "name": "margin annotation",
+    "intent": "Use margin annotation when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-008",
+    "family": "editorial",
+    "name": "staggered chronology",
+    "intent": "Use staggered chronology when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-009",
+    "family": "editorial",
+    "name": "section index rail",
+    "intent": "Use section index rail when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-010",
+    "family": "editorial",
+    "name": "full-bleed interruption",
+    "intent": "Use full-bleed interruption when the information hierarchy benefits from a editorial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-011",
+    "family": "product",
+    "name": "object-centered stage",
+    "intent": "Use object-centered stage when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-012",
+    "family": "product",
+    "name": "left-copy right-object",
+    "intent": "Use left-copy right-object when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-013",
+    "family": "product",
+    "name": "persistent-object chapters",
+    "intent": "Use persistent-object chapters when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-014",
+    "family": "product",
+    "name": "detail callout orbit",
+    "intent": "Use detail callout orbit when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-015",
+    "family": "product",
+    "name": "specification ribbon",
+    "intent": "Use specification ribbon when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-016",
+    "family": "product",
+    "name": "exploded-detail sequence",
+    "intent": "Use exploded-detail sequence when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-017",
+    "family": "product",
+    "name": "comparison axis",
+    "intent": "Use comparison axis when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-018",
+    "family": "product",
+    "name": "feature focal crop",
+    "intent": "Use feature focal crop when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-019",
+    "family": "product",
+    "name": "progressive reveal",
+    "intent": "Use progressive reveal when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-020",
+    "family": "product",
+    "name": "final hero return",
+    "intent": "Use final hero return when the information hierarchy benefits from a product composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-021",
+    "family": "experimental",
+    "name": "broken grid",
+    "intent": "Use broken grid when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-022",
+    "family": "experimental",
+    "name": "controlled overlap",
+    "intent": "Use controlled overlap when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-023",
+    "family": "experimental",
+    "name": "edge anchored",
+    "intent": "Use edge anchored when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-024",
+    "family": "experimental",
+    "name": "diagonal flow",
+    "intent": "Use diagonal flow when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-025",
+    "family": "experimental",
+    "name": "layered depth",
+    "intent": "Use layered depth when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-026",
+    "family": "experimental",
+    "name": "overscan type",
+    "intent": "Use overscan type when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-027",
+    "family": "experimental",
+    "name": "cropped typography",
+    "intent": "Use cropped typography when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-028",
+    "family": "experimental",
+    "name": "spatial labels",
+    "intent": "Use spatial labels when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-029",
+    "family": "experimental",
+    "name": "nonlinear nav cluster",
+    "intent": "Use nonlinear nav cluster when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-030",
+    "family": "experimental",
+    "name": "modular freeform",
+    "intent": "Use modular freeform when the information hierarchy benefits from a experimental composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-031",
+    "family": "minimal",
+    "name": "single-column measure",
+    "intent": "Use single-column measure when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-032",
+    "family": "minimal",
+    "name": "two-zone composition",
+    "intent": "Use two-zone composition when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-033",
+    "family": "minimal",
+    "name": "quiet asymmetric hero",
+    "intent": "Use quiet asymmetric hero when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-034",
+    "family": "minimal",
+    "name": "rule-led sections",
+    "intent": "Use rule-led sections when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-035",
+    "family": "minimal",
+    "name": "monochrome hierarchy",
+    "intent": "Use monochrome hierarchy when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-036",
+    "family": "minimal",
+    "name": "large negative space",
+    "intent": "Use large negative space when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-037",
+    "family": "minimal",
+    "name": "compact utility rail",
+    "intent": "Use compact utility rail when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-038",
+    "family": "minimal",
+    "name": "content-first stack",
+    "intent": "Use content-first stack when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-039",
+    "family": "minimal",
+    "name": "subtle offset grid",
+    "intent": "Use subtle offset grid when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-040",
+    "family": "minimal",
+    "name": "minimal object stage",
+    "intent": "Use minimal object stage when the information hierarchy benefits from a minimal composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-041",
+    "family": "commerce",
+    "name": "editorial product grid",
+    "intent": "Use editorial product grid when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-042",
+    "family": "commerce",
+    "name": "campaign-to-catalog",
+    "intent": "Use campaign-to-catalog when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-043",
+    "family": "commerce",
+    "name": "sticky product narrative",
+    "intent": "Use sticky product narrative when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-044",
+    "family": "commerce",
+    "name": "image-first listing",
+    "intent": "Use image-first listing when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-045",
+    "family": "commerce",
+    "name": "detail immersion",
+    "intent": "Use detail immersion when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-046",
+    "family": "commerce",
+    "name": "variant focus",
+    "intent": "Use variant focus when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-047",
+    "family": "commerce",
+    "name": "comparison strip",
+    "intent": "Use comparison strip when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-048",
+    "family": "commerce",
+    "name": "product story chapters",
+    "intent": "Use product story chapters when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-049",
+    "family": "commerce",
+    "name": "gallery zoom path",
+    "intent": "Use gallery zoom path when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-050",
+    "family": "commerce",
+    "name": "conversion calm zone",
+    "intent": "Use conversion calm zone when the information hierarchy benefits from a commerce composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-051",
+    "family": "portfolio",
+    "name": "project-index split",
+    "intent": "Use project-index split when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-052",
+    "family": "portfolio",
+    "name": "case-study chapters",
+    "intent": "Use case-study chapters when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-053",
+    "family": "portfolio",
+    "name": "persistent project number",
+    "intent": "Use persistent project number when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-054",
+    "family": "portfolio",
+    "name": "horizontal project rail",
+    "intent": "Use horizontal project rail when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-055",
+    "family": "portfolio",
+    "name": "image rhythm",
+    "intent": "Use image rhythm when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-056",
+    "family": "portfolio",
+    "name": "kinetic index",
+    "intent": "Use kinetic index when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-057",
+    "family": "portfolio",
+    "name": "project metadata rail",
+    "intent": "Use project metadata rail when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-058",
+    "family": "portfolio",
+    "name": "full-screen case reveal",
+    "intent": "Use full-screen case reveal when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-059",
+    "family": "portfolio",
+    "name": "archive grid",
+    "intent": "Use archive grid when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-060",
+    "family": "portfolio",
+    "name": "closing contact stage",
+    "intent": "Use closing contact stage when the information hierarchy benefits from a portfolio composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-061",
+    "family": "3d-spatial",
+    "name": "foreground text/model overlap",
+    "intent": "Use foreground text/model overlap when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-062",
+    "family": "3d-spatial",
+    "name": "pinned canvas chapters",
+    "intent": "Use pinned canvas chapters when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-063",
+    "family": "3d-spatial",
+    "name": "DOM world labels",
+    "intent": "Use DOM world labels when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-064",
+    "family": "3d-spatial",
+    "name": "camera-window layout",
+    "intent": "Use camera-window layout when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-065",
+    "family": "3d-spatial",
+    "name": "scene-as-navigation",
+    "intent": "Use scene-as-navigation when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-066",
+    "family": "3d-spatial",
+    "name": "persistent model corridor",
+    "intent": "Use persistent model corridor when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-067",
+    "family": "3d-spatial",
+    "name": "depth-plane storytelling",
+    "intent": "Use depth-plane storytelling when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-068",
+    "family": "3d-spatial",
+    "name": "3D detail annotations",
+    "intent": "Use 3D detail annotations when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-069",
+    "family": "3d-spatial",
+    "name": "object-to-DOM transition",
+    "intent": "Use object-to-DOM transition when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-070",
+    "family": "3d-spatial",
+    "name": "environmental chapter breaks",
+    "intent": "Use environmental chapter breaks when the information hierarchy benefits from a 3d-spatial composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-071",
+    "family": "data",
+    "name": "dense dashboard shell",
+    "intent": "Use dense dashboard shell when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-072",
+    "family": "data",
+    "name": "metric hierarchy",
+    "intent": "Use metric hierarchy when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-073",
+    "family": "data",
+    "name": "annotation-first chart",
+    "intent": "Use annotation-first chart when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-074",
+    "family": "data",
+    "name": "small-multiple grid",
+    "intent": "Use small-multiple grid when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-075",
+    "family": "data",
+    "name": "narrative data scrollytelling",
+    "intent": "Use narrative data scrollytelling when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-076",
+    "family": "data",
+    "name": "comparison columns",
+    "intent": "Use comparison columns when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-077",
+    "family": "data",
+    "name": "filter + focus",
+    "intent": "Use filter + focus when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-078",
+    "family": "data",
+    "name": "overview-detail",
+    "intent": "Use overview-detail when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-079",
+    "family": "data",
+    "name": "signal-accent layout",
+    "intent": "Use signal-accent layout when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-080",
+    "family": "data",
+    "name": "table-chart hybrid",
+    "intent": "Use table-chart hybrid when the information hierarchy benefits from a data composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-081",
+    "family": "mobile",
+    "name": "thumb-first stacked stage",
+    "intent": "Use thumb-first stacked stage when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-082",
+    "family": "mobile",
+    "name": "horizontal snap rail",
+    "intent": "Use horizontal snap rail when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-083",
+    "family": "mobile",
+    "name": "gesture-aware gallery",
+    "intent": "Use gesture-aware gallery when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-084",
+    "family": "mobile",
+    "name": "condensed narrative",
+    "intent": "Use condensed narrative when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-085",
+    "family": "mobile",
+    "name": "mobile object focus",
+    "intent": "Use mobile object focus when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-086",
+    "family": "mobile",
+    "name": "bottom utility nav",
+    "intent": "Use bottom utility nav when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-087",
+    "family": "mobile",
+    "name": "content-priority reorder",
+    "intent": "Use content-priority reorder when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-088",
+    "family": "mobile",
+    "name": "safe-area composition",
+    "intent": "Use safe-area composition when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-089",
+    "family": "mobile",
+    "name": "touch annotation cards",
+    "intent": "Use touch annotation cards when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  },
+  {
+    "id": "comp-090",
+    "family": "mobile",
+    "name": "reduced-depth scene",
+    "intent": "Use reduced-depth scene when the information hierarchy benefits from a mobile composition rather than a generic centered section.",
+    "gridLogic": [
+      "Define focal axis first",
+      "Choose 1 primary alignment and 1 controlled exception",
+      "Use whitespace as grouping before adding cards",
+      "Preserve a reading path at 320-1440+ widths"
+    ],
+    "avoid": [
+      "Do not force content into equal cards",
+      "Do not repeat identical section proportions",
+      "Do not center by default",
+      "Do not add overlap that harms reading order"
+    ],
+    "mobileRule": "Recompose hierarchy; do not simply scale desktop.",
+    "sourceStatus": "SYNTHESIZED_FROM_GALLERY_AND_STUDIO_RESEARCH"
+  }
+]

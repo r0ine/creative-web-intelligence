@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Reference Recreation Specification",
+  "type": "object",
+  "required": [
+    "mode",
+    "sources",
+    "viewports",
+    "sections",
+    "fidelityTargets"
+  ],
+  "properties": {
+    "mode": {
+      "enum": [
+        "inspired",
+        "structure-close",
+        "pixel-close",
+        "behavior-close"
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "viewports": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "motionTimeline": {
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "assetMap": {
+      "type": "array"
+    },
+    "fidelityTargets": {
+      "type": "object"
+    },
+    "unknowns": {
+      "type": "array"
+    },
+    "rights": {
+      "type": "object"
+    }
+  }
+}

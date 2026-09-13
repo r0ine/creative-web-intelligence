@@ -1,0 +1,34 @@
+{
+  "brief": {
+    "product": "developer portfolio",
+    "need": "animated state icon for menu toggle",
+    "brandVoice": [
+      "technical",
+      "quiet",
+      "precise"
+    ],
+    "motion": "restrained"
+  },
+  "sourceDecision": {
+    "selectedSource": "iconify",
+    "family": "line-md",
+    "why": [
+      "MIT family",
+      "short state-transition motion",
+      "24-grid",
+      "static fallback available"
+    ],
+    "rejected": [
+      {
+        "source": "iconscout",
+        "reason": "official marketplace/API path unnecessary for this small semantic UI need"
+      }
+    ]
+  },
+  "candidate": {
+    "identifier": "line-md:menu-to-close-transition",
+    "licenseStatus": "verify-exact-icon-name-before-use",
+    "motionPolicy": "trigger only on menu state change; no scroll replay; static under reduced motion"
+  },
+  "note": "Example intentionally avoids asserting an exact icon name until live search confirms it."
+}

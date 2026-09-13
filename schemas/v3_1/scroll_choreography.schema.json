@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Scroll Choreography Spec",
+  "type": "object",
+  "required": [
+    "chapters",
+    "mobile",
+    "reducedMotion"
+  ],
+  "properties": {
+    "chapters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "purpose",
+          "states",
+          "handoff"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "states": {
+            "type": "array"
+          },
+          "handoff": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "mobile": {
+      "type": "object"
+    },
+    "reducedMotion": {
+      "type": "object"
+    },
+    "performanceBudget": {
+      "type": "object"
+    }
+  }
+}

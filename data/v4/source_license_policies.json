@@ -1,0 +1,40 @@
+{
+  "levels": {
+    "green": "documented open-source/API path; still preserve notices and per-asset license",
+    "yellow": "manual or asset-specific licensing; provenance required before use",
+    "red": "no automated harvesting/scraping/bundling without explicit permission or contract"
+  },
+  "sourceLevels": {
+    "iconify": "green",
+    "line-md": "green",
+    "tabler-icons": "green",
+    "lucide": "green",
+    "phosphor": "green",
+    "heroicons": "green",
+    "material-symbols": "green",
+    "fontsource": "green",
+    "svgrepo": "yellow",
+    "lottiefiles": "yellow",
+    "rive": "yellow",
+    "iconscout": "red",
+    "undraw": "red"
+  },
+  "mandatoryFields": [
+    "sourceId",
+    "sourceUrl",
+    "assetOrFamilyId",
+    "license",
+    "licenseUrl",
+    "retrievedAt",
+    "allowedUse",
+    "redistribution",
+    "attribution",
+    "evidenceStatus"
+  ],
+  "never": [
+    "assume preview equals license",
+    "strip license notices from redistributed open-source packages",
+    "scrape a restricted marketplace to create a local mirror",
+    "train or fine-tune on source assets when the source forbids it"
+  ]
+}

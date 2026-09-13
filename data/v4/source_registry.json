@@ -1,0 +1,418 @@
+[
+  {
+    "id": "iconify",
+    "name": "Iconify",
+    "category": [
+      "icons",
+      "icon-aggregator",
+      "api"
+    ],
+    "access": "public_api",
+    "automation": "approved_api",
+    "bundlePolicy": "per-icon-set-license",
+    "licenseModel": "framework MIT; icon sets retain their own licenses",
+    "endpoints": {
+      "base": "https://api.iconify.design",
+      "collections": "/collections",
+      "collection": "/collection?prefix={prefix}",
+      "search": "/search?query={query}&limit={limit}",
+      "keywords": "/keywords?keyword={keyword}",
+      "iconData": "/{prefix}.json?icons={icons}",
+      "svg": "/{prefix}/{icon}.svg"
+    },
+    "capabilities": [
+      "search",
+      "browse collections",
+      "retrieve icon metadata/data",
+      "generate SVG",
+      "license-aware family selection"
+    ],
+    "guardrails": [
+      "check collection license before bundling",
+      "do not assume Iconify framework license applies to icons",
+      "cache metadata conservatively",
+      "prefer local packages for production-critical icons when appropriate"
+    ],
+    "snapshot": {
+      "date": "2026-09-12",
+      "catalogClaim": "300k+ icons from 200+ open-source sets",
+      "observedExplorer": "325405 icons / 220 sets"
+    },
+    "evidence": [
+      "https://iconify.design/docs/api/",
+      "https://iconify.design/docs/api/queries.html",
+      "https://github.com/iconify/icon-sets/blob/master/collections.md"
+    ]
+  },
+  {
+    "id": "line-md",
+    "name": "Material Line Icons (Line-MD)",
+    "category": [
+      "icons",
+      "animated-icons"
+    ],
+    "access": "iconify_or_github",
+    "automation": "approved_open_source",
+    "bundlePolicy": "allowed-with-MIT-notice",
+    "licenseModel": "MIT",
+    "iconifyPrefix": "line-md",
+    "snapshot": {
+      "date": "2026-09-12",
+      "icons": 1218,
+      "grid": 24,
+      "version": "3.0.5"
+    },
+    "capabilities": [
+      "animated SVG",
+      "SVG+CSS",
+      "static SVG",
+      "transition icons",
+      "loop variants",
+      "reduced-motion aware CSS formats"
+    ],
+    "guardrails": [
+      "prefer one-shot render/transition motion",
+      "loops only when they communicate a live state",
+      "respect prefers-reduced-motion",
+      "do not animate every decorative icon"
+    ],
+    "evidence": [
+      "https://github.com/cyberalien/line-md",
+      "https://icon-sets.iconify.design/line-md/"
+    ]
+  },
+  {
+    "id": "iconscout",
+    "name": "IconScout",
+    "category": [
+      "icons",
+      "illustrations",
+      "3d",
+      "lottie",
+      "marketplace"
+    ],
+    "access": "official_api_or_manual",
+    "automation": "restricted_no_generic_scrape",
+    "bundlePolicy": "do-not-vendor-library-assets",
+    "licenseModel": "marketplace/API resource licenses; asset-specific terms apply",
+    "capabilities": [
+      "asset discovery",
+      "icons",
+      "illustrations",
+      "3D assets",
+      "Lottie assets",
+      "official API integrations"
+    ],
+    "guardrails": [
+      "no generic scraping or bulk collection",
+      "use official API only when account/agreement permits",
+      "do not redistribute source asset library",
+      "store provenance and asset license",
+      "never infer purchase rights from preview availability"
+    ],
+    "evidence": [
+      "https://iconscout.com/licenses",
+      "https://iconscout.com/legal/api-license-development-agreement"
+    ]
+  },
+  {
+    "id": "svgrepo",
+    "name": "SVG Repo",
+    "category": [
+      "icons",
+      "vectors",
+      "catalog"
+    ],
+    "access": "manual_or_documented_api",
+    "automation": "license_checked",
+    "bundlePolicy": "per-asset-license",
+    "licenseModel": "mixed: SVG Repo License, public domain, MIT/GPL/Apache/MPL/OFL, Creative Commons, logo terms",
+    "capabilities": [
+      "icon discovery",
+      "vector discovery",
+      "style browsing"
+    ],
+    "guardrails": [
+      "read the individual asset license",
+      "do not bulk-republish as a competing catalog",
+      "brand/logo assets require trademark checks",
+      "attribution/share-alike may apply"
+    ],
+    "evidence": [
+      "https://www.svgrepo.com/page/licensing",
+      "https://www.svgrepo.com/page/terms-of-use/"
+    ]
+  },
+  {
+    "id": "tabler-icons",
+    "name": "Tabler Icons",
+    "category": [
+      "icons",
+      "outline"
+    ],
+    "access": "iconify_npm_or_github",
+    "automation": "approved_open_source",
+    "bundlePolicy": "allowed-with-MIT-notice",
+    "licenseModel": "MIT",
+    "iconifyPrefix": "tabler",
+    "snapshot": {
+      "date": "2026-09-12",
+      "icons": 6184,
+      "grid": 24,
+      "defaultStroke": 2
+    },
+    "capabilities": [
+      "outline icons",
+      "filled variants",
+      "SVG",
+      "React/web usage"
+    ],
+    "guardrails": [
+      "keep stroke system consistent",
+      "avoid mixing with another nearly-identical outline family without reason"
+    ],
+    "evidence": [
+      "https://tabler.io/icons",
+      "https://tabler.io/license"
+    ]
+  },
+  {
+    "id": "lucide",
+    "name": "Lucide",
+    "category": [
+      "icons",
+      "outline"
+    ],
+    "access": "iconify_npm_or_github",
+    "automation": "approved_open_source",
+    "bundlePolicy": "license-notice-required-when-redistributing",
+    "licenseModel": "ISC",
+    "iconifyPrefix": "lucide",
+    "snapshot": {
+      "date": "2026-09-12",
+      "icons": 1756
+    },
+    "capabilities": [
+      "outline icons",
+      "framework components",
+      "SVG"
+    ],
+    "guardrails": [
+      "do not use Lucide as the automatic answer to every UI",
+      "match visual voice and stroke density first"
+    ],
+    "evidence": [
+      "https://github.com/iconify/icon-sets/blob/master/collections.md"
+    ]
+  },
+  {
+    "id": "phosphor",
+    "name": "Phosphor Icons",
+    "category": [
+      "icons",
+      "multi-weight"
+    ],
+    "access": "iconify_npm_or_github",
+    "automation": "approved_open_source",
+    "bundlePolicy": "allowed-with-MIT-notice",
+    "licenseModel": "MIT",
+    "iconifyPrefix": "ph",
+    "snapshot": {
+      "date": "2026-09-12",
+      "icons": 9072
+    },
+    "capabilities": [
+      "multiple visual weights",
+      "outline/fill families",
+      "UI and editorial icon systems"
+    ],
+    "guardrails": [
+      "select one coherent weight language per surface",
+      "do not vary icon weight randomly"
+    ],
+    "evidence": [
+      "https://github.com/iconify/icon-sets/blob/master/collections.md"
+    ]
+  },
+  {
+    "id": "heroicons",
+    "name": "Heroicons",
+    "category": [
+      "icons",
+      "outline",
+      "solid"
+    ],
+    "access": "iconify_npm_or_github",
+    "automation": "approved_open_source",
+    "bundlePolicy": "allowed-with-MIT-notice",
+    "licenseModel": "MIT",
+    "iconifyPrefix": "heroicons",
+    "capabilities": [
+      "outline icons",
+      "solid icons",
+      "common product UI"
+    ],
+    "guardrails": [
+      "good for quiet application UI; not a substitute for art direction"
+    ],
+    "evidence": [
+      "https://github.com/iconify/icon-sets/blob/master/collections.md"
+    ]
+  },
+  {
+    "id": "material-symbols",
+    "name": "Material Symbols",
+    "category": [
+      "icons",
+      "variable-icons"
+    ],
+    "access": "iconify_google_or_package",
+    "automation": "approved_open_source",
+    "bundlePolicy": "Apache-2.0-compliant",
+    "licenseModel": "Apache 2.0",
+    "iconifyPrefix": "material-symbols",
+    "snapshot": {
+      "date": "2026-09-12",
+      "icons": 15579
+    },
+    "capabilities": [
+      "large semantic coverage",
+      "variable symbol axes",
+      "rounded/sharp/material visual language"
+    ],
+    "guardrails": [
+      "use when Material-like visual language fits the product",
+      "large catalog coverage is not a design reason by itself"
+    ],
+    "evidence": [
+      "https://github.com/iconify/icon-sets/blob/master/collections.md"
+    ]
+  },
+  {
+    "id": "fontsource",
+    "name": "Fontsource",
+    "category": [
+      "fonts",
+      "font-metadata",
+      "api"
+    ],
+    "access": "public_readonly_api",
+    "automation": "approved_api",
+    "bundlePolicy": "font-license-specific",
+    "licenseModel": "open-source font repository; each font keeps its own license",
+    "endpoints": {
+      "base": "https://api.fontsource.org",
+      "fonts": "/v1/fonts",
+      "font": "/v1/fonts/{id}",
+      "variable": "/v1/variable/{id}",
+      "version": "/v1/version/{id}"
+    },
+    "capabilities": [
+      "font list",
+      "subsets",
+      "weights",
+      "styles",
+      "variable flag",
+      "variable axes",
+      "unicode ranges",
+      "file variants",
+      "versions"
+    ],
+    "guardrails": [
+      "verify per-font license",
+      "check latin-ext/Turkish glyph coverage instead of guessing",
+      "do not select a font by category alone",
+      "prefer WOFF2 and intentional self-hosting"
+    ],
+    "snapshot": {
+      "date": "2026-09-12",
+      "apiType": "read-only",
+      "documentedHardLimit": "2500 requests / 10 seconds; fair-use still applies"
+    },
+    "evidence": [
+      "https://fontsource.org/docs/api/introduction",
+      "https://fontsource.org/docs/api/fonts",
+      "https://fontsource.org/docs/api/variable"
+    ]
+  },
+  {
+    "id": "undraw",
+    "name": "unDraw",
+    "category": [
+      "illustrations"
+    ],
+    "access": "manual_user_selection",
+    "automation": "do-not-scrape-or-automate-without-consent",
+    "bundlePolicy": "use-in-end-product-not-as-library-pack",
+    "licenseModel": "free personal/commercial project use; restrictions on competing collections, packs, integrations, scraping/search/download automation and AI training",
+    "capabilities": [
+      "illustrations",
+      "brand-color customization",
+      "SVG/PNG end-product use"
+    ],
+    "guardrails": [
+      "do not build an automated unDraw harvester",
+      "do not compile or redistribute illustration packs",
+      "do not use assets as AI training data",
+      "manual selection is safest unless explicit permission/integration exists"
+    ],
+    "evidence": [
+      "https://undraw.co/license"
+    ]
+  },
+  {
+    "id": "lottiefiles",
+    "name": "LottieFiles Developer Platform",
+    "category": [
+      "motion",
+      "lottie",
+      "runtime"
+    ],
+    "access": "developer_docs_and_runtime",
+    "automation": "runtime-docs-approved-asset-license-separate",
+    "bundlePolicy": "runtime-open-source-assets-license-specific",
+    "licenseModel": "dotLottie/runtime tooling documented as open source; marketplace animation rights are separate",
+    "capabilities": [
+      "Lottie JSON",
+      "dotLottie",
+      "web/react/vue/svelte runtimes",
+      "animated icons",
+      "motion playback"
+    ],
+    "guardrails": [
+      "separate runtime license from downloaded animation license",
+      "do not autoplay/loop merely because Lottie supports it",
+      "respect reduced motion and performance budget"
+    ],
+    "evidence": [
+      "https://developers.lottiefiles.com/",
+      "https://docs.lottiefiles.com/en"
+    ]
+  },
+  {
+    "id": "rive",
+    "name": "Rive",
+    "category": [
+      "motion",
+      "interactive-graphics",
+      "runtime"
+    ],
+    "access": "developer_docs_and_runtime",
+    "automation": "runtime-approved-assets-separate",
+    "bundlePolicy": "runtime-MIT-assets-project-specific",
+    "licenseModel": "Rive runtimes MIT; project/design asset rights are separate",
+    "capabilities": [
+      "interactive vector motion",
+      "state machines",
+      "web runtime",
+      "small runtime files"
+    ],
+    "guardrails": [
+      "use Rive for interaction/state-driven graphics, not as decoration by default",
+      "separate runtime rights from .riv asset ownership"
+    ],
+    "evidence": [
+      "https://rive.app/runtimes"
+    ]
+  }
+]

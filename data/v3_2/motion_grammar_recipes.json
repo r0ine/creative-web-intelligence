@@ -1,0 +1,139 @@
+[
+  {
+    "id": "static-rest",
+    "purpose": "reading and visual rest",
+    "movement": [],
+    "goodFor": [
+      "long copy",
+      "dense UI",
+      "between high-motion chapters"
+    ],
+    "avoid": "adding motion only to maintain consistency"
+  },
+  {
+    "id": "opacity-activation",
+    "purpose": "state/context emphasis without travel",
+    "movement": [
+      "opacity"
+    ],
+    "goodFor": [
+      "caption",
+      "secondary UI",
+      "state handoff"
+    ],
+    "avoid": "using as every section entrance"
+  },
+  {
+    "id": "mask-clip",
+    "purpose": "reveal through semantic bounds",
+    "movement": [
+      "clip-path/mask",
+      "optional tiny transform"
+    ],
+    "goodFor": [
+      "display type",
+      "editorial labels"
+    ],
+    "avoid": "every heading using identical clip"
+  },
+  {
+    "id": "media-crop",
+    "purpose": "connect framing to viewport/state",
+    "movement": [
+      "object-position",
+      "scale within crop",
+      "mask"
+    ],
+    "goodFor": [
+      "editorial media",
+      "portfolio work"
+    ],
+    "avoid": "large continuous zoom with no story"
+  },
+  {
+    "id": "physical-settle",
+    "purpose": "give object perceived mass",
+    "movement": [
+      "small position",
+      "small rotation",
+      "small scale"
+    ],
+    "goodFor": [
+      "3D object",
+      "hero artifact"
+    ],
+    "avoid": "cards/buttons"
+  },
+  {
+    "id": "spatial-transfer",
+    "purpose": "show continuity between UI states",
+    "movement": [
+      "position",
+      "size",
+      "shape"
+    ],
+    "goodFor": [
+      "shared element",
+      "navigation",
+      "product state"
+    ],
+    "avoid": "decorative wandering"
+  },
+  {
+    "id": "scrubbed-progression",
+    "purpose": "map scroll progress to narrative state",
+    "movement": [
+      "progress-controlled transform/media/camera"
+    ],
+    "goodFor": [
+      "story",
+      "process",
+      "3D explanation"
+    ],
+    "avoid": "text-heavy normal pages without need"
+  },
+  {
+    "id": "state-morph",
+    "purpose": "communicate component state",
+    "movement": [
+      "shape",
+      "color",
+      "icon",
+      "layout"
+    ],
+    "goodFor": [
+      "filter",
+      "nav",
+      "toggle",
+      "route"
+    ],
+    "avoid": "morph for static content"
+  },
+  {
+    "id": "pointer-response",
+    "purpose": "local tactile response",
+    "movement": [
+      "tiny translation/rotation/state"
+    ],
+    "goodFor": [
+      "precise-pointer surfaces"
+    ],
+    "avoid": "critical actions or touch dependence"
+  },
+  {
+    "id": "typographic-transform",
+    "purpose": "make type the visual driver",
+    "movement": [
+      "mask",
+      "width",
+      "weight",
+      "opsz",
+      "line composition"
+    ],
+    "goodFor": [
+      "campaign",
+      "editorial hero"
+    ],
+    "avoid": "body text or constant breathing"
+  }
+]

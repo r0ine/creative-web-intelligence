@@ -1,0 +1,3652 @@
+[
+  {
+    "id": "scroll-v3-001",
+    "family": "reveal",
+    "name": "Precision Mask Reveal — Calm",
+    "intent": "Reveal hierarchy without generic fade-up.",
+    "variant": "calm",
+    "drivenProperties": [
+      "clip-path",
+      "mask"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-002",
+    "family": "reveal",
+    "name": "Precision Mask Reveal — Expressive",
+    "intent": "Reveal hierarchy without generic fade-up.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "clip-path",
+      "mask"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-003",
+    "family": "reveal",
+    "name": "Editorial Line Reveal — Calm",
+    "intent": "Reveal text lines with reading rhythm.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-004",
+    "family": "reveal",
+    "name": "Editorial Line Reveal — Expressive",
+    "intent": "Reveal text lines with reading rhythm.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-005",
+    "family": "reveal",
+    "name": "Layer Uncover — Calm",
+    "intent": "Expose media beneath a structural layer.",
+    "variant": "calm",
+    "drivenProperties": [
+      "clip",
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-006",
+    "family": "reveal",
+    "name": "Layer Uncover — Expressive",
+    "intent": "Expose media beneath a structural layer.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "clip",
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-007",
+    "family": "reveal",
+    "name": "Edge Wipe — Calm",
+    "intent": "Create directional section handoff.",
+    "variant": "calm",
+    "drivenProperties": [
+      "mask-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-008",
+    "family": "reveal",
+    "name": "Edge Wipe — Expressive",
+    "intent": "Create directional section handoff.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "mask-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-009",
+    "family": "reveal",
+    "name": "Soft Focus Resolve — Calm",
+    "intent": "Resolve media from soft focus only when subtle.",
+    "variant": "calm",
+    "drivenProperties": [
+      "filter",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-010",
+    "family": "reveal",
+    "name": "Soft Focus Resolve — Expressive",
+    "intent": "Resolve media from soft focus only when subtle.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "filter",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "reveal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-011",
+    "family": "pin-narrative",
+    "name": "Pinned Chapter — Calm",
+    "intent": "Hold a visual while narrative steps change.",
+    "variant": "calm",
+    "drivenProperties": [
+      "position",
+      "progress"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-012",
+    "family": "pin-narrative",
+    "name": "Pinned Chapter — Expressive",
+    "intent": "Hold a visual while narrative steps change.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "position",
+      "progress"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-013",
+    "family": "pin-narrative",
+    "name": "Sticky Comparison — Calm",
+    "intent": "Compare two states while labels update.",
+    "variant": "calm",
+    "drivenProperties": [
+      "sticky",
+      "state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-014",
+    "family": "pin-narrative",
+    "name": "Sticky Comparison — Expressive",
+    "intent": "Compare two states while labels update.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "sticky",
+      "state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-015",
+    "family": "pin-narrative",
+    "name": "Pinned Product Explode — Calm",
+    "intent": "Separate object components across chapters.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform",
+      "3d"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-016",
+    "family": "pin-narrative",
+    "name": "Pinned Product Explode — Expressive",
+    "intent": "Separate object components across chapters.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform",
+      "3d"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-017",
+    "family": "pin-narrative",
+    "name": "Pinned Metric Story — Calm",
+    "intent": "Keep metric frame stable while data changes.",
+    "variant": "calm",
+    "drivenProperties": [
+      "text",
+      "data"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-018",
+    "family": "pin-narrative",
+    "name": "Pinned Metric Story — Expressive",
+    "intent": "Keep metric frame stable while data changes.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "text",
+      "data"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-019",
+    "family": "pin-narrative",
+    "name": "Pinned Gallery Swap — Calm",
+    "intent": "Swap visual evidence inside one stable viewport.",
+    "variant": "calm",
+    "drivenProperties": [
+      "media",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-020",
+    "family": "pin-narrative",
+    "name": "Pinned Gallery Swap — Expressive",
+    "intent": "Swap visual evidence inside one stable viewport.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "media",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "pin-narrative",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-021",
+    "family": "parallax-depth",
+    "name": "Three Plane Drift — Calm",
+    "intent": "Use distinct amplitudes for foreground/mid/background.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-022",
+    "family": "parallax-depth",
+    "name": "Three Plane Drift — Expressive",
+    "intent": "Use distinct amplitudes for foreground/mid/background.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-023",
+    "family": "parallax-depth",
+    "name": "Foreground Countermove — Calm",
+    "intent": "Countermove a foreground accent to reinforce depth.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-024",
+    "family": "parallax-depth",
+    "name": "Foreground Countermove — Expressive",
+    "intent": "Countermove a foreground accent to reinforce depth.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-025",
+    "family": "parallax-depth",
+    "name": "Media Window Parallax — Calm",
+    "intent": "Move media inside a fixed crop.",
+    "variant": "calm",
+    "drivenProperties": [
+      "object-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-026",
+    "family": "parallax-depth",
+    "name": "Media Window Parallax — Expressive",
+    "intent": "Move media inside a fixed crop.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "object-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-027",
+    "family": "parallax-depth",
+    "name": "Text Image Depth Split — Calm",
+    "intent": "Separate text and image spatially without harming reading.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-028",
+    "family": "parallax-depth",
+    "name": "Text Image Depth Split — Expressive",
+    "intent": "Separate text and image spatially without harming reading.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-029",
+    "family": "parallax-depth",
+    "name": "Atmospheric Drift — Calm",
+    "intent": "Move only ambient non-essential layers.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-030",
+    "family": "parallax-depth",
+    "name": "Atmospheric Drift — Expressive",
+    "intent": "Move only ambient non-essential layers.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "parallax-depth",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-031",
+    "family": "typography",
+    "name": "Kinetic Word Lock — Calm",
+    "intent": "Lock one word while surrounding copy changes.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-032",
+    "family": "typography",
+    "name": "Kinetic Word Lock — Expressive",
+    "intent": "Lock one word while surrounding copy changes.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-033",
+    "family": "typography",
+    "name": "Scale Through Headline — Calm",
+    "intent": "Use scale as narrative emphasis, not decoration.",
+    "variant": "calm",
+    "drivenProperties": [
+      "scale"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-034",
+    "family": "typography",
+    "name": "Scale Through Headline — Expressive",
+    "intent": "Use scale as narrative emphasis, not decoration.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "scale"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-035",
+    "family": "typography",
+    "name": "Variable Axis Scroll — Calm",
+    "intent": "Map one variable font axis conservatively to progress.",
+    "variant": "calm",
+    "drivenProperties": [
+      "font-variation-settings"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-036",
+    "family": "typography",
+    "name": "Variable Axis Scroll — Expressive",
+    "intent": "Map one variable font axis conservatively to progress.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "font-variation-settings"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-037",
+    "family": "typography",
+    "name": "Letterspace Compression — Calm",
+    "intent": "Compress display type across a transition.",
+    "variant": "calm",
+    "drivenProperties": [
+      "letter-spacing"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-038",
+    "family": "typography",
+    "name": "Letterspace Compression — Expressive",
+    "intent": "Compress display type across a transition.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "letter-spacing"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-039",
+    "family": "typography",
+    "name": "Text Track Handoff — Calm",
+    "intent": "Move headline from hero role into section label role.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-040",
+    "family": "typography",
+    "name": "Text Track Handoff — Expressive",
+    "intent": "Move headline from hero role into section label role.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "typography",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-041",
+    "family": "media",
+    "name": "Image Sequence Scrub — Calm",
+    "intent": "Map scroll to optimized image sequence frames.",
+    "variant": "calm",
+    "drivenProperties": [
+      "frame-index"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-042",
+    "family": "media",
+    "name": "Image Sequence Scrub — Expressive",
+    "intent": "Map scroll to optimized image sequence frames.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "frame-index"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-043",
+    "family": "media",
+    "name": "Video Progress Scrub — Calm",
+    "intent": "Scrub preloaded short video only with a fallback.",
+    "variant": "calm",
+    "drivenProperties": [
+      "currentTime"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-044",
+    "family": "media",
+    "name": "Video Progress Scrub — Expressive",
+    "intent": "Scrub preloaded short video only with a fallback.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "currentTime"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-045",
+    "family": "media",
+    "name": "Poster To Motion — Calm",
+    "intent": "Use static poster until the motion scene earns playback.",
+    "variant": "calm",
+    "drivenProperties": [
+      "media-state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-046",
+    "family": "media",
+    "name": "Poster To Motion — Expressive",
+    "intent": "Use static poster until the motion scene earns playback.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "media-state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-047",
+    "family": "media",
+    "name": "Crop Morph — Calm",
+    "intent": "Change crop/shape while preserving subject framing.",
+    "variant": "calm",
+    "drivenProperties": [
+      "clip-path",
+      "object-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-048",
+    "family": "media",
+    "name": "Crop Morph — Expressive",
+    "intent": "Change crop/shape while preserving subject framing.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "clip-path",
+      "object-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-049",
+    "family": "media",
+    "name": "Gallery Track — Calm",
+    "intent": "Move a curated media track with clear endpoint.",
+    "variant": "calm",
+    "drivenProperties": [
+      "translate"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-050",
+    "family": "media",
+    "name": "Gallery Track — Expressive",
+    "intent": "Move a curated media track with clear endpoint.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "translate"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-media",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "media",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-051",
+    "family": "horizontal",
+    "name": "Horizontal Story Rail — Calm",
+    "intent": "Use horizontal movement for ordered spatial sequence.",
+    "variant": "calm",
+    "drivenProperties": [
+      "translateX"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-052",
+    "family": "horizontal",
+    "name": "Horizontal Story Rail — Expressive",
+    "intent": "Use horizontal movement for ordered spatial sequence.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "translateX"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-053",
+    "family": "horizontal",
+    "name": "Sticky Horizontal Cards — Calm",
+    "intent": "Pin container and advance panels horizontally.",
+    "variant": "calm",
+    "drivenProperties": [
+      "sticky",
+      "translateX"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-054",
+    "family": "horizontal",
+    "name": "Sticky Horizontal Cards — Expressive",
+    "intent": "Pin container and advance panels horizontally.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "sticky",
+      "translateX"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-055",
+    "family": "horizontal",
+    "name": "Axis Handoff — Calm",
+    "intent": "Transition from vertical to horizontal and back deliberately.",
+    "variant": "calm",
+    "drivenProperties": [
+      "x",
+      "y transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-056",
+    "family": "horizontal",
+    "name": "Axis Handoff — Expressive",
+    "intent": "Transition from vertical to horizontal and back deliberately.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "x",
+      "y transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-057",
+    "family": "horizontal",
+    "name": "Panorama Reveal — Calm",
+    "intent": "Reveal a wide image without fake carousel UI.",
+    "variant": "calm",
+    "drivenProperties": [
+      "object-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-058",
+    "family": "horizontal",
+    "name": "Panorama Reveal — Expressive",
+    "intent": "Reveal a wide image without fake carousel UI.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "object-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-059",
+    "family": "horizontal",
+    "name": "Timeline Traverse — Calm",
+    "intent": "Traverse chronological events with readable labels.",
+    "variant": "calm",
+    "drivenProperties": [
+      "translateX"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-060",
+    "family": "horizontal",
+    "name": "Timeline Traverse — Expressive",
+    "intent": "Traverse chronological events with readable labels.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "translateX"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "horizontal",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-061",
+    "family": "section-transition",
+    "name": "Background Tone Handoff — Calm",
+    "intent": "Transition atmosphere between sections.",
+    "variant": "calm",
+    "drivenProperties": [
+      "background",
+      "color"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-062",
+    "family": "section-transition",
+    "name": "Background Tone Handoff — Expressive",
+    "intent": "Transition atmosphere between sections.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "background",
+      "color"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-063",
+    "family": "section-transition",
+    "name": "Panel Stack — Calm",
+    "intent": "Stack sections with controlled overlap.",
+    "variant": "calm",
+    "drivenProperties": [
+      "translate",
+      "scale"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-064",
+    "family": "section-transition",
+    "name": "Panel Stack — Expressive",
+    "intent": "Stack sections with controlled overlap.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "translate",
+      "scale"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-065",
+    "family": "section-transition",
+    "name": "Curtain Transition — Calm",
+    "intent": "Use a structural cover/uncover between scenes.",
+    "variant": "calm",
+    "drivenProperties": [
+      "clip-path"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-066",
+    "family": "section-transition",
+    "name": "Curtain Transition — Expressive",
+    "intent": "Use a structural cover/uncover between scenes.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "clip-path"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-067",
+    "family": "section-transition",
+    "name": "Depth Retreat — Calm",
+    "intent": "Let previous scene recede while next becomes dominant.",
+    "variant": "calm",
+    "drivenProperties": [
+      "scale",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-068",
+    "family": "section-transition",
+    "name": "Depth Retreat — Expressive",
+    "intent": "Let previous scene recede while next becomes dominant.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "scale",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-069",
+    "family": "section-transition",
+    "name": "Shared Element Handoff — Calm",
+    "intent": "Carry one meaningful visual between sections.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-070",
+    "family": "section-transition",
+    "name": "Shared Element Handoff — Expressive",
+    "intent": "Carry one meaningful visual between sections.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "section-transition",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-071",
+    "family": "3d-camera",
+    "name": "Camera Dolly — Calm",
+    "intent": "Dolly through a scene with fixed focal intent.",
+    "variant": "calm",
+    "drivenProperties": [
+      "camera.position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-072",
+    "family": "3d-camera",
+    "name": "Camera Dolly — Expressive",
+    "intent": "Dolly through a scene with fixed focal intent.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "camera.position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-073",
+    "family": "3d-camera",
+    "name": "Orbit Chapter — Calm",
+    "intent": "Orbit only around a meaningful subject.",
+    "variant": "calm",
+    "drivenProperties": [
+      "camera.quaternion"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-074",
+    "family": "3d-camera",
+    "name": "Orbit Chapter — Expressive",
+    "intent": "Orbit only around a meaningful subject.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "camera.quaternion"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-075",
+    "family": "3d-camera",
+    "name": "Focal Shift — Calm",
+    "intent": "Move focus between scene anchors.",
+    "variant": "calm",
+    "drivenProperties": [
+      "camera target"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-076",
+    "family": "3d-camera",
+    "name": "Focal Shift — Expressive",
+    "intent": "Move focus between scene anchors.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "camera target"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-077",
+    "family": "3d-camera",
+    "name": "Exploded View Scroll — Calm",
+    "intent": "Separate components with bounded travel.",
+    "variant": "calm",
+    "drivenProperties": [
+      "object transforms"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-078",
+    "family": "3d-camera",
+    "name": "Exploded View Scroll — Expressive",
+    "intent": "Separate components with bounded travel.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "object transforms"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-079",
+    "family": "3d-camera",
+    "name": "Portal Passage — Calm",
+    "intent": "Transition through a modeled aperture.",
+    "variant": "calm",
+    "drivenProperties": [
+      "camera",
+      "clip"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-080",
+    "family": "3d-camera",
+    "name": "Portal Passage — Expressive",
+    "intent": "Transition through a modeled aperture.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "camera",
+      "clip"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "threejs",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "3d-camera",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-081",
+    "family": "data-diagram",
+    "name": "Path Draw — Calm",
+    "intent": "Reveal a process path as narrative progresses.",
+    "variant": "calm",
+    "drivenProperties": [
+      "stroke-dashoffset"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-082",
+    "family": "data-diagram",
+    "name": "Path Draw — Expressive",
+    "intent": "Reveal a process path as narrative progresses.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "stroke-dashoffset"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-083",
+    "family": "data-diagram",
+    "name": "Node Activation — Calm",
+    "intent": "Activate graph nodes in meaningful order.",
+    "variant": "calm",
+    "drivenProperties": [
+      "state",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-084",
+    "family": "data-diagram",
+    "name": "Node Activation — Expressive",
+    "intent": "Activate graph nodes in meaningful order.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "state",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-085",
+    "family": "data-diagram",
+    "name": "Metric Count With Context — Calm",
+    "intent": "Update numbers only when paired with explanation.",
+    "variant": "calm",
+    "drivenProperties": [
+      "number",
+      "text"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-086",
+    "family": "data-diagram",
+    "name": "Metric Count With Context — Expressive",
+    "intent": "Update numbers only when paired with explanation.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "number",
+      "text"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-087",
+    "family": "data-diagram",
+    "name": "Diagram Focus Lens — Calm",
+    "intent": "Focus subsections while keeping global context.",
+    "variant": "calm",
+    "drivenProperties": [
+      "scale",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-088",
+    "family": "data-diagram",
+    "name": "Diagram Focus Lens — Expressive",
+    "intent": "Focus subsections while keeping global context.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "scale",
+      "opacity"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-089",
+    "family": "data-diagram",
+    "name": "Before After State — Calm",
+    "intent": "Compare system states with explicit labels.",
+    "variant": "calm",
+    "drivenProperties": [
+      "state swap"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-090",
+    "family": "data-diagram",
+    "name": "Before After State — Expressive",
+    "intent": "Compare system states with explicit labels.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "state swap"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "data-diagram",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-091",
+    "family": "velocity-direction",
+    "name": "Velocity Tilt — Calm",
+    "intent": "Use bounded velocity response on non-reading media.",
+    "variant": "calm",
+    "drivenProperties": [
+      "rotation"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-092",
+    "family": "velocity-direction",
+    "name": "Velocity Tilt — Expressive",
+    "intent": "Use bounded velocity response on non-reading media.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "rotation"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-093",
+    "family": "velocity-direction",
+    "name": "Direction Aware Header — Calm",
+    "intent": "Show/hide utility nav based on direction with hysteresis.",
+    "variant": "calm",
+    "drivenProperties": [
+      "state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-094",
+    "family": "velocity-direction",
+    "name": "Direction Aware Header — Expressive",
+    "intent": "Show/hide utility nav based on direction with hysteresis.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-095",
+    "family": "velocity-direction",
+    "name": "Momentum Accent — Calm",
+    "intent": "Let decorative accents respond briefly to velocity.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-096",
+    "family": "velocity-direction",
+    "name": "Momentum Accent — Expressive",
+    "intent": "Let decorative accents respond briefly to velocity.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-097",
+    "family": "velocity-direction",
+    "name": "Scroll Stop Settle — Calm",
+    "intent": "Settle spatial layers after fast scroll.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-098",
+    "family": "velocity-direction",
+    "name": "Scroll Stop Settle — Expressive",
+    "intent": "Settle spatial layers after fast scroll.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-099",
+    "family": "velocity-direction",
+    "name": "Section Snap Hint — Calm",
+    "intent": "Hint snap behavior without trapping scroll.",
+    "variant": "calm",
+    "drivenProperties": [
+      "opacity",
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-100",
+    "family": "velocity-direction",
+    "name": "Section Snap Hint — Expressive",
+    "intent": "Hint snap behavior without trapping scroll.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "opacity",
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "velocity-direction",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-101",
+    "family": "ambient",
+    "name": "Ambient Grain Drift — Calm",
+    "intent": "Very low salience texture drift.",
+    "variant": "calm",
+    "drivenProperties": [
+      "background-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-102",
+    "family": "ambient",
+    "name": "Ambient Grain Drift — Expressive",
+    "intent": "Very low salience texture drift.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "background-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-103",
+    "family": "ambient",
+    "name": "Light Sweep — Calm",
+    "intent": "Subtle light movement around a focal object.",
+    "variant": "calm",
+    "drivenProperties": [
+      "gradient-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-104",
+    "family": "ambient",
+    "name": "Light Sweep — Expressive",
+    "intent": "Subtle light movement around a focal object.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "gradient-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-105",
+    "family": "ambient",
+    "name": "Shadow Breathing — Calm",
+    "intent": "Tiny depth change where static shadow feels dead.",
+    "variant": "calm",
+    "drivenProperties": [
+      "box-shadow",
+      "filter"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-106",
+    "family": "ambient",
+    "name": "Shadow Breathing — Expressive",
+    "intent": "Tiny depth change where static shadow feels dead.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "box-shadow",
+      "filter"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-107",
+    "family": "ambient",
+    "name": "Background Grid Phase — Calm",
+    "intent": "Shift technical grid at section boundaries.",
+    "variant": "calm",
+    "drivenProperties": [
+      "background-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-108",
+    "family": "ambient",
+    "name": "Background Grid Phase — Expressive",
+    "intent": "Shift technical grid at section boundaries.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "background-position"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-109",
+    "family": "ambient",
+    "name": "Floating Label Offset — Calm",
+    "intent": "Micro depth response for non-critical labels.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-110",
+    "family": "ambient",
+    "name": "Floating Label Offset — Expressive",
+    "intent": "Micro depth response for non-critical labels.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "ambient",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-111",
+    "family": "interaction-scroll",
+    "name": "Hover Scroll Coherence — Calm",
+    "intent": "Ensure hover state does not fight scroll transformation.",
+    "variant": "calm",
+    "drivenProperties": [
+      "state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-112",
+    "family": "interaction-scroll",
+    "name": "Hover Scroll Coherence — Expressive",
+    "intent": "Ensure hover state does not fight scroll transformation.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-113",
+    "family": "interaction-scroll",
+    "name": "Pointer Scroll Blend — Calm",
+    "intent": "Blend pointer and scroll using separate bounded channels.",
+    "variant": "calm",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-114",
+    "family": "interaction-scroll",
+    "name": "Pointer Scroll Blend — Expressive",
+    "intent": "Blend pointer and scroll using separate bounded channels.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "transform"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-115",
+    "family": "interaction-scroll",
+    "name": "Drag To Scroll Rail — Calm",
+    "intent": "Allow drag as secondary control for horizontal rails.",
+    "variant": "calm",
+    "drivenProperties": [
+      "drag",
+      "scroll"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-116",
+    "family": "interaction-scroll",
+    "name": "Drag To Scroll Rail — Expressive",
+    "intent": "Allow drag as secondary control for horizontal rails.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "drag",
+      "scroll"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-117",
+    "family": "interaction-scroll",
+    "name": "Anchor Progress Sync — Calm",
+    "intent": "Keep navigation anchors consistent with scroll states.",
+    "variant": "calm",
+    "drivenProperties": [
+      "url",
+      "scroll"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-118",
+    "family": "interaction-scroll",
+    "name": "Anchor Progress Sync — Expressive",
+    "intent": "Keep navigation anchors consistent with scroll states.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "url",
+      "scroll"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-119",
+    "family": "interaction-scroll",
+    "name": "Scroll Restore Safe — Calm",
+    "intent": "Restore content position without replay chaos.",
+    "variant": "calm",
+    "drivenProperties": [
+      "history",
+      "state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "calm",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  },
+  {
+    "id": "scroll-v3-120",
+    "family": "interaction-scroll",
+    "name": "Scroll Restore Safe — Expressive",
+    "intent": "Restore content position without replay chaos.",
+    "variant": "expressive",
+    "drivenProperties": [
+      "history",
+      "state"
+    ],
+    "authoringModel": "named states + normalized 0..1 progress ranges",
+    "recommendedTech": [
+      "native-css-or-sticky",
+      "gsap-scrolltrigger"
+    ],
+    "mobileStrategy": "recompose; shorten travel/pin duration; prefer native overflow or discrete states when appropriate",
+    "reducedMotion": "replace continuous spatial motion with immediate/discrete state changes while preserving content",
+    "qualityGate": [
+      "no hidden required content",
+      "no scroll trapping",
+      "no unexplained magic offsets",
+      "resize cleanup defined",
+      "focus remains usable"
+    ],
+    "compatibilityTags": [
+      "interaction-scroll",
+      "expressive",
+      "v3-state-machine"
+    ],
+    "sourceStatus": "SYNTHESIZED_LIBRARY_PATTERN"
+  }
+]

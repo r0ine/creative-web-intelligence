@@ -1,0 +1,185 @@
+{
+  "version": "2.1.0",
+  "profiles": [
+    {
+      "id": "cinematic-r3f-product",
+      "intent": [
+        "3d product",
+        "cinematic",
+        "scroll story",
+        "react"
+      ],
+      "required": [
+        "threejs",
+        "r3f",
+        "drei",
+        "motion"
+      ],
+      "optional": [
+        "lenis",
+        "react-postprocessing",
+        "three-mesh-bvh",
+        "troika",
+        "leva"
+      ],
+      "mutually_exclusive": [
+        "babylonjs",
+        "ogl"
+      ],
+      "reasoning": "R3F ecosystem gives declarative scene integration while keeping Three.js escape hatches. Motion owns DOM motion; Lenis/post FX remain opt-in.",
+      "mobile_policy": "reduce DPR/post FX, recompose camera, native-scroll fallback available"
+    },
+    {
+      "id": "shader-first-minimal",
+      "intent": [
+        "shader",
+        "webgl",
+        "minimal runtime",
+        "vanilla"
+      ],
+      "required": [
+        "ogl"
+      ],
+      "optional": [
+        "tweakpane",
+        "motion"
+      ],
+      "mutually_exclusive": [
+        "r3f",
+        "babylonjs"
+      ],
+      "reasoning": "Minimal renderer path for custom shader experiences without a large scene-helper ecosystem.",
+      "mobile_policy": "simplify fragment cost and resolution before adding effects"
+    },
+    {
+      "id": "high-performance-2d",
+      "intent": [
+        "2d",
+        "particles",
+        "sprites",
+        "interactive canvas"
+      ],
+      "required": [
+        "pixijs"
+      ],
+      "optional": [
+        "motion",
+        "floating-ui",
+        "radix"
+      ],
+      "mutually_exclusive": [
+        "threejs",
+        "babylonjs"
+      ],
+      "reasoning": "Use a 2D renderer when the experience is fundamentally 2D instead of paying 3D abstraction cost.",
+      "mobile_policy": "texture/particle budgets and adaptive resolution"
+    },
+    {
+      "id": "accessible-art-directed-ui",
+      "intent": [
+        "marketing",
+        "application ui",
+        "accessible",
+        "custom design"
+      ],
+      "required": [
+        "radix",
+        "floating-ui"
+      ],
+      "optional": [
+        "shadcn",
+        "originui",
+        "motion",
+        "auto-animate"
+      ],
+      "mutually_exclusive": [],
+      "reasoning": "Headless semantics/positioning provide accessibility while Design DNA owns visual identity.",
+      "mobile_policy": "touch targets, reduced motion, no hover-only behavior"
+    },
+    {
+      "id": "creative-component-ingestion",
+      "intent": [
+        "creative components",
+        "animated ui",
+        "rapid exploration"
+      ],
+      "required": [],
+      "optional": [
+        "motion-primitives",
+        "magicui",
+        "ui-layouts",
+        "kokonutui"
+      ],
+      "mutually_exclusive": [],
+      "reasoning": "Pick individual capabilities from at most one or two sources, then normalize to internal tokens and APIs.",
+      "mobile_policy": "disable decorative high-cost effects; preserve content hierarchy"
+    },
+    {
+      "id": "authored-3d-sequence",
+      "intent": [
+        "timeline authoring",
+        "camera choreography",
+        "3d sequence"
+      ],
+      "required": [
+        "threejs",
+        "theatre"
+      ],
+      "optional": [
+        "r3f",
+        "drei",
+        "leva"
+      ],
+      "mutually_exclusive": [
+        "babylonjs",
+        "ogl"
+      ],
+      "reasoning": "Theatre core can drive high-fidelity sequences; Studio stays development-only due separate license.",
+      "mobile_policy": "author explicit mobile states instead of scaling desktop timeline"
+    },
+    {
+      "id": "server-rendered-page-transitions",
+      "intent": [
+        "page transition",
+        "server rendered",
+        "creative navigation"
+      ],
+      "required": [
+        "swup"
+      ],
+      "optional": [
+        "motion"
+      ],
+      "mutually_exclusive": [
+        "barba"
+      ],
+      "reasoning": "Choose one route lifecycle owner; Swup provides transition/cache/preload lifecycle for server-rendered sites.",
+      "mobile_policy": "shorter transitions, reduced-motion bypass, preserve focus/history"
+    },
+    {
+      "id": "physics-interaction-r3f",
+      "intent": [
+        "3d physics",
+        "drag",
+        "world interaction",
+        "react"
+      ],
+      "required": [
+        "threejs",
+        "r3f",
+        "react-three-rapier"
+      ],
+      "optional": [
+        "drei",
+        "react-spring",
+        "use-gesture"
+      ],
+      "mutually_exclusive": [
+        "babylonjs",
+        "ogl"
+      ],
+      "reasoning": "Use physics only when physical simulation is part of product interaction; keep scripted motion outside the physics engine.",
+      "mobile_policy": "lower simulation complexity and collider counts"
+    }
+  ]
+}

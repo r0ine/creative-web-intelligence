@@ -1,0 +1,58 @@
+[
+  {
+    "id": "universal-fade-up",
+    "signals": [
+      "opacity 0->1",
+      "positive translateY->0",
+      "same trigger on many sections"
+    ],
+    "severity": 3
+  },
+  {
+    "id": "stagger-ladder",
+    "signals": [
+      "repeated 0.1s increments",
+      "children animate solely by index"
+    ],
+    "severity": 2
+  },
+  {
+    "id": "hover-lift-everything",
+    "signals": [
+      "cards use translateY negative",
+      "scale >1",
+      "shadow increases everywhere"
+    ],
+    "severity": 2
+  },
+  {
+    "id": "identical-ease",
+    "signals": [
+      "same ease/duration for UI,type,media,3D"
+    ],
+    "severity": 2
+  },
+  {
+    "id": "continuous-parallax",
+    "signals": [
+      "parallax on most sections",
+      "text moves while reading"
+    ],
+    "severity": 3
+  },
+  {
+    "id": "blur-in-default",
+    "signals": [
+      "blur >0 to 0 on most entrances"
+    ],
+    "severity": 2
+  },
+  {
+    "id": "motion-no-rest",
+    "signals": [
+      "every viewport range animated",
+      "no stable reading chapter"
+    ],
+    "severity": 3
+  }
+]

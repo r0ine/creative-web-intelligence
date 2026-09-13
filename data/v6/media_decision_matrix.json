@@ -1,0 +1,52 @@
+{
+  "$comment": "Machine-readable media decision matrix. Consumed by the Media Director and QA gates.",
+  "version": "6.0",
+  "medium_spectrum": [
+    { "id": "none", "cost": "zero", "when": "content communicates without imagery" },
+    { "id": "css", "cost": "minimal", "when": "color, gradient, shape, simple transition" },
+    { "id": "svg", "cost": "low", "when": "vector graphics, icons, authored line work" },
+    { "id": "static-image", "cost": "low", "when": "photography, editorial art, product shots, no interaction needed" },
+    { "id": "generated-image", "cost": "low-med", "when": "original artwork/visualization where no stock fits and image serves real content purpose" },
+    { "id": "css-motion", "cost": "low", "when": "simple state transitions, hover, micro-interactions" },
+    { "id": "svg-animation", "cost": "low-med", "when": "authored vector animation with editorial control" },
+    { "id": "lottie", "cost": "medium", "when": "complex authored animation with precise frame control" },
+    { "id": "rive", "cost": "medium", "when": "interactive state-machine animation responding to user state" },
+    { "id": "video", "cost": "medium", "when": "cinematic content with sound or complex motion, no scroll control needed" },
+    { "id": "scroll-video", "cost": "med-high", "when": "video playback driven by scroll position" },
+    { "id": "frame-sequence", "cost": "med-high", "when": "scroll-scrubbed visual narrative, individual frames on canvas" },
+    { "id": "canvas-procedural", "cost": "med-high", "when": "generative graphics, data visualization, particle systems with real data" },
+    { "id": "prerendered-3d", "cost": "med-high", "when": "3D scene with fixed camera path, high fidelity, no user interaction" },
+    { "id": "realtime-3d", "cost": "high", "when": "interactive 3D: user-controlled camera, inspection, configuration" },
+    { "id": "webgl-webgpu-shader", "cost": "high", "when": "custom rendering effects that standard 3D or CSS cannot achieve" }
+  ],
+  "decision_steps": [
+    "purpose_check",
+    "interaction_check",
+    "camera_freedom_check",
+    "fidelity_check",
+    "performance_check",
+    "mobile_strategy",
+    "accessibility_check"
+  ],
+  "valid_purposes": ["content", "identity", "explanation", "atmosphere_earned", "state", "storytelling"],
+  "invalid_purposes": ["looks_impressive", "shows_technical_capability", "feels_premium", "hero_needs_energy"],
+  "downgrade_chains": {
+    "3d": ["realtime-3d", "prerendered-3d", "frame-sequence", "video", "static-image"],
+    "sequence": ["frame-sequence", "scroll-video", "video", "static-image"],
+    "shader": ["webgl-webgpu-shader", "css-motion", "css", "none"],
+    "animation": ["rive", "lottie", "svg-animation", "css-motion"]
+  },
+  "interaction_to_medium": {
+    "view_only": ["static-image", "video", "prerendered-3d"],
+    "scrub_progression": ["frame-sequence", "scroll-video"],
+    "inspect_angles": ["realtime-3d"],
+    "configure_manipulate": ["realtime-3d"],
+    "trigger_states": ["rive", "lottie", "css-motion"]
+  },
+  "camera_freedom_to_medium": {
+    "none_fixed_view": ["static-image", "video", "frame-sequence"],
+    "fixed_camera_path": ["prerendered-3d", "frame-sequence"],
+    "user_controlled": ["realtime-3d"],
+    "limited_orbit": ["realtime-3d"]
+  }
+}

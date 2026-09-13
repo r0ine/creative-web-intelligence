@@ -1,0 +1,69 @@
+{
+  "version": "2.2",
+  "principles": [
+    "One dominant scroll idea per scene; secondary recipes should be lower salience.",
+    "Do not combine two high-salience scrubbed camera/object motions on the same progress range without a clear hierarchy.",
+    "Pinned sections must earn their scroll distance with new information or spatial progression.",
+    "Typography motion must never make essential copy unreadable.",
+    "Mobile can choose a different recipe family from desktop."
+  ],
+  "goodPairs": [
+    [
+      "depth-parallax",
+      "typography-scroll",
+      "Low-salience depth can support restrained type reveals."
+    ],
+    [
+      "pinned-narrative",
+      "object-3d",
+      "Persistent object state changes are a natural fit for chapter-based pins."
+    ],
+    [
+      "camera-3d",
+      "data-diagram",
+      "Camera focus can support spatial annotations when movement pauses during reading."
+    ],
+    [
+      "section-transition",
+      "ambient-scroll",
+      "Environmental drift can make section handoffs feel continuous."
+    ],
+    [
+      "media-scroll",
+      "typography-scroll",
+      "Media crop and restrained line masks can share one editorial rhythm."
+    ],
+    [
+      "horizontal-spatial",
+      "data-diagram",
+      "Lateral traversal works for maps/timelines when the content structure is inherently sequential."
+    ]
+  ],
+  "avoidPairs": [
+    [
+      "camera-3d",
+      "horizontal-spatial",
+      "Two simultaneous navigation metaphors can disorient the user."
+    ],
+    [
+      "pinned-narrative",
+      "pinned-narrative",
+      "Nested or consecutive long pins create scroll jail unless exceptionally justified."
+    ],
+    [
+      "typography-scroll",
+      "typography-scroll",
+      "Multiple high-salience type effects compete with reading hierarchy."
+    ],
+    [
+      "object-3d",
+      "media-scroll",
+      "Heavy 3D transforms plus video/frame scrubbing often exceed the performance and attention budget."
+    ],
+    [
+      "ambient-scroll",
+      "ambient-scroll",
+      "Stacking grain, particles, fog, color drift and light drift creates motion noise."
+    ]
+  ]
+}

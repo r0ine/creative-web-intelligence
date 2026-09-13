@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Backend Build Specification",
+  "type": "object",
+  "required": [
+    "runtime",
+    "data",
+    "api",
+    "security",
+    "testing"
+  ],
+  "properties": {
+    "runtime": {
+      "type": "object"
+    },
+    "data": {
+      "type": "object"
+    },
+    "auth": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "authorization": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "api": {
+      "type": "object"
+    },
+    "integrations": {
+      "type": "array"
+    },
+    "async": {
+      "type": "array"
+    },
+    "cache": {
+      "type": "object"
+    },
+    "security": {
+      "type": "object"
+    },
+    "observability": {
+      "type": "object"
+    },
+    "testing": {
+      "type": "object"
+    },
+    "deployment": {
+      "type": "object"
+    }
+  }
+}

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "old-style-serif",
+    "form": "organic serif",
+    "strokeContrast": "moderate",
+    "apertureTendency": "open",
+    "voice": "humanist",
+    "bestContexts": [
+      "editorial",
+      "long-form",
+      "cultural"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "transitional-serif",
+    "form": "structured serif",
+    "strokeContrast": "medium-high",
+    "apertureTendency": "moderate",
+    "voice": "formal",
+    "bestContexts": [
+      "editorial",
+      "institutional"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "didone-serif",
+    "form": "high-contrast serif",
+    "strokeContrast": "very-high",
+    "apertureTendency": "variable",
+    "voice": "sharp",
+    "bestContexts": [
+      "campaign",
+      "fashion",
+      "display"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "humanist-serif",
+    "form": "human serif",
+    "strokeContrast": "moderate",
+    "apertureTendency": "open",
+    "voice": "warm",
+    "bestContexts": [
+      "editorial",
+      "cultural",
+      "brand"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "slab-serif",
+    "form": "low/moderate serif",
+    "strokeContrast": "low-medium",
+    "apertureTendency": "open",
+    "voice": "sturdy",
+    "bestContexts": [
+      "product",
+      "editorial",
+      "display"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "display-serif",
+    "form": "expressive serif",
+    "strokeContrast": "varies",
+    "apertureTendency": "varies",
+    "voice": "distinctive",
+    "bestContexts": [
+      "campaign",
+      "hero"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "grotesk-sans",
+    "form": "grotesk sans",
+    "strokeContrast": "low",
+    "apertureTendency": "moderate",
+    "voice": "neutral/industrial",
+    "bestContexts": [
+      "interface",
+      "product",
+      "display"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "neo-grotesk-sans",
+    "form": "neo-grotesk",
+    "strokeContrast": "low",
+    "apertureTendency": "moderate",
+    "voice": "controlled",
+    "bestContexts": [
+      "interface",
+      "institutional"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "humanist-sans",
+    "form": "humanist sans",
+    "strokeContrast": "low",
+    "apertureTendency": "open",
+    "voice": "friendly/readable",
+    "bestContexts": [
+      "body",
+      "interface",
+      "product"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "geometric-sans",
+    "form": "geometric sans",
+    "strokeContrast": "low",
+    "apertureTendency": "often-closed",
+    "voice": "rational",
+    "bestContexts": [
+      "brand",
+      "display",
+      "product"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "industrial-sans",
+    "form": "engineered sans",
+    "strokeContrast": "low",
+    "apertureTendency": "moderate",
+    "voice": "technical",
+    "bestContexts": [
+      "architecture",
+      "technical",
+      "data"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "rounded-sans",
+    "form": "rounded sans",
+    "strokeContrast": "low",
+    "apertureTendency": "open",
+    "voice": "soft",
+    "bestContexts": [
+      "youth",
+      "consumer",
+      "playful"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "condensed",
+    "form": "condensed",
+    "strokeContrast": "varies",
+    "apertureTendency": "varies",
+    "voice": "dense",
+    "bestContexts": [
+      "display",
+      "editorial",
+      "data"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "extended",
+    "form": "extended/wide",
+    "strokeContrast": "varies",
+    "apertureTendency": "varies",
+    "voice": "spatial",
+    "bestContexts": [
+      "display",
+      "architecture",
+      "brand"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "monospace",
+    "form": "monospaced",
+    "strokeContrast": "low",
+    "apertureTendency": "moderate",
+    "voice": "technical",
+    "bestContexts": [
+      "code",
+      "data",
+      "accent"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "semi-mono",
+    "form": "semi-monospaced",
+    "strokeContrast": "low",
+    "apertureTendency": "moderate",
+    "voice": "technical-human",
+    "bestContexts": [
+      "data",
+      "product",
+      "accent"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  },
+  {
+    "id": "experimental-display",
+    "form": "experimental",
+    "strokeContrast": "varies",
+    "apertureTendency": "varies",
+    "voice": "high-character",
+    "bestContexts": [
+      "campaign",
+      "immersive",
+      "display"
+    ],
+    "warning": "Treat as an archetype, not an automatic industry mapping."
+  }
+]
