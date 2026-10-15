@@ -1,0 +1,70 @@
+{
+  "version": "6.0",
+  "reviewedAt": "2026-10-04",
+  "description": "Sağlayıcı rehberi; uzak katalogların kopyası değildir. Bileşen düzeyindeki lisans ve erişim her kullanımda doğrulanır.",
+  "sources": [
+    {
+      "id": "react-bits", "name": "React Bits", "url": "https://reactbits.dev/",
+      "repository": "https://github.com/DavidHDev/react-bits", "roles": ["hero", "background", "scroll", "gallery"], "frameworks": ["react"],
+      "license": "MIT + Commons Clause", "licenseUrl": "https://raw.githubusercontent.com/DavidHDev/react-bits/main/LICENSE.md",
+      "libraryRedistribution": "blocked", "access": "official-component-page",
+      "summary": "Metin, arka plan ve etkileşim için animasyonlu React bileşenleri.",
+      "acquisition": "Resmi bileşen sayfasından JS/TS ve CSS/Tailwind varyantını seç; sayfanın kurulum komutunu inceleyip yalnızca hedef uygulamaya ekle. Lisans bildirimini koru.",
+      "adaptation": "Hareketi içerik görevine bağla; palet, tipografi, yoğunluk ve mobil davranışı projenin tasarımına uyarla. Bileşeni bu kütüphanenin içine paketleme."
+    },
+    {
+      "id": "21st", "name": "21st.dev", "url": "https://21st.dev/",
+      "roles": ["hero", "background", "gallery", "template", "primitives"], "frameworks": ["react"],
+      "license": "Bileşen ve yazar bazında", "licenseUrl": "https://21st.dev/terms",
+      "libraryRedistribution": "verify-per-item", "access": "official-copy-prompt",
+      "summary": "Farklı yazarlardan bileşen, sayfa şablonu ve tema seçimi.",
+      "acquisition": "Resmi platformda örneği seç; Copy prompt veya sunulan kurulum komutunu kullan. Kullanıcının sağladığı prompt/kod varsa kaynak bağlantısı, yazar ve lisans ile birlikte değerlendir. Ücretli şablon erişimini doğrula.",
+      "adaptation": "Marketplace'i otomatik tarama; önizleme videolarını veya metadata'yı kopyalama. Hedef uygulama için kaynak kodunun ayrı lisansını incele, orijinal sayfaya bağlantıyı koru."
+    },
+    {
+      "id": "magicui", "name": "Magic UI", "url": "https://magicui.design/",
+      "repository": "https://github.com/magicuidesign/magicui", "roles": ["hero", "background", "gallery"], "frameworks": ["react"],
+      "license": "MIT (açık depo)", "licenseUrl": "https://raw.githubusercontent.com/magicuidesign/magicui/main/LICENSE.md",
+      "libraryRedistribution": "license-notice", "access": "upstream-source",
+      "summary": "Açık depodan seçilebilen animasyonlu pazarlama bileşenleri.",
+      "acquisition": "Resmi dokümantasyondaki açık bileşeni seç; dosya ve bağımlılıklarını incele. Premium ürünün aynı lisansa sahip olduğunu varsayma.",
+      "adaptation": "Bir anlatım anına tek baskın etki seç; varsayılan renkleri ve bölüm yapısını projeye göre değiştir."
+    },
+    {
+      "id": "ui-layouts", "name": "UI Layouts", "url": "https://www.ui-layouts.com/",
+      "repository": "https://github.com/ui-layouts/uilayouts", "roles": ["hero", "scroll", "gallery", "template"], "frameworks": ["react"],
+      "license": "MIT (açık depo)", "licenseUrl": "https://raw.githubusercontent.com/ui-layouts/uilayouts/main/LICENSE",
+      "libraryRedistribution": "license-notice", "access": "upstream-source",
+      "summary": "Etkileşimli yerleşim, galeri ve kaydırma örnekleri.",
+      "acquisition": "Açık depodaki seçilen dosyayı ve lisansını incele; gereken paketleri hedef projenin sürümleriyle karşılaştır.",
+      "adaptation": "İçerik sırasını ve doğal kaydırmayı koru. Touch, kısa ekran ve klavye davranışını önizlemede dene."
+    },
+    {
+      "id": "kokonutui", "name": "Kokonut UI", "url": "https://kokonutui.com/",
+      "repository": "https://github.com/kokonut-labs/kokonutui", "roles": ["hero", "gallery", "primitives"], "frameworks": ["react"],
+      "license": "MIT (açık depo)", "licenseUrl": "https://raw.githubusercontent.com/kokonut-labs/kokonutui/main/LICENSE",
+      "libraryRedistribution": "license-notice", "access": "upstream-source",
+      "summary": "React ve Tailwind projelerinde kullanılabilecek açık UI örnekleri.",
+      "acquisition": "Seçilen açık bileşenin kaynağını, lisansını ve bağımlılıklarını doğrula; ticari koleksiyonları ayrı değerlendir.",
+      "adaptation": "Davranışı al, görsel kararları Design DNA'ya uyarla; bileşenleri tek bir hareket dili altında birleştir."
+    },
+    {
+      "id": "shadcn", "name": "shadcn/ui", "url": "https://ui.shadcn.com/",
+      "repository": "https://github.com/shadcn-ui/ui", "roles": ["primitives", "template"], "frameworks": ["react"],
+      "license": "MIT", "licenseUrl": "https://github.com/shadcn-ui/ui/blob/main/LICENSE.md",
+      "libraryRedistribution": "license-notice", "access": "official-registry",
+      "summary": "Form, seçim ve dialog gibi işlevsel UI temeli.",
+      "acquisition": "Resmi registry'den gereken bileşeni seç; kurulum komutunu, hedef dosyaları ve paket değişikliklerini incele.",
+      "adaptation": "Erişilebilir davranışı koru; varsayılan tema ve metinleri proje kimliğine uyarla."
+    },
+    {
+      "id": "cwi-native", "name": "CWI yerel runtime", "url": "../../../runtime/scroll/README.md",
+      "roles": ["background", "scroll"], "frameworks": ["react", "vanilla"],
+      "license": "Yerel kaynak; dağıtım lisansı ayrıca belirlenmeli", "licenseUrl": "../../../README.md",
+      "libraryRedistribution": "verify-per-item", "access": "local-source",
+      "summary": "Video arka planı, doğal scroll ve sınırlı bellekte WebP kare oynatımı.",
+      "acquisition": "runtime/media/background-video.mjs ve runtime/scroll modüllerini kullan. React'te useEffect cleanup içinde destroy çağır.",
+      "adaptation": "Video ve kareleri aynı Asset DNA'dan üret; mobil ve hareket azaltma tercihlerinde poster göster."
+    }
+  ]
+}

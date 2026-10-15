@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="tr" data-motion="poster" data-renderer="poster">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f2efe8">
+  <title>Işığın içinden · CWI 3D scroll</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./demo.mjs"></script>
+</head>
+<body>
+  <header class="masthead">
+    <a class="wordmark" href="#assembly">CWI<span>Form & hareket</span></a>
+    <div class="header-actions"><a href="../media-studio/">Medya atölyesi</a><button id="motion-toggle" type="button" hidden>Hareketi durdur</button><a class="skip-link" href="#after-story">Anlatımı atla <span aria-hidden="true">↘</span></a></div>
+  </header>
+  <main>
+    <section class="story" id="assembly" aria-label="Bir lambanın yapısı">
+      <div class="story-copy">
+        <div class="intro">
+          <p class="eyebrow">Nesne çalışması / 01</p>
+          <h1>Işığın<br><em>içinden.</em></h1>
+          <p class="intro-text">Bir formun nasıl bir araya geldiğine<br>yakından bak.</p>
+          <a class="text-link" href="#connection">Kaydır ve keşfet <span aria-hidden="true">↓</span></a>
+          <p class="small-note">Üç parça. Bir bağlantı. Sıcak bir ışık.</p>
+        </div>
+        <div class="chapters">
+          <article class="chapter" id="connection" data-step="0">
+            <img class="static-step" src="./frames-3d/clay/step-0.webp" alt="Lambanın başlığı, taşıyıcı gövdesi ve geniş tabanı." width="720" height="720" loading="lazy">
+            <div><p class="step-number">01 / Yapıyı aç</p><h2>Her parçanın<br>bir yeri var.</h2><p>Başlık yükselir, bağlantı ortaya çıkar. Taşıyıcı gövde ile geniş tabanın birbirini nasıl dengelediğini gör.</p></div>
+          </article>
+          <article class="chapter" data-step="1">
+            <img class="static-step" src="./frames-3d/clay/step-1.webp" alt="Ayrılan başlığın altında ampul ve pirinç bağlantı yuvası görülüyor." width="720" height="720" loading="lazy">
+            <div><p class="step-number">02 / İçine bak</p><h2>Görünmeyen<br>bağlantı.</h2><p>Kamera alçalırken başlığın iç yüzeyi, ampul ve pirinç yuva görünür. Dışarıdan tek parça gibi duran formun içindeki düzen.</p></div>
+          </article>
+          <article class="chapter" data-step="2">
+            <img class="static-step" src="./frames-3d/clay/step-2.webp" alt="Birleşmiş lambanın içinde sıcak ışık yanıyor." width="720" height="720" loading="lazy">
+            <div><p class="step-number">03 / Işığa dön</p><h2>Ve her şey<br>yerine oturur.</h2><p>Parçalar birleşir. Başlığın altından yayılan sıcak ışık, nesnenin son biçimini tamamlar.</p></div>
+          </article>
+        </div>
+      </div>
+      <figure class="stage">
+        <div class="visual">
+          <img class="poster" src="./frames-3d/clay/poster.webp" alt="Kavisli kil rengi başlığı ve ince gövdesiyle üç boyutlu masa lambası." width="720" height="720" fetchpriority="high">
+          <canvas id="scene-canvas" aria-hidden="true" hidden></canvas>
+          <canvas id="sequence-canvas" width="720" height="720" aria-hidden="true" hidden></canvas>
+        </div>
+        <figcaption><span>Form 01 · Masa lambası</span><span id="phase-label" aria-hidden="true">Bir bütün</span></figcaption>
+        <label class="scrub-control" hidden><span>Aç</span><input id="story-scrub" type="range" min="0" max="100" step="1" value="0" aria-label="Lambanın dönüşümünü incele" aria-valuetext="Bir bütün"><span>Işık</span></label>
+        <div class="object-controls">
+          <fieldset class="finishes" hidden><legend>Yüzey rengi</legend><div>
+            <button class="finish" data-finish="clay" aria-pressed="true" type="button"><span class="swatch clay" aria-hidden="true"></span>Kil</button>
+            <button class="finish" data-finish="forest" aria-pressed="false" type="button"><span class="swatch forest" aria-hidden="true"></span>Orman</button>
+            <button class="finish" data-finish="chalk" aria-pressed="false" type="button"><span class="swatch chalk" aria-hidden="true"></span>Tebeşir</button>
+          </div></fieldset>
+          <label class="view-control" hidden>Bakış açısı<input id="view-angle" type="range" min="-25" max="25" step="1" value="0" aria-label="Lambaya bakış açısı"></label>
+        </div>
+        <p id="mode-note" role="status">Hareket kapalıyken yapıyı üç sabit görüntüden inceleyebilirsin.</p>
+      </figure>
+    </section>
+    <section class="closing" id="after-story" tabindex="-1" aria-labelledby="closing-title">
+      <p class="eyebrow">Hareketten sonra</p><h2>Formu anladıysan,<br>hareket işini yaptı.</h2>
+      <p>Bu sahne bir lambanın yapısını anlatır. Kaydırma durunca sahne de durur; metin ve temel görüntüler hareket kapalıyken yerinde kalır.</p>
+      <a class="text-link" href="../../../runtime/three/README.md">Sahnenin kullanım notları <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+  <footer><span>Creative Web Intelligence</span><span>Özgün geometri · Kontrollü kamera · Doğal kaydırma</span></footer>
+</body>
+</html>

@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "generated_at": "2026-08-18",
   "purpose": "Curated external open-source/restricted library registry for Creative Web Intelligence. Dependencies are selected, not blindly merged.",
   "default_policy": {
@@ -834,6 +834,21 @@
       "notes": "Keep as optional dependency due copyleft library license; do not vendor casually."
     },
     {
+      "id": "21st",
+      "name": "21st.dev",
+      "repo": null,
+      "package": "official-platform-handoff",
+      "category": ["creative-components", "templates", "themes"],
+      "framework": ["react", "tailwind", "shadcn"],
+      "license": "verify-per-component-and-platform-terms",
+      "redistribution": "VERIFY-PER-ITEM; no marketplace scraping or preview-media reuse",
+      "integration": "official-copy-prompt-or-user-provided-source",
+      "priority": "restricted",
+      "best_for": ["project-level component selection", "author-provided page templates"],
+      "avoid_when": ["bulk scraping", "copying premium templates without access", "repackaging without verified rights"],
+      "notes": "Use https://21st.dev/ through official platform handoff. Record original page, author and code license. Current platform terms: https://21st.dev/terms; reviewed 2026-10-04."
+    },
+    {
       "id": "react-bits",
       "name": "React Bits",
       "repo": "DavidHDev/react-bits",
@@ -856,7 +871,7 @@
       "avoid_when": [
         "vendoring into this competing reusable component/effects library"
       ],
-      "notes": "Explicitly blocked from ingestion/redistribution into this library; reference patterns only unless legal terms permit."
+      "notes": "Official app-level component installation is supported through source-intelligence/REACT_BITS_INTEGRATION.md. Do not package components into this reusable library. License reviewed 2026-10-04: https://raw.githubusercontent.com/DavidHDev/react-bits/main/LICENSE.md."
     },
     {
       "id": "lygia",

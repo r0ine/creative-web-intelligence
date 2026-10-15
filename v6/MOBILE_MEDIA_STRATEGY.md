@@ -6,20 +6,36 @@ Desktop and mobile must NOT automatically use the same cinematic implementation.
 
 | Desktop medium | Mobile options (in order of preference) |
 |:--|:--|
-| Real-time 3D (interactive) | Reduced-LOD 3D → pre-rendered animation → static key visual |
+| Real-time 3D (interactive) | Mobil katman izin veriyorsa reduced-LOD 3D; aksi halde statik görsel + eşdeğer HTML kontrolleri |
 | Real-time 3D (scroll-driven) | Reduced-frame pre-rendered sequence → static key visual |
 | 180-frame sequence | 60–80 frame sequence at lower resolution |
-| Scroll-controlled video | Shorter auto-playing clip → static poster |
+| Scroll-controlled video | Statik poster; hareket ve veri tercihi izin veriyorsa kısa, kullanıcı kontrollü video |
 | Shader background | CSS gradient or static → nothing |
 | Large canvas animation | Reduced-complexity canvas → CSS → static |
 
 ## Rules
 
-- Mobile budget is always one tier below desktop (see Performance Budget Engine).
+- Mobil bütçe masaüstünden en az bir katman aşağıdadır; Lean, Lean kalır. Standard ve Lean katmanlarda gerçek zamanlı 3D yoktur. Bkz. [Performance Budget Engine](PERFORMANCE_BUDGET_ENGINE.md).
 - Touch replaces hover. Any hover-dependent 3D interaction must have a touch equivalent or be removed.
 - Pinned scroll ranges are shorter on mobile (smaller viewports mean less comfortable sticky distance).
 - `devicePixelRatio` is not doubled for sequences or textures — frame rate matters more than pixel density on mobile.
 - Test on a real mid-range phone (e.g., 2-year-old mid-tier Android), not on the latest flagship.
+
+### Tercih ve hata durumları
+
+| Durum | Beklenen davranış |
+|:--|:--|
+| `prefers-reduced-motion: reduce` | Poster görünür; scrub, parallax, otomatik hareket ve boş pin mesafesi kaldırılır. |
+| `navigator.connection?.saveData === true` | Poster kullanılır; sequence ön yüklemesi ve otomatik video indirmesi başlatılmaz. |
+| Veri tercihi API'si yok | Bağlantı hızı bilinmiyor kabul edilir; mobil bütçe uygulanır. |
+| Medya yüklenemiyor veya canvas açılamıyor | HTML içerik ve poster sayfada kalır; scroll bekletilmez. |
+| Tercih açık sayfada değişiyor | Yeni medya işleri durur; bekleyen sonuçlar eski animasyonu geri açamaz. |
+
+`saveData` desteği her tarayıcıda yoktur; `false` değeri de hızlı bağlantı kanıtı değildir. Bu tabloda poster seçimi kütüphanenin veri tasarrufu politikasıdır. [MDN: saveData](https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation/saveData)
+
+### Mobil yerleşim
+
+Mobilde metin ve kontroller normal belge akışında kalır. Sticky görsel sığmıyorsa pin kaldırılır; yatay hikâye dikey bölümlere dönüşür. Tarayıcı çubuğu, yön değişimi ve ekran klavyesi kontrolleri örtmemelidir. Ölçüm ve kabul adımları: [Mobile Scroll Recomposition](../scroll/v3_1/MOBILE_SCROLL_RECOMPOSITION.md).
 
 ---
 
@@ -38,16 +54,18 @@ Every cinematic experience must work without the cinematic part.
 - **Auto-playing video:** paused at first frame.
 - **Parallax, camera drift, continuous animation:** all disabled.
 
+Tercihi yalnız açılışta okumayın; `matchMedia('(prefers-reduced-motion: reduce)')` değişimini izleyin. Poster moduna geçince medya için ayrılmış uzun scroll alanını da kaldırın. [MDN: prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion)
+
 ### Screen readers
 
-- `<canvas>` elements get `role="img"` and a descriptive `aria-label`.
+- Anlam taşıyan statik canvas görseline `role="img"` ve açıklayıcı `aria-label` verin. Aynı bilgiyi HTML zaten açıklıyorsa yinelenen dekoratif canvas `aria-hidden="true"` olabilir; içinde odaklanabilir kontrol bulunmaz.
 - No essential content exists only inside animation/video/3D. All text is HTML.
 - Interactive 3D controls get `aria-label` descriptions.
 
 ### Keyboard
 
-- Scroll-driven sequences work with native keyboard scrolling (they do, by default, if scroll is not hijacked).
-- Interactive 3D: provide keyboard controls (arrow keys for orbit, +/- for zoom) or label as decorative.
+- PageDown, PageUp, Space, Home ve End sayfanın doğal kaydırmasını sürdürür. Animasyon tamamlanmadan bölümden çıkma engellenmez; odak sırası belge sırasını izler.
+- Etkileşimli 3D için klavyeyle çalışan kontroller veya aynı işlemleri sunan HTML arayüz sağlayın. Etiket eklemek kontrolü erişilebilir yapmaz; işlevi olan sahne erişim eksikliğini gizlemek için dekoratif sayılamaz. [W3C: Keyboard](https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html)
 
 ### Flashing
 
@@ -72,10 +90,10 @@ Upgrades the existing scroll system (`scroll/SCROLL_DIRECTOR.md`) with cinematic
 |:--|:--|:--|
 | **Normal document scroll** | Content flows naturally. The default and most common. | Yes |
 | **Scroll-triggered event** | An element changes state when it enters/exits viewport. | Selective |
-| **Scroll-scrubbed animation** | Animation progress is mapped to scroll position. Requires pinned container. | Rare |
+| **Scroll-scrubbed animation** | İlerleme scroll konumuna bağlanır; pin zorunlu değildir. | Rare |
 | **Sticky storytelling** | A pinned visual updates as the user scrolls through text/chapters beside it. | Rare |
-| **Frame sequence** | Canvas frame tied to scroll progress. Requires a tall scroll region. | Rare |
-| **Camera progression** | 3D camera position mapped to scroll. Requires pinned 3D canvas. | Rare |
+| **Frame sequence** | Canvas karesi scroll ilerlemesine bağlanır; mesafe anlatı ve kare sayısına göre seçilir. | Rare |
+| **Camera progression** | Kamera scroll ilerlemesine bağlanır; normal akışta veya gerekçeli sticky sahnede çalışır. | Rare |
 | **Horizontal scroll** | Content moves horizontally within a pinned container. Use with extreme caution. | Very rare |
 
 ### Native scroll is the default
@@ -89,6 +107,8 @@ Never hijack scrolling. Native scroll behavior is correct until proven otherwise
 - Between pinned sections, at least one full viewport of flowing content.
 - Rest zones (v5) apply: after an intense scroll experience, the next section is calm.
 
+Bu değerler kütüphanenin tasarım sınırlarıdır. Mesafe ölçüsünü açık yazın: `scroll_duration_vh: 300`, üç viewport yüksekliği kadar **hareket mesafesidir**; sticky sahnenin kendi yüksekliği bu mesafeye ayrıca eklenir. Mobil varsayılan normal akıştır; 300vh hedef değildir.
+
 ### Scroll technology selection
 
 | Need | Technology |
@@ -96,11 +116,12 @@ Never hijack scrolling. Native scroll behavior is correct until proven otherwise
 | Simple in-view triggers | `IntersectionObserver` (native) |
 | Scroll progress for CSS | `animation-timeline: scroll()` (native, progressive enhancement) |
 | Complex timelines with pinning | GSAP ScrollTrigger |
-| Smooth scroll feel | Lenis (optional, use only when native scroll-behavior is insufficient) |
+| Programatik kaydırma veya bölüm bağlantısı | İsteğe bağlı CSS `scroll-behavior: smooth`; reduced-motion durumunda `auto` |
+| Özel scroll fiziği | Lenis, yalnız gerekçeli ve mobil/klavye davranışı ayrıca doğrulanmışsa |
 | 3D camera mapping | Custom scroll-to-progress → Three.js camera lerp |
 | Frame sequence mapping | Custom scroll-to-progress → canvas drawImage |
 
-Do not install GSAP for a single IntersectionObserver trigger. Do not install Lenis when `scroll-behavior: smooth` suffices.
+Tek bir görünürlük tetikleyicisi için GSAP gerekmez. CSS `scroll-behavior`, dokunma veya tekerlek girdisine özel fizik eklemez; bağlantı ve programatik kaydırmanın davranışını seçer.
 
 ---
 
@@ -150,7 +171,7 @@ Before implementing complex media, create an internal storyboard. This prevents 
   "performance_cost": {
     "transfer_kb": 2400,
     "decoded_memory_mb": 45,
-    "gpu_impact": "none (canvas 2D)"
+    "gpu_impact": "ölçülmedi; Canvas 2D çizim ve birleştirme maliyeti tarayıcıya bağlı"
   },
   "rest_zone_after": true,
   "accessibility": {

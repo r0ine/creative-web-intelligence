@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eeeae2">
+  <title>Medya atölyesi · Creative Web Intelligence</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./studio.mjs"></script>
+</head>
+<body>
+  <header><a href="../mobile-scroll/">CWI / Form & hareket</a><a href="#preview">Önizlemeye geç ↘</a></header>
+  <main>
+    <section class="introduction">
+      <p class="eyebrow">Kaynak → Sahne → Web</p>
+      <h1>Hareketin<br><em>malzemesi.</em></h1>
+      <p class="lead">Bir bileşen seç. Sahneni tarif et.<br>Videoyu sayfanın bir parçasına dönüştür.</p>
+      <p>React Bits ve 21st.dev gibi kaynakları projenin diliyle birleştir. 3D film için prompt hazırla; videoyu arka planda veya kaydırmayla ilerleyen kareler halinde kullan.</p>
+    </section>
+
+    <section class="sources" aria-labelledby="sources-title">
+      <div class="section-heading"><p class="eyebrow">01 / Başlangıç noktası</p><h2 id="sources-title">Kaynağı seç.</h2></div>
+      <div class="source-filters">
+        <label>İhtiyaç<select id="source-role"><option value="all">Tümü</option><option value="hero">Hero</option><option value="background">Arka plan</option><option value="scroll">Scroll</option><option value="gallery">Galeri</option><option value="template">Şablon</option><option value="primitives">Form ve kontroller</option></select></label>
+        <label>Proje<select id="source-framework"><option value="react">React</option><option value="vanilla">HTML / JavaScript</option></select></label>
+        <label>Kullanım<select id="source-scope"><option value="project">Bir web projesinde</option><option value="library">Kütüphaneye paketleme</option></select></label>
+      </div>
+      <div id="source-list" aria-live="polite"></div>
+      <noscript><p>Kaynaklar: <a href="https://reactbits.dev/">React Bits</a>, <a href="https://21st.dev/">21st.dev</a>. Prompt hazırlama ve medya önizlemesi için JavaScript gerekiyor.</p></noscript>
+    </section>
+
+    <section class="brief" aria-labelledby="brief-title">
+      <div class="section-heading"><p class="eyebrow">02 / Sahneye yön ver</p><h2 id="brief-title">Neyi göstereceğiz?</h2><p>Kamera, malzeme ve hareket aynı fikri anlatsın.</p></div>
+      <form id="brief-form">
+        <label>Nesne<textarea name="subject" rows="2" required maxlength="2000">A sculptural desk lamp with a clay-colored curved shade, a slender brass stem and a wide weighted base</textarea></label>
+        <label>Görselin görevi<textarea name="purpose" rows="2" required maxlength="2000">Reveal how the shade, light socket and base connect, then show the finished lamp emitting warm light</textarea></label>
+        <label>Malzemeler<input name="materials" required maxlength="2000" value="Matte ceramic, brushed brass and frosted glass; physically plausible roughness"></label>
+        <label>Işık<input name="lighting" required maxlength="2000" value="Large softbox at upper left, gentle contact shadows, warm practical light"></label>
+        <label>Palet<input name="palette" required maxlength="2000" value="Warm ivory #f2efe8, clay #a85c42 and muted brass #ae8b59"></label>
+        <div class="brief-options">
+          <label>Kullanım<select name="mode"><option value="scroll">Scroll / Parçaları keşfet</option><option value="background">Arka plan / Işığı hisset</option></select></label>
+          <label>Süre (sn)<input name="durationSeconds" type="number" min="2" max="20" step="1" value="8" required></label>
+          <label>Kare sayısı<input name="frameCount" type="number" min="12" max="120" step="1" value="48" required></label>
+        </div>
+        <button class="primary" type="submit">Video promptunu hazırla ↗</button>
+      </form>
+      <div class="prompt-output">
+        <p class="eyebrow">ChatGPT’ye yapıştır</p>
+        <p>Video istediğinde düğmeye bas. Masaüstü ve mobil için ayrı çekim tarifleri hazırlanır; hiçbir servise otomatik istek gönderilmez.</p>
+        <textarea id="video-prompt" rows="11" readonly aria-label="ChatGPT video promptu" placeholder="Video promptu istersen yukarıdaki düğmeyle hazırla."></textarea>
+        <div class="actions"><button id="copy-prompt" type="button" disabled>Promptu kopyala</button><button id="download-brief" type="button">Brief’i indir</button></div>
+        <p id="prompt-status" role="status"></p>
+      </div>
+    </section>
+
+    <section class="media-input" aria-labelledby="media-title">
+      <div class="section-heading"><p class="eyebrow">03 / Filmden web’e</p><h2 id="media-title">Videona yer aç.</h2></div>
+      <div>
+        <p>Arka plan için yerel bir video seç. Scroll için <a href="../../../runtime/media/README.md">video dönüştürme komutuyla</a> üretilen klasörü aç. Dosyalar bu önizlemede bilgisayarında kalır.</p>
+        <div class="actions">
+          <label class="file-button">Video seç<input id="video-file" type="file" accept="video/mp4,video/webm,video/quicktime"></label>
+          <label class="file-button">Kare klasörünü seç<input id="sequence-files" type="file" webkitdirectory multiple></label>
+          <button id="sample-sequence" type="button">Lamba örneğine dön</button>
+        </div>
+        <p id="media-status" role="status">48 karelik lamba örneği hazır. Aşağı kaydır veya kare kontrolünü kullan.</p>
+      </div>
+    </section>
+
+    <section id="preview" class="preview" data-mode="sequence" data-static="true" aria-label="Medya önizlemesi">
+      <div class="preview-stage">
+        <div class="media-surface">
+          <img id="poster" src="../mobile-scroll/frames-3d/clay/poster.webp" alt="Kil başlıklı masa lambası; medya önizlemesi" width="720" height="720">
+          <canvas id="sequence-canvas" width="720" height="720" aria-hidden="true" hidden></canvas>
+          <video id="background-video" muted playsinline loop aria-hidden="true" hidden></video>
+          <div class="overlay-copy"><p>Form 01</p><h2>Bir fikir.<br>Bir hareket.</h2><p>Bu metin HTML olarak kalır.</p></div>
+        </div>
+        <div class="preview-controls">
+          <button id="motion-toggle" type="button" aria-pressed="false">Hareketi durdur</button>
+          <label id="frame-control">Kare<input id="frame-progress" type="range" min="0" max="100" step="1" value="0"></label>
+          <span id="frame-status" aria-live="off">1 / 48</span>
+          <a href="#after-preview">Önizlemeyi atla ↓</a>
+        </div>
+      </div>
+    </section>
+    <footer id="after-preview"><p>Hareket bitince de fikir kalmalı.</p><a href="../mobile-scroll/">Gerçek 3D scroll örneğine dön ↗</a></footer>
+  </main>
+</body>
+</html>

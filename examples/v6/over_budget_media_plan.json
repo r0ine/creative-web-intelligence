@@ -1,0 +1,44 @@
+{
+  "version": "6.1",
+  "project_tier": "standard",
+  "mobile_tier": "lean",
+  "moments": [
+    {
+      "id": "assembly-sequence",
+      "purpose": "explanation",
+      "purpose_statement": "Ürünün üç bileşeninin birbirine nasıl oturduğunu gösterir.",
+      "rationale": "Kaydırma montaj sırasını yönetir; mobilde adımlar durağan çizimlerle anlatılır.",
+      "essential_content_in_html": true,
+      "keyboard_accessible": true,
+      "desktop": {
+        "medium": "frame-sequence",
+        "estimates": {
+          "initial_payload_kb": 240,
+          "total_page_media_mb": 2.8,
+          "frame_sequences_kb": 2600,
+          "glb_kb": 0,
+          "texture_memory_mb": 0,
+          "draw_calls": 0,
+          "concurrent_animations": 1
+        }
+      },
+      "mobile": {
+        "medium": "static-image",
+        "estimates": {
+          "initial_payload_kb": 120,
+          "total_page_media_mb": 0.3,
+          "frame_sequences_kb": 0,
+          "glb_kb": 0,
+          "texture_memory_mb": 0,
+          "draw_calls": 0,
+          "concurrent_animations": 0
+        }
+      },
+      "reduced_motion": {
+        "medium": "static-image",
+        "description": "Üç montaj adımı, numaralı görseller ve HTML açıklamalarıyla gösterilir."
+      },
+      "downgrade_chain": ["frame-sequence", "video", "static-image"]
+    }
+  ]
+}

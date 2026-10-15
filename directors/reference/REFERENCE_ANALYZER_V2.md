@@ -15,6 +15,6 @@ For each reference capture:
 - performance implications
 - signature concept
 - reusable lessons
-- DO NOT COPY list (logo, artwork, brand assets, exact composition)
+- DO NOT COPY list (logo, artwork, brand assets and other unlicensed material). Exact visible composition may be matched when faithful recreation is requested; write independent code.
 
 Evidence states: VERIFIED, INDEXED, SYNTHESIZED, NEEDS_CAPTURE. Never upgrade evidence silently.

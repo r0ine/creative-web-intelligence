@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1eee7">
+  <title>İlk referans · Işığın yapısı</title>
+  <style>
+    :root { color-scheme: light; font-family: "Segoe UI", Arial, sans-serif; background: #f1eee7; color: #282b26; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    button { font: inherit; color: inherit; cursor: pointer; }
+    :focus-visible { outline: 3px solid #a44027; outline-offset: 4px; }
+    .page { min-height: 100svh; display: flex; flex-direction: column; padding: 28px clamp(24px, 5vw, 88px) 32px; }
+    .topline { display: flex; justify-content: space-between; align-items: center; gap: 20px; font-size: 13px; }
+    .brand { font-weight: 750; font-size: 23px; letter-spacing: -.06em; }
+    .scope { color: #68695f; }
+    main { flex: 1; display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr); align-items: center; gap: clamp(32px, 5vw, 90px); }
+    .intro { max-width: 600px; }
+    .eyebrow { color: #a44027; font-size: 13px; font-weight: 650; letter-spacing: .08em; text-transform: uppercase; margin: 0 0 28px; }
+    h1 { font-size: clamp(72px, 8vw, 142px); font-weight: 500; line-height: .91; letter-spacing: -.07em; margin: 0 0 32px; }
+    h1 em { color: #a44027; font-family: Georgia, serif; font-weight: 400; letter-spacing: -.06em; }
+    .lead { max-width: 33ch; color: #56594f; font-size: clamp(17px, 1.4vw, 21px); line-height: 1.55; margin: 0; }
+    .product { min-width: 0; margin: 0; }
+    .product img { display: block; width: 100%; max-height: min(72svh, 720px); object-fit: contain; }
+    .product figcaption { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: -4px; color: #68695f; font-size: 12px; }
+    .finishes { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-top: 34px; }
+    .finishes > span { color: #68695f; font-size: 12px; margin-right: 8px; }
+    .finish { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; border: 0; background: none; padding: 4px 0; font-size: 13px; }
+    .finish[aria-pressed="true"] { text-decoration: underline; text-underline-offset: 5px; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    .swatch { width: 17px; height: 17px; border-radius: 50%; box-shadow: inset 0 0 0 1px #0002; }
+    .clay { background: #aa442b; }
+    .forest { background: #4c6046; }
+    .chalk { background: #dbd5c3; }
+    .bottomline { display: flex; justify-content: space-between; gap: 16px; color: #68695f; font-size: 12px; }
+    @media (max-width: 760px) {
+      .page { padding: 20px 24px 28px; }
+      main { display: flex; flex-direction: column; align-items: stretch; gap: 12px; }
+      .intro { padding-top: 42px; }
+      .eyebrow { margin-bottom: 18px; }
+      h1 { font-size: clamp(64px, 17vw, 112px); margin-bottom: 18px; }
+      .lead { font-size: 16px; }
+      .product img { max-height: 42svh; }
+      .finishes { margin-top: 14px; gap: 16px; }
+      .finishes > span { width: 100%; margin: 0; }
+      .bottomline { margin-top: 24px; }
+    }
+    @media (max-width: 360px) { .scope { max-width: 15ch; text-align: right; } .product img { max-height: 36svh; } }
+  </style>
+  <script type="module">
+    const image = document.querySelector('#lamp');
+    const status = document.querySelector('#finish-status');
+    const finishes = {
+      clay: { name: 'Kil', description: 'kil rengi' },
+      forest: { name: 'Orman', description: 'orman yeşili' },
+      chalk: { name: 'Tebeşir', description: 'tebeşir rengi' },
+    };
+    document.querySelector('.finishes').addEventListener('click', event => {
+      const button = event.target.closest('button[data-finish]');
+      if (!button || button.getAttribute('aria-pressed') === 'true') return;
+      const selected = finishes[button.dataset.finish];
+      image.src = `../mobile-scroll/frames-3d/${button.dataset.finish}/poster.webp`;
+      image.alt = `Kavisli ${selected.description} başlıklı üç boyutlu masa lambası.`;
+      status.textContent = `${selected.name} yüzey seçildi.`;
+      for (const option of document.querySelectorAll('.finish')) option.setAttribute('aria-pressed', String(option === button));
+    });
+  </script>
+</head>
+<body>
+  <div class="page">
+    <header class="topline"><span class="brand">CWI</span><span class="scope">İlk referans / Tek ekran</span></header>
+    <main>
+      <section class="intro" aria-labelledby="title">
+        <p class="eyebrow">Nesne çalışması / 01</p>
+        <h1 id="title">Işığın<br><em>yapısı.</em></h1>
+        <p class="lead">Bir masa lambasını yalnız dışından değil, onu bir arada tutan parçalarından tanı.</p>
+        <div class="finishes" role="group" aria-label="Yüzey rengi">
+          <span>Yüzey seç</span>
+          <button class="finish" data-finish="clay" aria-pressed="true" type="button"><span class="swatch clay" aria-hidden="true"></span>Kil</button>
+          <button class="finish" data-finish="forest" aria-pressed="false" type="button"><span class="swatch forest" aria-hidden="true"></span>Orman</button>
+          <button class="finish" data-finish="chalk" aria-pressed="false" type="button"><span class="swatch chalk" aria-hidden="true"></span>Tebeşir</button>
+        </div>
+        <p id="finish-status" class="sr-only" role="status"></p>
+      </section>
+      <figure class="product">
+        <img id="lamp" src="../mobile-scroll/frames-3d/clay/poster.webp" alt="Kavisli kil rengi başlıklı üç boyutlu masa lambası." width="720" height="720">
+        <figcaption><span>Form 01 · Masa lambası</span><span>Yüzey denemesi</span></figcaption>
+      </figure>
+    </main>
+    <footer class="bottomline"><span>Kompozisyon ve etkileşim önizlemesi</span><span>Tam site değil</span></footer>
+  </div>
+</body>
+</html>

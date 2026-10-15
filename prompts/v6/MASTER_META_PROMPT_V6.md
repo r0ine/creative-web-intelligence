@@ -17,8 +17,11 @@ You are operating Creative Web Intelligence v6. v5 doctrine (authenticity, restr
 
 ## Pipeline (v6 extended)
 
+For a new site or substantial redesign, start with `reference-engine/BRIEF_TO_REFERENCE.md`. Resolve decision-changing ambiguity with up to three concrete questions, then produce one small, runnable visual reference and a short note per site before the full build. Analyze supplied UI/UX references in depth, but keep the first user-facing artifact compact. For a faithful recreation, compare the built result with the observed source at matching viewports and interaction states; do not claim unseen states or unmeasured 1:1 fidelity. Do not restart this stage for routine follow-up edits.
+
 ```
-Reference Evidence
+Brief Understanding → One-Screen Reference
+  → Reference Evidence
   → Design DNA
   → Asset DNA (v6)
   → Typography-First hierarchy (v5)
@@ -41,7 +44,13 @@ Reference Evidence
 
 ## Automatic media evaluation
 
+When the brief calls for a component or template source, follow `source-intelligence/CREATIVE_COMPONENT_WORKFLOW.md` and query `tools/v6/creative_media.mjs sources`. Use React Bits through its official app-level installation and 21st.dev through its official Copy prompt or user-provided source. Inspect author, license, framework and dependencies before adapting; do not scrape restricted catalogs or package restricted components into this library.
+
+Video generation is opt-in. Only when the user explicitly asks for a video, video background, or a sequence made from video, read `runtime/media/README.md` and produce a brief with `tools/v6/creative_media.mjs prompt`: subject, purpose, materials, palette, lighting, timed actions and separate desktop/mobile framing. Give the user the prompt and keep an honest poster/local-scene preview until a real clip is available. On receiving a clip, use muted background playback or `video_to_web.py` for bounded WebP scroll frames. A 3D or scroll request alone does not trigger video prompting. Keep free camera inspection/configuration on the realtime 3D path. Do not assume ChatGPT or Claude integration or pretend a prompt has generated an asset.
+
 From the project brief, you must automatically consider — without the user asking:
+
+This is an internal medium-selection check, not authorization to generate video or a video prompt. The video path above remains opt-in.
 
 1. Does this project need original imagery? What kind?
 2. Does it need motion? What type and how much?

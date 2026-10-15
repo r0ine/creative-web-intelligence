@@ -1,0 +1,44 @@
+{
+  "version": "6.1",
+  "project_tier": "rich",
+  "mobile_tier": "standard",
+  "moments": [
+    {
+      "id": "ceramic-vessel-inspection",
+      "purpose": "content",
+      "purpose_statement": "Alıcı, seramik vazonun ağız açıklığını ve sır dokusunu farklı açılardan inceler.",
+      "rationale": "Masaüstünde kontrollü döndürme ve yakınlaştırma gerekir. Mobilde üç açıdan ürün fotoğrafı aynı ayrıntıları gösterir.",
+      "essential_content_in_html": true,
+      "keyboard_accessible": true,
+      "desktop": {
+        "medium": "realtime-3d",
+        "estimates": {
+          "initial_payload_kb": 280,
+          "total_page_media_mb": 1.8,
+          "frame_sequences_kb": 0,
+          "glb_kb": 1400,
+          "texture_memory_mb": 16,
+          "draw_calls": 18,
+          "concurrent_animations": 1
+        }
+      },
+      "mobile": {
+        "medium": "static-image",
+        "estimates": {
+          "initial_payload_kb": 180,
+          "total_page_media_mb": 0.45,
+          "frame_sequences_kb": 0,
+          "glb_kb": 0,
+          "texture_memory_mb": 0,
+          "draw_calls": 0,
+          "concurrent_animations": 0
+        }
+      },
+      "reduced_motion": {
+        "medium": "static-image",
+        "description": "Önden, üstten ve yandan ürün fotoğrafları; ölçüler ve sır açıklaması HTML içinde."
+      },
+      "downgrade_chain": ["realtime-3d", "static-image"]
+    }
+  ]
+}

@@ -42,13 +42,13 @@ Three curated product photographs at editorial scale. No animation. No 3D. No fr
 
 **Decision: pre-rendered 3D frame sequence.**
 
-A Blender scene renders the folding mechanism from a fixed camera. 120 frames extracted as AVIF. Scroll scrubs from fully open (frame 0) to folded (frame 120). Mobile gets 50 frames at 960w WebP.
+Bir Blender sahnesi katlanma mekanizmasını önceden belirlenmiş kamera yolundan render eder. 120 AVIF kare, açık durumdaki 0. kareden katlanmış durumdaki 119. kareye ilerler. Mobilde 960 piksel genişlikte 50 WebP kare kullanılır.
 
-**Why not realtime 3D?** The camera path is fixed. Pre-rendering delivers higher material fidelity (raytraced reflections, subsurface on ear cushion) at zero GPU cost.
+**Neden gerçek zamanlı 3D değil?** Kamera yolu sabittir. Önceden render almak, sahnenin 3D çizim maliyetini istemciden kaldırırken malzeme kalitesini korur. Karelerin indirilmesi, çözülmesi, canvas üzerine çizilmesi ve bellekte tutulması yine kaynak tüketir.
 
 **Why not static?** The folding progression IS the story. A single image cannot show the transformation.
 
-**Why not video?** Scroll control lets the user study the hinge mechanism at their own pace. Video plays at its own pace and cannot be scrubbed.
+**Neden video değil?** Video da kaydırmayla kontrol edilebilir; katalogda `scroll-video` bunun için bulunur. Bu örnekte kare dizisi, mekanizmanın istenen aşamasını doğrudan seçmek için kullanılır. Daha düşük transfer gereken cihazlarda, arama gecikmesi ölçülmüş bir video sürümü değerlendirilebilir.
 
 ### Camera choreography
 
@@ -99,8 +99,8 @@ A Blender scene renders the folding mechanism from a fixed camera. 120 frames ex
 2. **Interaction:** User-controlled camera. Orbit, zoom. Color configuration.
 3. **Camera freedom:** Full user control required.
 4. **Fidelity:** PBR standard — good enough for purchase decision, realtime achievable.
-5. **Performance:** Standard tier. E-commerce page must load fast.
-6. **Mobile:** Same 3D with touch orbit, reduced LOD.
+5. **Performans:** Rich katman. Gerçek zamanlı ürün inceleme için 1200 KB GLB, 16 MB texture belleği ve 12 draw call öngörülür; yayın öncesinde ölçülür. Standard katmanda GLB ve GPU bütçesi sıfır olduğu için aynı seçim yapılamaz.
+6. **Mobil:** Standard katman. Farklı açılardan ürün fotoğrafları ve renk seçimi için HTML kontrolleri kullanılır. Masaüstündeki 3D dosyası mobilde indirilmez.
 
 **Decision: realtime 3D (GLB + Three.js or `<model-viewer>`).**
 
@@ -137,8 +137,8 @@ A GLB model with three material variants (black, silver, white). The user orbits
     "orbit_limits": { "min_polar": 30, "max_polar": 120 },
     "zoom_limits": { "min_distance": 1.5, "max_distance": 4.0 }
   },
-  "mobile_strategy": "same model, reduced LOD (32K triangles), smaller textures (512)",
-  "reduced_motion": "static image of product at initial angle; color swatches show static photos"
+  "mobile_strategy": "Standard katman; farklı açılardan statik fotoğraflar ve HTML renk kontrolleri; GLB indirilmez",
+  "reduced_motion": "Başlangıç açısından statik ürün fotoğrafı; renk seçimi aynı renkteki fotoğrafı gösterir"
 }
 ```
 

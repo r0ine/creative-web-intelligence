@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <title>Lamba kare üretimi</title>
+  <style>
+    html, body { width: 720px; height: 720px; margin: 0; overflow: hidden; background: #f2efe8; }
+    canvas { display: block; width: 720px; height: 720px; }
+  </style>
+</head>
+<body>
+  <canvas width="720" height="720" aria-label="Üç boyutlu lamba"></canvas>
+  <script type="module">
+    import { createLampScene } from '../../../runtime/three/lamp-scene.mjs';
+
+    window.ready = false;
+    window.renderError = null;
+    const nextFrame = () => new Promise(resolve => requestAnimationFrame(resolve));
+    const scene = await createLampScene({
+      canvas: document.querySelector('canvas'),
+      compact: false,
+      onError(error) { window.renderError = error?.message ?? String(error); },
+    });
+    scene.resize(720, 720);
+
+    window.renderFrame = async ({ progress, finish }) => {
+      if (window.renderError) throw new Error(window.renderError);
+      scene.setFinish(finish);
+      scene.setProgress(progress);
+      await nextFrame();
+      await nextFrame();
+      if (window.renderError) throw new Error(window.renderError);
+      return typeof scene.stats === 'function' ? scene.stats() : scene.stats;
+    };
+
+    await window.renderFrame({ progress: 0, finish: 'clay' });
+    window.ready = true;
+    window.addEventListener('pagehide', () => scene.destroy(), { once: true });
+  </script>
+</body>
+</html>

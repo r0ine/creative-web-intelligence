@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CWI medya planı 6.1",
+  "description": "Bütçe ve fallback kararları ayrıca audit_media_plan.py ile denetlenir.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "project_tier", "mobile_tier", "moments"],
+  "properties": {
+    "version": {"const": "6.1"},
+    "project_tier": {"$ref": "#/$defs/tier"},
+    "mobile_tier": {"$ref": "#/$defs/tier"},
+    "moments": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/moment"}},
+    "measurements": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "desktop": {"$ref": "#/$defs/metrics"},
+        "mobile": {"$ref": "#/$defs/metrics"}
+      }
+    }
+  },
+  "$defs": {
+    "tier": {"enum": ["lean", "standard", "rich", "cinematic"]},
+    "text": {"type": "string", "minLength": 1, "pattern": "\\S"},
+    "medium": {
+      "enum": [
+        "none", "css", "svg", "static-image", "generated-image", "css-motion",
+        "svg-animation", "lottie", "rive", "video", "scroll-video", "frame-sequence",
+        "canvas-procedural", "prerendered-3d", "realtime-3d", "webgl-webgpu-shader"
+      ]
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "initial_payload_kb", "total_page_media_mb", "frame_sequences_kb",
+        "glb_kb", "texture_memory_mb", "draw_calls", "concurrent_animations"
+      ],
+      "properties": {
+        "initial_payload_kb": {"type": "number", "minimum": 0},
+        "total_page_media_mb": {"type": "number", "minimum": 0},
+        "frame_sequences_kb": {"type": "number", "minimum": 0},
+        "glb_kb": {"type": "number", "minimum": 0},
+        "texture_memory_mb": {"type": "number", "minimum": 0},
+        "draw_calls": {"type": "integer", "minimum": 0},
+        "concurrent_animations": {"type": "integer", "minimum": 0}
+      }
+    },
+    "variant": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["medium", "estimates"],
+      "properties": {
+        "medium": {"$ref": "#/$defs/medium"},
+        "estimates": {"$ref": "#/$defs/metrics"}
+      }
+    },
+    "moment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id", "purpose", "purpose_statement", "rationale", "desktop", "mobile",
+        "essential_content_in_html", "keyboard_accessible", "reduced_motion", "downgrade_chain"
+      ],
+      "properties": {
+        "id": {"$ref": "#/$defs/text"},
+        "purpose": {
+          "enum": [
+            "content", "identity", "explanation", "atmosphere_earned", "state", "storytelling",
+            "looks_impressive", "shows_technical_capability", "feels_premium", "hero_needs_energy"
+          ]
+        },
+        "purpose_statement": {"$ref": "#/$defs/text"},
+        "rationale": {"$ref": "#/$defs/text"},
+        "essential_content_in_html": {"type": "boolean"},
+        "keyboard_accessible": {"type": "boolean"},
+        "desktop": {"$ref": "#/$defs/variant"},
+        "mobile": {"$ref": "#/$defs/variant"},
+        "reduced_motion": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["medium", "description"],
+          "properties": {
+            "medium": {"$ref": "#/$defs/medium"},
+            "description": {"$ref": "#/$defs/text"}
+          }
+        },
+        "downgrade_chain": {
+          "type": "array", "minItems": 1,
+          "items": {"$ref": "#/$defs/medium"}
+        }
+      }
+    }
+  }
+}

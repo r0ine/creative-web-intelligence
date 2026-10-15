@@ -81,11 +81,11 @@
     }
   },
   "asset_fallback_hierarchy": {
-    "3d": ["realtime-3d", "prerendered-sequence", "video", "static-image"],
+    "3d": ["realtime-3d", "prerendered-3d", "frame-sequence", "video", "static-image"],
     "sequence": ["frame-sequence", "scroll-video", "video", "static-image"],
-    "shader": ["webgl-shader", "css-effect", "static"],
-    "animation": ["rive", "lottie", "svg-animation", "css-motion", "static"],
-    "video": ["video-autoplay", "video-poster", "static-image"],
+    "shader": ["webgl-webgpu-shader", "css-motion", "css", "none"],
+    "animation": ["rive", "lottie", "svg-animation", "css-motion", "static-image"],
+    "video": ["video", "static-image"],
     "image": ["avif", "webp", "jpeg"]
   },
   "mobile_tier_mapping": {

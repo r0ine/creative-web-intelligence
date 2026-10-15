@@ -170,6 +170,10 @@ These are v6 cinematic fingerprints — see `v6/CINEMATIC_ANTI_AI_FINGERPRINTS.m
 
 ## The final 3D test
 
+Çalışan uygulama: [kaydırmalı lamba örneği](../examples/v6/mobile-scroll/index.html)
+masaüstünde malzeme ve açı seçimini gerçek 3D ile sunar. Mobilde aynı sahnenin
+WebP kareleri, hareket azaltmada sabit pozlar kullanılır. [Runtime ve kaynak üretimi](../runtime/three/README.md).
+
 Remove the 3D from the page. Replace it with a single well-chosen photograph.
 
 - If the page works just as well → 3D was not justified.

@@ -25,6 +25,11 @@ For each visual moment in the content inventory:
 
 ## Output contract
 
+v6.1: Aşağıdaki serbest metin çıktı tasarım notudur. Çalıştırılabilir denetim için
+[`media_plan.schema.json`](../../schemas/v6/media_plan.schema.json) alanlarını doldur.
+`python tools/v6/audit_media_plan.py plan.json --format text` bütçe ve fallback
+kararlarını denetler; ölçüm yokken planı ölçülmüş saymaz. [Kullanım](../../tools/v6/README.md).
+
 ```json
 {
   "media_director_version": "6.0",

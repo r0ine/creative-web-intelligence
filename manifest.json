@@ -1,5 +1,5 @@
 {
-  "version": "4.0",
+  "version": "7.0",
   "generated": "2026-09-12",
   "stats": {
     "fontPairings": 120,
@@ -17,10 +17,18 @@
     "search_capabilities.py",
     "tools/v4/source_intelligence.py",
     "tools/v4/validate_v4.py",
-    "validate_library.py"
+    "validate_library.py",
+    "tools/v6/audit_media_plan.py",
+    "tools/v6/validate_v6.py",
+    "tools/v6/creative_media.mjs",
+    "tools/v6/video_to_web.py",
+    "tools/v6/check_media_studio.cjs",
+    "tools/v7/validate_v7.py",
+    "tools/v7/audit_visual_defaults.mjs",
+    "tools/v7/install_codex_skill.py"
   ],
   "external_open_source_registry": {
-    "count": 36,
+    "count": 37,
     "path": "integrations/open-source/open_source_library_registry.json",
     "policy": "license-aware; no blind vendoring"
   },
@@ -110,5 +118,40 @@
       "icon-asset-fingerprint-gate",
       "live-metadata-cli"
     ]
+  },
+  "updated": "2026-10-15",
+  "v7": {
+    "workflow": "START_HERE_V7.md",
+    "referenceComparator": "examples/v7/reference-compare/index.html",
+    "pixelRuntime": "runtime/reference/pixel-compare.mjs",
+    "validator": "tools/v7/validate_v7.py",
+    "visualCalibration": "quality/V7_VISUAL_CALIBRATION.md",
+    "visualAudit": "tools/v7/audit_visual_defaults.mjs",
+    "installation": ["docs/INSTALL_TR.md", "docs/INSTALL_EN.md"],
+    "releaseNotes": ["RELEASE_NOTES_V7.md", "RELEASE_NOTES_V7.en.md"]
+  },
+  "v6": {
+    "performanceBudgetCatalog": "data/v6/cinematic_profiles.json",
+    "mediaPlanSchema": "schemas/v6/media_plan.schema.json",
+    "modules": [
+      "media-decision-engine",
+      "cinematic-media",
+      "media-plan-audit",
+      "mobile-scroll-runtime",
+      "scroll-three-scene",
+      "creative-component-sources",
+      "video-prompt-pipeline",
+      "background-video-runtime",
+      "video-to-scroll-frames"
+    ],
+    "mediaPlanExample": "examples/v6/media_plan.json",
+    "scrollRuntime": "runtime/scroll/README.md",
+    "scrollExample": "examples/v6/mobile-scroll/index.html",
+    "threeRuntime": "runtime/three/README.md",
+    "threeAssetManifest": "examples/v6/mobile-scroll/frames-3d/manifest.json",
+    "creativeSources": "data/v6/creative_sources.json",
+    "mediaStudio": "examples/v6/media-studio/index.html",
+    "videoRuntime": "runtime/media/README.md",
+    "videoBriefExample": "examples/v6/video-brief.json"
   }
 }

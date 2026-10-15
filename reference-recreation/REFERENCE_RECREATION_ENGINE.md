@@ -1,6 +1,6 @@
 # Reference Recreation Engine v3
 
-Purpose: turn user-provided screenshots, images, screen recordings or videos into a **measurable implementation specification**.
+Purpose: turn user-provided screenshots, images, screen recordings or videos into a **measurable implementation specification**. Start with [one compact visual reference](../reference-engine/BRIEF_TO_REFERENCE.md) before expanding to the full site.
 
 ## Modes
 
@@ -18,10 +18,11 @@ Purpose: turn user-provided screenshots, images, screen recordings or videos int
 5. **Color/material pass** — roles first, raw hex second; include opacity/blend/backdrop behavior.
 6. **Motion pass** — create a timeline with triggers, states, progress windows, easing class and dependency order.
 7. **Asset map** — identify user-provided/owned assets vs placeholders needed.
-8. **Implementation spec** — independent code; no source-code copying.
-9. **Capture** — render exact target viewport screenshots/video.
-10. **Compare** — geometry/color/type/motion/fidelity report.
-11. **Iterate** — fix largest structural error first, not micro pixels first.
+8. **Small preview** — one viewport-sized composition and one signature interaction, with a short note. The preview is a direction check, not a finished 1:1 claim.
+9. **Implementation spec** — independent code; no source-code copying.
+10. **Capture** — render exact target viewport screenshots/video.
+11. **Compare** — geometry/color/type/motion/fidelity report.
+12. **Iterate** — fix largest structural error first, not micro pixels first.
 
 ## Fidelity hierarchy
 

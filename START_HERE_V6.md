@@ -1,5 +1,24 @@
 # START HERE — v6
 
+Yeni bir siteye veya köklü görsel değişikliğe başlarken [brief ve ilk referans akışını](reference-engine/BRIEF_TO_REFERENCE.md) kullan. Her site için önce tek ekranlık çalışan bir önizleme ve kısa inceleme notu hazırlanır; kullanıcı kaynak verirse görünür UI/UX durumları ayrıntılı incelenir. Tam uygulamada [piksel yakınlığı ve davranış kontrolü](reference-recreation/PIXEL_CLOSE_QA.md) ile aynı ekran ölçüleri karşılaştırılır.
+[Örnek ilk referans](examples/v6/reference-first/reference-preview.html), lamba deneyiminden yalnız bir ekran ve bir renk etkileşimi seçer.
+
+Mobil ve kaydırma uygulaması için [çalışan örneği](examples/v6/mobile-scroll/index.html)
+ve [runtime rehberini](runtime/scroll/README.md) kullan. [3D sahne rehberi](runtime/three/README.md),
+masaüstündeki gerçek WebGL sahnesini ve aynı sahneden mobil kare üretimini açıklar.
+Medya planı denetimi ile tarayıcıda çalışan oynatıcılar ayrı araçlardır.
+
+Harici kreatif bileşen ve şablonlar için [kaynak kabul akışını](source-intelligence/CREATIVE_COMPONENT_WORKFLOW.md),
+3D film/video arka planı ve videodan scroll kareleri için [video akışını](runtime/media/README.md) kullan.
+[Medya atölyesi](examples/v6/media-studio/index.html) kaynak seçimini, ChatGPT promptunu ve yerel medya önizlemesini birleştirir.
+
+## v6.1 medya planı denetimi
+
+Medya kararlarını verdikten sonra [örnek planı](examples/v6/media_plan.json) doldur ve
+`python tools/v6/audit_media_plan.py plan.json --format text` ile denetle.
+`plan.json`, kaydettiğin plan dosyasının yoludur. [Araç rehberi](tools/v6/README.md)
+alanları ve ölçüm durumlarını açıklar. Ölçüm gerektiren teslimlerde `--require-measurements` kullan.
+
 ## Prerequisites
 
 Read v5 first (`START_HERE_V5.md`). v6 is additive — it requires v5 doctrine to be understood.

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4f1eb">
+  <title>Referans karşılaştırma · Creative Web Intelligence v7</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.mjs"></script>
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <a class="back" href="../../../README.md">CWI / v7</a>
+      <span class="edition">01 — Referans denetimi</span>
+    </header>
+
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Önce gör, sonra karar ver</p>
+      <h1 id="page-title">İki görüntü arasındaki<br><em>gerçek mesafe.</em></h1>
+      <p class="lead">Kaynak ve uygulama ekran görüntülerini aynı ölçüde karşılaştır. Sayısal fark, üst üste görünüm ve ısı haritası büyük sapmaları bulmana yardım eder. Görseller yalnızca bu tarayıcıda işlenir.</p>
+    </section>
+
+    <section class="workspace" aria-label="Ekran görüntülerini seç">
+      <label class="upload" for="reference-file">
+        <span class="upload-number">01 / Kaynak</span>
+        <strong>Referans görüntüsü</strong>
+        <span class="upload-hint">PNG, JPG veya WebP seç</span>
+        <span class="upload-name" id="reference-name">Henüz seçilmedi</span>
+        <input id="reference-file" type="file" accept="image/png,image/jpeg,image/webp">
+      </label>
+      <label class="upload" for="candidate-file">
+        <span class="upload-number">02 / Çıktı</span>
+        <strong>Yaptığın sayfanın görüntüsü</strong>
+        <span class="upload-hint">Aynı viewport ve scroll konumu</span>
+        <span class="upload-name" id="candidate-name">Henüz seçilmedi</span>
+        <input id="candidate-file" type="file" accept="image/png,image/jpeg,image/webp">
+      </label>
+    </section>
+
+    <p class="status" id="status" role="status" aria-live="polite">Karşılaştırmak için iki görüntü seç.</p>
+
+    <section class="results" id="results" hidden aria-label="Karşılaştırma sonucu">
+      <div class="readout">
+        <div><span>Ölçü</span><strong id="dimensions">—</strong></div>
+        <div><span>Ortalama renk farkı</span><strong id="mean-error">—</strong></div>
+        <div><span>Eşiği aşan piksel</span><strong id="mismatch">—</strong></div>
+      </div>
+
+      <div class="controls">
+        <div class="tabs" role="group" aria-label="Görünüm">
+          <button type="button" class="active" data-view="overlay" aria-pressed="true">Üst üste</button>
+          <button type="button" data-view="heatmap" aria-pressed="false">Fark haritası</button>
+        </div>
+        <label class="range-label" for="blend">Çıktı görünürlüğü <output id="blend-value">50%</output></label>
+        <input id="blend" type="range" min="0" max="100" value="50">
+        <label class="range-label" for="threshold">Fark eşiği <output id="threshold-value">24</output></label>
+        <input id="threshold" type="range" min="0" max="100" value="24">
+      </div>
+
+      <div class="comparison" id="comparison">
+        <img id="reference-image" alt="Referans ekran görüntüsü">
+        <img id="candidate-image" alt="Uygulama ekran görüntüsü">
+        <canvas id="heatmap" aria-label="Fark ısı haritası"></canvas>
+      </div>
+      <p class="caption">Isı haritasında parlak alanlar eşiği aşan piksel farklarını gösterir. Font yumuşatma ve dinamik içerik de piksel farkı üretir; oran bir kalite puanı değildir.</p>
+    </section>
+
+    <aside class="method">
+      <span class="method-index">YÖNTEM / 07</span>
+      <div>
+        <h2>Karşılaştırmadan önce</h2>
+        <p>İki ekranı aynı genişlik, yükseklik, cihaz ölçeği ve kaydırma konumunda çek. Sonra sırayla yapı, ölçek, hizalama, satır kırılımı ve görsel kırpmasını düzelt. Menü, odak, dokunma ve scroll davranışını ayrıca dene; tek kare bunları ölçemez.</p>
+      </div>
+    </aside>
+  </main>
+</body>
+</html>

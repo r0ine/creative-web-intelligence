@@ -1,0 +1,36 @@
+name: Kütüphane doğrulaması
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: ${{ matrix.os }} · Python ${{ matrix.python-version }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ['3.11', '3.14']
+    env:
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: ${{ matrix.python-version }}
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '24'
+      - name: Medya planı testleri
+        run: python -m unittest discover -s tests -v
+      - name: v7 kütüphane doğrulaması
+        run: python tools/v7/validate_v7.py
+      - name: Node runtime testleri
+        run: node --test tests/*.test.mjs
