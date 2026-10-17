@@ -4,15 +4,22 @@
 
 **Kurulum ve kullanım:** [Türkçe](docs/INSTALL_TR.md) · [English](docs/INSTALL_EN.md)
 
-**v7 sürüm notları:** [Türkçe](RELEASE_NOTES_V7.md) · [English](RELEASE_NOTES_V7.en.md)
+**v8 sürüm notları:** [Türkçe](RELEASE_NOTES_V8.md) · [English](RELEASE_NOTES_V8.en.md)
 
 Kreatif web projeleri için tasarım kararları, kaynak katalogları, denetim araçları ve çalışan medya örnekleri. Tipografi, kompozisyon, renk, hareket ve medya seçiminde kullanılır.
 
-v7, referansla çalışma sürecini görünür kılar: kısa prototipten sonra kaynak ile uygulamanın aynı ölçüde çekilmiş ekran görüntülerini yerel araçla karşılaştırır. v6.1'in medya bütçesi, mobil scroll ve 3D araçları korunur.
+v8, 46 GitHub kaynağını araştırma ve seçim sistemine dönüştürür. Tek başlangıç referansı seçer; README bulgularını görsel olarak incelenmemiş alanlardan ayırır ve şablon, UI, animasyon, 3D ve lisans çakışmalarını denetler. v7'nin görsel karşılaştırması ile v6'nın mobil scroll ve 3D araçları korunur.
 
 ## Başlangıç
 
-Tasarım çalışması için [v7 başlangıcını](START_HERE_V7.md) oku. İhtiyaca göre v5 görsel özgünlük ve kompozisyon kurallarını, v6 medya kararlarını aç.
+Tasarım çalışması için [v8 başlangıcını](START_HERE_V8.md) oku. İhtiyaca göre v5 görsel özgünlük ve kompozisyon kurallarını, v6 medya kararlarını aç.
+
+[v8 kaynak danışmanı](README_V8.md), kullanıcının verdiği 46 adresin güncel durumunu ve [beş mercekli inceleme akışını](source-intelligence/V8_SOURCE_INTELLIGENCE.md) birleştirir. Katalog kod indirmez; seçilen kaynağın gerçek lisansı ve görsel davranışı uygulamadan önce ayrıca doğrulanır.
+
+```sh
+python tools/v8/source_advisor.py --surface portfolio --framework next --motion 3d
+python tools/v8/source_advisor.py --check greensock/gsap framer/motion --framework react
+```
 
 Yeni site veya köklü yeniden tasarımda [brief → ilk referans akışı](reference-engine/BRIEF_TO_REFERENCE.md) kullanılır. Kullanıcının istediği sonuç kısa sorularla netleştirilir; her site için tam uygulamadan önce tek ekranlık çalışan bir görsel önizleme ve kısa inceleme notu hazırlanır. Sağlanan UI/UX referansı masaüstü, mobil ve etkileşim durumlarıyla incelenir; “bire bir” isteniyorsa [aynı ekranlarda karşılaştırma](reference-recreation/PIXEL_CLOSE_QA.md) yapılır.
 [Tek ekranlık örnek](examples/v6/reference-first/reference-preview.html) ve [kısa notu](examples/v6/reference-first/reference-note.md) bu aşamanın kapsamını gösterir.
@@ -26,6 +33,7 @@ Katalog ve plan denetimi için Python 3.11 veya üzeri yeterli. Bu araçlar ek p
 ```sh
 python tools/v6/validate_v6.py
 python tools/v7/validate_v7.py
+python tools/v8/validate_v8.py
 python tools/v6/audit_media_plan.py examples/v6/media_plan.json --format text
 python -m unittest discover -s tests -v
 ```
@@ -85,4 +93,4 @@ Katalogdaki bir kaynak, otomatik indirme veya lisans izni anlamına gelmez. Kan�
 
 ## Sürüm belgeleri
 
-[v7 değişiklikleri](RELEASE_NOTES_V7.md), [v6.1](RELEASE_NOTES_V6_1.md), [v6](README_V6.md), [v5](README_V5.md), [v4](README_V4.md), [v3.2](README_V3_2.md), [v3.1](README_V3_1.md) ve [v3](README_V3.md). Önceki sürümlerin katalogları ve tasarım kuralları kullanılmaya devam eder.
+[v8 değişiklikleri](RELEASE_NOTES_V8.md), [v7](RELEASE_NOTES_V7.md), [v6.1](RELEASE_NOTES_V6_1.md), [v6](README_V6.md), [v5](README_V5.md), [v4](README_V4.md), [v3.2](README_V3_2.md), [v3.1](README_V3_1.md) ve [v3](README_V3.md). Önceki sürümlerin katalogları ve tasarım kuralları kullanılmaya devam eder.

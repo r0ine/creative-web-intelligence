@@ -1,0 +1,23 @@
+{
+  "evidenceLevel": "README-reviewed; visual layout, timing and mobile behavior require a rendered inspection",
+  "findings": {
+    "gothsec/dark-minimal": {"architecture": "Astro kabuğu, React ve Tailwind birlikte kullanılıyor.", "performance": "README performansı Astro ile ilişkilendiriyor; gerçek CWV ölçümü yapılmadı."},
+    "dillionverma/portfolio": {"architecture": "Next.js 14, shadcn/ui, Magic UI ve tek dosyalı içerik yapılandırması belirtiliyor.", "motion": "README Framer Motion kullanımını belirtiyor; hareketin kalitesi görsel olarak incelenmedi."},
+    "ibelick/motion-primitives": {"architecture": "Motion ve Tailwind üzerine kurulu hareketli bileşen seti; README beta durumunu açıkça belirtiyor.", "motion": "Bileşen düzeyindeki hareket için kaynak; süre ve easing davranışı örnek bazında incelenmeli."},
+    "pmndrs/react-three-fiber": {"architecture": "Three.js için React renderer; README React 18/19 ile renderer ana sürüm eşleşmesini belirtiyor.", "performance": "Sahne bileşenlerinin tekrar kullanımını destekliyor; render maliyeti sahne bazında ölçülmeli."},
+    "pmndrs/drei": {"architecture": "React Three Fiber için yardımcılar ve hazır soyutlamalar sunuyor.", "performance": "Yalnız ihtiyaç duyulan yardımcılar seçilmeli; kendi başına bir renderer değil."},
+    "greensock/gsap": {"motion": "Framework bağımsız zaman çizelgesi ve ScrollTrigger desteği README'de belgeleniyor.", "architecture": "React için ayrı @gsap/react entegrasyonu ve temizleme akışı belirtiliyor."},
+    "framer/motion": {"motion": "Depo artık Motion adıyla; React, JavaScript ve Vue API'leri sunuyor.", "performance": "README hibrit JS/tarayıcı motoru ve tree-shaking iddiasında; proje bundle'ı ölçülmeli."},
+    "darkroomengineering/lenis": {"motion": "Yerel scroll üzerinde akıcı kaydırma katmanı sunuyor.", "performance": "README sticky, anchor ve erişilebilirlik davranışlarının korunmasını vurguluyor; hedef cihazda test gerekli."},
+    "surjithctly/astroship": {"architecture": "Astro ve Tailwind ile SaaS, pazarlama ve blog başlangıç yapısı.", "design": "Landing içeriği için aday; hero, kanıt ve CTA dizilimi render edilmeden doğrulanmış sayılmaz."},
+    "once-ui-system/magic-portfolio": {"architecture": "MDX tabanlı proje, blog, özgeçmiş ve galeri içeriği sunuyor.", "design": "Vaka çalışması akışı için aday; görsel düzen ayrıca incelenmeli."},
+    "vercel/commerce": {"architecture": "Next.js App Router, Server Components ve Server Actions kullanan Shopify odaklı e-ticaret başlangıcı.", "performance": "README yüksek performans hedefi belirtiyor; gerçek sonuç bağımsız ölçüm ister."},
+    "colorlibhq/adminlte": {"architecture": "Güncel README Bootstrap 5.3 ve vanilla JavaScript diyor; jQuery bağımlılığı yok.", "design": "Yoğun dashboard bileşenleri için aday; veri hiyerarşisi ve mobil kullanım ayrıca incelenmeli."},
+    "colorlibhq/gentelella": {"architecture": "v4 README vanilla JavaScript, SCSS ve Vite 8 diyor; Bootstrap/jQuery kullanmıyor.", "design": "Çok sayıda dashboard sayfası ve grafik varyantı var; örnek yoğunluğu kalite kanıtı değildir."},
+    "shadcn-ui/ui": {"architecture": "Özelleştirilebilir bileşenlerle kendi UI kütüphaneni kurma yaklaşımı sunuyor.", "design": "Varsayılan görünümü marka kimliği yerine kullanma; tokenları proje için yeniden tanımla."},
+    "magicuidesign/magicui": {"motion": "Animasyonlu bileşen ve efekt kütüphanesi olarak tanımlanıyor.", "design": "Efekti yalnızca belirli bir içerik görevi için seç; dekoratif varsayılan hâline getirme."},
+    "saadeghi/daisyui": {"architecture": "Tailwind CSS bileşen kütüphanesi; tema sınıflarıyla diğer UI temelleri çakışabilir."},
+    "nextui-org/nextui": {"architecture": "Depo HeroUI adına taşınmış; güncel README React Aria ve compound component API'sini anlatıyor.", "performance": "README Tailwind CSS v4 ve CSS-in-JS çalışma zamanı olmamasını belirtiyor; projede doğrula."},
+    "tailwindlabs/headlessui": {"architecture": "React ve Vue için görsel stil taşımayan erişilebilir UI davranışları sunuyor.", "design": "Stil sağlamadığı için görsel kimlik tamamen projede kurulmalı."}
+  }
+}

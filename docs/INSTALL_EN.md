@@ -11,7 +11,7 @@ Creative Web Intelligence is a collection of design guidance, local checks, and 
 ```sh
 git clone https://github.com/r0ine/creative-web-intelligence.git
 cd creative-web-intelligence
-python tools/v7/validate_v7.py
+python tools/v8/validate_v8.py
 ```
 
 The validator also checks earlier catalogs and runs the v7 Node tests. Use the corresponding executable names if Python or Node are installed under different names on your system.
@@ -43,14 +43,22 @@ This copies the main library to `~/.codex/skills/creative-web-intelligence` and 
 /crative-web Design a mobile page with native scrolling. Use 3D only to explain the product's construction, and make a short visual reference before building the full page.
 ```
 
-For another coding assistant, provide the repository's `SKILL.md` and `START_HERE_V7.md` as context. The `/crative-web` shortcut only works in environments that support installed skills.
+For another coding assistant, provide the repository's `SKILL.md` and `START_HERE_V8.md` as context. The `/crative-web` shortcut only works in environments that support installed skills.
 
 ## Workflow
 
 1. For a new site, clarify the brief with `reference-engine/BRIEF_TO_REFERENCE.md`. Make one small working preview and a short note before the full build. Do not restart this step for a minor edit.
-2. Explain palette, geometry, and motion choices with `quality/V7_VISUAL_CALIBRATION.md`. Choose media with `v6/MEDIA_DECISION_ENGINE.md`.
-3. Capture the source and implementation at the same viewport and scroll position, then load both images in the reference comparison tool. Overlay and heatmap views expose structural differences; test behavior and accessibility separately. PNG, JPG, and WebP are supported. Limits are 25 MB per file and 8 million pixels per image. Files stay in the browser.
-4. Check CSS for repeated boxes and default motion patterns:
+2. If no source was supplied, choose one starting reference with the v8 advisor. Inspect its card and verify desktop/mobile behavior before reusing code. Check compatibility and licensing:
+
+```sh
+python tools/v8/source_advisor.py --surface portfolio --framework next --motion 3d
+python tools/v8/source_advisor.py --source ibelick/motion-primitives
+python tools/v8/source_advisor.py --check greensock/gsap framer/motion --framework react
+```
+
+3. Explain palette, geometry, and motion choices with `quality/V7_VISUAL_CALIBRATION.md`. Choose media with `v6/MEDIA_DECISION_ENGINE.md`.
+4. Capture the source and implementation at the same viewport and scroll position, then load both images in the reference comparison tool. Overlay and heatmap views expose structural differences; test behavior and accessibility separately. PNG, JPG, and WebP are supported. Limits are 25 MB per file and 8 million pixels per image. Files stay in the browser.
+5. Check CSS for repeated boxes and default motion patterns:
 
 ```sh
 node tools/v7/audit_visual_defaults.mjs examples/v7/reference-compare
@@ -75,7 +83,7 @@ If you have a local video and FFmpeg, follow `runtime/media/README.md` to create
 ## Tests
 
 ```sh
-python tools/v7/validate_v7.py
+python tools/v8/validate_v8.py
 python -m unittest discover -s tests -v
 node --test tests/*.test.mjs
 ```

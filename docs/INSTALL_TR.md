@@ -11,7 +11,7 @@ Creative Web Intelligence; tasarım karar belgeleri, yerel denetim araçları ve
 ```sh
 git clone https://github.com/r0ine/creative-web-intelligence.git
 cd creative-web-intelligence
-python tools/v7/validate_v7.py
+python tools/v8/validate_v8.py
 ```
 
 Doğrulama, önceki katalogları ve v7'nin Node testlerini de çalıştırır. Python veya Node komutu sisteminde farklı adla kuruluysa o adı kullan.
@@ -43,14 +43,22 @@ Bu komut ana kütüphaneyi `~/.codex/skills/creative-web-intelligence`, kısayol
 /crative-web Mobilde doğal kaydırma kullanan, 3D nesneyi yalnız ürünün yapısını göstermek için açan bir sayfa tasarla. Önce kısa görsel referans hazırla.
 ```
 
-Başka bir kod asistanıyla çalışıyorsan depo kökündeki `SKILL.md` ve `START_HERE_V7.md` dosyalarını bağlam olarak ver. `/crative-web` kısayolu yalnız onu destekleyen beceri ortamlarında çalışır.
+Başka bir kod asistanıyla çalışıyorsan depo kökündeki `SKILL.md` ve `START_HERE_V8.md` dosyalarını bağlam olarak ver. `/crative-web` kısayolu yalnız onu destekleyen beceri ortamlarında çalışır.
 
 ## Çalışma akışı
 
 1. Yeni site için `reference-engine/BRIEF_TO_REFERENCE.md` ile isteği netleştir; tam uygulamadan önce bir ekranlık önizleme ve kısa not üret. Küçük düzeltmelerde bu adımı tekrar etme.
-2. Renk, köşe ve hareket kararlarını `quality/V7_VISUAL_CALIBRATION.md` ile gerekçelendir. Gerekli medyum için `v6/MEDIA_DECISION_ENGINE.md` kullan.
-3. Kaynak ve uygulama ekran görüntülerini aynı viewport ve scroll konumunda alıp karşılaştırma aracına yükle. Üst üste görünüm ve fark haritası yapı hatalarını gösterir; davranış ve erişilebilirliği ayrıca denetle. PNG, JPG ve WebP desteklenir. Dosya başına 25 MB, görüntü başına 8 milyon piksel sınırı vardır. Dosyalar tarayıcıda kalır.
-4. CSS'teki tekrarları ve otomatik hareket kalıplarını tara:
+2. Kullanıcı kaynak vermediyse v8 danışmanıyla tek referans seç; kaynak verilmişse önce onu incele. Kaynak fişindeki soruları gerçek masaüstü/mobil görüntüyle yanıtla. Kurulum veya kod kopyalama öncesi çakışma ve lisans kontrolü yap:
+
+```sh
+python tools/v8/source_advisor.py --surface portfolio --framework next --motion 3d
+python tools/v8/source_advisor.py --source ibelick/motion-primitives
+python tools/v8/source_advisor.py --check greensock/gsap framer/motion --framework react
+```
+
+3. Renk, köşe ve hareket kararlarını `quality/V7_VISUAL_CALIBRATION.md` ile gerekçelendir. Gerekli medyum için `v6/MEDIA_DECISION_ENGINE.md` kullan.
+4. Kaynak ve uygulama ekran görüntülerini aynı viewport ve scroll konumunda alıp karşılaştırma aracına yükle. Üst üste görünüm ve fark haritası yapı hatalarını gösterir; davranış ve erişilebilirliği ayrıca denetle. PNG, JPG ve WebP desteklenir. Dosya başına 25 MB, görüntü başına 8 milyon piksel sınırı vardır. Dosyalar tarayıcıda kalır.
+5. CSS'teki tekrarları ve otomatik hareket kalıplarını tara:
 
 ```sh
 node tools/v7/audit_visual_defaults.mjs examples/v7/reference-compare
@@ -75,7 +83,7 @@ Elinde yerel video ve FFmpeg varsa dönüştürme adımları `runtime/media/READ
 ## Testler
 
 ```sh
-python tools/v7/validate_v7.py
+python tools/v8/validate_v8.py
 python -m unittest discover -s tests -v
 node --test tests/*.test.mjs
 ```

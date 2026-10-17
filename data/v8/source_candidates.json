@@ -1,0 +1,61 @@
+{
+  "reviewedAt": "2026-10-17",
+  "collections": [
+    "https://github.com/jamesmurdza/awesome-templates",
+    "https://github.com/Redwiat/awesome-tailwind-templates",
+    "https://github.com/topics/website-template?o=desc&s=stars",
+    "https://github.com/topics/portfolio-template?o=desc&s=stars",
+    "https://github.com/topics/landing-page?o=desc&s=stars",
+    "https://github.com/topics/threejs-portfolio?o=desc&s=stars"
+  ],
+  "portfolio": [
+    "https://github.com/Gothsec/dark-minimal",
+    "https://github.com/1msirius/Nextfolio",
+    "https://github.com/vercel/nextjs-portfolio-starter",
+    "https://github.com/dillionverma/portfolio",
+    "https://github.com/NotStark/portfolio",
+    "https://github.com/ibelick/motion-primitives",
+    "https://github.com/leerob/leerob.io",
+    "https://github.com/antfu/antfu.me",
+    "https://github.com/saadpasta/developerFolio"
+  ],
+  "three_d_motion": [
+    "https://github.com/theringsofsaturn/3D-sky-island-portfolio-threejs-react",
+    "https://github.com/JavaScript-Mastery-Pro/threejs-portfolio",
+    "https://github.com/kt946/threejs-react-portfolio-tutorial-jsm",
+    "https://github.com/pmndrs/react-three-fiber",
+    "https://github.com/pmndrs/drei",
+    "https://github.com/greensock/GSAP",
+    "https://github.com/framer/motion",
+    "https://github.com/darkroomengineering/lenis",
+    "https://github.com/codrops"
+  ],
+  "saas_landing": [
+    "https://github.com/surjithctly/astroship",
+    "https://github.com/once-ui-system/magic-portfolio",
+    "https://github.com/ixartz/Next-js-Boilerplate",
+    "https://github.com/Blazity/next-enterprise",
+    "https://github.com/steven-tey/precedent",
+    "https://github.com/saasfly/saasfly",
+    "https://github.com/vercel/commerce",
+    "https://github.com/shadcn-ui/taxonomy"
+  ],
+  "dashboard": [
+    "https://github.com/ColorlibHQ/AdminLTE",
+    "https://github.com/ColorlibHQ/gentelella",
+    "https://github.com/themesberg/flowbite-admin-dashboard",
+    "https://github.com/creativetimofficial/material-dashboard-react",
+    "https://github.com/coreui/coreui-free-bootstrap-admin-template"
+  ],
+  "ui_library": [
+    "https://github.com/shadcn-ui/ui",
+    "https://github.com/aceternity/aceternity-ui",
+    "https://github.com/markmead/hyperui",
+    "https://github.com/magicuidesign/magicui",
+    "https://github.com/saadeghi/daisyui",
+    "https://github.com/themesberg/flowbite",
+    "https://github.com/nextui-org/nextui",
+    "https://github.com/ant-design/ant-design",
+    "https://github.com/tailwindlabs/headlessui"
+  ]
+}

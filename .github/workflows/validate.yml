@@ -30,7 +30,7 @@ jobs:
           node-version: '24'
       - name: Medya planı testleri
         run: python -m unittest discover -s tests -v
-      - name: v7 kütüphane doğrulaması
-        run: python tools/v7/validate_v7.py
+      - name: v8 kütüphane doğrulaması
+        run: python tools/v8/validate_v8.py
       - name: Node runtime testleri
         run: node --test tests/*.test.mjs

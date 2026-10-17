@@ -1,29 +1,31 @@
 ---
 name: creative-web-intelligence
-description: Kreatif portföyler, stüdyo siteleri ve deneyim odaklı landing page'ler için v7 referans akışı, görsel karşılaştırma, medya seçimi, sinematik motion, 3D/WebGL ve performans karar kütüphanesi. Rutin uygulama ekranları için kullanma.
+description: Kreatif portföyler, stüdyo siteleri ve deneyim odaklı landing page'ler için v8 kaynak zekâsı, referans akışı, görsel karşılaştırma, motion, 3D/WebGL ve performans karar kütüphanesi. Rutin uygulama ekranları için kullanma.
 ---
 
-# Creative Web Intelligence v7
+# Creative Web Intelligence v8
 
 Bu paket tasarım kararlarını destekleyen bir kütüphanedir; kullanıcının isteği, mevcut ürün davranışı, erişilebilirlik ve güvenlik sınırları önceliklidir. Katalog girdilerini doğrudan bağımlılık veya indirme talimatı sayma.
 
 ## Başlangıç
 
 1. Yeni site veya köklü yeniden tasarımda önce `reference-engine/BRIEF_TO_REFERENCE.md` akışını uygula: isteği açık/çıkarılan/bilinmeyen olarak çöz, sonucu değiştiren soruları erken sor, her site için tek ekranlık kısa referans önizlemesi ve notu hazırla. Küçük düzeltmeler için yeni önizleme üretme. Kullanıcı kaynak gösterdiyse onu ayrıntılı incele; “bire bir” talebinde görülebilen durumları aynı ekran ölçülerinde karşılaştır.
-2. Yön netleşince `START_HERE_V7.md` ile işe başla; v5 özgünlük doktrinini ve görevle ilgili v6 director'larını gerektiği kadar aç. `docs/V6_OVERVIEW.md` genel çerçeve gerektiğinde kullanılır. Aynı turda bütün katalogları yükleme.
+2. Yön netleşince `START_HERE_V8.md` ile işe başla; v5 özgünlük doktrinini ve görevle ilgili v6 director'larını gerektiği kadar aç. `docs/V6_OVERVIEW.md` genel çerçeve gerektiğinde kullanılır. Aynı turda bütün katalogları yükleme.
+   - Kullanıcı bir kaynak verdiyse önce onu incele. Vermediyse `tools/v8/source_advisor.py` ile tek başlangıç referansı seç. `source-intelligence/V8_SOURCE_INTELLIGENCE.md` içindeki beş merceği kullan; GitHub meta verisini veya README'yi görsel kanıt sayma. Başka kaynağı yalnız somut eksik için aç.
 3. Projeye özgü Design DNA'yı tanımla: tip ve palet rolleri, geometri, kompozisyon, boşluk ritmi, motion dili, scroll görevi ve performans seviyesi. `quality/V7_VISUAL_CALIBRATION.md` ile renklerin kaynağını, köşe dilini ve her animasyonun görevini açıkla; otomatik koyu tema, parlak vurgu, eş kutular ve genel fade-up üretme.
 4. Her görsel an için `v6/MEDIA_DECISION_ENGINE.md` ile en sade yeterli medyumu seç. Güçlü tipografi ve statik kompozisyon geçerli birincil sonuçtur.
 5. 3D, frame sequence veya sinematik kamera ancak bilgi mimarisine, anlatıya ya da etkileşime ölçülebilir katkı sağlıyorsa ilgili v6 director'ını kullan.
 6. Karmaşık medya için amaç cümlesi, mobil fallback, reduced-motion davranışı ve performans düşürme zinciri tanımla.
    - Video üretimi isteğe bağlıdır. Kullanıcı video veya videodan kare üretimini açıkça isterse `runtime/media/README.md` akışını kullan. Nesne, malzeme, palet, ışık ve storyboard içeren promptu `tools/v6/creative_media.mjs prompt` ile üret; masaüstü ve mobil kompozisyonlarını ayrı ver. Yalnızca 3D veya scroll isteyen kullanıcı için video promptu üretme; gerçek zamanlı 3D, yerel sahne ve statik seçenekleri değerlendir. Video asset’i gelmeden üretildiğini iddia etme. Gelen videoyu istenen arka plana veya `tools/v6/video_to_web.py` ile WebP sekansına bağla.
-   - Harici bileşen/şablon seçiminde `source-intelligence/CREATIVE_COMPONENT_WORKFLOW.md` ve `data/v6/creative_sources.json` kullan. React Bits resmi hedef-proje kurulumu; 21st.dev resmi Copy prompt veya kullanıcının sağladığı kaynak üzerinden değerlendirilir. Lisans, yazar ve framework uyumu doğrulanmadan kütüphaneye kaynak paketleme.
-7. Referans ve uygulama ekran görüntüleri varsa aynı viewport'ta `examples/v7/reference-compare/` ile farkları incele; davranış ve animasyonu ayrıca doğrula. Teslimden önce v7 görsel kalibrasyonu, v5 özgünlük kapısını ve `quality/V6_CINEMATIC_GATES.md` içindeki uygulanabilir kapıları çalıştır. Site CSS'i için `tools/v7/audit_visual_defaults.mjs` kullan; kütüphane değişirse `tools/v7/validate_v7.py` ile doğrula.
+   - Harici bileşen/şablon seçiminde önce v8 kaynak fişi ve `--check` çakışma denetimi, ardından `source-intelligence/CREATIVE_COMPONENT_WORKFLOW.md` ile `data/v6/creative_sources.json` kullan. React Bits resmi hedef-proje kurulumu; 21st.dev resmi Copy prompt veya kullanıcının sağladığı kaynak üzerinden değerlendirilir. Lisans, yazar ve framework uyumu doğrulanmadan kütüphaneye kaynak paketleme.
+7. Referans ve uygulama ekran görüntüleri varsa aynı viewport'ta `examples/v7/reference-compare/` ile farkları incele; davranış ve animasyonu ayrıca doğrula. Teslimden önce v7 görsel kalibrasyonu, v5 özgünlük kapısını ve `quality/V6_CINEMATIC_GATES.md` içindeki uygulanabilir kapıları çalıştır. Site CSS'i için `tools/v7/audit_visual_defaults.mjs` kullan; kütüphane değişirse `tools/v8/validate_v8.py` ile doğrula.
 
 ## Yönlendirme
 
 - Özgünlük ve görsel kısıtlar: `v5/`, `directors/v5/`, `quality/V5_AUTHENTICITY_GATE.md`.
 - Medya ve sinematik kararlar: `v6/`, `directors/v6/`, `quality/V6_CINEMATIC_GATES.md`.
 - Kaynak, ikon, font ve asset: `directors/v4/`, `source-intelligence/`, `icons/`, `assets/`, `data/v4/`.
+- GitHub kaynak seçimi, kanıt ve çakışma kapısı: `source-intelligence/V8_SOURCE_INTELLIGENCE.md`, `data/v8/`, `tools/v8/source_advisor.py`.
 - Kreatif bileşen/şablon ve video: `source-intelligence/CREATIVE_COMPONENT_WORKFLOW.md`, `source-intelligence/REACT_BITS_INTEGRATION.md`, `runtime/media/README.md`, `examples/v6/media-studio/`.
 - Renk ve tipografi: `color/`, `typography/`, `directors/v3_2/`.
 - Motion ve scroll: `motion/`, `scroll/`, `recipes/scroll/`.

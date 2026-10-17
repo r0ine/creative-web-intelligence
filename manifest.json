@@ -1,5 +1,5 @@
 {
-  "version": "7.0",
+  "version": "8.0",
   "generated": "2026-09-12",
   "stats": {
     "fontPairings": 120,
@@ -119,7 +119,15 @@
       "live-metadata-cli"
     ]
   },
-  "updated": "2026-10-15",
+  "updated": "2026-10-17",
+  "v8": {
+    "workflow": "START_HERE_V8.md",
+    "sourceRegistry": "data/v8/source_registry.json",
+    "sourceProfiles": "data/v8/source_profiles.json",
+    "sourceAdvisor": "tools/v8/source_advisor.py",
+    "validator": "tools/v8/validate_v8.py",
+    "releaseNotes": ["RELEASE_NOTES_V8.md", "RELEASE_NOTES_V8.en.md"]
+  },
   "v7": {
     "workflow": "START_HERE_V7.md",
     "referenceComparator": "examples/v7/reference-compare/index.html",
