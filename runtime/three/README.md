@@ -17,6 +17,7 @@ lamp.resize(720, 720);
 lamp.setProgress(0.45);
 lamp.setFinish('forest');
 lamp.setView(12);
+lamp.setPointer(0.3, -0.2);
 
 function showStaticView() {
   lamp.destroy();
@@ -30,10 +31,13 @@ function showStaticView() {
 - `setProgress(progress)`: 0–1 arasında ilerleme; dışarıdaki sonlu değerler sınıra çekilir. Değişmeyen konum yeniden çizilmez.
 - `setFinish('clay' | 'forest' | 'chalk')`: kil, orman veya tebeşir kaplama.
 - `setView(degrees)`: kaydırma kamerasına −25° ile +25° arasında açı ekler.
+- `setPointer(x, y)`: −1 ile +1 aralığına sınırlanan fare konumunu kamera pozuna ekler. Scroll yolunu değiştirmez; yatay katkı en fazla 7°, dikey katkı 0,18 sahne birimidir.
 - `stats`: ilerleme, renk, açı, render sayısı, draw call, üçgen, geometri, doku, çözünürlük ve yaşam döngüsü durumu.
 - `destroy()`: geometri, malzeme, doku, gölge ve renderer kaynaklarını bırakır; tekrar çağrılabilir. Yeniden kullanım için yeni bir sahne oluştur.
 
 Runtime zamanlayıcı veya scroll dinleyicisi kurmaz. Sayfa görünürlüğünü, boyut değişimini ve temizliği çağıran uygulama yönetir. Demo sekme arka plandayken render almaz; sayfadan ayrılırken sahneyi kapatır, geri gezinme cache'inden dönüşte yeniden kurar.
+
+Fare girişini [pointer-look.mjs](pointer-look.mjs) yönetir: yalnız ince işaretçide çalışır, hareketi yumuşatır, ayrılınca merkezler ve hareket azaltma tercihinde kapatır. `observePointerLook({ element, onChange: (x, y) => lamp.setPointer(x, y) })` ile bağla; sahne bırakılırken gözlemciyi de `destroy()` ile kapat. [v8 karar akışı](../../v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md) video ve gerçek 3D katmanının görevlerini ayırır.
 
 Gölge yalnız nesnenin siluetini taşıyan ana parçalarda hesaplanır. Küçük halkalar, vida ve düğmeler görünür kalır; ayrı gölge çizimi yapmaz. Tarayıcı ölçümünde sahne 29 çizim çağrısı ve gölge geçişleri dahil 28.046 üçgen kullanır; çizim çağrısı Rich katmanın 30 sınırına uyar. Gerçek GPU süresi ayrıca ölçülmelidir.
 

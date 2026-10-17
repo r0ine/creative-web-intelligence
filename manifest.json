@@ -125,6 +125,9 @@
     "sourceRegistry": "data/v8/source_registry.json",
     "sourceProfiles": "data/v8/source_profiles.json",
     "sourceAdvisor": "tools/v8/source_advisor.py",
+    "experiencePlanner": "tools/v8/experience_plan.mjs",
+    "pointerLook": "runtime/three/pointer-look.mjs",
+    "optionalVideoWorkflow": "v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md",
     "validator": "tools/v8/validate_v8.py",
     "releaseNotes": ["RELEASE_NOTES_V8.md", "RELEASE_NOTES_V8.en.md"]
   },

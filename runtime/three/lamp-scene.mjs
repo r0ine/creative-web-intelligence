@@ -1,5 +1,6 @@
 import * as THREE from '../vendor/three/three.module.min.js';
 import { sampleLampMotion } from './lamp-motion.mjs';
+import { samplePointerLook } from './pointer-look.mjs';
 
 const finishes = { clay: '#b85e43', forest: '#354a3b', chalk: '#d7d1c3' };
 
@@ -25,6 +26,8 @@ export function createLampScene({ canvas, compact = false, onError = () => {} })
   let progress = 0;
   let finish = 'clay';
   let viewAngle = 0;
+  let pointerX = 0;
+  let pointerY = 0;
   let disposed = false;
   let contextLost = false;
   let width = 1;
@@ -183,11 +186,12 @@ export function createLampScene({ canvas, compact = false, onError = () => {} })
     glow.intensity = motion.lightIntensity * 6;
     pool.intensity = motion.lightIntensity * 10;
     poolSurface.opacity = motion.lightIntensity * 0.75;
-    const orbit = motion.orbit + THREE.MathUtils.degToRad(viewAngle);
+    const look = samplePointerLook(pointerX, pointerY);
+    const orbit = motion.orbit + THREE.MathUtils.degToRad(viewAngle) + look.yaw;
     const narrowScale = Math.max(1, 0.86 / camera.aspect);
     const distance = motion.cameraRadius * narrowScale;
-    camera.position.set(Math.sin(orbit) * distance, motion.cameraHeight, Math.cos(orbit) * distance);
-    camera.lookAt(0, motion.targetY, 0);
+    camera.position.set(Math.sin(orbit) * distance, motion.cameraHeight + look.height, Math.cos(orbit) * distance);
+    camera.lookAt(0, motion.targetY + look.height * 0.4, 0);
     try {
       renderer.render(scene, camera);
       renderCount++;
@@ -227,6 +231,15 @@ export function createLampScene({ canvas, compact = false, onError = () => {} })
       viewAngle = next;
       render();
     },
+    setPointer(x, y) {
+      samplePointerLook(x, y);
+      const nextX = Math.max(-1, Math.min(1, x));
+      const nextY = Math.max(-1, Math.min(1, y));
+      if (disposed || (pointerX === nextX && pointerY === nextY)) return;
+      pointerX = nextX;
+      pointerY = nextY;
+      render();
+    },
     resize(nextWidth, nextHeight) {
       if (![nextWidth, nextHeight].every(value => Number.isFinite(value) && value > 0)) {
         throw new RangeError('Sahne genişliği ve yüksekliği pozitif olmalı.');
@@ -245,7 +258,7 @@ export function createLampScene({ canvas, compact = false, onError = () => {} })
         triangles: renderer.info.render.triangles,
         geometries: renderer.info.memory.geometries,
         textures: renderer.info.memory.textures,
-        progress, finish, viewAngle, renderCount, width, height,
+        progress, finish, viewAngle, pointerX, pointerY, renderCount, width, height,
         pixelRatio: renderer.getPixelRatio(),
         disposed, contextLost,
       };

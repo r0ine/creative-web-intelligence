@@ -1,6 +1,7 @@
 import { observeScrollProgress, selectScrollMode } from '../../../runtime/scroll/scroll-progress.mjs';
 import { createFrameSequence } from '../../../runtime/scroll/frame-sequence.mjs';
 import { frameCount } from './sequence-config.mjs';
+import { observePointerLook } from '../../../runtime/three/pointer-look.mjs';
 
 const section = document.querySelector('.story');
 const stage = document.querySelector('.stage');
@@ -21,6 +22,7 @@ const coarsePointer = matchMedia('(pointer: coarse)');
 const connection = navigator.connection;
 const root = document.documentElement;
 let scene;
+let pointerLook;
 let player;
 let observer;
 let paused = false;
@@ -42,7 +44,7 @@ const reasons = {
 function recordScene() {
   if (!scene) return;
   const stats = scene.stats;
-  for (const key of ['progress', 'finish', 'viewAngle', 'renderCount', 'drawCalls', 'triangles']) {
+  for (const key of ['progress', 'finish', 'viewAngle', 'pointerX', 'pointerY', 'renderCount', 'drawCalls', 'triangles']) {
     sceneCanvas.dataset[key] = String(stats[key]);
   }
 }
@@ -65,6 +67,8 @@ function resizeScene() {
 }
 
 function releaseRenderer() {
+  pointerLook?.destroy();
+  pointerLook = null;
   if (scene) {
     scene.destroy();
     // A released WebGL context cannot be reused when motion is enabled again.
@@ -85,6 +89,8 @@ function releaseRenderer() {
 
 function startSequence(token) {
   if (token !== generation) return;
+  pointerLook?.destroy();
+  pointerLook = null;
   scene?.destroy();
   scene = null;
   player?.destroy();
@@ -174,12 +180,19 @@ async function updatePolicy() {
     });
     scene.setFinish(finish);
     scene.setView(Number(angle.value));
+    pointerLook = observePointerLook({
+      element: visual,
+      onChange(x, y) {
+        scene?.setPointer(x, y);
+        recordScene();
+      },
+    });
     resizeScene();
     if (webglFailed) return;
     sceneCanvas.hidden = false;
     angleControl.hidden = false;
     root.dataset.renderer = 'webgl';
-    note.textContent = 'Kaydırarak parçaları aç. Rengi ve bakış açısını sen seç.';
+    note.textContent = 'Kaydırarak parçaları aç; fareyi sahne üzerinde gezdirerek bakış açısını hafifçe değiştir.';
     renderProgress();
     observer?.refresh();
   } catch {

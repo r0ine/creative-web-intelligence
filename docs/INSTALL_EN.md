@@ -70,6 +70,13 @@ Zero findings do not prove good design. Review the actual desktop and mobile pag
 
 The mobile/3D example uses native scrolling to control a Three.js scene on desktop, local WebP frames on mobile, and static images when reduced motion or data saving is preferred. Start with `runtime/scroll/README.md` and `runtime/three/README.md` when adapting it, including the example's poster and cleanup behavior.
 
+Use the [v8 agent workflow](../v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md) for pointer camera movement and optional video. The experience planner emits no prompt unless video was requested:
+
+```sh
+node tools/v8/experience_plan.mjs examples/v8/experience-brief.json
+node tools/v8/experience_plan.mjs examples/v8/experience-brief-with-video.json
+```
+
 The media studio filters React Bits, 21st.dev, and other sources by task. The catalog does not embed their source code; verify the selected component's license and dependencies. Video is optional. Clicking the prompt button creates text to paste into ChatGPT manually; it does not connect to ChatGPT or Claude APIs.
 
 To generate the same brief from the CLI:

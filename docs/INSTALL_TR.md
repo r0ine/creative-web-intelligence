@@ -70,6 +70,13 @@ Sıfır uyarı tasarımın iyi olduğunu tek başına kanıtlamaz; masaüstü ve
 
 Mobil/3D örneğinde doğal scroll masaüstündeki Three.js sahnesini yönetir; mobilde yerel WebP karelere, hareket azaltma veya veri tasarrufunda sabit görsele geçer. Kendi sitene taşırken `runtime/scroll/README.md` ve `runtime/three/README.md` ile başlayıp örnekteki poster ve temizleme davranışını koru.
 
+Fareyle kamera bakışı ve isteğe bağlı video için [v8 ajan akışını](../v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md) kullan. Deneyim planı, video istenmediğinde prompt üretmez:
+
+```sh
+node tools/v8/experience_plan.mjs examples/v8/experience-brief.json
+node tools/v8/experience_plan.mjs examples/v8/experience-brief-with-video.json
+```
+
 Medya atölyesinde React Bits, 21st.dev ve diğer kaynaklar ihtiyaca göre filtrelenir. Katalog, bu sitelerin kaynak kodunu kütüphaneye gömmez; seçtiğin bileşenin lisansını ve bağımlılıklarını ayrıca doğrula. Video üretimi isteğe bağlıdır. Prompt düğmesine basınca ChatGPT'ye elle yapıştırılacak metin hazırlanır; ChatGPT/Claude API bağlantısı kurulmaz.
 
 CLI ile aynı metni üretmek için:

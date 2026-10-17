@@ -15,6 +15,10 @@ REQUIRED = (
     "data/v8/source_candidates.json", "data/v8/source_registry.json",
     "data/v8/source_profiles.json", "data/v8/readme_findings.json",
     "tools/v8/source_advisor.py", "tests/test_v8_source_advisor.py",
+    "tools/v8/experience_plan.mjs", "runtime/media/experience-plan.mjs",
+    "runtime/three/pointer-look.mjs", "v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md",
+    "examples/v8/experience-brief.json", "examples/v8/experience-brief-with-video.json",
+    "tests/experience-plan.test.mjs", "tests/pointer-look.test.mjs",
 )
 
 
@@ -54,6 +58,7 @@ def main():
     commands = (
         [sys.executable, str(ROOT / "tools/v7/validate_v7.py")],
         [sys.executable, "-m", "unittest", "discover", "-s", "tests", "-p", "test_v8_*.py", "-v"],
+        ["node", "--test", str(ROOT / "tests/experience-plan.test.mjs"), str(ROOT / "tests/pointer-look.test.mjs")],
     )
     for command in commands:
         result = subprocess.run(command, cwd=ROOT, check=False)

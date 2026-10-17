@@ -16,6 +16,8 @@ Tasarım çalışması için [v8 başlangıcını](START_HERE_V8.md) oku. İhtiy
 
 [v8 kaynak danışmanı](README_V8.md), kullanıcının verdiği 46 adresin güncel durumunu ve [beş mercekli inceleme akışını](source-intelligence/V8_SOURCE_INTELLIGENCE.md) birleştirir. Katalog kod indirmez; seçilen kaynağın gerçek lisansı ve görsel davranışı uygulamadan önce ayrıca doğrulanır.
 
+[İsteğe bağlı video ve fare bakışı akışı](v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md), CLI ajanının siteyi video olmadan bitirmesini; video seçilirse promptu hazırlayıp sağlanan dosyayı sonradan entegre etmesini tarif eder. [Deneyim planı aracı](tools/v8/experience_plan.mjs) bu ayrımı brief üzerinden çalıştırır.
+
 ```sh
 python tools/v8/source_advisor.py --surface portfolio --framework next --motion 3d
 python tools/v8/source_advisor.py --check greensock/gsap framer/motion --framework react

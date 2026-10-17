@@ -19,6 +19,8 @@ The recommended process begins with [brief interpretation and a small reference 
 
 The [v8 source advisor](README_V8.en.md) indexes 46 supplied GitHub links, selects one starting reference, and checks for conflicting templates, UI foundations, motion engines, 3D dependencies and license uncertainty. Read the [source intelligence guide](source-intelligence/V8_SOURCE_INTELLIGENCE.md) before adopting upstream code. Its five review lenses separate README facts from visual questions that still require inspection.
 
+The [optional video and pointer workflow](v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md) is for CLI agents: finish the site without video, generate a prompt only on explicit request, and add a supplied clip later. The [experience planner](tools/v8/experience_plan.mjs) keeps scroll as the main camera path and pointer motion as a small offset.
+
 Video is optional. The media studio can prepare a prompt to paste into ChatGPT, but there is no ChatGPT or Claude API integration. React Bits, 21st.dev, and other sources are guides for selecting components; their code is not bundled into this library. Check the license of each component you use.
 
 Install the library and `/crative-web` shortcut as Codex skills with `python tools/v7/install_codex_skill.py`. The full workflow, browser URLs, test commands, and update instructions are in the [English guide](docs/INSTALL_EN.md). See the [v8 release notes](RELEASE_NOTES_V8.en.md) for what changed.

@@ -5,5 +5,6 @@
 - Added an offline advisor that selects one initial reference for a portfolio, landing page or dashboard. Every source has a research focus and five inspection lenses. Eighteen repositories have short README-grounded technical findings; uninspected visuals are not presented as verified observations.
 - Added checks for competing application shells, styled UI foundations and motion engines, plus Lenis coordination, Drei dependencies, framework fit and uncertain licensing.
 - Added a v8 validator and focused tests. The v7 reference comparison and earlier mobile scroll, 3D and media tools remain available.
+- Follow-up: added an agent-facing experience plan that generates a video prompt only after an explicit opt-in. An incomplete video brief does not block the finished base site. The desktop 3D example now adds bounded pointer camera movement to its scroll path while retaining mobile and reduced-motion behavior.
 
 See the [English installation guide](docs/INSTALL_EN.md) and the [v8 overview](README_V8.en.md).

@@ -1,0 +1,5 @@
+{
+  "goal": "Bir masa lambasının bağlantısını scroll ile anlaşılır biçimde gösteren, mobilde de çalışan ürün sayfası",
+  "pointer": "camera-look",
+  "video": { "requested": false }
+}

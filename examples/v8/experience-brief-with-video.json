@@ -1,0 +1,17 @@
+{
+  "goal": "Bir masa lambasının bağlantısını scroll ile anlaşılır biçimde gösteren, mobilde de çalışan ürün sayfası",
+  "pointer": "camera-look",
+  "video": {
+    "requested": true,
+    "mode": "background",
+    "brief": {
+      "subject": "A sculptural desk lamp with a curved ceramic shade, a brass stem and a weighted base",
+      "purpose": "Give the product page a calm material backdrop while the real 3D lamp remains interactive",
+      "materials": "Matte fired ceramic, brushed brass and frosted glass with stable proportions",
+      "lighting": "One broad softbox from the left and a slow warm light pass; no camera or object motion",
+      "palette": "Warm ivory, muted clay and aged brass; no neon accent",
+      "durationSeconds": 8,
+      "frameCount": 48
+    }
+  }
+}

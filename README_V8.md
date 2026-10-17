@@ -13,4 +13,6 @@ python tools/v8/validate_v8.py
 
 Danışman API anahtarı istemez. Tek kaynak fişi README'den doğrulanmış kısa bulguları ve henüz görsel olarak incelenmemiş beş alanı açıkça gösterir. `--check`, birden çok şablon, stilli UI temeli veya hareket motorunun aynı işte çakışmasını bildirir; lisansı belirsiz kod aktarımını engeller. React Three Fiber ve Drei uyumlu bağımlılık çifti olarak değerlendirilir.
 
+CLI ajanları için [deneyim planı](v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md) ayrıca video kararını tutar. Video istenmezse siteyi videosuz tamamlar; istenirse gerekli sahne bilgileriyle prompt üretir. Fare bakışı gerçek 3D sahnede scroll pozuna küçük bir katkıdır; video kareleri serbest kamera hareketi sağlamaz.
+
 İki verilen depo adresi bu taramada 404 döndü; 12 depo için GitHub'ın lisans meta verisi yeterli değildi. Bunlar katalogdan gizlenmez, durumları belirtilir. Kod, medya veya şablon kopyalamadan önce gerçek lisans dosyasını ve hedef projenin koşullarını denetle.

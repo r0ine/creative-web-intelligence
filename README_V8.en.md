@@ -13,4 +13,6 @@ python tools/v8/validate_v8.py
 
 The advisor reads local data and needs no API key. Its source card separates README findings from questions that still require rendered desktop, mobile and interaction inspection. The conflict check flags multiple application shells, styled UI foundations or motion owners. It treats React Three Fiber and Drei as a compatible dependency pair. License metadata alone never authorizes copying code or assets.
 
+The [agent-facing experience plan](v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md) keeps video optional: the site is finished without it, and a prompt is produced only after an explicit request. Pointer camera movement is a small addition to the scroll-driven pose in a real 3D scene; video frames do not offer a free camera.
+
 Two requested repository URLs returned 404 during this review, and GitHub did not provide recognized license metadata for 12 repositories. Their status remains visible rather than being silently treated as verified.

@@ -4,6 +4,8 @@
 
 Video akışı isteğe bağlıdır. Sadece 3D veya scroll istendiğinde ChatGPT/Claude video promptu hazırlanmaz. Atölyede prompt, kullanıcı `Video promptunu hazırla` düğmesine bastığında üretilir. Herhangi bir ChatGPT, Claude veya video API bağlantısı bulunmaz; giriş ve API anahtarı gerekmez. Üretilen metin istenen araca elle yapıştırılır.
 
+CLI ajanı için [v8 deneyim planı](../../v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md) videoyu açık tercihle ayırır. `node tools/v8/experience_plan.mjs examples/v8/experience-brief.json` komutu videosuz tamamlanacak site temelini ve fare bakışını tarif eder; video promptu üretmez. Video istenirse ikinci örnekteki gibi `video.requested: true` ve sahne brief'i verilir. Eksik bilgiler soru olarak döner, temel site bekletilmez.
+
 ## Bileşen ve şablon seçimi
 
 [Kaynak kataloğunda](../../data/v6/creative_sources.json) React Bits, 21st.dev, Magic UI, UI Layouts, Kokonut UI, shadcn/ui ve yerel runtime yer alır. Bu, sağlayıcı rehberidir; sitelerin uzak bileşen kataloglarının kopyası değildir. İhtiyaç ve framework eşleşmesini şu komutlarla seçebilirsin:

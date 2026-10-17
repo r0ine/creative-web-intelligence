@@ -16,6 +16,7 @@ Bu paket tasarım kararlarını destekleyen bir kütüphanedir; kullanıcının 
 4. Her görsel an için `v6/MEDIA_DECISION_ENGINE.md` ile en sade yeterli medyumu seç. Güçlü tipografi ve statik kompozisyon geçerli birincil sonuçtur.
 5. 3D, frame sequence veya sinematik kamera ancak bilgi mimarisine, anlatıya ya da etkileşime ölçülebilir katkı sağlıyorsa ilgili v6 director'ını kullan.
 6. Karmaşık medya için amaç cümlesi, mobil fallback, reduced-motion davranışı ve performans düşürme zinciri tanımla.
+   - Fareyle 3D kamera ve isteğe bağlı video için `v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md` akışını kullan. Scroll ana pozu, fare sınırlı bakış ofsetini yönetir. Video olmadan siteyi bitir; kullanıcı açıkça video istemedikçe prompt üretme.
    - Video üretimi isteğe bağlıdır. Kullanıcı video veya videodan kare üretimini açıkça isterse `runtime/media/README.md` akışını kullan. Nesne, malzeme, palet, ışık ve storyboard içeren promptu `tools/v6/creative_media.mjs prompt` ile üret; masaüstü ve mobil kompozisyonlarını ayrı ver. Yalnızca 3D veya scroll isteyen kullanıcı için video promptu üretme; gerçek zamanlı 3D, yerel sahne ve statik seçenekleri değerlendir. Video asset’i gelmeden üretildiğini iddia etme. Gelen videoyu istenen arka plana veya `tools/v6/video_to_web.py` ile WebP sekansına bağla.
    - Harici bileşen/şablon seçiminde önce v8 kaynak fişi ve `--check` çakışma denetimi, ardından `source-intelligence/CREATIVE_COMPONENT_WORKFLOW.md` ile `data/v6/creative_sources.json` kullan. React Bits resmi hedef-proje kurulumu; 21st.dev resmi Copy prompt veya kullanıcının sağladığı kaynak üzerinden değerlendirilir. Lisans, yazar ve framework uyumu doğrulanmadan kütüphaneye kaynak paketleme.
 7. Referans ve uygulama ekran görüntüleri varsa aynı viewport'ta `examples/v7/reference-compare/` ile farkları incele; davranış ve animasyonu ayrıca doğrula. Teslimden önce v7 görsel kalibrasyonu, v5 özgünlük kapısını ve `quality/V6_CINEMATIC_GATES.md` içindeki uygulanabilir kapıları çalıştır. Site CSS'i için `tools/v7/audit_visual_defaults.mjs` kullan; kütüphane değişirse `tools/v8/validate_v8.py` ile doğrula.
@@ -24,6 +25,7 @@ Bu paket tasarım kararlarını destekleyen bir kütüphanedir; kullanıcının 
 
 - Özgünlük ve görsel kısıtlar: `v5/`, `directors/v5/`, `quality/V5_AUTHENTICITY_GATE.md`.
 - Medya ve sinematik kararlar: `v6/`, `directors/v6/`, `quality/V6_CINEMATIC_GATES.md`.
+- İsteğe bağlı video, ajan planı ve fare bakışı: `v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md`, `runtime/media/experience-plan.mjs`, `runtime/three/pointer-look.mjs`.
 - Kaynak, ikon, font ve asset: `directors/v4/`, `source-intelligence/`, `icons/`, `assets/`, `data/v4/`.
 - GitHub kaynak seçimi, kanıt ve çakışma kapısı: `source-intelligence/V8_SOURCE_INTELLIGENCE.md`, `data/v8/`, `tools/v8/source_advisor.py`.
 - Kreatif bileşen/şablon ve video: `source-intelligence/CREATIVE_COMPONENT_WORKFLOW.md`, `source-intelligence/REACT_BITS_INTEGRATION.md`, `runtime/media/README.md`, `examples/v6/media-studio/`.

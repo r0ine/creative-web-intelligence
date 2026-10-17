@@ -7,11 +7,14 @@
 5. Kod veya paket almadan önce kaynağın lisans dosyasını, sürüm uyumunu, component/theme çakışmasını ve mobil/reduced-motion karşılığını doğrula. `--check` ile seçilen kaynakları birlikte denetle; otomatik kurulum yapma.
 6. Uygulamayı gerçek tarayıcıda masaüstü ve mobilde aç; aynı viewport'ta referansla karşılaştır. Performans ve erişilebilirlik kapılarını çalıştır. Kütüphane değişiklikleri için `python tools/v8/validate_v8.py` kullan.
 
+Video veya fareyle 3D bakış istendiğinde [v8 isteğe bağlı video ve fare akışını](v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md) uygula. Video istenmiyorsa prompt üretme; siteyi video beklemeden tamamla. Video kareleri serbest fare kamerası değildir.
+
 ```sh
 python tools/v8/source_advisor.py --surface portfolio --framework next --motion 3d
 python tools/v8/source_advisor.py --source dillionverma/portfolio
 python tools/v8/source_advisor.py --check pmndrs/react-three-fiber pmndrs/drei --framework react
 python tools/v8/validate_v8.py
+node tools/v8/experience_plan.mjs examples/v8/experience-brief.json
 ```
 
 Araçlar mevcut depolardan kod indirmez. Kaynak listesi ve kanıt düzeyleri [v8 kaynak rehberinde](source-intelligence/V8_SOURCE_INTELLIGENCE.md) açıklanır. Önceki sürümlerin mobil scroll, 3D, medya ve referans araçları kullanılmaya devam eder.
