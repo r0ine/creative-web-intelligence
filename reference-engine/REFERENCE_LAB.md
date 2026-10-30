@@ -52,6 +52,14 @@ python tools/v10/analyze_reference.py reference-workspace/www.orneksite.com/<zam
 - **Ağırlık:** en büyük dosyalar, eski görsel biçimleri, font dosyaları.
 - **Kütüphane kurallarıyla çakışanlar:** referansın [kural önceliği](../v9/RULE_PRECEDENCE.md) ile çeliştiği yerler, örneğin Inter başlık fontu, aşmalı eğri, `transition: all`.
 
+Kendi siteni yeni tasarıma taşıyorsan metinleri, başlıkları, proje ve profil bağlantılarını sayfa sırasıyla çıkar:
+
+```sh
+python tools/v10/extract_content.py reference-workspace/kendi-sitem.com/<zaman>
+```
+
+`content.md` ve `content.json` yazılır. `study-only` kaynakta araç metnin kopyalanmaması gerektiğini hatırlatır.
+
 Ölçüler bir başlangıç noktasıdır, tasarım kararı değildir. Referansı aynen taşımak yerine Design DNA'yı kendi içeriğine göre kur.
 
 ## 4. Düzenle veya yeniden kur

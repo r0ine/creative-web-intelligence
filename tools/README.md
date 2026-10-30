@@ -24,6 +24,7 @@ Komutlar depo kökünden çalıştırılır. Python araçları 3.11+ ve yalnız 
 - `v10/capture_reference.mjs <adres> | --workspace <klasör>`: Playwright ile canlı ekran görüntüsü, alan paleti, kontrast, animasyon; axe-core varsa erişilebilirlik.
 - `v10/analyze_reference.py <çalışma-alanı>`: tasarım ölçüleri, kütüphaneler, yapı, erişilebilirlik, ağırlık ve düzenleme haritası.
 - `v10/compare_reference.mjs <referans> <yeni>`: aynı ekran ölçüsünde fark görüntüsü ve en farklı bölge.
+- `v10/extract_content.py <çalışma-alanı>`: kendi sitenin metin, başlık, proje ve profil bağlantılarını sayfa sırasıyla çıkarır.
 - `v10/template_catalog.py`: açık kaynak şablon ve bileşenleri lisansa göre listeler.
 - `v10/validate_v10.py`: laboratuvarın v9 yüzeyleri ve çakışma kaydıyla tutarlılığını denetler; ardından v9 zincirini çalıştırır.
 
