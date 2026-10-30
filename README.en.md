@@ -9,7 +9,7 @@ Start with the [English installation and usage guide](docs/INSTALL_EN.md). The s
 ```sh
 git clone https://github.com/r0ine/creative-web-intelligence.git
 cd creative-web-intelligence
-python tools/v8/validate_v8.py
+python tools/validate_all.py
 node tools/v6/serve_preview.mjs
 ```
 

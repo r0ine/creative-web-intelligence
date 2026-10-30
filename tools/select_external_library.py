@@ -11,7 +11,7 @@ def main():
     ap.add_argument('--allow-restricted', action='store_true')
     args=ap.parse_args()
     q=' '.join(args.query).lower().split()
-    data=json.loads(REG.read_text())['libraries']
+    data=json.loads(REG.read_text(encoding='utf-8'))['libraries']
     out=[]
     for x in data:
         if not args.allow_restricted and x.get('priority')=='restricted':

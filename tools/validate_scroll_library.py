@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json, pathlib, sys
 root=pathlib.Path(__file__).resolve().parents[1]
-recipes=json.loads((root/'data/v2/scroll_recipes.json').read_text())
+recipes=json.loads((root/'data/v2/scroll_recipes.json').read_text(encoding='utf-8'))
 ids=[x['id'] for x in recipes]
 errors=[]
 if len(recipes)!=100: errors.append(f'expected 100 recipes, got {len(recipes)}')

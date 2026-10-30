@@ -2,8 +2,8 @@
 import argparse,json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
-reg={x['id']:x for x in json.loads((root/'integrations/open-source/open_source_library_registry.json').read_text())['libraries']}
-profiles=json.loads((root/'integrations/open-source/integration_profiles.json').read_text())['profiles']
+reg={x['id']:x for x in json.loads((root/'integrations/open-source/open_source_library_registry.json').read_text(encoding='utf-8'))['libraries']}
+profiles=json.loads((root/'integrations/open-source/integration_profiles.json').read_text(encoding='utf-8'))['profiles']
 ap=argparse.ArgumentParser(); ap.add_argument('query',nargs='+'); args=ap.parse_args()
 q=' '.join(args.query).lower().split(); scored=[]
 for p in profiles:

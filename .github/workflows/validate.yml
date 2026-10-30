@@ -28,9 +28,14 @@ jobs:
       - uses: actions/setup-node@v7
         with:
           node-version: '24'
-      - name: Medya planı testleri
+      - name: FFmpeg kurulumu
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends ffmpeg
+      - name: Python testleri
+        env:
+          CWI_TEST_FFMPEG: ${{ runner.os == 'Linux' && '/usr/bin/ffmpeg' || '' }}
         run: python -m unittest discover -s tests -v
-      - name: v8 kütüphane doğrulaması
-        run: python tools/v8/validate_v8.py
+      - name: Bütün kütüphane doğrulamaları
+        run: python tools/validate_all.py
       - name: Node runtime testleri
         run: node --test tests/*.test.mjs

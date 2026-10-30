@@ -33,14 +33,12 @@ Renk, köşe ve hareket kararları için [v7 görsel kalibrasyonunu](quality/V7_
 Katalog ve plan denetimi için Python 3.11 veya üzeri yeterli. Bu araçlar ek paket istemez. Video dönüşümü için FFmpeg; prompt ve kaynak seçimi için Node 18+ gerekir. Depo kökünden:
 
 ```sh
-python tools/v6/validate_v6.py
-python tools/v7/validate_v7.py
-python tools/v8/validate_v8.py
+python tools/validate_all.py
 python tools/v6/audit_media_plan.py examples/v6/media_plan.json --format text
 python -m unittest discover -s tests -v
 ```
 
-Örnek plan `PLANNED` döndürür: tahminler bütçeye uyar, ölçüm henüz yoktur. Kendi planını [örnek JSON](examples/v6/media_plan.json) üzerinden oluştur. Alanlar, ölçüm biçimi ve çıkış kodları [medya denetimi rehberinde](tools/v6/README.md) açıklanır.
+`validate_all.py` bütün sürüm doğrulayıcılarını ve Markdown bağlantı denetimini tek seferde çalıştırır; CI de aynı komutu kullanır. Örnek plan `PLANNED` döndürür: tahminler bütçeye uyar, ölçüm henüz yoktur. Kendi planını [örnek JSON](examples/v6/media_plan.json) üzerinden oluştur. Alanlar, ölçüm biçimi ve çıkış kodları [medya denetimi rehberinde](tools/v6/README.md) açıklanır.
 
 Araç yerel dosyalarla çalışır; API anahtarı istemez. Bir sitenin erişilebilirliğini, görsel kalitesini veya gerçek performansını kendiliğinden doğrulamaz. [v5 özgünlük kapısı](quality/V5_AUTHENTICITY_GATE.md) ve [v6 sinematik kapıları](quality/V6_CINEMATIC_GATES.md) tasarım incelemesinin parçasıdır.
 

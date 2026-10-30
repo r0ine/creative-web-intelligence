@@ -1,6 +1,6 @@
 {
   "version": "3.1",
-  "fileCount": 264,
+  "fileCount": 253,
   "files": [
     {
       "path": "README.md",
@@ -1113,46 +1113,6 @@
       "sha256": "ba214b643f9e33cdd9d1995c6d2ce3c71b00d67c1879d6aed00455c37f3ea11f"
     },
     {
-      "path": "tools/__pycache__/compose_spec.cpython-313.pyc",
-      "size": 3581,
-      "sha256": "52e28c21187e28ffaa928d50ac698d46cf14d433505765df1782ba8229f16587"
-    },
-    {
-      "path": "tools/__pycache__/search_capabilities.cpython-313.pyc",
-      "size": 2001,
-      "sha256": "7664f9ba434708b69216f049d0e985ae78d501aa3c225ec99b7336f6c81c9ea5"
-    },
-    {
-      "path": "tools/__pycache__/search_scroll_recipes.cpython-313.pyc",
-      "size": 2103,
-      "sha256": "76a35ec4d40a2f9ecc159203399c0339453448f53e855d5552f3ba856a0b2ead"
-    },
-    {
-      "path": "tools/__pycache__/select_external_library.cpython-313.pyc",
-      "size": 3501,
-      "sha256": "b0293e59f9973fa21cbe4d693f00bcb70ef74a801feaf2ca5456847b4ab5bb7c"
-    },
-    {
-      "path": "tools/__pycache__/select_integration_profile.cpython-313.pyc",
-      "size": 2664,
-      "sha256": "04ec6cb7217e109368a0c79dac1f2ca494fc69e8b7488f3c3746cd1b6237b2d0"
-    },
-    {
-      "path": "tools/__pycache__/validate_external_registry.cpython-313.pyc",
-      "size": 1708,
-      "sha256": "5ca1485c7e51064d3855d42ff33acd565e43c4adc285583737008bdb9c64de57"
-    },
-    {
-      "path": "tools/__pycache__/validate_library.cpython-313.pyc",
-      "size": 2150,
-      "sha256": "bce6b1545178a7fd454492e239915f9af62024d39f3606ba1c721b484fea51e0"
-    },
-    {
-      "path": "tools/__pycache__/validate_scroll_library.cpython-313.pyc",
-      "size": 2129,
-      "sha256": "4df5ef7cfae8b9338af6d0818c0698602ef76f82dc857940e0822b3b87d5bb99"
-    },
-    {
       "path": "tools/compose_spec.py",
       "size": 1512,
       "sha256": "1d9bc2e19df29e080da734a1d35879698d767ac98821589f17e8401f2bc5dcc9"
@@ -1181,16 +1141,6 @@
       "path": "tools/v3/README.md",
       "size": 438,
       "sha256": "e240036066d0c15fcbea45b9ef53214746592e6cf16d632c4ce83653b9aa32dd"
-    },
-    {
-      "path": "tools/v3/__pycache__/compose_v3_spec.cpython-313.pyc",
-      "size": 1607,
-      "sha256": "37e118f47772dad565939ef932160f160acfc3aa6cd17d125d950ea65bd0ac67"
-    },
-    {
-      "path": "tools/v3/__pycache__/validate_v3_library.cpython-313.pyc",
-      "size": 1975,
-      "sha256": "c5124cde557a6766a8e08f9e5695f67ba532c3d9f5b456d8af659274ab3ee2ab"
     },
     {
       "path": "tools/v3/compose_v3_spec.py",

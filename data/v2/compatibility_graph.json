@@ -372,12 +372,6 @@
     "reason": "Shared hierarchy/tempo is compatible."
   },
   {
-    "a": "motion-002",
-    "b": "comp-002",
-    "relation": "good",
-    "reason": "Shared hierarchy/tempo is compatible."
-  },
-  {
     "a": "motion-003",
     "b": "font-026",
     "relation": "good",
@@ -606,12 +600,6 @@
     "reason": "Both can compete for attention; use one as dominant and reduce the other."
   },
   {
-    "a": "motion-022",
-    "b": "comp-022",
-    "relation": "good",
-    "reason": "Shared hierarchy/tempo is compatible."
-  },
-  {
     "a": "motion-023",
     "b": "comp-016",
     "relation": "good",
@@ -780,12 +768,6 @@
     "reason": "Both can compete for attention; use one as dominant and reduce the other."
   },
   {
-    "a": "three-002",
-    "b": "comp-007",
-    "relation": "good",
-    "reason": "Shared hierarchy/tempo is compatible."
-  },
-  {
     "a": "three-003",
     "b": "comp-001",
     "relation": "good",
@@ -838,12 +820,6 @@
     "b": "comp-029",
     "relation": "good",
     "reason": "Shared hierarchy/tempo is compatible."
-  },
-  {
-    "a": "three-007",
-    "b": "motion-012",
-    "relation": "caution",
-    "reason": "Both can compete for attention; use one as dominant and reduce the other."
   },
   {
     "a": "three-008",
@@ -1014,12 +990,6 @@
     "reason": "Shared hierarchy/tempo is compatible."
   },
   {
-    "a": "three-022",
-    "b": "comp-027",
-    "relation": "caution",
-    "reason": "Both can compete for attention; use one as dominant and reduce the other."
-  },
-  {
     "a": "three-023",
     "b": "comp-021",
     "relation": "caution",
@@ -1070,12 +1040,6 @@
   {
     "a": "font-002",
     "b": "motion-019",
-    "relation": "good",
-    "reason": "Shared hierarchy/tempo is compatible."
-  },
-  {
-    "a": "font-002",
-    "b": "motion-032",
     "relation": "good",
     "reason": "Shared hierarchy/tempo is compatible."
   },
@@ -1188,12 +1152,6 @@
     "reason": "Shared hierarchy/tempo is compatible."
   },
   {
-    "a": "font-012",
-    "b": "comp-012",
-    "relation": "caution",
-    "reason": "Both can compete for attention; use one as dominant and reduce the other."
-  },
-  {
     "a": "font-013",
     "b": "comp-006",
     "relation": "caution",
@@ -1244,12 +1202,6 @@
   {
     "a": "font-017",
     "b": "motion-004",
-    "relation": "good",
-    "reason": "Shared hierarchy/tempo is compatible."
-  },
-  {
-    "a": "font-017",
-    "b": "motion-017",
     "relation": "good",
     "reason": "Shared hierarchy/tempo is compatible."
   },
@@ -1306,12 +1258,6 @@
     "b": "three-004",
     "relation": "caution",
     "reason": "Both can compete for attention; use one as dominant and reduce the other."
-  },
-  {
-    "a": "font-022",
-    "b": "three-017",
-    "relation": "good",
-    "reason": "Shared hierarchy/tempo is compatible."
   },
   {
     "a": "font-023",
