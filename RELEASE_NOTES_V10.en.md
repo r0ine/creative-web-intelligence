@@ -1,0 +1,28 @@
+# v10 release notes
+
+**Language:** [Türkçe](RELEASE_NOTES_V10.md) · English
+
+## Reference lab
+
+The [reference lab](reference-engine/REFERENCE_LAB.md) (Turkish) downloads a reference site, measures it, locates what to edit, and compares new work against it. Downloads stay in `reference-workspace/`, which git ignores.
+
+- `tools/v10/mirror_reference.py`: runs `wget --mirror --convert-links --adjust-extension --page-requisites --no-parent` with depth, quota and wait limits. It respects robots.txt and writes `capture.json` with file types, size, entry page and detected licenses. The result is one usage decision: `owned`, `license-review` or `study-only`. Pages that JavaScript renders into an empty shell are flagged.
+- `tools/v10/capture_reference.mjs`: opens the site in Playwright at desktop and mobile sizes. It records screenshots, a reduced-motion screenshot, an area-weighted palette with neutral/support/accent shares, fonts, animations, script URLs and WCAG contrast findings. If axe-core is installed, it adds axe violations.
+- `tools/v10/analyze_reference.py` extracts from the downloaded copy:
+  - **design measurements:** color roles, palette, fonts, type scale, spacing, radii, durations/easings, breakpoints, CSS variables;
+  - **site information:** libraries, page structure, static accessibility issues and page weight.
+
+  It also produces an **edit map** that points each v9 surface to the CSS file and line where it is defined, and lists where the reference conflicts with library rules. Outputs are `analysis.md`, `analysis.json` and `tokens.css`.
+- `tools/v10/compare_reference.mjs`: compares reference and new work at the same viewport. It produces a diff image, the mismatch percentage and the most different screen region, using the v7 pixel-compare module.
+- `tools/v10/template_catalog.py`: groups open-source templates and components from the v8 registry by license: editable, share-alike, or study only.
+- `runtime/reference/style-metrics.mjs`: tested pure helpers for color parsing, WCAG contrast, area palette and diff regions.
+
+## Found during trials
+
+- On the sample site, static analysis and axe-core reported the same five issues: empty button, contrast, heading order, image alt and empty link.
+- Small static pages were mistaken for JavaScript shells; fixed.
+
+## Maintenance
+
+- The v7, v8 and v9 validators now compare the manifest version numerically, so new releases no longer require editing them.
+- `validate_v10.py` checks two consistency rules: the edit map must match the v9 surfaces, and every conflict cited by the analyzer must exist in the v9 register. `validate_all.py` runs the v10 chain.

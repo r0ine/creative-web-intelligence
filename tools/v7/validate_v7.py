@@ -31,7 +31,7 @@ def main():
         return 1
 
     manifest = json.loads((ROOT / 'manifest.json').read_text(encoding='utf-8'))
-    if manifest.get('version') not in {'7.0', '8.0', '9.0'} or not manifest.get('v7'):
+    if float(manifest.get('version', 0)) < 7 or not manifest.get('v7'):
         print('manifest.json v7 bilgisi eksik.', file=sys.stderr)
         return 1
 

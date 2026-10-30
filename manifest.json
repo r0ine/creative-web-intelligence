@@ -1,5 +1,5 @@
 {
-  "version": "9.0",
+  "version": "10.0",
   "generated": "2026-09-12",
   "stats": {
     "fontPairings": 120,
@@ -33,7 +33,13 @@
     "tools/validate_all.py",
     "tools/v9/feedback_triage.py",
     "tools/v9/precedence.py",
-    "tools/v9/validate_v9.py"
+    "tools/v9/validate_v9.py",
+    "tools/v10/mirror_reference.py",
+    "tools/v10/capture_reference.mjs",
+    "tools/v10/analyze_reference.py",
+    "tools/v10/compare_reference.mjs",
+    "tools/v10/template_catalog.py",
+    "tools/v10/validate_v10.py"
   ],
   "external_open_source_registry": {
     "count": 37,
@@ -128,6 +134,18 @@
     ]
   },
   "updated": "2026-10-30",
+  "v10": {
+    "workflow": "START_HERE_V10.md",
+    "referenceLab": "reference-engine/REFERENCE_LAB.md",
+    "mirror": "tools/v10/mirror_reference.py",
+    "liveCapture": "tools/v10/capture_reference.mjs",
+    "analyzer": "tools/v10/analyze_reference.py",
+    "compare": "tools/v10/compare_reference.mjs",
+    "templateCatalog": "tools/v10/template_catalog.py",
+    "styleMetrics": "runtime/reference/style-metrics.mjs",
+    "validator": "tools/v10/validate_v10.py",
+    "releaseNotes": ["RELEASE_NOTES_V10.md", "RELEASE_NOTES_V10.en.md"]
+  },
   "v9": {
     "workflow": "START_HERE_V9.md",
     "revisionFeedback": "reference-engine/REVISION_FEEDBACK.md",

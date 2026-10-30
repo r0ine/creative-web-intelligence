@@ -4,9 +4,16 @@
 
 **Kurulum ve kullanım:** [Türkçe](docs/INSTALL_TR.md) · [English](docs/INSTALL_EN.md)
 
-**v9 sürüm notları:** [Türkçe](RELEASE_NOTES_V9.md) · [English](RELEASE_NOTES_V9.en.md)
+**v10 sürüm notları:** [Türkçe](RELEASE_NOTES_V10.md) · [English](RELEASE_NOTES_V10.en.md)
 
 Kreatif web projeleri için tasarım kararları, kaynak katalogları, denetim araçları ve çalışan medya örnekleri. Tipografi, kompozisyon, renk, hareket ve medya seçiminde kullanılır.
+
+v10 bir **referans laboratuvarı** ekler. Verilen site wget ile indirilir; JavaScript'li siteler Playwright ile canlı ölçülür. Renk, font, boşluk, hareket, kütüphane, erişilebilirlik ve ağırlık raporu çıkar. Kullanıcı bir yeri beğenmezse düzenleme haritası o yüzeyin CSS dosyasını ve satırını gösterir. Yeni iş referansla aynı ekran ölçüsünde karşılaştırılır ([laboratuvar akışı](reference-engine/REFERENCE_LAB.md), [v10 başlangıcı](START_HERE_V10.md)).
+
+```sh
+python tools/v10/mirror_reference.py https://www.orneksite.com
+python tools/v10/analyze_reference.py reference-workspace/www.orneksite.com/<zaman>
+```
 
 v9 kullanıcıyı anlamaya odaklanır. Kullanıcı “içime sinmedi” dediğinde ajan rastgele değişiklik yapmaz; önce **neresi** olduğunu sorar. “Genel” cevabında arka plan, ilk ekran, baskın renk ve başlık tipografisi gibi en çok görünen yüzeylerden başlar ve beğenilen yerleri korur ([revizyon akışı](reference-engine/REVISION_FEEDBACK.md)). Kütüphane büyüdükçe artan kural çakışmaları için [kural önceliği](v9/RULE_PRECEDENCE.md) hangi director'ın geçerli olduğunu ve bilinen sekiz çelişkinin çözümünü tek yerde toplar. [v9 başlangıcı](START_HERE_V9.md) iki akışı da özetler.
 
@@ -19,7 +26,7 @@ v8, 46 GitHub kaynağını araştırma ve seçim sistemine dönüştürür. Tek 
 
 ## Başlangıç
 
-Tasarım çalışması için [v9 başlangıcını](START_HERE_V9.md) ve [v8 başlangıcını](START_HERE_V8.md) oku. İhtiyaca göre v5 görsel özgünlük ve kompozisyon kurallarını, v6 medya kararlarını aç.
+Tasarım çalışması için [v10 başlangıcını](START_HERE_V10.md), [v9 başlangıcını](START_HERE_V9.md) ve [v8 başlangıcını](START_HERE_V8.md) oku. İhtiyaca göre v5 görsel özgünlük ve kompozisyon kurallarını, v6 medya kararlarını aç.
 
 [v8 kaynak danışmanı](README_V8.md), kullanıcının verdiği 46 adresin güncel durumunu ve [beş mercekli inceleme akışını](source-intelligence/V8_SOURCE_INTELLIGENCE.md) birleştirir. Katalog kod indirmez; seçilen kaynağın gerçek lisansı ve görsel davranışı uygulamadan önce ayrıca doğrulanır.
 

@@ -1,16 +1,16 @@
 ---
 name: creative-web-intelligence
-description: Kreatif portföyler, stüdyo siteleri ve deneyim odaklı landing page'ler için v9 revizyon geri bildirimi ve kural önceliği, v8 kaynak zekâsı, referans akışı, görsel karşılaştırma, motion, 3D/WebGL ve performans karar kütüphanesi. Rutin uygulama ekranları için kullanma.
+description: Kreatif portföyler, stüdyo siteleri ve deneyim odaklı landing page'ler için v10 referans laboratuvarı (wget ile indirme, canlı ölçüm, karşılaştırma), v9 revizyon geri bildirimi ve kural önceliği, v8 kaynak zekâsı, referans akışı, görsel karşılaştırma, motion, 3D/WebGL ve performans karar kütüphanesi. Rutin uygulama ekranları için kullanma.
 ---
 
-# Creative Web Intelligence v9
+# Creative Web Intelligence v10
 
 Bu paket tasarım kararlarını destekleyen bir kütüphanedir; kullanıcının isteği, mevcut ürün davranışı, erişilebilirlik ve güvenlik sınırları önceliklidir. Katalog girdilerini doğrudan bağımlılık veya indirme talimatı sayma.
 
 ## Başlangıç
 
-1. Yeni site veya köklü yeniden tasarımda önce `reference-engine/BRIEF_TO_REFERENCE.md` akışını uygula: isteği açık/çıkarılan/bilinmeyen olarak çöz, sonucu değiştiren soruları erken sor, her site için tek ekranlık kısa referans önizlemesi ve notu hazırla. Küçük düzeltmeler için yeni önizleme üretme. Kullanıcı kaynak gösterdiyse onu ayrıntılı incele; “bire bir” talebinde görülebilen durumları aynı ekran ölçülerinde karşılaştır.
-2. Yön netleşince `START_HERE_V9.md` ve `START_HERE_V8.md` ile işe başla. Aynı alanda birden fazla director veya katalog varsa `v9/RULE_PRECEDENCE.md` hangisinin geçerli olduğunu söyler; eski katalog kaydını kullanmadan önce `tools/v9/precedence.py --id <kimlik>` ile çakışmayı sor. Ardından v5 özgünlük doktrinini ve görevle ilgili v6 director'larını gerektiği kadar aç. `docs/V6_OVERVIEW.md` genel çerçeve gerektiğinde kullanılır. Aynı turda bütün katalogları yükleme.
+1. Yeni site veya köklü yeniden tasarımda önce `reference-engine/BRIEF_TO_REFERENCE.md` akışını uygula: isteği açık/çıkarılan/bilinmeyen olarak çöz, sonucu değiştiren soruları erken sor, her site için tek ekranlık kısa referans önizlemesi ve notu hazırla. Küçük düzeltmeler için yeni önizleme üretme. Kullanıcı kaynak gösterdiyse onu ayrıntılı incele; site adresi verdiyse `reference-engine/REFERENCE_LAB.md` ile `tools/v10/mirror_reference.py` (wget), JavaScript'li sitelerde `tools/v10/capture_reference.mjs` ve `tools/v10/analyze_reference.py` çalıştır, `capture.json` kullanım kararına (`owned`, `license-review`, `study-only`) uy; “bire bir” talebinde görülebilen durumları aynı ekran ölçülerinde karşılaştır.
+2. Yön netleşince `START_HERE_V10.md`, `START_HERE_V9.md` ve `START_HERE_V8.md` ile işe başla. Aynı alanda birden fazla director veya katalog varsa `v9/RULE_PRECEDENCE.md` hangisinin geçerli olduğunu söyler; eski katalog kaydını kullanmadan önce `tools/v9/precedence.py --id <kimlik>` ile çakışmayı sor. Ardından v5 özgünlük doktrinini ve görevle ilgili v6 director'larını gerektiği kadar aç. `docs/V6_OVERVIEW.md` genel çerçeve gerektiğinde kullanılır. Aynı turda bütün katalogları yükleme.
    - Kullanıcı bir kaynak verdiyse önce onu incele. Vermediyse `tools/v8/source_advisor.py` ile tek başlangıç referansı seç. `source-intelligence/V8_SOURCE_INTELLIGENCE.md` içindeki beş merceği kullan; GitHub meta verisini veya README'yi görsel kanıt sayma. Başka kaynağı yalnız somut eksik için aç.
 3. Projeye özgü Design DNA'yı tanımla: tip ve palet rolleri, geometri, kompozisyon, boşluk ritmi, motion dili, scroll görevi ve performans seviyesi. `quality/V7_VISUAL_CALIBRATION.md` ile renklerin kaynağını, köşe dilini ve her animasyonun görevini açıkla; otomatik koyu tema, parlak vurgu, eş kutular ve genel fade-up üretme.
 4. Her görsel an için `v6/MEDIA_DECISION_ENGINE.md` ile en sade yeterli medyumu seç. Güçlü tipografi ve statik kompozisyon geçerli birincil sonuçtur.
@@ -24,6 +24,7 @@ Bu paket tasarım kararlarını destekleyen bir kütüphanedir; kullanıcının 
 
 ## Yönlendirme
 
+- Referans siteyi indirme, ölçme, düzenleme haritası, açık kaynak şablonlar ve karşılaştırma: `reference-engine/REFERENCE_LAB.md`, `tools/v10/`, `runtime/reference/style-metrics.mjs`.
 - Revizyon geri bildirimi ve görünürlük sırası: `reference-engine/REVISION_FEEDBACK.md`, `data/v9/feedback_lexicon.json`, `data/v9/visibility_ranking.json`, `tools/v9/feedback_triage.py`.
 - Kural önceliği ve sürümler arası çakışmalar: `v9/RULE_PRECEDENCE.md`, `data/v9/rule_precedence.json`, `tools/v9/precedence.py`.
 - Özgünlük ve görsel kısıtlar: `v5/`, `directors/v5/`, `quality/V5_AUTHENTICITY_GATE.md`.
@@ -46,6 +47,7 @@ Bu paket tasarım kararlarını destekleyen bir kütüphanedir; kullanıcının 
 - Bir v5 veya v6 blocker tespit edildiğinde tasarımı teslim etme; sorunu yapısal düzeyde düzelt ya da daha sade bir medyuma düşür.
 - Dekoratif 3D blob, anlamsız parçacık alanı, sürekli dönen obje, sahte HUD ve her bölüme WebGL yerleştirme kullanma.
 - Uydurma müşteri, ödül, metrik, referans veya araştırma iddiası üretme.
+- `study-only` olarak indirilen bir sitenin kodunu, görselini, metnini veya fontunu teslim edilen işe kopyalama; erişim engeli, giriş veya robots.txt kısıtını aşma.
 - Esas metni video, canvas, frame sequence ya da 3D sahne içine gömme.
 - Animasyon ve karmaşık medya kapalıyken içerik, hiyerarşi ve marka kimliği ayakta kalmalı.
 - Ayrışmayı teknik gösteriden değil; fikir, tipografi, kompozisyon ve ürün davranışından çıkar.

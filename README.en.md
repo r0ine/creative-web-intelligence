@@ -1,6 +1,8 @@
 # Creative Web Intelligence
 
-Creative Web Intelligence helps coding agents and designers make specific choices about composition, typography, color, motion, scroll, 3D, and media. It includes decision guidance, local checks, and runnable examples. The current release is v9.
+Creative Web Intelligence helps coding agents and designers make specific choices about composition, typography, color, motion, scroll, 3D, and media. It includes decision guidance, local checks, and runnable examples. The current release is v10.
+
+v10 adds a **reference lab** ([workflow](reference-engine/REFERENCE_LAB.md), Turkish). A reference site is mirrored with wget, and JavaScript-rendered sites are measured live with Playwright. The analyzer reports colors, fonts, spacing, motion, libraries, accessibility and page weight. Its edit map points each visible surface to the CSS file and line that defines it. New work is compared with the reference at the same viewport. Unlicensed downloads are marked study-only: layout and behavior are rebuilt with new code, not copied.
 
 v9 is about understanding the user. When someone says a result "doesn't feel right", the agent asks **where** before changing anything; if the answer is "overall", it starts with the most visible surfaces (background, first screen, dominant color, display type) and keeps what the user liked ([revision workflow](reference-engine/REVISION_FEEDBACK.md), Turkish). As the library grows, [rule precedence](v9/RULE_PRECEDENCE.md) records which director wins in each domain and how eight known cross-version contradictions are resolved; the validator fails when new rules are added without being registered.
 
@@ -25,4 +27,4 @@ The [optional video and pointer workflow](v8/OPTIONAL_VIDEO_POINTER_WORKFLOW.md)
 
 Video is optional. The media studio can prepare a prompt to paste into ChatGPT, but there is no ChatGPT or Claude API integration. React Bits, 21st.dev, and other sources are guides for selecting components; their code is not bundled into this library. Check the license of each component you use.
 
-Install the library and `/crative-web` shortcut as Codex skills with `python tools/v7/install_codex_skill.py`. The full workflow, browser URLs, test commands, and update instructions are in the [English guide](docs/INSTALL_EN.md). See the [v9 release notes](RELEASE_NOTES_V9.en.md) and [v8 release notes](RELEASE_NOTES_V8.en.md) for what changed.
+Install the library and `/crative-web` shortcut as Codex skills with `python tools/v7/install_codex_skill.py`. The full workflow, browser URLs, test commands, and update instructions are in the [English guide](docs/INSTALL_EN.md). See the [v10 release notes](RELEASE_NOTES_V10.en.md), [v9 release notes](RELEASE_NOTES_V9.en.md) and [v8 release notes](RELEASE_NOTES_V8.en.md) for what changed.
