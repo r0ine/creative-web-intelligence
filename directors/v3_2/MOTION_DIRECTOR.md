@@ -1,5 +1,7 @@
 # MOTION DIRECTOR v3.2
 
+> **Öncelik (v9):** Bu dosyanın yerini [`directors/v5/MOTION_DIRECTOR_V5.md`](../v5/MOTION_DIRECTOR_V5.md) aldı. Çakışmada o dosya geçerlidir; bu dosya yalnız arka plan bilgisi içindir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 ## Decision order
 
 1. State what motion must explain.

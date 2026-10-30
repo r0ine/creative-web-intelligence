@@ -11,6 +11,12 @@ Komutlar depo kökünden çalıştırılır. Python araçları 3.11+ ve yalnız 
 - `validate_external_registry.py`: harici kütüphane kaydını denetler.
 - `v3/validate_v3_library.py`, `v3_1/validate_v31.py`: v3 ve v3.1 katalogları.
 - `v8/validate_v8.py`: 46 kaynağın kapsamını denetler; ardından v7 → v6 → v5, v4, v3.2 zincirini çalıştırır.
+- `v9/validate_v9.py`: geri bildirim sözlüğünü, director önceliğini, çakışma kaydını ve dosyalar arası kimlik çakışmalarını denetler; ardından v8 zincirini çalıştırır.
+
+## Revizyon ve öncelik
+
+- `v9/feedback_triage.py "<geri bildirim>" [--answer "<cevap>"]`: belirsiz geri bildirimi konum, yön, korunacak yer ve sorulacak soruya çevirir. [Akış](../reference-engine/REVISION_FEEDBACK.md).
+- `v9/precedence.py [--domain | --file | --id | --conflict]`: geçerli director'ı ve bir kaydı etkileyen sürümler arası çakışmayı gösterir. [Kural önceliği](../v9/RULE_PRECEDENCE.md).
 
 ## Seçim ve arama
 

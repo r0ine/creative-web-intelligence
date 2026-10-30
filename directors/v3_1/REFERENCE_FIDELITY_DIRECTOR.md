@@ -1,5 +1,7 @@
 # REFERENCE FIDELITY DIRECTOR v3.1
 
+> **Öncelik (v9):** Bu dosya [`directors/reference/REFERENCE_RECREATION_DIRECTOR_V3.md`](../reference/REFERENCE_RECREATION_DIRECTOR_V3.md) ile birlikte kullanılır; çakışmada o dosya geçerlidir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 Compare in this order:
 1. viewport and page framing
 2. section geometry

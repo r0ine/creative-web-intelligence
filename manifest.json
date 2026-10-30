@@ -1,5 +1,5 @@
 {
-  "version": "8.0",
+  "version": "9.0",
   "generated": "2026-09-12",
   "stats": {
     "fontPairings": 120,
@@ -30,7 +30,10 @@
     "tools/v8/experience_plan.mjs",
     "tools/v8/validate_v8.py",
     "tools/check_links.py",
-    "tools/validate_all.py"
+    "tools/validate_all.py",
+    "tools/v9/feedback_triage.py",
+    "tools/v9/precedence.py",
+    "tools/v9/validate_v9.py"
   ],
   "external_open_source_registry": {
     "count": 37,
@@ -124,7 +127,19 @@
       "live-metadata-cli"
     ]
   },
-  "updated": "2026-10-17",
+  "updated": "2026-10-30",
+  "v9": {
+    "workflow": "START_HERE_V9.md",
+    "revisionFeedback": "reference-engine/REVISION_FEEDBACK.md",
+    "feedbackLexicon": "data/v9/feedback_lexicon.json",
+    "visibilityRanking": "data/v9/visibility_ranking.json",
+    "feedbackTriage": "tools/v9/feedback_triage.py",
+    "rulePrecedence": "v9/RULE_PRECEDENCE.md",
+    "precedenceRegister": "data/v9/rule_precedence.json",
+    "precedenceTool": "tools/v9/precedence.py",
+    "validator": "tools/v9/validate_v9.py",
+    "releaseNotes": ["RELEASE_NOTES_V9.md", "RELEASE_NOTES_V9.en.md"]
+  },
   "v8": {
     "workflow": "START_HERE_V8.md",
     "sourceRegistry": "data/v8/source_registry.json",

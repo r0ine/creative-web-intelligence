@@ -1,5 +1,7 @@
 # COMPOSITION DIRECTOR v2
 
+> **Öncelik (v9):** Bu dosyanın yerini [`directors/v5/COMPOSITION_DIRECTOR_V5.md`](../v5/COMPOSITION_DIRECTOR_V5.md) aldı. Çakışmada o dosya geçerlidir; bu dosya yalnız arka plan bilgisi içindir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 A composition is a reading path, not a collection of containers.
 
 ## Inputs

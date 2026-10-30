@@ -1,0 +1,126 @@
+{
+  "$comment": "Mirrors reference-engine/REVISION_FEEDBACK.md. Phrases are matched after Turkish-aware lowercasing and ASCII folding (ç→c, ğ→g, ı/İ→i, ö→o, ş→s, ü→u), so 'icime sinmedi' and 'İÇİME SİNMEDİ' match the same entry. A trailing * allows Turkish suffixes on the last word; otherwise whole words only. Longer phrases win over shorter ones.",
+  "version": "9.0",
+  "markers": {
+    "global": ["genel*", "hepsi", "her yer*", "her sey*", "tamami*", "komple", "butun*", "tum site*", "tumu", "overall", "everything", "whole", "all of it"],
+    "positive": ["içime sindi", "içime sinmiş", "güzel", "güzeller", "beğendim", "beğeniyorum", "sevdim", "hoşuma gitti", "hoş", "iyi", "harika", "mükemmel", "olmuş", "kalsın", "dokunma", "sorun yok", "sorun değil", "like", "love", "good", "great", "nice", "keep", "fine", "perfect"],
+    "negateAfter": ["değil", "olmamış", "olmadı", "durmuyor"],
+    "negateBefore": ["not", "t", "dont", "never", "no", "hiç"],
+    "contrast": ["ama", "fakat", "ancak", "lakin", "but", "however", "though"]
+  },
+  "entries": [
+    {
+      "id": "FB-01",
+      "kind": "vague",
+      "label": "Belirsiz memnuniyetsizlik",
+      "phrases": ["içime sinme*", "içime sinmiyor", "içime sinmez", "olmamış", "olmadı", "beğenmedim", "beğenmiyorum", "hoşuma gitmedi", "bir şey eksik", "bir şeyler eksik", "tam değil", "tam olmamış", "emin değilim", "daha iyi olabilir", "daha iyi olmalı", "doesn't feel right", "could be better", "not quite", "something is off", "something's off", "don't like", "not feeling it"],
+      "meaning": "Kullanıcı memnun değil ama neresi olduğunu söylemedi. Rastgele detay değiştirme; önce neresi olduğunu sor."
+    },
+    {
+      "id": "FB-02",
+      "kind": "direction",
+      "label": "Ucuz / amatör / premium değil",
+      "phrases": ["ucuz*", "amatör*", "kalitesiz*", "özensiz*", "premium durmuyor", "lüks durmuyor", "daha premium", "cheap*", "amateur*", "low quality", "more premium"],
+      "likelySurfaces": ["display-type", "spacing", "palette", "surfaces", "imagery"],
+      "causes": ["varsayılan font ve ağırlıklar, başlık ile gövde arasında zayıf ölçek farkı", "sıkışık veya düzensiz boşluk ritmi", "fazla sayıda gölge, kenarlık ve eş kutu", "düşük çözünürlüklü veya alakasız görseller"],
+      "firstMoves": ["başlık ölçeğini ve fontunu tek kararla güçlendir", "bölüm boşluklarını tek bir ölçeğe bağla", "dekoratif kutu ve gölgeleri azalt"],
+      "avoid": ["parlaklık, gradyan veya efekt ekleyerek premium his yaratmaya çalışma"],
+      "references": ["v5/TYPOGRAPHY_FIRST_PREMIUM.md", "quality/V7_VISUAL_CALIBRATION.md", "v5/DECORATION_VS_STRUCTURE.md"]
+    },
+    {
+      "id": "FB-03",
+      "kind": "direction",
+      "label": "Sıkıcı / sıradan / cansız",
+      "phrases": ["sıkıcı*", "sıradan*", "cansız*", "sönük*", "heyecansız*", "düz duruyor", "daha cesur", "daha iddialı", "boring", "bland", "dull", "flat", "plain", "bolder"],
+      "likelySurfaces": ["hero", "display-type", "imagery", "palette"],
+      "causes": ["ilk ekranda tek bir odak anı yok", "ölçek kontrastı düşük: her şey aynı büyüklükte", "görsel içerikten kopuk veya genel"],
+      "firstMoves": ["ilk ekranda tek bir baskın öğe seç ve ölçeğini artır", "yeni renk eklemeden önce ölçek, malzeme veya doku farkı dene"],
+      "avoid": ["boşluğu parçacık, blob veya süs çizgisiyle doldurma"],
+      "references": ["color/harmony_models.md", "v5/DECORATION_VS_STRUCTURE.md", "directors/v5/COMPOSITION_DIRECTOR_V5.md"]
+    },
+    {
+      "id": "FB-04",
+      "kind": "direction",
+      "label": "Kalabalık / karışık / sadeleşsin",
+      "phrases": ["kalabalık*", "karışık*", "karmaşık*", "dağınık*", "gürültülü*", "yorucu*", "göz yor*", "sadeleştir*", "daha sade", "busy", "cluttered", "messy", "noisy", "simplify", "simpler", "cleaner"],
+      "likelySurfaces": ["spacing", "palette", "surfaces", "motion"],
+      "causes": ["birbiriyle yarışan çok sayıda açıklık seviyesi ve vurgu", "her içerik için ayrı kutu ve kenarlık", "aynı anda hareket eden çok öğe", "dinlenme alanı yok"],
+      "firstMoves": ["rekabet eden açıklık seviyelerini ve vurgu alanını azalt", "bölümler arasına hareketsiz okuma alanı koy", "kutuları içerik türüne göre ayır veya kaldır"],
+      "avoid": ["sadeleştirirken hiyerarşiyi de silme"],
+      "references": ["color/combination_theory.md", "v5/COMPOSITION_RESTRAINT.md", "v5/REST_ZONES.md"]
+    },
+    {
+      "id": "FB-05",
+      "kind": "direction",
+      "label": "Yapay zekâ işi / şablon gibi",
+      "phrases": ["yapay zeka*", "ai gibi", "ai işi", "ai yapmış", "şablon*", "jenerik*", "herkesinki gibi", "her yerde var", "generic", "template*", "ai generated", "looks like ai"],
+      "likelySurfaces": ["palette", "surfaces", "display-type", "motion", "background"],
+      "causes": ["gerekçesiz koyu zemin + parlak vurgu", "her yerde aynı kutu şablonu", "her bölümde aynı fade-up hareketi", "varsayılan font seçimi"],
+      "firstMoves": ["zemin/metin/işaret rollerinin kaynağını yaz ve gerekçesizi değiştir", "tekrar eden kutu ve hareket kalıplarını tara", "projeye özgü bir tipografi kararı ver"],
+      "avoid": ["şablon hissini yeni bir efekt ekleyerek örtmeye çalışma"],
+      "references": ["quality/V7_VISUAL_CALIBRATION.md", "v5/ANTI_AI_VISUAL_FINGERPRINTS.md", "tools/v7/audit_visual_defaults.mjs"]
+    },
+    {
+      "id": "FB-06",
+      "kind": "direction",
+      "label": "Fazla karanlık / ağır",
+      "phrases": ["karanlık*", "kasvetli*", "boğucu*", "çok koyu", "fazla koyu", "ağır duruyor", "too dark", "gloomy", "heavy"],
+      "likelySurfaces": ["background", "palette", "imagery"],
+      "causes": ["koyu zemin içerikten değil alışkanlıktan seçilmiş", "zemin ile yüzeyler arasında ton farkı yok"],
+      "firstMoves": ["koyu zemin için gerekçe yoksa açık veya orta tonlu zemin seçeneği göster", "koyu kalacaksa yüzey katmanları arasında ton farkı aç"],
+      "avoid": ["yalnızca vurgu rengini parlatarak koyuluğu dengelemeye çalışma"],
+      "references": ["v5/COLOR_RESTRAINT.md", "color/dark_light_modes.md"]
+    },
+    {
+      "id": "FB-07",
+      "kind": "direction",
+      "label": "Soğuk / steril / ruhsuz",
+      "phrases": ["soğuk*", "steril*", "ruhsuz*", "kurumsal*", "mesafeli*", "cold", "sterile", "soulless", "corporate"],
+      "likelySurfaces": ["palette", "background", "display-type", "imagery"],
+      "causes": ["yalnız soğuk griler ve maviler", "gerçek içerik veya insan izi taşımayan görseller", "kişiliği olmayan font"],
+      "firstMoves": ["zemine hafif sıcak bir nötr dene", "markanın veya içeriğin gerçek fotoğraf ve malzemesini öne al"],
+      "avoid": ["sıcaklık için rastgele turuncu vurgu ekleme"],
+      "references": ["color/mood_brand_mapping.md", "color/v3_2/WADA_WEB_ADAPTATION.md"]
+    },
+    {
+      "id": "FB-08",
+      "kind": "direction",
+      "label": "Abartılı / cırtlak / fazla",
+      "phrases": ["abartı*", "cırtlak*", "çok parlak", "fazla parlak", "gösterişli*", "çok fazla", "over the top", "flashy", "too much", "too loud"],
+      "likelySurfaces": ["palette", "motion", "imagery", "background"],
+      "causes": ["vurgu rengi çok geniş alana yayılmış", "sürekli veya eşzamanlı animasyon", "her bölümde 3D/efekt"],
+      "firstMoves": ["vurguyu yalnız yönlendirdiği yerlere çek", "hareketi tek baskın fikre indir"],
+      "avoid": ["her şeyi griye çekip kimliği silme"],
+      "references": ["v5/COLOR_RESTRAINT.md", "v5/CORE_DOCTRINE.md", "v5/MOTION_GRAMMAR_V2.md"]
+    },
+    {
+      "id": "FB-09",
+      "kind": "direction",
+      "label": "Boş / eksik / yavan",
+      "phrases": ["boş duruyor", "bomboş", "eksik duruyor", "yavan*", "empty", "sparse", "bare"],
+      "likelySurfaces": ["display-type", "hero", "imagery", "spacing"],
+      "causes": ["tipografi yükü taşımıyor", "boşluk bilinçli dinlenme alanı değil, doldurulmamış alan gibi duruyor"],
+      "firstMoves": ["süs eklemeden önce tipografi ölçeğini ve kompozisyon kararını güçlendir"],
+      "avoid": ["boşluğu dekorasyonla doldurma"],
+      "references": ["v5/DECORATION_VS_STRUCTURE.md", "v5/TYPOGRAPHY_FIRST_PREMIUM.md"]
+    },
+    {
+      "id": "FB-10",
+      "kind": "direction",
+      "label": "Eski / modası geçmiş",
+      "phrases": ["eski", "eski moda", "modası geçmiş", "demode", "outdated", "dated", "old fashioned"],
+      "likelySurfaces": ["display-type", "surfaces", "palette", "imagery"],
+      "causes": ["ağır gölge, kabartma ve gradyanlar", "dar içerik genişliği ve küçük başlıklar", "eski stok görseller"],
+      "firstMoves": ["gölge ve gradyanları kaldır, tipografi ölçeğini büyüt"],
+      "avoid": ["güncel görünmek için trend efekt kopyalama"],
+      "references": ["v5/TYPOGRAPHY_FIRST_PREMIUM.md", "quality/V7_VISUAL_CALIBRATION.md"]
+    },
+    {
+      "id": "FB-11",
+      "kind": "revert",
+      "label": "Önceki hali daha iyiydi",
+      "phrases": ["eskisi*", "öncekisi*", "önceki hali*", "önceki versiyon*", "eski haline", "eski hali*", "geri al*", "geri dön*", "revert", "undo", "go back", "previous version"],
+      "meaning": "Son değişiklik istenmedi. Yeni yön üretme; hangi değişikliğin geri alınacağını netleştir ve geri al."
+    }
+  ]
+}

@@ -1,5 +1,7 @@
 # 3D ART DIRECTOR v2
 
+> **Öncelik (v9):** Bu dosyanın yerini [`v6/THREE_D_DIRECTOR.md`](../../v6/THREE_D_DIRECTOR.md) aldı. Çakışmada o dosya geçerlidir; bu dosya yalnız arka plan bilgisi içindir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 ## Order of decisions
 1. Narrative purpose of 3D
 2. Primary object / environment

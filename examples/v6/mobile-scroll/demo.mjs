@@ -1,7 +1,6 @@
 import { observeScrollProgress, selectScrollMode } from '../../../runtime/scroll/scroll-progress.mjs';
 import { createFrameSequence } from '../../../runtime/scroll/frame-sequence.mjs';
 import { frameCount } from './sequence-config.mjs';
-import { observePointerLook } from '../../../runtime/three/pointer-look.mjs';
 
 const section = document.querySelector('.story');
 const stage = document.querySelector('.stage');
@@ -167,7 +166,10 @@ async function updatePolicy() {
     return;
   }
   try {
-    const { createLampScene } = await import('../../../runtime/three/lamp-scene.mjs');
+    const [{ createLampScene }, { observePointerLook }] = await Promise.all([
+      import('../../../runtime/three/lamp-scene.mjs'),
+      import('../../../runtime/three/pointer-look.mjs'),
+    ]);
     if (token !== generation) return;
     scene = createLampScene({
       canvas: sceneCanvas,

@@ -32,7 +32,7 @@ def main():
     if missing:
         return fail("Eksik v8 dosyaları: " + ", ".join(missing))
     manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
-    if manifest.get("version") != "8.0" or not manifest.get("v8"):
+    if manifest.get("version") not in {"8.0", "9.0"} or not manifest.get("v8"):
         return fail("manifest.json v8 bilgisi eksik.")
 
     candidates = json.loads((ROOT / "data/v8/source_candidates.json").read_text(encoding="utf-8"))

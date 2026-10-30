@@ -13,4 +13,6 @@ Konuşmada yürüyen bir iş varsa onu sürdür. `Devam et` gibi kısa bir istek
 
 Yeni bir site veya köklü yeniden tasarımda ana kütüphanenin `reference-engine/BRIEF_TO_REFERENCE.md` akışını uygula. Her site için önce tek ekranlık görsel önizleme ve kısa inceleme notu oluştur; sonra tam uygulamaya geç. Kullanıcı bir UI/UX kaynağı verdiyse görünür masaüstü, mobil ve etkileşim durumlarını ayrıntılı incele. Görmediğin durumu uydurma; “bire bir” sonucunu yalnız karşılaştırdığın kapsam için söyle. Küçük devam işlerinde yeni başlangıç referansı üretme.
 
+Kullanıcı sonucu beğenmediğini söylerse ana kütüphanenin `reference-engine/REVISION_FEEDBACK.md` akışını uygula: yalnız his varsa (“içime sinmedi”, “olmamış”) önce “Neresi?” diye seçeneklerle sor; “genel” cevabında arka plan, ilk ekran, baskın renk ve başlık tipografisinden başla; beğenilen yerleri koru. Değişen dosyaların tam yollarını söyle.
+
 İstenen tasarımı veya kodu uygula ve uygun şekilde doğrula. Kullanıcı yalnızca fikir ya da plan istiyorsa o kapsamda kal. Video promptu ve videodan kare akışını ancak kullanıcı video istediğinde aç; 3D veya scroll isteği tek başına video talebi değildir.

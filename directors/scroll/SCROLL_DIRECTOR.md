@@ -1,5 +1,7 @@
 # SCROLL DIRECTOR v2.2
 
+> **Öncelik (v9):** Bu dosya [`directors/v3_1/SCROLL_DIRECTOR.md`](../v3_1/SCROLL_DIRECTOR.md) ile birlikte kullanılır; çakışmada o dosya geçerlidir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 Scroll is not an entrance-animation trigger. It is a **progress and navigation signal** that may control spatial depth, narrative state, media, typography, 3D camera/object state or quiet atmospheric changes.
 
 ## Mandatory decision sequence

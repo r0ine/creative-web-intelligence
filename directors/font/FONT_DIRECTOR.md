@@ -1,5 +1,7 @@
 # FONT DIRECTOR v2
 
+> **Öncelik (v9):** Bu dosyanın yerini [`directors/v3_2/TYPOGRAPHY_DIRECTOR.md`](../v3_2/TYPOGRAPHY_DIRECTOR.md) aldı. Çakışmada o dosya geçerlidir; bu dosya yalnız arka plan bilgisi içindir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 ## Goal
 Choose and explain a typographic system instead of defaulting to a fashionable font.
 
