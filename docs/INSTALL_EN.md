@@ -11,7 +11,7 @@ Creative Web Intelligence is a collection of design guidance, local checks, and 
 ```sh
 git clone https://github.com/r0ine/creative-web-intelligence.git
 cd creative-web-intelligence
-python tools/v8/validate_v8.py
+python tools/validate_all.py
 ```
 
 The validator also checks earlier catalogs and runs the v7 Node tests. Use the corresponding executable names if Python or Node are installed under different names on your system.
@@ -90,7 +90,7 @@ If you have a local video and FFmpeg, follow `runtime/media/README.md` to create
 ## Tests
 
 ```sh
-python tools/v8/validate_v8.py
+python tools/validate_all.py
 python -m unittest discover -s tests -v
 node --test tests/*.test.mjs
 ```

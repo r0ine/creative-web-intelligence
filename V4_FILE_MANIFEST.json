@@ -1539,16 +1539,6 @@
       "sha256": "62d5f7d8eb80da290ac1feaebc8e86157a3c18820da468cd1f64bb2c10f47523"
     },
     {
-      "path": "tools/v4/__pycache__/source_intelligence.cpython-313.pyc",
-      "bytes": 13140,
-      "sha256": "1e08ecc9159c1576dac46646a2c4ef7c99bc99d4da4627116bac3a3993665db0"
-    },
-    {
-      "path": "tools/v4/__pycache__/validate_v4.cpython-313.pyc",
-      "bytes": 2879,
-      "sha256": "9d1979a76a6152638fea9e1171e6b06f928f1d9885bcfd85fb018c144e86e245"
-    },
-    {
       "path": "tools/v4/source_intelligence.py",
       "bytes": 6163,
       "sha256": "e143807a0cbffae029921ba0a0ae41f406123c9eaa16f049632c512de22731cd"

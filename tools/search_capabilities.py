@@ -6,7 +6,7 @@ q=' '.join(sys.argv[1:]).lower().strip()
 if not q:
     print('usage: python tools/search_capabilities.py <query>'); raise SystemExit(2)
 for f in ['font_pairings.json','composition_recipes.json','motion_recipes.json','three_art_recipes.json']:
-    data=json.loads((ROOT/'data/v2'/f).read_text())
+    data=json.loads((ROOT/'data/v2'/f).read_text(encoding='utf-8'))
     hits=[]
     for item in data:
         text=json.dumps(item,ensure_ascii=False).lower()

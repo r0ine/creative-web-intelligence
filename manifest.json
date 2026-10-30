@@ -6,7 +6,7 @@
     "compositionRecipes": 90,
     "motionRecipes": 80,
     "threeArtRecipes": 50,
-    "compatibilityEdges": 238,
+    "compatibilityEdges": 249,
     "qaChecks": 64,
     "researchSources": 32,
     "currentAwwwardsQueue": 25
@@ -25,7 +25,12 @@
     "tools/v6/check_media_studio.cjs",
     "tools/v7/validate_v7.py",
     "tools/v7/audit_visual_defaults.mjs",
-    "tools/v7/install_codex_skill.py"
+    "tools/v7/install_codex_skill.py",
+    "tools/v8/source_advisor.py",
+    "tools/v8/experience_plan.mjs",
+    "tools/v8/validate_v8.py",
+    "tools/check_links.py",
+    "tools/validate_all.py"
   ],
   "external_open_source_registry": {
     "count": 37,

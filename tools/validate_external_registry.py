@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 p=root/'integrations'/'open-source'/'open_source_library_registry.json'
-d=json.loads(p.read_text())
+d=json.loads(p.read_text(encoding='utf-8'))
 ids=set(); errs=[]
 for x in d['libraries']:
     if x['id'] in ids: errs.append('duplicate id '+x['id'])

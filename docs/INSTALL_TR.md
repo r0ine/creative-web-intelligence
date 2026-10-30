@@ -11,7 +11,7 @@ Creative Web Intelligence; tasarım karar belgeleri, yerel denetim araçları ve
 ```sh
 git clone https://github.com/r0ine/creative-web-intelligence.git
 cd creative-web-intelligence
-python tools/v8/validate_v8.py
+python tools/validate_all.py
 ```
 
 Doğrulama, önceki katalogları ve v7'nin Node testlerini de çalıştırır. Python veya Node komutu sisteminde farklı adla kuruluysa o adı kullan.
@@ -90,7 +90,7 @@ Elinde yerel video ve FFmpeg varsa dönüştürme adımları `runtime/media/READ
 ## Testler
 
 ```sh
-python tools/v8/validate_v8.py
+python tools/validate_all.py
 python -m unittest discover -s tests -v
 node --test tests/*.test.mjs
 ```

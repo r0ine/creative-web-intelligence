@@ -2,7 +2,7 @@
 import json, pathlib, sys
 root=pathlib.Path(__file__).resolve().parents[1]
 q=' '.join(sys.argv[1:]).lower().strip()
-recipes=json.loads((root/'data/v2/scroll_recipes.json').read_text())
+recipes=json.loads((root/'data/v2/scroll_recipes.json').read_text(encoding='utf-8'))
 if not q:
     print('usage: python tools/search_scroll_recipes.py <query>'); raise SystemExit(2)
 terms=q.split()
