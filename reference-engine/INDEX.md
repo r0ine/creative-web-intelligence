@@ -4,3 +4,4 @@
 - `video_capture_checklist.md`
 - `BRIEF_TO_REFERENCE.md` — isteği çözme, kısa görsel önizleme ve tam uygulamaya geçiş.
 - `REVISION_FEEDBACK.md` — sonuç beğenilmediğinde “neresi?” sorusu, genel geri bildirimde en görünür yüzeylerden başlama ve revizyon notu.
+- `REFERENCE_LAB.md` — referans siteyi wget ile indirme, Playwright ile canlı ölçme, düzenleme haritası, açık kaynak şablonlar ve karşılaştırma.

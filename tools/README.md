@@ -18,6 +18,15 @@ Komutlar depo kökünden çalıştırılır. Python araçları 3.11+ ve yalnız 
 - `v9/feedback_triage.py "<geri bildirim>" [--answer "<cevap>"]`: belirsiz geri bildirimi konum, yön, korunacak yer ve sorulacak soruya çevirir. [Akış](../reference-engine/REVISION_FEEDBACK.md).
 - `v9/precedence.py [--domain | --file | --id | --conflict]`: geçerli director'ı ve bir kaydı etkileyen sürümler arası çakışmayı gösterir. [Kural önceliği](../v9/RULE_PRECEDENCE.md).
 
+## Referans laboratuvarı
+
+- `v10/mirror_reference.py <adres>`: siteyi wget ile indirir (robots.txt'e uyar, derinlik/kota sınırlı); `capture.json` kullanım kararını yazar. [Akış](../reference-engine/REFERENCE_LAB.md).
+- `v10/capture_reference.mjs <adres> | --workspace <klasör>`: Playwright ile canlı ekran görüntüsü, alan paleti, kontrast, animasyon; axe-core varsa erişilebilirlik.
+- `v10/analyze_reference.py <çalışma-alanı>`: tasarım ölçüleri, kütüphaneler, yapı, erişilebilirlik, ağırlık ve düzenleme haritası.
+- `v10/compare_reference.mjs <referans> <yeni>`: aynı ekran ölçüsünde fark görüntüsü ve en farklı bölge.
+- `v10/template_catalog.py`: açık kaynak şablon ve bileşenleri lisansa göre listeler.
+- `v10/validate_v10.py`: laboratuvarın v9 yüzeyleri ve çakışma kaydıyla tutarlılığını denetler; ardından v9 zincirini çalıştırır.
+
 ## Seçim ve arama
 
 - `v8/source_advisor.py`: tek başlangıç referansı seçer, kaynak fişi üretir ve şablon/UI/motion/3D çakışmalarını denetler. Çevrimdışı çalışır; [v8 rehberi](../source-intelligence/V8_SOURCE_INTELLIGENCE.md).

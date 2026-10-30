@@ -35,7 +35,7 @@ Kullanıcı “genel” derse ilk izlenimi en çok taşıyan yüzeyleri sırayla
 4. **Başlık tipografisi**: font, ölçek farkı, ağırlık.
 5. **Görsel, medya ve 3D** · 6. **Boşluk ritmi** · 7. **Kart, buton ve köşe dili** · 8. **Menü** · 9. **Gövde metni** · 10. **Hareket** · 11. **İkon ve mikro detay**
 
-İlk üç yüzeyi birlikte değiştiren 2-3 yön hazırla ve yalnız ilk ekranda göster. Her yön için bir cümleyle neyin değiştiğini yaz. Mikro detaylarla, ikonlarla veya hareketle başlama: bunlar büyük yüzeyler doğruyken fark yaratır. Kullanıcının beğendiğini söylediği yüzey listeden çıkarılır.
+İlk üç yüzeyi birlikte değiştiren 2-3 yön hazırla ve yalnız ilk ekranda göster. Her yön için bir cümleyle neyin değiştiğini yaz. Mikro detaylarla, ikonlarla veya hareketle başlama: bunlar büyük yüzeyler doğruyken fark yaratır. Kullanıcının beğendiğini söylediği yüzey listeden çıkarılır. Referans [laboratuvarda](REFERENCE_LAB.md) incelendiyse `analysis.md` içindeki düzenleme haritası her yüzeyin dosya ve satırını gösterir.
 
 Genel geri bildirimle birlikte bir yön de söylendiyse (“genel olarak ucuz duruyor”), sıradaki yüzeylerden o yönle ilgili olanları seç. Yönlerin olası nedenleri, ilk hamleleri ve kaçınılacak düzeltmeleri [`data/v9/feedback_lexicon.json`](../data/v9/feedback_lexicon.json) içindedir. Örneğin “ucuz” hissi parlaklık ekleyerek değil; tipografi ölçeği, boşluk ritmi ve kutu azaltarak düzeltilir.
 

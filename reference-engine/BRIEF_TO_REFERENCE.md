@@ -12,7 +12,7 @@ Karar verdiren boşluklar için bir turda en fazla üç kısa soru sor. Önce ş
 
 Kullanıcı URL, ekran görüntüsü veya video verdiyse yalnız ilgili sayfa ve durumları derinlemesine incele. Görülebilen masaüstü ve mobil ölçülerini, bölüm sınırlarını, hizaları, boşlukları, yazı kırılmalarını, medya kırpmasını, navigasyonu, CTA yolunu, hover/dokunma/klavye tepkilerini, yükleme-hata-boş durumlarını ve hareket tetiklerini kaydet. Scroll veya 3D varsa başlangıç, orta ve son durumunu; nesne, kamera, ışık ve metin ilişkisini izle. Görmediğin bir mobil düzeni veya animasyon süresini uydurma.
 
-Her bulguyu **görüldü**, **çıkarıldı** veya **önerildi** olarak ayır. Erişilemeyen kaynak için `NEEDS_CAPTURE` yaz ve yalnız eksik kanıtı sağlayacak soruyu sor. Font adı, CSS değeri veya kullanılan teknoloji ancak doğrudan doğrulanıyorsa kesin ifade edilir. İnceleme ayrıntılı olabilir; kullanıcıya verilecek ilk referans kısa kalır. Kaynak kullanım sınırları için [haklara uygun rekreasyon](../reference-recreation/RIGHTS_SAFE_RECREATION.md) geçerlidir.
+Kaynak bir site adresiyse [referans laboratuvarı](REFERENCE_LAB.md) ile indir, canlı ölç ve analiz raporunu kanıt olarak kullan. Her bulguyu **görüldü**, **çıkarıldı** veya **önerildi** olarak ayır. Erişilemeyen kaynak için `NEEDS_CAPTURE` yaz ve yalnız eksik kanıtı sağlayacak soruyu sor. Font adı, CSS değeri veya kullanılan teknoloji ancak doğrudan doğrulanıyorsa kesin ifade edilir. İnceleme ayrıntılı olabilir; kullanıcıya verilecek ilk referans kısa kalır. Kaynak kullanım sınırları için [haklara uygun rekreasyon](../reference-recreation/RIGHTS_SAFE_RECREATION.md) geçerlidir.
 
 ## 3. Tek ekranlık referansı üret
 

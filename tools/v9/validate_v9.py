@@ -225,7 +225,7 @@ def main():
         print("Eksik v9 dosyaları: " + ", ".join(missing), file=sys.stderr)
         return 1
     manifest = json.loads((ROOT / "manifest.json").read_text(encoding="utf-8"))
-    errors = [] if manifest.get("version") == "9.0" and manifest.get("v9") else ["manifest.json v9 bilgisi eksik."]
+    errors = [] if float(manifest.get("version", 0)) >= 9 and manifest.get("v9") else ["manifest.json v9 bilgisi eksik."]
     errors += check_feedback() + check_precedence()
     for error in errors:
         print("- " + error, file=sys.stderr)
