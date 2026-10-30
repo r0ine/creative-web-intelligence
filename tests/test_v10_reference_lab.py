@@ -161,6 +161,25 @@ class AnalyzerTests(unittest.TestCase):
         known = {c["id"] for c in register["conflicts"]} | {"v7"}
         self.assertTrue(conflicts <= known)
 
+    def test_fonts_set_through_custom_properties_are_resolved(self):
+        # Kütüphanenin önerdiği var(--font-*) kalıbı CF-007 denetimini atlamamalı.
+        with tempfile.TemporaryDirectory() as folder:
+            Path(folder, "index.html").write_text('<html lang="tr"><head><title>t</title>'
+                '<link rel="stylesheet" href="style.css"></head><body><h1>x</h1></body></html>', encoding="utf-8")
+            Path(folder, "style.css").write_text(
+                ':root { --font-display: Inter; --font-body: Georgia; }\n'
+                'h1 { font-family: var(--font-display); }\nbody { font-family: var(--font-body), serif; }\n', encoding="utf-8")
+            result = ANALYZE.analyse(folder)
+        families = [f["family"] for f in result["tokens"]["fonts"]]
+        self.assertIn("Inter", families)
+        self.assertIn("Georgia", families)
+        self.assertIn("CF-007", {note["conflict"] for note in result["ruleNotes"]})
+
+    def test_generic_family_keywords_are_not_counted_as_fonts(self):
+        self.assertEqual(ANALYZE.first_family("var(--x), sans-serif"), None)
+        self.assertEqual(ANALYZE.first_family('"Fraunces", Georgia, serif'), "Fraunces")
+        self.assertEqual(ANALYZE.first_family("700 1rem/1.4 Inter, sans-serif"), "Inter")
+
     def test_tokens_css_and_report(self):
         css = ANALYZE.tokens_css(self.result["tokens"])
         self.assertIn("--ref-background: #f4f1ea;", css)
