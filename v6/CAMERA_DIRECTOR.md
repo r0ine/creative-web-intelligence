@@ -1,5 +1,7 @@
 # Camera Director v6
 
+> **Öncelik (v9):** Bu dosya [`v6/THREE_D_DIRECTOR.md`](THREE_D_DIRECTOR.md) ile birlikte kullanılır; çakışmada o dosya geçerlidir. Ayrıntı: [kural önceliği](../v9/RULE_PRECEDENCE.md).
+
 Camera motion on the web is cinematography. It follows the same rules as film: every move communicates something. Random movement communicates nothing.
 
 ## Camera vocabulary

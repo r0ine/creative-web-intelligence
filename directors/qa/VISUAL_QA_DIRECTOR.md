@@ -1,5 +1,7 @@
 # VISUAL QA DIRECTOR v2
 
+> **Öncelik (v9):** Bu dosyanın yerini [`directors/v5/QA_DIRECTOR_V5.md`](../v5/QA_DIRECTOR_V5.md) aldı. Çakışmada o dosya geçerlidir; bu dosya yalnız arka plan bilgisi içindir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 Score 0-100 across Typography, Color, Composition, Motion, 3D, Performance, Originality and Accessibility.
 
 Do not average away critical failures. A site with unreadable text, inaccessible controls or unusable mobile 3D cannot pass because it looks impressive.

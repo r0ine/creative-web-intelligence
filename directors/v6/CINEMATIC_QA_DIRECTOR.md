@@ -1,5 +1,7 @@
 # CINEMATIC QA DIRECTOR v6
 
+> **Öncelik (v9):** Bu dosya [`directors/v5/QA_DIRECTOR_V5.md`](../v5/QA_DIRECTOR_V5.md) ile birlikte kullanılır; çakışmada o dosya geçerlidir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 Runs the V6 Cinematic Purpose Gate, the V6 3D Performance Gate, and the V6 Frame Sequence Gate. Works alongside (not instead of) the v5 QA Director.
 
 ## Gate stack

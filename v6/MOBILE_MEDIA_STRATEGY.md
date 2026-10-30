@@ -82,7 +82,7 @@ HTML carries content. Media illustrates and enhances. This is not a guideline â€
 
 # Scroll Experience Director v6
 
-Upgrades the existing scroll system (`scroll/SCROLL_DIRECTOR.md`) with cinematic medium awareness.
+Upgrades the existing scroll system (`directors/scroll/SCROLL_DIRECTOR.md`) with cinematic medium awareness.
 
 ## Scroll modes
 

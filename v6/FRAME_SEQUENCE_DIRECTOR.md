@@ -1,5 +1,7 @@
 # Frame Sequence Director v6
 
+> **Öncelik (v9):** Bu dosya [`directors/v6/MEDIA_DIRECTOR.md`](../directors/v6/MEDIA_DIRECTOR.md) ile birlikte kullanılır; çakışmada o dosya geçerlidir. Ayrıntı: [kural önceliği](../v9/RULE_PRECEDENCE.md).
+
 ## What a frame sequence is
 
 A scroll-scrubbed frame sequence replaces a video with individually decoded images rendered to a `<canvas>`. As the user scrolls, the canvas draws the frame corresponding to the scroll position. The user controls time.

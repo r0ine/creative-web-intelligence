@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Kütüphanenin bütün doğrulayıcılarını tek komutla çalıştırır.
 
-v8 doğrulayıcısı v7 → v6 → v5, v4, v3.2 zincirini kapsar; geri kalanlar burada eklenir.
+v9 doğrulayıcısı v8 → v7 → v6 → v5, v4, v3.2 zincirini kapsar; geri kalanlar burada eklenir.
 """
 
 import subprocess
@@ -17,7 +17,7 @@ CHECKS = (
     ('Harici kütüphane kaydı', 'tools/validate_external_registry.py'),
     ('v3', 'tools/v3/validate_v3_library.py'),
     ('v3.1', 'tools/v3_1/validate_v31.py'),
-    ('v8 zinciri (v7, v6, v5, v4, v3.2)', 'tools/v8/validate_v8.py'),
+    ('v9 zinciri (v8, v7, v6, v5, v4, v3.2)', 'tools/v9/validate_v9.py'),
 )
 
 

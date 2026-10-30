@@ -1,5 +1,7 @@
 # TYPOGRAPHY DIRECTOR v3.1
 
+> **Öncelik (v9):** Bu dosyanın yerini [`directors/v3_2/TYPOGRAPHY_DIRECTOR.md`](../v3_2/TYPOGRAPHY_DIRECTOR.md) aldı. Çakışmada o dosya geçerlidir; bu dosya yalnız arka plan bilgisi içindir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 Typography decisions are made in this order:
 
 1. content language/script coverage

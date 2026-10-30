@@ -4,15 +4,22 @@
 
 **Kurulum ve kullanım:** [Türkçe](docs/INSTALL_TR.md) · [English](docs/INSTALL_EN.md)
 
-**v8 sürüm notları:** [Türkçe](RELEASE_NOTES_V8.md) · [English](RELEASE_NOTES_V8.en.md)
+**v9 sürüm notları:** [Türkçe](RELEASE_NOTES_V9.md) · [English](RELEASE_NOTES_V9.en.md)
 
 Kreatif web projeleri için tasarım kararları, kaynak katalogları, denetim araçları ve çalışan medya örnekleri. Tipografi, kompozisyon, renk, hareket ve medya seçiminde kullanılır.
+
+v9 kullanıcıyı anlamaya odaklanır. Kullanıcı “içime sinmedi” dediğinde ajan rastgele değişiklik yapmaz; önce **neresi** olduğunu sorar. “Genel” cevabında arka plan, ilk ekran, baskın renk ve başlık tipografisi gibi en çok görünen yüzeylerden başlar ve beğenilen yerleri korur ([revizyon akışı](reference-engine/REVISION_FEEDBACK.md)). Kütüphane büyüdükçe artan kural çakışmaları için [kural önceliği](v9/RULE_PRECEDENCE.md) hangi director'ın geçerli olduğunu ve bilinen sekiz çelişkinin çözümünü tek yerde toplar. [v9 başlangıcı](START_HERE_V9.md) iki akışı da özetler.
+
+```sh
+python tools/v9/feedback_triage.py "içime sinmedi" --answer "genel"
+python tools/v9/precedence.py --id font-029
+```
 
 v8, 46 GitHub kaynağını araştırma ve seçim sistemine dönüştürür. Tek başlangıç referansı seçer; README bulgularını görsel olarak incelenmemiş alanlardan ayırır ve şablon, UI, animasyon, 3D ve lisans çakışmalarını denetler. v7'nin görsel karşılaştırması ile v6'nın mobil scroll ve 3D araçları korunur.
 
 ## Başlangıç
 
-Tasarım çalışması için [v8 başlangıcını](START_HERE_V8.md) oku. İhtiyaca göre v5 görsel özgünlük ve kompozisyon kurallarını, v6 medya kararlarını aç.
+Tasarım çalışması için [v9 başlangıcını](START_HERE_V9.md) ve [v8 başlangıcını](START_HERE_V8.md) oku. İhtiyaca göre v5 görsel özgünlük ve kompozisyon kurallarını, v6 medya kararlarını aç.
 
 [v8 kaynak danışmanı](README_V8.md), kullanıcının verdiği 46 adresin güncel durumunu ve [beş mercekli inceleme akışını](source-intelligence/V8_SOURCE_INTELLIGENCE.md) birleştirir. Katalog kod indirmez; seçilen kaynağın gerçek lisansı ve görsel davranışı uygulamadan önce ayrıca doğrulanır.
 

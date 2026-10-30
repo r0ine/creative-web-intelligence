@@ -1,5 +1,7 @@
 # MOTION DIRECTOR v2
 
+> **Öncelik (v9):** Bu dosyanın yerini [`directors/v5/MOTION_DIRECTOR_V5.md`](../v5/MOTION_DIRECTOR_V5.md) aldı. Çakışmada o dosya geçerlidir; bu dosya yalnız arka plan bilgisi içindir. Ayrıntı: [kural önceliği](../../v9/RULE_PRECEDENCE.md).
+
 ## Motion hierarchy
 Every scene gets one dominant motion idea. Secondary motion must support it.
 

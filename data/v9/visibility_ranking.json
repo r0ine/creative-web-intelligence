@@ -1,0 +1,116 @@
+{
+  "$comment": "Mirrors reference-engine/REVISION_FEEDBACK.md. Surfaces are ranked by how much of the first impression they carry; rank 1 changes the perceived site most. Phrases ending in * match as a word prefix; others match whole words only.",
+  "version": "9.0",
+  "surfaces": [
+    {
+      "id": "background",
+      "rank": 1,
+      "label": "Arka plan ve zemin",
+      "why": "Ekranın en büyük alanı; tonu, sıcaklığı ve açık/koyu kararı sitenin ilk hissini belirler.",
+      "phrases": ["arka plan*", "arkaplan*", "zemin*", "fon", "fonu", "background*", "backdrop*"],
+      "changes": ["zemin tonu: sıcak/soğuk, açık/koyu", "bölümler arası zemin geçişi", "doku veya düz yüzey", "zemin ile metin arasındaki kontrast"],
+      "cssHints": ["body", ":root --bg / --surface tokenları", "section arka planları"],
+      "references": ["color/v3_2/WADA_WEB_ADAPTATION.md", "v5/COLOR_RESTRAINT.md", "quality/V7_VISUAL_CALIBRATION.md"]
+    },
+    {
+      "id": "hero",
+      "rank": 2,
+      "label": "İlk ekran (hero) kompozisyonu",
+      "why": "Açılışta görülen tek ekran; başlığın yeri, ana görselin kırpması ve odak noktası burada kurulur.",
+      "phrases": ["hero*", "ilk ekran*", "acilis*", "karsilama*", "giris ekran*", "ust kisim*", "en ust*", "banner*", "first screen*", "above the fold"],
+      "changes": ["başlık ve görselin yerleşimi", "odak noktası ve okuma yolu", "ana görselin kırpması ve ölçeği", "CTA'nın konumu"],
+      "cssHints": [".hero veya ilk <section>", "header + ilk bölüm yüksekliği"],
+      "references": ["layout/heroes_navigation.md", "directors/v5/COMPOSITION_DIRECTOR_V5.md", "reference-recreation/PIXEL_CLOSE_QA.md"]
+    },
+    {
+      "id": "palette",
+      "rank": 3,
+      "label": "Baskın renk ve vurgu oranı",
+      "why": "Nötr/destek/vurgu alan oranı bozulunca site gürültülü ya da cansız görünür.",
+      "phrases": ["renk*", "reng*", "palet*", "vurgu*", "ton", "tonu", "tonlar*", "color*", "colour*", "palette*", "accent*"],
+      "changes": ["vurgu renginin alanı ve kullanıldığı yerler", "nötr/destek/vurgu oranı", "doygunluk ve açıklık seviyeleri"],
+      "cssHints": [":root renk tokenları", "--accent kullanımları"],
+      "references": ["color/v3_2/WADA_WEB_ADAPTATION.md", "color/combination_theory.md", "v5/COLOR_RESTRAINT.md"]
+    },
+    {
+      "id": "display-type",
+      "rank": 4,
+      "label": "Başlık tipografisi",
+      "why": "Büyük başlıklar sitenin sesidir; font, ölçek farkı ve ağırlık premium/ucuz hissini en çok bunlar belirler.",
+      "phrases": ["baslik*", "baslig*", "font*", "yazi tipi*", "yazi*", "harf*", "typography", "typeface*", "heading*", "headline*"],
+      "changes": ["başlık fontu veya ağırlığı", "başlık ile gövde arasındaki ölçek farkı", "satır aralığı ve harf aralığı", "başlık satır kırılımları"],
+      "cssHints": ["h1, h2", "--font-display ve tip ölçeği tokenları"],
+      "references": ["v5/TYPOGRAPHY_FIRST_PREMIUM.md", "directors/v3_2/TYPOGRAPHY_DIRECTOR.md", "typography/type_scale_hierarchy.md"]
+    },
+    {
+      "id": "imagery",
+      "rank": 5,
+      "label": "Görsel, medya ve 3D",
+      "why": "Fotoğraf, illüstrasyon veya 3D nesne alanın büyük kısmını kaplar ve içeriğin gerçekliğini taşır.",
+      "phrases": ["gorsel*", "resim*", "fotograf*", "foto", "fotolar*", "illustrasyon*", "3d", "model*", "video*", "image*", "photo*", "illustration*"],
+      "changes": ["görsel seçimi veya kırpması", "medya türü: fotoğraf, 3D, statik kompozisyon", "görsel ile metin ilişkisi"],
+      "cssHints": ["img, picture, video, canvas", "medya kapsayıcılarının oranı"],
+      "references": ["v6/MEDIA_DECISION_ENGINE.md", "assets/ILLUSTRATION_SELECTION.md", "v6/THREE_D_DIRECTOR.md"]
+    },
+    {
+      "id": "spacing",
+      "rank": 6,
+      "label": "Boşluk ritmi ve yoğunluk",
+      "why": "Sıkışık ya da dağınık boşluk, tek tek öğeler doğru olsa bile bütünü ucuz veya yorucu gösterir.",
+      "phrases": ["bosluk*", "aralik*", "nefes*", "yogunluk*", "sikisik*", "spacing", "padding", "whitespace", "density"],
+      "changes": ["bölüm arası dikey ritim", "içerik genişliği ve satır uzunluğu", "dinlenme alanları"],
+      "cssHints": ["section padding", "--space ölçeği", "max-width / container"],
+      "references": ["v5/REST_ZONES.md", "v5/COMPOSITION_RESTRAINT.md", "layout/grid_spacing.md"]
+    },
+    {
+      "id": "surfaces",
+      "rank": 7,
+      "label": "Kart, kutu, buton ve köşe dili",
+      "why": "Aynı kutu şablonunun her yerde dolaşması sitenin şablon gibi görünmesinin en sık nedenidir.",
+      "phrases": ["kart*", "kutu*", "buton*", "dugme*", "kose*", "kenarlik*", "cerceve*", "golge*", "card*", "button*", "border*", "shadow*", "corner*"],
+      "changes": ["kutu kullanımını içerik türüne göre ayırma", "köşe ailesi", "gölge ve kenarlık yoğunluğu", "buton biçimi"],
+      "cssHints": [".card, button", "border-radius, box-shadow, border tokenları"],
+      "references": ["quality/V7_VISUAL_CALIBRATION.md", "v5/DECORATION_VS_STRUCTURE.md", "v5/DIVIDER_POLICY.md"]
+    },
+    {
+      "id": "navigation",
+      "rank": 8,
+      "label": "Menü ve üst bar",
+      "why": "Her sayfada görünür; kalabalık veya kopuk bir menü bütün siteyi etkiler.",
+      "phrases": ["menu*", "ust bar*", "navigasyon*", "header*", "navbar*", "navigation*", "footer*", "alt bilgi*"],
+      "changes": ["menü yoğunluğu ve hizası", "üst barın yüksekliği ve zemini", "mobil menü davranışı"],
+      "cssHints": ["header, nav, footer"],
+      "references": ["layout/heroes_navigation.md", "interaction/navigation_scroll.md"]
+    },
+    {
+      "id": "body-type",
+      "rank": 9,
+      "label": "Gövde metni ve okunabilirlik",
+      "why": "Uzun okumada yorgunluk ve okunmazlık güveni düşürür; ilk izlenimde daha az görünür.",
+      "phrases": ["metin*", "paragraf*", "okunmuyor", "okunabilir*", "kucuk yazi*", "govde*", "body text", "paragraph*", "readability", "legibility"],
+      "changes": ["gövde font boyutu ve satır aralığı", "satır uzunluğu", "metin kontrastı"],
+      "cssHints": ["p, li", "--font-body, --measure"],
+      "references": ["typography/responsive_accessibility.md", "typography/type_scale_hierarchy.md", "color/accessibility_contrast.md"]
+    },
+    {
+      "id": "motion",
+      "rank": 10,
+      "label": "Hareket ve animasyon",
+      "why": "Statik ilk izlenimden sonra fark edilir; ama her öğenin aynı biçimde hareket etmesi şablon hissini güçlendirir.",
+      "phrases": ["animasyon*", "hareket*", "kayma*", "kaydir*", "gecis*", "scroll*", "animation*", "motion", "transition*"],
+      "changes": ["hangi öğelerin hareket ettiği", "süre ve easing'in role göre ayrılması", "hareketsiz okuma aralıkları"],
+      "cssHints": ["transition, animation, @keyframes", "scroll tetikleyicileri"],
+      "references": ["v5/MOTION_GRAMMAR_V2.md", "directors/v5/MOTION_DIRECTOR_V5.md", "quality/V7_VISUAL_CALIBRATION.md"]
+    },
+    {
+      "id": "details",
+      "rank": 11,
+      "label": "İkon ve mikro detaylar",
+      "why": "Tek başına ilk izlenimi nadiren değiştirir; büyük yüzeyler doğru olduktan sonra ele alınır.",
+      "phrases": ["ikon*", "simge*", "detay*", "icon*", "detail*"],
+      "changes": ["ikon ailesi ve çizgi kalınlığı", "optik hizalama", "küçük süslemeler"],
+      "cssHints": ["svg ikonlar", "küçük dekoratif öğeler"],
+      "references": ["icons/ICON_SYSTEM_V4.md", "icons/OPTICAL_ALIGNMENT.md"]
+    }
+  ]
+}
