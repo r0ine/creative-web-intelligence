@@ -125,6 +125,41 @@ def colors_in(value, variables):
     return [c for c in found if c]
 
 
+GENERIC_FAMILIES = {"sans-serif", "serif", "monospace", "system-ui", "ui-sans-serif", "ui-serif", "ui-monospace",
+                    "inherit", "initial", "unset", "revert", "cursive", "fantasy", "-apple-system", "blinkmacsystemfont",
+                    "emoji", "math", "fangsong"}
+FONT_STYLE_WORDS = {"normal", "italic", "oblique", "bold", "bolder", "lighter", "small-caps", "condensed", "expanded",
+                    *(str(w) for w in range(100, 1000, 100))}
+SIZE_TOKEN = re.compile(r"^[\d.]+(px|rem|em|ex|ch|%|pt|pc|vw|vh|vmin|vmax)?$")
+
+
+def first_family(value):
+    """font-family veya font kısayolundan ilk gerçek aile adını alır; boyut, ağırlık, var() ve genel aileler atlanır."""
+    for part in value.split(","):
+        kept = []
+        for word in part.replace("/", " ").split():
+            token = word.strip("\"'")
+            if SIZE_TOKEN.match(token) or token.lower() in FONT_STYLE_WORDS:
+                continue
+            kept.append(token)
+        name = " ".join(kept).strip()
+        if not name or name.startswith("var(") or name.lower() in GENERIC_FAMILIES:
+            continue
+        return name
+    return None
+
+
+def families_in(value, font_vars):
+    """font-family değerindeki aileleri, var(--font-*) değişkenlerini çözerek döndürür."""
+    names = []
+    for name in re.findall(r"var\(\s*(--[\w-]+)", value):
+        names += font_vars.get(name, [])
+    direct = first_family(re.sub(r"var\([^)]*\)", "", value))
+    if direct:
+        names.append(direct)
+    return names
+
+
 def luminance(hex_value):
     channels = [int(hex_value[i:i + 2], 16) / 255 for i in (1, 3, 5)]
     linear = [c / 12.92 if c <= 0.03928 else ((c + 0.055) / 1.055) ** 2.4 for c in channels]
@@ -305,9 +340,13 @@ def analyse(target):
     font_faces = [d for d in declarations if d["selector"].startswith("@font-face") and d["property"] == "font-family"]
 
     variables = defaultdict(list)
+    font_vars = defaultdict(list)
     for d in declarations:
         if d["property"].startswith("--"):
             variables[d["property"]] += [c for c in (hex_color(m.group(0)) for m in COLOR.finditer(d["value"])) if c]
+            family = first_family(d["value"])
+            if family and not COLOR.search(d["value"]):
+                font_vars[d["property"]].append(family)
 
     roles = {"background": Counter(), "text": Counter(), "border": Counter(), "other": Counter()}
     for d in declarations:
@@ -323,9 +362,8 @@ def analyse(target):
     families = Counter()
     for d in declarations:
         if d["property"] in {"font-family", "font"} and not d["selector"].startswith("@font-face"):
-            match = re.search(r"([\"']?)([A-Za-z][\w \-]+)\1\s*(,|$)", d["value"].split("/")[-1] if d["property"] == "font" else d["value"])
-            if match:
-                families[match.group(2).strip()] += 1
+            for family in families_in(d["value"], font_vars):
+                families[family] += 1
     google = [re.findall(r"family=([^&:\"']+)", src) for _, probe, _ in pages for src in probe.stylesheets]
     google_families = sorted({name.replace("+", " ") for group in google for name in group})
 

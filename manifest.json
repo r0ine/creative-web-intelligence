@@ -39,6 +39,7 @@
     "tools/v10/analyze_reference.py",
     "tools/v10/compare_reference.mjs",
     "tools/v10/template_catalog.py",
+    "tools/v10/extract_content.py",
     "tools/v10/validate_v10.py"
   ],
   "external_open_source_registry": {
@@ -142,6 +143,7 @@
     "analyzer": "tools/v10/analyze_reference.py",
     "compare": "tools/v10/compare_reference.mjs",
     "templateCatalog": "tools/v10/template_catalog.py",
+    "contentExtractor": "tools/v10/extract_content.py",
     "styleMetrics": "runtime/reference/style-metrics.mjs",
     "validator": "tools/v10/validate_v10.py",
     "releaseNotes": ["RELEASE_NOTES_V10.md", "RELEASE_NOTES_V10.en.md"]

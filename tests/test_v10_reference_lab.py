@@ -23,6 +23,7 @@ def load(name, relative):
 MIRROR = load("mirror_reference", "tools/v10/mirror_reference.py")
 ANALYZE = load("analyze_reference", "tools/v10/analyze_reference.py")
 CATALOG = load("template_catalog", "tools/v10/template_catalog.py")
+CONTENT = load("extract_content", "tools/v10/extract_content.py")
 
 
 class MirrorCommandTests(unittest.TestCase):
@@ -160,6 +161,25 @@ class AnalyzerTests(unittest.TestCase):
         known = {c["id"] for c in register["conflicts"]} | {"v7"}
         self.assertTrue(conflicts <= known)
 
+    def test_fonts_set_through_custom_properties_are_resolved(self):
+        # Kütüphanenin önerdiği var(--font-*) kalıbı CF-007 denetimini atlamamalı.
+        with tempfile.TemporaryDirectory() as folder:
+            Path(folder, "index.html").write_text('<html lang="tr"><head><title>t</title>'
+                '<link rel="stylesheet" href="style.css"></head><body><h1>x</h1></body></html>', encoding="utf-8")
+            Path(folder, "style.css").write_text(
+                ':root { --font-display: Inter; --font-body: Georgia; }\n'
+                'h1 { font-family: var(--font-display); }\nbody { font-family: var(--font-body), serif; }\n', encoding="utf-8")
+            result = ANALYZE.analyse(folder)
+        families = [f["family"] for f in result["tokens"]["fonts"]]
+        self.assertIn("Inter", families)
+        self.assertIn("Georgia", families)
+        self.assertIn("CF-007", {note["conflict"] for note in result["ruleNotes"]})
+
+    def test_generic_family_keywords_are_not_counted_as_fonts(self):
+        self.assertEqual(ANALYZE.first_family("var(--x), sans-serif"), None)
+        self.assertEqual(ANALYZE.first_family('"Fraunces", Georgia, serif'), "Fraunces")
+        self.assertEqual(ANALYZE.first_family("700 1rem/1.4 Inter, sans-serif"), "Inter")
+
     def test_tokens_css_and_report(self):
         css = ANALYZE.tokens_css(self.result["tokens"])
         self.assertIn("--ref-background: #f4f1ea;", css)
@@ -180,6 +200,32 @@ class AnalyzerTests(unittest.TestCase):
         self.assertEqual(ANALYZE.hex_color("hsl(0, 100%, 50%)"), "#ff0000")
         self.assertEqual(ANALYZE.hex_color("white"), "#ffffff")
         self.assertIsNone(ANALYZE.hex_color("oklch(0.7 0.1 40)"))
+
+
+class ContentExtractionTests(unittest.TestCase):
+    def test_own_site_content_keeps_order_regions_and_profiles(self):
+        with tempfile.TemporaryDirectory() as folder:
+            Path(folder, "index.html").write_text(
+                '<html lang="tr"><head><title>r0ine</title><meta name="description" content="Geliştirici"></head><body>'
+                '<header><nav><a href="/">Ana sayfa</a></nav></header><main><h1>Merhaba</h1>'
+                '<p>Minecraft için <b>eklenti</b> yazıyorum.</p><ul><li>Java</li><li>Kotlin</li></ul>'
+                '<a href="https://github.com/r0ine">GitHub</a><a href="https://discord.gg/x" aria-label="Discord"><svg><title>i</title></svg></a>'
+                '<a href="mailto:a@b.c">Yaz</a><script>var p = "<p>gizli</p>";</script></main>'
+                '<footer><p>© 2026</p></footer></body></html>', encoding="utf-8")
+            result = CONTENT.extract(folder)
+        page = result["pages"][0]
+        self.assertEqual((page["title"], page["lang"], page["description"]), ("r0ine", "tr", "Geliştirici"))
+        self.assertEqual([(b["tag"], b["text"], b["region"]) for b in page["blocks"]], [
+            ("h1", "Merhaba", "main"), ("p", "Minecraft için eklenti yazıyorum.", "main"),
+            ("li", "Java", "main"), ("li", "Kotlin", "main"), ("p", "© 2026", "footer")])
+        self.assertEqual(result["contacts"], {"GitHub": "https://github.com/r0ine", "Discord": "https://discord.gg/x",
+                                              "E-posta": "mailto:a@b.c"})
+        self.assertEqual(next(l for l in page["links"] if l["service"] == "Discord")["text"], "Discord")
+
+    def test_link_classification(self):
+        self.assertEqual(CONTENT.classify("https://builtbybit.com/resources/ultimate-ui.105345/"), ("social", "BuiltByBit"))
+        self.assertEqual(CONTENT.classify("https://majesteleri.net"), ("external", "majesteleri.net"))
+        self.assertEqual(CONTENT.classify("about.html"), ("internal", ""))
 
 
 class TemplateCatalogTests(unittest.TestCase):

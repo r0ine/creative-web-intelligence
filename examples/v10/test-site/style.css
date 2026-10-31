@@ -1,0 +1,181 @@
+/* Renk kararı (v7 üç rol)
+   zemin : sıcak kâğıt tonu #F4EFE5; ikinci, daha derin yüzey #E8DFCE yalnız son bölümde
+   metin : sıcak siyah #1D1914, ikincil #5B5246
+   işaret: pas kırmızısı #A33A1B; yalnız bağlantı alt çizgisi, odak halkası ve bağlantı üstü durumunda
+   Kaynak: bu bir çalışma paletidir (marka rengi verilmedi) — geçici. */
+:root {
+  --zemin: #F4EFE5;
+  --zemin-derin: #E8DFCE;
+  --metin: #1D1914;
+  --metin-ikincil: #5B5246;
+  --isaret: #A33A1B;
+  --isaret-koyu: #8F3016;
+
+  /* Charter denendi ve elendi: Bitstream Charter İ Ğ ğ Ş ş glifleri içermiyor (fc-list ile doğrulandı).
+     Cambria (Windows/Office) ve ölçü uyumlu Caladea tam Türkçe kapsar; Georgia son çare. */
+  --font-display: Cambria, Caladea, Georgia, "Liberation Serif", serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Liberation Sans", sans-serif;
+
+  --kenar: clamp(1.25rem, 5vw, 4rem);
+  --olcu: 38rem;
+  --bosluk-bolum: clamp(5rem, 12vw, 10rem);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--zemin);
+  color: var(--metin);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+
+h1, h2, p, ol, ul, dl, dd { margin: 0; }
+ol, ul { padding: 0; list-style: none; }
+
+.sr {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+}
+
+.skip {
+  position: absolute; left: var(--kenar); top: -4rem;
+  background: var(--metin); color: var(--zemin);
+  padding: .6rem 1rem; z-index: 10;
+}
+.skip:focus { top: 1rem; }
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--isaret);
+  text-decoration-thickness: 2px;
+  text-underline-offset: .22em;
+}
+a:hover { color: var(--isaret-koyu); }
+a:focus-visible {
+  outline: 3px solid var(--isaret);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+/* Üst bar: yalnız ad ve dört bağlantı */
+.top {
+  display: flex; flex-wrap: wrap; gap: .75rem 2.5rem;
+  align-items: baseline; justify-content: space-between;
+  padding: 1.5rem var(--kenar) 0;
+  font-size: .9375rem;
+}
+.mark { font-family: var(--font-display); font-weight: 700; font-size: 1.125rem; }
+.top ul { display: flex; flex-wrap: wrap; gap: .25rem 1.75rem; }
+.top a { text-decoration: none; color: var(--metin-ikincil); }
+.top a:hover { color: var(--metin); text-decoration: underline; text-decoration-color: var(--isaret); }
+
+/* İlk ekran: ad ekranı taşıyan tek öge */
+.hero {
+  padding: clamp(4rem, 14vh, 9rem) var(--kenar) var(--bosluk-bolum);
+}
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(5.5rem, 26vw, 19rem);
+  line-height: .86;
+  letter-spacing: -.035em;
+  margin-left: -.04em;
+}
+.hero-line {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 3.4vw, 2.5rem);
+  line-height: 1.2;
+  max-width: 24ch;
+  margin-top: clamp(1.5rem, 4vw, 3rem);
+}
+.hero-link { margin-top: 2rem; font-weight: 600; }
+
+/* Bölümler: iki sütunlu, başlık solda; her bölümün biçimi içeriğine göre */
+.prose, .with, .contact {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  padding: 0 var(--kenar) var(--bosluk-bolum);
+}
+h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.75rem, 3.2vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -.01em;
+}
+.body { max-width: var(--olcu); }
+.lead {
+  font-family: var(--font-display);
+  font-size: clamp(1.375rem, 2.4vw, 1.875rem);
+  line-height: 1.35;
+  margin-bottom: 1.25rem;
+}
+
+/* Geliştirdiklerim: tek öğe, tek büyük bağlantı; sütun yok */
+.made { padding: 0 var(--kenar) var(--bosluk-bolum); }
+.made h2 { margin-bottom: clamp(1rem, 3vw, 2rem); }
+.made-link {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.25rem, 9vw, 7rem);
+  line-height: 1;
+  letter-spacing: -.025em;
+  overflow-wrap: anywhere;
+}
+.made-link a { text-decoration-thickness: .06em; }
+.made .note { margin-top: 1.25rem; }
+
+/* Birlikte geliştirdiklerim: sıralı iş listesi, kutusuz */
+.works { margin-top: 2rem; display: grid; gap: 2.25rem; }
+.work-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  line-height: 1.1;
+}
+
+.note { color: var(--metin-ikincil); }
+.todo { font-style: italic; }
+
+/* İletişim: ikinci, daha derin yüzey — sayfanın tek yüzey değişimi */
+.contact {
+  background: var(--zemin-derin);
+  padding-top: clamp(3rem, 8vw, 6rem);
+  padding-bottom: clamp(3rem, 8vw, 6rem);
+}
+dl > div { display: grid; grid-template-columns: 6.5rem 1fr; gap: 1rem; padding: .35rem 0; }
+dt { color: var(--metin-ikincil); }
+
+.foot {
+  background: var(--zemin-derin);
+  padding: 0 var(--kenar) 2rem;
+  font-size: .9375rem;
+  color: var(--metin-ikincil);
+}
+
+@media (min-width: 52rem) {
+  .prose, .with, .contact {
+    grid-template-columns: minmax(12rem, 4fr) minmax(0, 8fr);
+    column-gap: clamp(2rem, 6vw, 6rem);
+    align-items: start;
+  }
+  .hero-line { max-width: 26ch; }
+  .with .works { margin-top: 1.75rem; }
+}
+
+/* Hareket: yalnız bağlantı renk geçişi; görevi, üzerine gelindiğini bildirmek.
+   Tetik: hover/focus. Geri dönüş: aynı süre. Azaltılmış hareket: geçiş yok. */
+@media (prefers-reduced-motion: no-preference) {
+  a { transition: color 140ms ease-out, text-decoration-color 140ms ease-out; }
+  html { scroll-behavior: smooth; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
