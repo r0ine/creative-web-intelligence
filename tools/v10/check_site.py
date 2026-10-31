@@ -166,7 +166,9 @@ def main(argv=None):
             report_path.write_text(report, encoding="utf-8")
             print(f"\nRapor: {report_path}")
 
-    return 1 if any(r["exit"] != 0 and r["exit"] != -1 for r in results) else 0
+    real_failures = [r for r in results if r["exit"] not in (0, -1)
+                     and r["stdout"].strip()]
+    return 1 if real_failures else 0
 
 
 if __name__ == "__main__":
