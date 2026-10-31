@@ -20,6 +20,6 @@ def pick(items): return max(items,key=lambda x:score(x,words))
 font=pick(fonts); comp=pick(comps); motion=pick(motions)
 use3d=any(w in brief for w in ['3d','webgl','three','model','product','cinematic','sahne'])
 three=pick(threes) if use3d else None
-spec={'brief':brief,'designDNA':{'note':'CLI bootstrap only; agent should refine'},'typography':font,'composition':comp,'motion':motion,'three':three,'quality':{'run':'data/v2/qa_rubric.json'},'warning':'This deterministic helper is a discovery bootstrap, not a substitute for art direction.'}
+spec={'brief':brief,'designDNA':{'note':'CLI bootstrap only; agent should refine'},'fontNote':'Önerilen fontlar web fontudur; yedek yığın ve dil kapsamı için: python tools/v10/font_coverage.py "<aile>" --lang tr','typography':font,'composition':comp,'motion':motion,'three':three,'quality':{'run':'data/v2/qa_rubric.json'},'warning':'This deterministic helper is a discovery bootstrap, not a substitute for art direction.'}
 sys.stdout.reconfigure(encoding='utf-8')
 print(json.dumps(spec,indent=2,ensure_ascii=False))

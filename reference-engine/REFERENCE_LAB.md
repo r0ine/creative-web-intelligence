@@ -60,6 +60,13 @@ python tools/v10/extract_content.py reference-workspace/kendi-sitem.com/<zaman>
 
 `content.md` ve `content.json` yazılır. `study-only` kaynakta araç metnin kopyalanmaması gerektiğini hatırlatır.
 
+Tipografi seçerken Türkçe (veya hedef dil) glif kapsamını doğrula; aksi halde başlık ortasında yedek fonta düşülür:
+
+```sh
+python tools/v10/font_coverage.py "Bitstream Charter" --lang tr
+python tools/v10/font_coverage.py --lang tr --role display
+```
+
 Ölçüler bir başlangıç noktasıdır, tasarım kararı değildir. Referansı aynen taşımak yerine Design DNA'yı kendi içeriğine göre kur.
 
 ## 4. Düzenle veya yeniden kur
@@ -94,4 +101,4 @@ Girdiler PNG, yerel HTML veya adres olabilir; adresler aynı ekran ölçüsünde
 | Playwright + Chromium | Apache-2.0 / BSD | Canlı görünüm, ölçüm, ekran görüntüsü ve karşılaştırma. |
 | axe-core | MPL-2.0 | İsteğe bağlı erişilebilirlik taraması. |
 
-Python araçları yalnız standart kütüphaneyi kullanır.
+Python araçları yalnız standart kütüphaneyi kullanır (font kapsamı aracı fontconfig varsa canlı doğrular, yoksa veri tablosunu kullanır). Canlı yakalama ve karşılaştırma için `npm install playwright && npx playwright install chromium`; ayrıntılı erişilebilirlik için `npm install axe-core`.

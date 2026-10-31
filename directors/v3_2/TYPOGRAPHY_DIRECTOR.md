@@ -39,7 +39,7 @@ A fingerprint is a prompt to justify or replace the decision, not a blacklist.
 ## Technical requirements
 
 - Keep semantic text in the DOM.
-- Verify Turkish `İ/ı/Ğ/ğ/Ş/ş/Ç/ç/Ö/ö/Ü/ü` where required.
+- Verify Turkish `İ/ı/Ğ/ğ/Ş/ş/Ç/ç/Ö/ö/Ü/ü` where required — run `python tools/v10/font_coverage.py "<family>" --lang tr` (fontconfig ile canlı denetler; eksikse çevrimdışı yığın önerir).
 - Use appropriate wrapping (`balance`, `pretty`, authored breaks) deliberately.
 - Prefer high-level variable font properties for registered axes.
 - Test fallback state and cold-load CLS.

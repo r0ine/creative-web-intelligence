@@ -22,6 +22,15 @@ The [reference lab](reference-engine/REFERENCE_LAB.md) (Turkish) downloads a ref
 - On the sample site, static analysis and axe-core reported the same five issues: empty button, contrast, heading order, image alt and empty link.
 - Small static pages were mistaken for JavaScript shells; fixed.
 
+## Dogfooding fixes
+
+Gaps found while building a real test site (`examples/v10/test-site/`) with the library were fixed:
+
+- `analyze_reference.py` now resolves fonts set through `font-family: var(--font-*)` (CF-007 was being bypassed) and checks text contrast against the inherited page background.
+- The three audit tools (`analyze_reference.py`, `audit_visual_defaults.mjs`, `authenticity_check.py`) now state their coverage and limits; "0 findings / PASS" is not proof on its own.
+- `tools/v10/font_coverage.py` + `data/v10/font_stacks.json`: check a font's Turkish (İ ı Ğ ğ Ş ş) glyph coverage (live via fontconfig when present) and suggest an offline system-font stack.
+- `BRIEF_TO_REFERENCE.md` covers a fully-specified brief and an unreachable (network-blocked) source; `START_HERE_V10.md` includes the browser install command and a minimal reading path for a small site.
+
 ## Maintenance
 
 - The v7, v8 and v9 validators now compare the manifest version numerically, so new releases no longer require editing them.

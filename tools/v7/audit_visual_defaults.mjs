@@ -95,6 +95,7 @@ if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.ur
       const findings = await auditVisualDefaults(target);
       for (const finding of findings) console.log(`${finding.file}:${finding.line} [${finding.code}] ${finding.message}`);
       console.log(`${findings.length} görsel kalıp incelemesi.`);
+      console.log('Kapsam: CSS/HTML içinde transition:all, sonsuz animasyon, gradyan metin, giriş bulanıklığı, eş kutu şablonu, koyu zemin + çok çizgi. Bakmaz: aşmalı eğri (CF-008 → analyze_reference), kontrast, erişilebilirlik, gerçek render. Sıfır bulgu kalite kanıtı değildir.');
       if (findings.length) process.exitCode = 1;
     } catch (error) {
       console.error(error instanceof Error ? error.message : 'Dosyalar okunamadı.');
