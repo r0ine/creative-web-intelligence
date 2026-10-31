@@ -13,7 +13,8 @@ ROOT = Path(__file__).resolve().parents[2]
 REQUIRED = (
     "START_HERE_V10.md", "RELEASE_NOTES_V10.md", "RELEASE_NOTES_V10.en.md", "reference-engine/REFERENCE_LAB.md",
     "tools/v10/mirror_reference.py", "tools/v10/capture_reference.mjs", "tools/v10/analyze_reference.py",
-    "tools/v10/compare_reference.mjs", "tools/v10/template_catalog.py", "tools/v10/extract_content.py", "tools/v10/validate_v10.py",
+    "tools/v10/compare_reference.mjs", "tools/v10/template_catalog.py", "tools/v10/extract_content.py", "tools/v10/font_coverage.py", "tools/v10/validate_v10.py",
+    "data/v10/font_stacks.json",
     "runtime/reference/style-metrics.mjs", "runtime/reference/pixel-compare.mjs",
     "tests/test_v10_reference_lab.py", "tests/style-metrics.test.mjs", "tests/fixtures/reference-site/index.html",
 )
@@ -49,6 +50,15 @@ def check_consistency(root=ROOT):
         errors.append("Şablon kataloğu boş; v8 kaynak kaydı okunamadı.")
     if catalog.PERMISSIVE & catalog.COPYLEFT:
         errors.append("Bir lisans hem izin verici hem copyleft sayılıyor.")
+
+    font_data = json.loads((root / "data/v10/font_stacks.json").read_text(encoding="utf-8"))
+    languages = set(font_data["languages"])
+    for stack in font_data["stacks"]:
+        if stack["role"] not in {"display", "body", "mono"}:
+            errors.append(f"font_stacks: bilinmeyen rol {stack['role']} ({stack['id']})")
+        for lang in stack["lang"]:
+            if lang not in languages:
+                errors.append(f"font_stacks: {stack['id']} bilinmeyen dile bağlı: {lang}")
     gitignore = (root / ".gitignore").read_text(encoding="utf-8").split()
     if "reference-workspace/" not in gitignore:
         errors.append(".gitignore indirilen siteleri (reference-workspace/) dışarıda bırakmıyor.")

@@ -417,6 +417,9 @@ def format_text(result, gate):
             lines.append(f"  [{id_}] {msg}")
         lines.append('')
     lines.append("Note: " + gate['summary_tests_reminder'])
+    lines.append("Kapsam: HTML/CSS/JS kaynağında v5 parmak izleri (regex). Hesaplanmış stil, gerçek kontrast, erişilebilirlik, "
+                 "render ve CF-007/CF-008 gibi v9 kuralları burada DEĞİL. Hareket/kutu için tools/v7/audit_visual_defaults.mjs, "
+                 "ölçü/kural çakışması için tools/v10/analyze_reference.py, canlı denetim için tools/v10/capture_reference.mjs. PASS tek başına yeterli kanıt değildir.")
     return '\n'.join(lines)
 
 

@@ -399,7 +399,7 @@ def analyse(target):
     background = root_color(declarations, variables, roles["background"], {"background", "background-color"})
     text_color = root_color(declarations, variables, roles["text"], {"color"})
     accent = next((c for c, _ in palette.most_common() if chroma(c) >= 60), None)
-    contrast_issues = static_contrast(declarations, variables)
+    contrast_issues = static_contrast(declarations, variables, background)
     issues += contrast_issues
 
     tokens = {
@@ -453,9 +453,14 @@ def root_color(declarations, variables, counter, properties):
     return (counter.most_common(1) or [(None, 0)])[0][0]
 
 
-def static_contrast(declarations, variables):
+ROOT_SELECTOR = re.compile(r"(^|[\s,>+~])(html|body|:root)([\s.:\[]|$)", re.I)
+
+
+def static_contrast(declarations, variables, root_background=None):
     by_rule = defaultdict(dict)
     for d in declarations:
+        if d["selector"].startswith("@"):
+            continue
         key = (d["file"], d["selector"], d["media"])
         if d["property"] == "color":
             by_rule[key]["fg"] = (colors_in(d["value"], variables) or [None])[0], d["line"]
@@ -463,11 +468,20 @@ def static_contrast(declarations, variables):
             by_rule[key]["bg"] = (colors_in(d["value"], variables) or [None])[0], d["line"]
     issues = []
     for (file, selector, _), pair in by_rule.items():
-        if "fg" in pair and "bg" in pair and pair["fg"][0] and pair["bg"][0]:
-            ratio = contrast(pair["fg"][0], pair["bg"][0])
-            if ratio < 4.5:
-                issues.append({"code": "low-contrast", "page": file, "line": pair["fg"][1],
-                               "message": f"{selector}: {pair['fg'][0]} / {pair['bg'][0]} kontrastı {ratio:.2f}:1 (metin için en az 4.5:1)."})
+        fg = pair.get("fg", (None,))[0]
+        if not fg:
+            continue
+        bg = pair.get("bg", (None,))[0]
+        assumed = bg is None and root_background and not ROOT_SELECTOR.search(selector)
+        if assumed:
+            bg = root_background
+        if not bg:
+            continue
+        ratio = contrast(fg, bg)
+        if ratio < 4.5:
+            where = " (zemin kuralda yok, sayfa zemini varsayıldı)" if assumed else ""
+            issues.append({"code": "low-contrast", "page": file, "line": pair["fg"][1],
+                           "message": f"{selector}: {fg} / {bg} kontrastı {ratio:.2f}:1 (metin için en az 4.5:1){where}."})
     return issues
 
 
@@ -560,6 +574,14 @@ def tokens_css(tokens):
     return "\n".join(lines) + "\n"
 
 
+COVERAGE = [
+    "Bu araç CSS'ten statik ölçüm yapar; \"0 bulgu\" denetlenmedi değil, **görülmedi** olabilir.",
+    "- Denetlenen: lang, img alt, başlık (h1/sıra), boş bağlantı/buton, form etiketi, yakınlaştırma engeli; aynı kuralda veya sayfa zemini üzerinde metin kontrastı; CF-001/003/007/008 ve transition:all / AOS.",
+    "- **Denetlenmeyen** (canlı ölçüm gerekir): odak göstergesi, prefers-reduced-motion davranışı, dokunma hedefi boyutu, kalıtımla gelen zemin üzerinde kontrast, gerçek render/taşma, sonsuz animasyon, vurgu renginin kaç yerde kullanıldığı.",
+    "- Tamamlayıcılar: hareket ve kutu kalıpları için `node tools/v7/audit_visual_defaults.mjs`, özgünlük kapısı için `python tools/v5/authenticity_check.py`, canlı kontrast/erişilebilirlik için `node tools/v10/capture_reference.mjs` (axe-core ile).",
+]
+
+
 def report(result):
     t = result["tokens"]
     capture = result["capture"] or {}
@@ -602,6 +624,7 @@ def report(result):
     w = result["weight"]
     lines += ["", "## Ağırlık", "", f"- Toplam {w['bytes'] / 1024:.0f} KB · {w['images']} görsel ({w['legacyImageFormats']} eski biçim) · {w['fontFiles']} font dosyası"]
     lines += [f"- {item['file']}: {item['bytes'] / 1024:.0f} KB" for item in w["largest"][:3]]
+    lines += ["", "## Kapsam ve sınırlar", ""] + COVERAGE
     return "\n".join(lines) + "\n"
 
 

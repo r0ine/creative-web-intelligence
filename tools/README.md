@@ -25,6 +25,7 @@ Komutlar depo kökünden çalıştırılır. Python araçları 3.11+ ve yalnız 
 - `v10/analyze_reference.py <çalışma-alanı>`: tasarım ölçüleri, kütüphaneler, yapı, erişilebilirlik, ağırlık ve düzenleme haritası.
 - `v10/compare_reference.mjs <referans> <yeni>`: aynı ekran ölçüsünde fark görüntüsü ve en farklı bölge.
 - `v10/extract_content.py <çalışma-alanı>`: kendi sitenin metin, başlık, proje ve profil bağlantılarını sayfa sırasıyla çıkarır.
+- `v10/font_coverage.py [aile] --lang tr`: font ailesinin Türkçe (İ ı Ğ ğ Ş ş) glif kapsamını denetler; eksikse çevrimdışı sistem-font yığını önerir. fontconfig varsa canlı doğrular.
 - `v10/template_catalog.py`: açık kaynak şablon ve bileşenleri lisansa göre listeler.
 - `v10/validate_v10.py`: laboratuvarın v9 yüzeyleri ve çakışma kaydıyla tutarlılığını denetler; ardından v9 zincirini çalıştırır.
 

@@ -1,0 +1,44 @@
+{
+  "$comment": "Çevrimdışı/sistem fontu yığınları ve dil kapsamı. font_coverage.py bunu okur; fontconfig varsa canlı doğrulama ekler. 'covers' alanı bilinen glif kapsamıdır, lisans değil.",
+  "version": "10.0",
+  "languages": {
+    "tr": {
+      "name": "Türkçe",
+      "required": ["0130", "0131", "011E", "011F", "015E", "015F", "00C7", "00E7", "00D6", "00F6", "00DC", "00FC"],
+      "distinctive": ["0130", "0131", "011E", "011F", "015E", "015F"],
+      "note": "Ayırt edici glifler: İ ı Ğ ğ Ş ş. Latin-1 harfleri (Ç Ö Ü) çoğu fontta vardır."
+    },
+    "en": {"name": "English", "required": ["0041", "0061"], "distinctive": []},
+    "de": {"name": "Deutsch", "required": ["00C4", "00E4", "00D6", "00F6", "00DC", "00FC", "00DF"], "distinctive": ["00DF"]}
+  },
+  "fonts": {
+    "Bitstream Charter": {"covers": {"latin": true, "tr": false}, "note": "İ, Ğ, ğ, Ş, ş yok; yalnız ı var. Türkçe başlıkta yedek fonta düşer."},
+    "Charter": {"covers": {"latin": true, "tr": false}, "note": "Bitstream Charter ile aynı kapsam; Türkçe için güvenilmez."},
+    "Caladea": {"covers": {"latin": true, "tr": true}, "note": "Cambria ile metrik uyumlu; Türkçe tam."},
+    "Cambria": {"covers": {"latin": true, "tr": true}},
+    "Georgia": {"covers": {"latin": true, "tr": true}},
+    "DejaVu Serif": {"covers": {"latin": true, "tr": true}},
+    "Liberation Serif": {"covers": {"latin": true, "tr": true}},
+    "Liberation Sans": {"covers": {"latin": true, "tr": true}},
+    "DejaVu Sans": {"covers": {"latin": true, "tr": true}},
+    "Carlito": {"covers": {"latin": true, "tr": true}, "note": "Calibri ile metrik uyumlu."},
+    "Segoe UI": {"covers": {"latin": true, "tr": true}},
+    "Arial": {"covers": {"latin": true, "tr": true}},
+    "Helvetica Neue": {"covers": {"latin": true, "tr": true}},
+    "DejaVu Sans Mono": {"covers": {"latin": true, "tr": true}},
+    "Liberation Mono": {"covers": {"latin": true, "tr": true}},
+    "Inter": {"covers": {"latin": true, "tr": true}, "note": "Türkçeyi kapsar; ancak CF-007: varsayılan başlık fontu olarak seçme."},
+    "Fraunces": {"covers": {"latin": true, "tr": true}, "note": "Web fontu; sistemde kurulu olmayabilir, yüklenmezse yedeğe düşer."}
+  },
+  "stacks": [
+    {"id": "display-serif-offline", "role": "display", "lang": ["tr", "en", "de"],
+     "stack": "\"Cambria\", \"Caladea\", Georgia, \"Liberation Serif\", serif",
+     "note": "Editorial başlık için sistem serif; hepsi Türkçeyi kapsar. Cambria (Windows/Office) yoksa metrik uyumlu Caladea devralır."},
+    {"id": "body-sans-offline", "role": "body", "lang": ["tr", "en", "de"],
+     "stack": "\"Segoe UI\", \"Helvetica Neue\", Arial, \"Liberation Sans\", \"DejaVu Sans\", sans-serif",
+     "note": "Gövde ve UI için sistem sans; Türkçe tam."},
+    {"id": "mono-offline", "role": "mono", "lang": ["tr", "en", "de"],
+     "stack": "ui-monospace, \"Cascadia Mono\", \"DejaVu Sans Mono\", \"Liberation Mono\", monospace",
+     "note": "Kod/teknik için; gövde metninde kullanma (CF-007)."}
+  ]
+}

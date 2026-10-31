@@ -24,6 +24,7 @@ MIRROR = load("mirror_reference", "tools/v10/mirror_reference.py")
 ANALYZE = load("analyze_reference", "tools/v10/analyze_reference.py")
 CATALOG = load("template_catalog", "tools/v10/template_catalog.py")
 CONTENT = load("extract_content", "tools/v10/extract_content.py")
+FONTS = load("font_coverage", "tools/v10/font_coverage.py")
 
 
 class MirrorCommandTests(unittest.TestCase):
@@ -180,6 +181,22 @@ class AnalyzerTests(unittest.TestCase):
         self.assertEqual(ANALYZE.first_family('"Fraunces", Georgia, serif'), "Fraunces")
         self.assertEqual(ANALYZE.first_family("700 1rem/1.4 Inter, sans-serif"), "Inter")
 
+    def test_low_contrast_is_caught_against_inherited_page_background(self):
+        # G-02: zemin kalıtımla geldiğinde bile düşük kontrast yakalanmalı.
+        with tempfile.TemporaryDirectory() as folder:
+            Path(folder, "index.html").write_text('<html lang="tr"><head><title>t</title>'
+                '<link rel="stylesheet" href="s.css"></head><body><h1>x</h1><p class="note">y</p></body></html>', encoding="utf-8")
+            Path(folder, "s.css").write_text(':root { --bg: #f4efe5; }\nbody { background: var(--bg); color: #1d1914; }\n.note { color: #b5ada0; }\n', encoding="utf-8")
+            result = ANALYZE.analyse(folder)
+        low = [i for i in result["accessibility"] if i["code"] == "low-contrast"]
+        self.assertTrue(any(".note" in i["message"] and "sayfa zemini varsayıldı" in i["message"] for i in low))
+
+    def test_report_states_its_coverage(self):
+        report = ANALYZE.report(self.result)
+        self.assertIn("## Kapsam ve sınırlar", report)
+        self.assertIn("görülmedi", report)
+        self.assertIn("Denetlenmeyen", report)
+
     def test_tokens_css_and_report(self):
         css = ANALYZE.tokens_css(self.result["tokens"])
         self.assertIn("--ref-background: #f4f1ea;", css)
@@ -226,6 +243,44 @@ class ContentExtractionTests(unittest.TestCase):
         self.assertEqual(CONTENT.classify("https://builtbybit.com/resources/ultimate-ui.105345/"), ("social", "BuiltByBit"))
         self.assertEqual(CONTENT.classify("https://majesteleri.net"), ("external", "majesteleri.net"))
         self.assertEqual(CONTENT.classify("about.html"), ("internal", ""))
+
+
+class FontCoverageTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = FONTS.load()
+
+    def test_known_turkish_gaps_and_coverage(self):
+        # Bitstream Charter Türkçeyi kapsamaz; Caladea kapsar. Veri tablosu (ve varsa fontconfig) ikisini de böyle bilir.
+        self.assertIs(FONTS.check_family("Bitstream Charter", "tr", self.data)["covers"], False)
+        self.assertIs(FONTS.check_family("Caladea", "tr", self.data)["covers"], True)
+
+    def test_unknown_family_is_not_falsely_flagged(self):
+        result = FONTS.check_family("Totally Made Up Font 9000", "tr", self.data)
+        self.assertIsNone(result["covers"])
+
+    def test_offline_stacks_cover_the_language(self):
+        stacks = FONTS.stacks_for("tr", self.data, "display")
+        self.assertTrue(stacks)
+        self.assertTrue(all("tr" in stack["lang"] for stack in stacks))
+        for stack in self.data["stacks"]:
+            for family in FONTS.families_in_stack(stack["stack"]):
+                record = self.data["fonts"].get(family)
+                if record and "tr" in stack["lang"]:
+                    self.assertNotEqual(record["covers"].get("tr"), False,
+                                        f"{stack['id']} yığını Türkçeyi kapsamayan {family} içeriyor")
+
+    def test_families_in_stack_skips_generics(self):
+        self.assertEqual(FONTS.families_in_stack('"Cambria", Georgia, serif'), ["Cambria", "Georgia"])
+
+    def test_cli_reports_a_gap_with_nonzero_exit(self):
+        import contextlib
+        import io
+        buffer = io.StringIO()
+        with contextlib.redirect_stdout(buffer):
+            code = FONTS.main(["Bitstream Charter", "--lang", "tr"])
+        self.assertEqual(code, 1)
+        self.assertIn("KAPSAMIYOR", buffer.getvalue())
 
 
 class TemplateCatalogTests(unittest.TestCase):
