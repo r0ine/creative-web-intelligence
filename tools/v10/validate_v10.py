@@ -13,10 +13,13 @@ ROOT = Path(__file__).resolve().parents[2]
 REQUIRED = (
     "START_HERE_V10.md", "RELEASE_NOTES_V10.md", "RELEASE_NOTES_V10.en.md", "reference-engine/REFERENCE_LAB.md",
     "tools/v10/mirror_reference.py", "tools/v10/capture_reference.mjs", "tools/v10/analyze_reference.py",
-    "tools/v10/compare_reference.mjs", "tools/v10/template_catalog.py", "tools/v10/extract_content.py", "tools/v10/font_coverage.py", "tools/v10/validate_v10.py",
+    "tools/v10/compare_reference.mjs", "tools/v10/template_catalog.py", "tools/v10/extract_content.py",
+    "tools/v10/font_coverage.py", "tools/v10/build_from_reference.py", "tools/v10/check_site.py",
+    "tools/v10/validate_v10.py",
     "data/v10/font_stacks.json",
     "runtime/reference/style-metrics.mjs", "runtime/reference/pixel-compare.mjs",
-    "tests/test_v10_reference_lab.py", "tests/style-metrics.test.mjs", "tests/fixtures/reference-site/index.html",
+    "tests/test_v10_reference_lab.py", "tests/test_v10_pipeline.py",
+    "tests/style-metrics.test.mjs", "tests/fixtures/reference-site/index.html",
 )
 
 

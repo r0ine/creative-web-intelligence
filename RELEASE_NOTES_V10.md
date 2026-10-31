@@ -31,6 +31,11 @@ Kütüphaneyle gerçek bir test sitesi (`examples/v10/test-site/`) kurarken bulu
 - `tools/v10/font_coverage.py` + `data/v10/font_stacks.json`: bir fontun Türkçe (İ ı Ğ ğ Ş ş) glif kapsamını denetler (fontconfig varsa canlı) ve çevrimdışı sistem-font yığını önerir.
 - `BRIEF_TO_REFERENCE.md` tam tanımlı brief ve erişilemeyen (ağ engelli) kaynak için yol tarif eder; `START_HERE_V10.md` tarayıcı kurulum komutunu ve küçük site için asgari okuma yolunu içerir.
 
+## Pipeline ve denetim komutları
+
+- `tools/v10/build_from_reference.py`: referans tabanlı site oluşturma pipeline'ını tek komutla çalıştırır. İndir → analiz → içerik çıkar → font denetle → build spec (JSON + MD). `--content` ile kendi sitenin içeriğini de çıkarır; `--dry-run` yalnız adımları gösterir.
+- `tools/v10/check_site.py`: siteyi üç araçla (analiz + v7 audit + v5 authenticity) tek seferde denetler ve birleşik `check-report.md` yazar. Her aracın kapsamı ve sınırları raporda ayrı ayrı belirtilir.
+
 ## Bakım
 
 - v7, v8 ve v9 doğrulayıcıları manifest sürümünü sayısal karşılaştırır; her yeni sürümde güncelleme gerekmez.

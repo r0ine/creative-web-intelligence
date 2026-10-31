@@ -27,6 +27,8 @@ Komutlar depo kökünden çalıştırılır. Python araçları 3.11+ ve yalnız 
 - `v10/extract_content.py <çalışma-alanı>`: kendi sitenin metin, başlık, proje ve profil bağlantılarını sayfa sırasıyla çıkarır.
 - `v10/font_coverage.py [aile] --lang tr`: font ailesinin Türkçe (İ ı Ğ ğ Ş ş) glif kapsamını denetler; eksikse çevrimdışı sistem-font yığını önerir. fontconfig varsa canlı doğrular.
 - `v10/template_catalog.py`: açık kaynak şablon ve bileşenleri lisansa göre listeler.
+- `v10/build_from_reference.py <referans-adresi> [--content <içerik-adresi>]`: tüm pipeline'ı tek komutla çalıştırır (indir → analiz → içerik çıkar → font denetle → build spec). `--dry-run` yalnız adımları gösterir.
+- `v10/check_site.py <klasör>`: siteyi üç araçla (analiz + v7 audit + v5 authenticity) tek seferde denetler ve birleşik rapor yazar.
 - `v10/validate_v10.py`: laboratuvarın v9 yüzeyleri ve çakışma kaydıyla tutarlılığını denetler; ardından v9 zincirini çalıştırır.
 
 ## Seçim ve arama

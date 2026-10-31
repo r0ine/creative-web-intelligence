@@ -41,6 +41,8 @@
     "tools/v10/template_catalog.py",
     "tools/v10/extract_content.py",
     "tools/v10/font_coverage.py",
+    "tools/v10/build_from_reference.py",
+    "tools/v10/check_site.py",
     "tools/v10/validate_v10.py"
   ],
   "external_open_source_registry": {
@@ -135,7 +137,7 @@
       "live-metadata-cli"
     ]
   },
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "v10": {
     "workflow": "START_HERE_V10.md",
     "referenceLab": "reference-engine/REFERENCE_LAB.md",
@@ -147,6 +149,8 @@
     "contentExtractor": "tools/v10/extract_content.py",
     "fontCoverage": "tools/v10/font_coverage.py",
     "fontStacks": "data/v10/font_stacks.json",
+    "buildPipeline": "tools/v10/build_from_reference.py",
+    "siteChecker": "tools/v10/check_site.py",
     "styleMetrics": "runtime/reference/style-metrics.mjs",
     "validator": "tools/v10/validate_v10.py",
     "releaseNotes": ["RELEASE_NOTES_V10.md", "RELEASE_NOTES_V10.en.md"]

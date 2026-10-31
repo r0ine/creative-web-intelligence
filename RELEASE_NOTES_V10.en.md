@@ -31,6 +31,11 @@ Gaps found while building a real test site (`examples/v10/test-site/`) with the 
 - `tools/v10/font_coverage.py` + `data/v10/font_stacks.json`: check a font's Turkish (İ ı Ğ ğ Ş ş) glyph coverage (live via fontconfig when present) and suggest an offline system-font stack.
 - `BRIEF_TO_REFERENCE.md` covers a fully-specified brief and an unreachable (network-blocked) source; `START_HERE_V10.md` includes the browser install command and a minimal reading path for a small site.
 
+## Pipeline and site checker commands
+
+- `tools/v10/build_from_reference.py`: runs the full reference-based site building pipeline in one command. Download → analyze → extract content → check fonts → build spec (JSON + MD). `--content` also extracts content from your own site; `--dry-run` shows only the steps.
+- `tools/v10/check_site.py`: runs three audit tools (analyze + v7 audit + v5 authenticity) in one command, producing a merged `check-report.md`. Each tool's coverage and limits are stated in the report.
+
 ## Maintenance
 
 - The v7, v8 and v9 validators now compare the manifest version numerically, so new releases no longer require editing them.

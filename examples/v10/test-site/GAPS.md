@@ -2,7 +2,7 @@
 
 Kapsam: `examples/v10/test-site/` (index.html, style.css, app.mjs, reference-note.md). Kütüphane, araç ve test dosyalarına dokunulmadı; araç hataları yalnız burada kayıtlı. Ağ engeli nedeniyle sebg.ch, r0ine.dev, majesteleri.net ve builtbybit.com hiç açılmadı. Bir tarayıcı olmadığı için sayfa **hiç render edilip görülmedi** (bkz. G-07).
 
-Önem: **B** = bloklayıcı/yanıltıcı, **O** = orta (çözümü bana kaldı), **K** = küçük.
+Önem: **B** = bloklayanıcı/yanıltıcı, **O** = orta (çözümü bana kaldı), **K** = küçük.
 
 ## Araç hataları ve yanlış güvence
 
@@ -26,7 +26,7 @@ Aynı kötü CSS'e (geçici kopya `t2`: `transition: all`, `infinite` animasyon,
 - Eksik: tek bir `tools/check_site.py` veya her aracın "kapsadığım kurallar" çıktısı. Şimdi üç aracı elle çalıştırıp birleştirmek gerekiyor.
 
 ### G-04 (K) `analyze_reference.py` düzenleme haritası boş yüzeyler üretiyor
-Haritada `spacing` → `style.css:27 body {margin: 0}` (bölüm boşlukları değil), `palette`, `surfaces`, `navigation`, `imagery`, `details` hiç yok; 11 yüzeyin 5'i listelenmiş. Kullanıcı "menü kötü" derse `REVISION_FEEDBACK.md` bu haritaya yönlendiriyor ama burada karşılık yok. `tools/v10/analyze_reference.py` ayrıca `--no-write` dışında hedef klasöre dosya yazar; kendi sitemizi analiz ederken (kaynak klasör) bu çıktının nereye gideceği `START_HERE_V10.md`'de yok (referans çalışma alanı varsayılıyor). Bu yüzden `--no-write` kullandım.
+Haritada `spacing` → `style.css:27 body {margin: 0}` (bölüm boşlukları değil), `palette`, `surfaces`, `navigation`, `imagery`, `details` hiç yok; 11 yüzeyin 5'i listenlenmiş. Kullanıcı "menü kötü" derse `REVISION_FEEDBACK.md` bu haritaya yönlendiriyor ama burada karşılık yok. `tools/v10/analyze_reference.py` ayrıca `--no-write` dışında hedef klasöre dosya yazar; kendi sitemizi analiz ederken (kaynak klasör) bu çıktının nereye gideceği `START_HERE_V10.md`'de yok (referans çalışma alanı varsayılıyor). Bu yüzden `--no-write` kullandım.
 
 ## Eksik rehberlik
 
@@ -102,7 +102,7 @@ Dogfooding sonrası kütüphaneye işlenen düzeltmeler:
 
 - **G-01** (font `var()` kör noktası) → `analyze_reference.py` artık `var(--font-*)` değişkenlerini çözüp gerçek aileyi bulur; CF-007 atlanmıyor. (önceki commit)
 - **G-02** (kontrast kör noktası) → kalıtımla gelen sayfa zemini üzerinde metin kontrastı artık denetleniyor ("sayfa zemini varsayıldı" etiketiyle).
-- **G-02/G-03** (yanlış güvence) → `analyze_reference.py`, `audit_visual_defaults.mjs` ve `authenticity_check.py` artık çıktılarında neyi kapsadıklarını ve neyi kapsamadıklarını yazıyor; "0 bulgu/PASS" tek başına kanıt sayılmaz.
+- **G-02/G-03** (yanlış güvence) → `analyze_reference.py`, `audit_visual_defaults.mjs` ve `authenticity_check.py` artık çıktılarında neyi kapsadıklarını ve neyi kapsamadıklarını yazıyor; "0 bulgu/PASS" tek başına kanıt sayılmaz. Ek olarak `tools/v10/check_site.py` üç aracı tek komutla çalıştırıp birleşik rapor üretiyor; artık elle üçünü ayrı ayrı çalıştırıp sonuçları birleştirmek gerekmiyor.
 - **G-05** (Türkçe glif kapsamı) → `tools/v10/font_coverage.py` + `data/v10/font_stacks.json` eklendi; `font_coverage.py "<aile>" --lang tr` kapsamı denetler (fontconfig varsa canlı) ve çevrimdışı sistem-font yığını önerir. TYPOGRAPHY_DIRECTOR ve compose_spec buna yönlendiriyor.
 - **G-07** (tarayıcı kurulumu) → START_HERE_V10 ve REFERENCE_LAB'e `npm install playwright && npx playwright install chromium` ve "kurulamıyorsa görsel kapıyı geçildi sayma" notu eklendi.
 - **G-09** (tam-tanımlı brief / ağsız kaynak) → BRIEF_TO_REFERENCE artık eksiksiz brief'te soru üretmemeyi ve erişilemeyen kaynakta `NEEDS_CAPTURE` yazıp tasarımı yine de kurmayı tarif ediyor.

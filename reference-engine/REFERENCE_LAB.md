@@ -1,5 +1,32 @@
 # Referans laboratuvarı: indir, ölç, düzenle, karşılaştır
 
+## Hızlı başlangıç (tek komut)
+
+Tüm pipeline'ı tek seferde çalıştırmak için:
+
+```sh
+# Referans site + kendi siten → build spec
+python tools/v10/build_from_reference.py https://www.orneksite.com --content https://kendi-sitem.com
+
+# Yalnız referans (içerik kaynağı yok)
+python tools/v10/build_from_reference.py https://www.orneksite.com
+
+# Planı gör, indirmeden
+python tools/v10/build_from_reference.py --dry-run https://www.orneksite.com --content https://kendi-sitem.com
+```
+
+Çıktı: `build-spec.json` (makinece okunur) ve `build-spec.md` (insanlar için). Adımlar: wget indir → tasarım analizi → içerik çıkarma → font kapsamı → spec.
+
+Siteyi denetlemek için:
+
+```sh
+python tools/v10/check_site.py examples/v10/test-site/
+```
+
+Üç aracı (analyze + v7 audit + v5 authenticity) çalıştırıp birleşik `check-report.md` yazar.
+
+## Adım adım kullanım
+
 Kullanıcı bir site adresini referans verdiğinde bu akış siteyi yerel çalışma alanına indirir, tasarım değerlerini ölçer, düzenlenecek satırları bulur ve yeni çalışmayı referansla aynı ekran ölçüsünde karşılaştırır. Brief ve ilk önizleme kararları için [brief → ilk referans](BRIEF_TO_REFERENCE.md), kullanıcı sonucu beğenmediğinde [revizyon akışı](REVISION_FEEDBACK.md) geçerlidir.
 
 Her şey `reference-workspace/<alan-adı>/<zaman>/` altında toplanır ve git'e girmez.
@@ -71,7 +98,7 @@ python tools/v10/font_coverage.py --lang tr --role display
 
 ## 4. Düzenle veya yeniden kur
 
-Raporun **düzenleme haritası**, v9 görünürlük yüzeylerinin (arka plan, ilk ekran, renk, başlık tipografisi, boşluk, kartlar, menü, hareket…) CSS'te hangi dosyanın hangi satırında tanımlandığını gösterir. Kullanıcı “arka plan içime sinmedi” dediğinde önce bu satırlara bakılır.
+Raporun **düzenleme haritası**, v9 görünürlük yüzeylerinin (arka plan, ilk ekran, renk, başlık tipografisi, boşluk, kartlar, menü, hareket…) CSS'te hangi dosyanın hangi satırında tanımlandığını gösterir. Kullanıcı "arka plan içime sinmedi" dediğinde önce bu satırlara bakılır.
 
 - `owned` veya lisansı uygun kopya: `site/` klasörünü `edit/` olarak çoğalt, haritadaki satırlardan başlayarak düzenle, `python -m http.server -d <çalışma-alanı>/edit` ile önizle.
 - `study-only`: Yeni projeyi kendi koduyla kur. `tokens.css` değerleri ölçüdür; renk ve ölçekleri kendi kararlarınla değiştir. Metin, görsel ve font için kendi veya lisanslı varlıkları kullan.
