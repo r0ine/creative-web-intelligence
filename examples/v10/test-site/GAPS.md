@@ -104,7 +104,7 @@ Dogfooding sonrası kütüphaneye işlenen düzeltmeler:
 - **G-02** (kontrast kör noktası) → kalıtımla gelen sayfa zemini üzerinde metin kontrastı artık denetleniyor ("sayfa zemini varsayıldı" etiketiyle).
 - **G-02/G-03** (yanlış güvence) → `analyze_reference.py`, `audit_visual_defaults.mjs` ve `authenticity_check.py` artık çıktılarında neyi kapsadıklarını ve neyi kapsamadıklarını yazıyor; "0 bulgu/PASS" tek başına kanıt sayılmaz. Ek olarak `tools/v10/check_site.py` üç aracı tek komutla çalıştırıp birleşik rapor üretiyor; artık elle üçünü ayrı ayrı çalıştırıp sonuçları birleştirmek gerekmiyor.
 - **G-05** (Türkçe glif kapsamı) → `tools/v10/font_coverage.py` + `data/v10/font_stacks.json` eklendi; `font_coverage.py "<aile>" --lang tr` kapsamı denetler (fontconfig varsa canlı) ve çevrimdışı sistem-font yığını önerir. TYPOGRAPHY_DIRECTOR ve compose_spec buna yönlendiriyor.
-- **G-07** (tarayıcı kurulumu) → START_HERE_V10 ve REFERENCE_LAB'e `npm install playwright && npx playwright install chromium` ve "kurulamadıysa görsel kapıyı geçildi sayma" notu eklendi.
+- **G-07** (tarayıcı kurulumu) → START_HERE_V10 ve REFERENCE_LAB'e `npm install playwright && npx playwright install chromium` ve "kurulamıyorsa görsel kapıyı geçildi sayma" notu eklendi.
 - **G-09** (tam-tanımlı brief / ağsız kaynak) → BRIEF_TO_REFERENCE artık eksiksiz brief'te soru üretmemeyi ve erişilemeyen kaynakta `NEEDS_CAPTURE` yazıp tasarımı yine de kurmayı tarif ediyor.
 - **G-06/G-13** (yüzey sırası ve asgari yol) → START_HERE_V10'a "küçük site için asgari okuma yolu" ve visibility_ranking'in görsel yüzey (içerik bölümü değil) sıralaması olduğu, ilk inşada da kullanılabileceği açıklaması eklendi.
 

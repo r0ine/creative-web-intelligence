@@ -27,7 +27,7 @@
 Kütüphaneyle gerçek bir test sitesi (`examples/v10/test-site/`) kurarken bulunan eksikler giderildi:
 
 - `analyze_reference.py` artık `font-family: var(--font-*)` ile verilen fontları çözer (CF-007 atlanmıyordu) ve kalıtımla gelen sayfa zemini üzerinde metin kontrastını denetler.
-- Üç denetim aracı (`analyze_reference.py`, `audit_visual_defaults.mjs`, `authenticity_check.py`) artık çıktılarında neyi kapsayıp neyi kapsamadıklarını yazıyor; "0 bulgu/PASS" tek başına kanıt sayılmaz.
+- Üç denetim aracı (`analyze_reference.py`, `audit_visual_defaults.mjs`, `authenticity_check.py`) artık çıktılarında neyi kapsayıp neyi kapsamadıklarını yazar; "0 bulgu/PASS" tek başına kanıt sayılmaz.
 - `tools/v10/font_coverage.py` + `data/v10/font_stacks.json`: bir fontun Türkçe (İ ı Ğ ğ Ş ş) glif kapsamını denetler (fontconfig varsa canlı) ve çevrimdışı sistem-font yığını önerir.
 - `BRIEF_TO_REFERENCE.md` tam tanımlı brief ve erişilemeyen (ağ engelli) kaynak için yol tarif eder; `START_HERE_V10.md` tarayıcı kurulum komutunu ve küçük site için asgari okuma yolunu içerir.
 
